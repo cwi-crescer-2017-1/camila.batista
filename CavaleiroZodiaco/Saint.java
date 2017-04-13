@@ -11,10 +11,9 @@ public class Saint{
     }
     
     public Saint(){}
-    public Saint(String nome, Armadura armadura, Genero genero){
+    public Saint(String nome, Armadura armadura){
         this.nome = nome;
         this.armadura = armadura;
-        this.genero = genero;
     }
     
     public boolean isVestida(){
