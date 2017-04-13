@@ -16,5 +16,11 @@ public class Saint{
         this.armadura = armadura;
     }
     
+    public boolean isVestida(){
+        return this.vestida;
+    }
+    public void setVestida(boolean vestida){
+        this.vestida = vestida;
+    }
   
 }
