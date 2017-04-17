@@ -32,7 +32,14 @@ public class SaintTest
         Saint s13 = new Saint ("Pudim", new Armadura("Peixe", Categoria.PRATA));
         assertEquals(Genero.NAO_INFORMADO, s13.getGenero());
     }
-    
+
+	@Test
+	public void possivelAlterarGenero(){
+	    Saint s33 = new Saint ("Pudim", new Armadura("Peixe", Categoria.PRATA));
+		s33.setGenero(Genero.FEMININO);
+		assertEquals(Genero.FEMININO, s33.getGenero());
+	}    
+
     @Test
     public void aoCriarSaintVidaCem(){
         assertEquals(100.0, s.getVida(), 0);        
