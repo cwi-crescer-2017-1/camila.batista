@@ -6,10 +6,15 @@ public class Saint{
     private Status status = Status.VIVO;
     private boolean vestida;
     
+    private double vida = 100.0;
     
     
     public void vestir(){
         this.vestida = true;
+    }
+    
+    public double perderVida(double parametro){
+        return (getVida() - parametro);
     }
     
     public Saint(){}
@@ -24,7 +29,11 @@ public class Saint{
     public void setVestida(boolean vestida){
         this.vestida = vestida;
     }
-  
+    
+    public Armadura getArmadura(){
+        return this.armadura;
+    }
+    
     public Genero getGenero(){
         return this.genero;
     }
@@ -37,5 +46,12 @@ public class Saint{
     }
     public void setStatus(Status status){
             this.status = status;
+    }
+    
+    public double getVida(){
+        return this.vida;
+    }
+    public void setVida(double vida){
+        this.vida = vida;
     }
 }
