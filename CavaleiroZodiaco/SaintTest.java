@@ -5,6 +5,9 @@ import org.junit.Test;
 
 public class SaintTest
 {
+    Saint s = new Saint ("Alguem", new Armadura("Alguma", Categoria.PRATA));
+    private double vida;
+    
     @Test
     public void vertirTrue_armaduraVestida(){
         //  ARRANGE
@@ -28,5 +31,29 @@ public class SaintTest
     public void aoCriarSaintGenero_generoNaoInformado(){
         Saint s13 = new Saint ("Pudim", new Armadura("Peixe", Categoria.PRATA));
         assertEquals(Genero.NAO_INFORMADO, s13.getGenero());
+    }
+    
+    @Test
+    public void aoCriarSaintVidaCem(){
+        assertEquals(100.0, s.getVida(), 0);        
+    }
+   
+    @Test
+    public void iniciarStatusVivo(){
+        assertEquals(Status.VIVO, s.getStatus());
+    }
+   
+    @Test
+    public void perderCemVida(){
+        vida = s.getVida();
+        s.perderVida(100.0);
+        assertEquals((vida - 100.0), s.getVida(), 0);
+    }
+    
+    @Test
+    public void perderVidaNegativa(){
+        vida = s.getVida();
+        s.perderVida(-100.0);
+        assertEquals((vida + 100.0), s.getVida(), 0);
     }
 }
