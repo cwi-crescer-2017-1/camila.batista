@@ -16,8 +16,8 @@ public class BatalhaTest
        
         new Batalha(s1, s2).iniciar();
         
-        assertEquals(90.0, s1.getVida(), 0.001);
-         assertEquals(100.0, s2.getVida(), 0.001);
+        assertEquals(90.0, s2.getVida(), 0.001);
+         assertEquals(100.0, s1.getVida(), 0.001);
     }
     
     @Test
@@ -27,6 +27,7 @@ public class BatalhaTest
        
         new Batalha(s11, s22).iniciar();
         assertEquals(90.0, s22.getVida(), 0.001);
+         assertEquals(100.0, s11.getVida(), 0.001);  
     }
     
     @Test
@@ -37,5 +38,6 @@ public class BatalhaTest
         v = s4.getVida();
         new Batalha(s4,s5).iniciar();
         assertEquals((v - 10.0), s4.getVida(), 0.001);
+       assertEquals(100.0, s5.getVida(), 0.001); 
     }
 }
