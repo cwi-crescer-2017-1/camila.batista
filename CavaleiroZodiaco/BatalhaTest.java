@@ -9,7 +9,7 @@ public class BatalhaTest
     private double v;
     
     @Test
-    public void categoriaIgual(){
+    public void categoriaIgual() throws Exception{
         Saint s1 = new Saint("Saint1", new Armadura("A1", Categoria.OURO));
         Saint s2 = new Saint("Saint2", new Armadura("A2", Categoria.OURO));
         
@@ -21,7 +21,7 @@ public class BatalhaTest
     }
     
     @Test
-    public void maiorContraMenor(){
+    public void maiorContraMenor() throws Exception{
         Saint s11 = new Saint("Saint1", new Armadura("A1", Categoria.OURO));
         Saint s22 = new Saint("Saint2", new Armadura("A2", Categoria.PRATA));
        
@@ -31,7 +31,7 @@ public class BatalhaTest
     }
     
     @Test
-    public void menorContraMaior(){
+    public void menorContraMaior() throws Exception{
         Saint s4 = new Saint("Saint1", new Armadura("A1", Categoria.BRONZE));
         Saint s5 = new Saint("Saint2", new Armadura("A2", Categoria.PRATA));
         
