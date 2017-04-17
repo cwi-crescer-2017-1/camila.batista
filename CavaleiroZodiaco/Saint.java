@@ -14,7 +14,7 @@ public class Saint{
     }
     
     public double perderVida(double parametro){
-        return (getVida() - parametro);
+        return (this.vida = vida - parametro);
     }
     
     public Saint(){}
