@@ -13,8 +13,8 @@ public class Saint{
         this.vestida = true;
     }
     
-    public double perderVida(double parametro){
-        return (this.vida = vida - parametro);
+    public void perderVida(double parametro){
+       this.vida -= parametro;
     }
     
     public Saint(){}

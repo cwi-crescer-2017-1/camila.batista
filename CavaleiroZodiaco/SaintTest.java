@@ -49,14 +49,21 @@ public class SaintTest
     public void iniciarStatusVivo(){
         assertEquals(Status.VIVO, s.getStatus());
     }
-   
+
+	@Test
+	public void danoComValor10(){
+		s.perderVida(10.);
+		assertEquals(90, s.getVida(), 0.001);   
+	
+	}   
+
     @Test
     public void perderCemVida(){
         vida = s.getVida();
         s.perderVida(100.0);
         assertEquals((vida - 100.0), s.getVida(), 0);
     }
-    
+
     @Test
     public void perderVidaNegativa(){
         vida = s.getVida();
