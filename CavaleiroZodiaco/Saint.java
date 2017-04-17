@@ -7,7 +7,7 @@ public class Saint{
     private boolean vestida;
     
     private double vida = 100.0;
-    
+    protected int qtdSentidosDespertos;
     
     public void vestir(){
         this.vestida = true;
@@ -18,7 +18,7 @@ public class Saint{
     }
     
     public Saint(){}
-    public Saint(String nome, Armadura armadura){
+    public Saint(String nome, Armadura armadura) throws Exception{
         this.nome = nome;
         this.armadura = armadura;
     }
@@ -54,4 +54,7 @@ public class Saint{
     public void setVida(double vida){
         this.vida = vida;
     }
+	public int getQtdSentidosDespertos(){
+		return this.qtdSentidosDespertos;
+	}
 }
