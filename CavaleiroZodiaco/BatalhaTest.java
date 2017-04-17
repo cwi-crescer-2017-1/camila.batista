@@ -26,7 +26,7 @@ public class BatalhaTest
         Saint s22 = new Saint("Saint2", new Armadura("A2", Categoria.PRATA));
        
         new Batalha(s11, s22).iniciar();
-        assertEquals(90.0, s11.getVida(), 0.001);
+        assertEquals(90.0, s22.getVida(), 0.001);
     }
     
     @Test
