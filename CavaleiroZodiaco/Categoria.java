@@ -7,7 +7,7 @@ public enum Categoria
         this.valor = valor;
     }
     
-    public int getValor(int valor){
+    public int getValor(){
         return valor;
     }
 }
