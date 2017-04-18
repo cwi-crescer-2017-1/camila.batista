@@ -10,8 +10,8 @@ public class BatalhaTest
     
     @Test
     public void categoriaIgual() throws Exception{
-        Saint s1 = new Saint("Saint1", new Armadura(new Constelacao ("A1"), Categoria.OURO));
-        Saint s2 = new Saint("Saint2", new Armadura(new Constelacao ("A2"), Categoria.OURO));
+        Saint s1 = new Saint("Saint1", new Armadura("A1", Categoria.OURO));
+        Saint s2 = new Saint("Saint2", new Armadura("A2", Categoria.OURO));
         
        
         new Batalha(s1, s2).iniciar();
@@ -22,8 +22,8 @@ public class BatalhaTest
     
     @Test
     public void maiorContraMenor() throws Exception{
-        Saint s11 = new Saint("Saint1", new Armadura(new Constelacao ("A1"), Categoria.OURO));
-        Saint s22 = new Saint("Saint2", new Armadura(new Constelacao ("A2"), Categoria.PRATA));
+        Saint s11 = new Saint("Saint1", new Armadura("A1", Categoria.OURO));
+        Saint s22 = new Saint("Saint2", new Armadura("A2", Categoria.PRATA));
        
         new Batalha(s11, s22).iniciar();
         assertEquals(90.0, s22.getVida(), 0.001);
@@ -32,8 +32,8 @@ public class BatalhaTest
     
     @Test
     public void menorContraMaior() throws Exception{
-        Saint s4 = new Saint("Saint1", new Armadura(new Constelacao ("A1"), Categoria.BRONZE));
-        Saint s5 = new Saint("Saint2", new Armadura(new Constelacao ("A2"), Categoria.PRATA));
+        Saint s4 = new Saint("Saint1", new Armadura("A1", Categoria.BRONZE));
+        Saint s5 = new Saint("Saint2", new Armadura("A2", Categoria.PRATA));
         
         v = s4.getVida();
         new Batalha(s4,s5).iniciar();
