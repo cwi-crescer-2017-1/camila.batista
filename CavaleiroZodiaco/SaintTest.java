@@ -2,6 +2,7 @@ import static org.junit.Assert.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;  
+import java.security.InvalidParameterException;
 
 public class SaintTest 
 {
@@ -64,13 +65,12 @@ public class SaintTest
        Saint s = new Saint ("Alguem", new Armadura(new Constelacao ("Touro"), Categoria.PRATA));
         vida = s.getVida();
         s.perderVida(100.0);
-        assertEquals((vida - 100.0), s.getVida(), 0);
+        assertEquals(0, s.getVida(), 0);
     }
 
-    @Test
+    @Test(expected=InvalidParameterException.class)
     public void perderVidaNegativa() throws Exception{
         Saint s = new Saint ("Alguem", new Armadura(new Constelacao ("Touro"), Categoria.PRATA));
-        vida = s.getVida();
         s.perderVida(-100.0);
         assertEquals(s.getVida(), s.getVida(), 0);
     }
@@ -98,11 +98,52 @@ public class SaintTest
         new OuroSaint("Bernardo", new Armadura(new Constelacao ("Café"), Categoria.OURO));
 
     }
+    @Test
+    public void aprenderGolpe() throws Exception{
+        Saint saga = new Saint("Saga", new Armadura (new Constelacao("Gemeos"), Categoria.PRATA));
+        Constelacao gemeos = new Constelacao ("Gêmeos");
+        Golpe outraDimensao = new Golpe("Outra dimensão", 10);
+        gemeos.adicionarGolpe(outraDimensao);
+        saga.aprenderGolpe(outraDimensao);
+        Golpe[] golpes = gemeos.getGolpes();
+        
+        assertEquals(outraDimensao, golpes[0]);
+        assertNull(golpes[1]);
+        assertNull(golpes[2]);
+        
+    }
     
-    /*@Test
-    public void vidaMenorQue1StatusMorto() throws Exception{
-        PrataSaint s = new PrataSaint ("Alguem", new Armadura(new Constelacao ("Touro"), Categoria.PRATA));
-        s.perderVida(100.);
-        assertEquals(Status.MORTO, s.getStatus());
-    }*/
+    @Test
+    public void aprender2Golpes(){
+        Constelacao gemeos = new Constelacao ("Gêmeos");
+        Golpe outraDimensao = new Golpe("Outra dimensão", 10);
+        gemeos.adicionarGolpe(outraDimensao);
+        Golpe explosaoGalatica = new Golpe("Explosao Galatica", 10);
+        gemeos.adicionarGolpe(explosaoGalatica);
+        
+        Golpe[] golpes = gemeos.getGolpes();
+        
+        assertEquals(explosaoGalatica, golpes[1]);
+        assertEquals(outraDimensao, golpes[0]);
+        
+        assertNull(golpes[2]);
+    }
+    
+    @Test
+    public void aprender3Golpes(){
+         Constelacao gemeos = new Constelacao ("Gêmeos");
+        Golpe outraDimensao = new Golpe("Outra dimensão", 10);
+        gemeos.adicionarGolpe(outraDimensao);
+        Golpe explosaoGalatica = new Golpe("Explosao Galatica", 10);
+        gemeos.adicionarGolpe(explosaoGalatica);
+        Golpe sataImperial = new Golpe("Sata Imperial", 10);
+        gemeos.adicionarGolpe(sataImperial);
+        
+        Golpe[] golpes = gemeos.getGolpes();
+        
+        assertEquals(sataImperial, golpes[2]);
+        assertEquals(explosaoGalatica, golpes[1]);
+        assertEquals(outraDimensao, golpes[0]);
+
+    }
 }
