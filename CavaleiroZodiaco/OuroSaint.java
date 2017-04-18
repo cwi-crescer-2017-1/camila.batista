@@ -3,7 +3,7 @@ public class OuroSaint extends Saint{
         super(nome, armadura);
         this.qtdSentidosDespertos = 7;
         
-        String constelacao = armadura.getConstelacao();
+        String constelacao = armadura.getConstelacao().getConstelacao();
 			if(!constelacao.equals("Áries") && !constelacao.equals("Touro") && !constelacao.equals("Virgem") && !constelacao.equals("Peixe")
 			 && !constelacao.equals("Cancer") && !constelacao.equals("Libra") && !constelacao.equals("Escorpião") && !constelacao.equals("Gemeos") 
 			&& !constelacao.equals("Escorpião")  && !constelacao.equals("Escorpião") && !constelacao.equals("Escorpião")  && !constelacao.equals("Escorpião")){
