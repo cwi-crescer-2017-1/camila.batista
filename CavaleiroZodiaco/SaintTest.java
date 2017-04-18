@@ -99,10 +99,10 @@ public class SaintTest
 
     }
     
-    @Test
+    /*@Test
     public void vidaMenorQue1StatusMorto() throws Exception{
         PrataSaint s = new PrataSaint ("Alguem", new Armadura(new Constelacao ("Touro"), Categoria.PRATA));
         s.perderVida(100.);
         assertEquals(Status.MORTO, s.getStatus());
-    }
+    }*/
 }
