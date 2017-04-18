@@ -13,9 +13,18 @@ public class Saint{
         this.vestida = true;
     }
     
-    public void perderVida(double parametro){
-       this.vida -= parametro;
+    public void perderVida(double dano){
+        if(dano < 0){
+            dano *= (-1);
+        }
+        if(getVida() < 1){
+            setStatus(status.MORTO);
+            this.vida = 0;
+        }else{
+            this.vida -= dano;
+        }
     }
+
     
     public Saint(){}
     public Saint(String nome, Armadura armadura) throws Exception{
@@ -45,7 +54,7 @@ public class Saint{
         return this.status;
     }
     public void setStatus(Status status){
-            this.status = status;
+        this.status = status;
     }
     
     public double getVida(){
@@ -54,7 +63,7 @@ public class Saint{
     public void setVida(double vida){
         this.vida = vida;
     }
-	public int getQtdSentidosDespertos(){
-		return this.qtdSentidosDespertos;
-	}
+    public int getQtdSentidosDespertos(){
+        return this.qtdSentidosDespertos;
+    }
 }
