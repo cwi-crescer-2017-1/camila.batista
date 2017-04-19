@@ -106,7 +106,7 @@ public class SaintTest{
     public void constelacaoInvalidaDeOuroDeveLancarErro() throws Exception {
         new OuroSaint("Bernardo", new Armadura(new Constelacao("Café"), Categoria.OURO));
     }
-
+/*
     @Test
     public void aprenderUmGolpe() throws Exception {
         Saint saga = new Saint("Saga", new Armadura(new Constelacao("Gêmeos"), Categoria.OURO));
@@ -120,7 +120,7 @@ public class SaintTest{
         assertNull(golpes.get(2));
         // TODO: assert null
     }
-
+    
     @Test
     public void aprenderDoisGolpes() throws Exception {
         Saint saga = new Saint("Saga", new Armadura(new Constelacao("Gêmeos"), Categoria.OURO));
@@ -136,7 +136,7 @@ public class SaintTest{
         assertEquals(explosaoGalatica, golpes.get(1));
         assertNull(golpes.get(2));
     }
-
+*/
     @Test
     public void aprenderTresGolpes() throws Exception {
         Saint saga = new Saint("Saga", new Armadura(new Constelacao("Gêmeos"), Categoria.OURO));
@@ -154,7 +154,7 @@ public class SaintTest{
         assertEquals(explosaoGalatica, golpes.get(1));
         assertEquals(sataImperial, golpes.get(2));
     }
-
+/*
     @Test(expected=ArrayIndexOutOfBoundsException.class)
     public void aprenderQuatroGolpesLancaErro() throws Exception {
         Saint saga = new Saint("Saga", new Armadura(new Constelacao("Gêmeos"), Categoria.OURO));
@@ -168,7 +168,7 @@ public class SaintTest{
         saga.aprenderGolpe(sataImperial);
         saga.aprenderGolpe(rasteira);
     }
-
+*//*
     @Test
     public void getProximoGolpeComUm() throws Exception {
         Saint saga = new Saint("Saga", new Armadura(new Constelacao("Gêmeos"), Categoria.OURO));
@@ -177,7 +177,7 @@ public class SaintTest{
         
         assertEquals(outraDimensao, saga.getProximoGolpe());
     }
-
+    
     @Test
     public void getProximoGolpeComDois() throws Exception {
         Saint saga = new Saint("Saga", new Armadura(new Constelacao("Gêmeos"), Categoria.OURO));
@@ -224,5 +224,5 @@ public class SaintTest{
         assertEquals(outraDimensao, saga.getProximoGolpe());
     }
 
-    
+    */
 }
