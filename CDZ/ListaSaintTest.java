@@ -5,15 +5,40 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 public class ListaSaintTest{
-    
-    private ArrayList<Saint> lista = new ArrayList<>();
     @Test
-    public void saintCorreto(){
-        Saint saga = new Saint("Saga", new Armadura(new Constelacao("Gêmeos"), Categoria.OURO));
+    public void buscarSaintPorNome(){
+        ListaSaint lista = new ListaSaint();
+        Saint tyrion = (new Saint(("Tyrion"), new Armadura(new Constelacao("Libra"), Categoria.OURO)));
         
-        this.lista.adicionarSaint(saga);
+        lista.adicionarSaint(tyrion);
         
-        assertEquals(this.saga, this.lista.get(0));
+        assertEquals(tyrion, lista.buscaPorNome("Tyrion"));
     }
     
-}
+    @Test
+    public void buscarSaintComRepeticaoNomes(){
+        ListaSaint lista = new ListaSaint();
+        Saint tyrion = (new Saint(("Tyrion"), new Armadura(new Constelacao("Libra"), Categoria.OURO)));
+        Saint tyrion2 = (new Saint(("Tyrion"), new Armadura(new Constelacao("Libra"), Categoria.OURO)));
+        
+        lista.adicionarSaint(tyrion);
+        lista.adicionarSaint(tyrion2);
+        
+        assertEquals(tyrion, lista.buscaPorNome("Tyrion"));
+    }
+    
+    @Test
+    public void buscarSaintInexistente() throws Exception{
+        ListaSaint lista = new ListaSaint();
+        Saint tyrion = (new Saint(("Tyrion"), new Armadura(new Constelacao("Libra"), Categoria.OURO)));
+        
+        lista.adicionarSaint(tyrion);
+        
+        assertNull(lista.buscaPorNome("Tyrion2"));
+    }
+    
+    @Test
+    public void buscarSaintEmListaVazia() throws Exception{
+        assertNull(new ListaSaint().buscaPorNome("pudim"));
+    }
+} 
