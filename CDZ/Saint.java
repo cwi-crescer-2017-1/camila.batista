@@ -37,7 +37,7 @@ public class Saint{
         }
     }
     
-        public void aprenderGolpe(Golpe golpe){
+    public void aprenderGolpe(Golpe golpe){
         this.getArmadura().getConstelacao().adicionarGolpe(golpe);
     }
 
