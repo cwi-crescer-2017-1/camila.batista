@@ -261,7 +261,7 @@ public class ListaSaintTest{
         lista.adicionaSaint(misty);
         
         ArrayList<Saint> result = lista.todos();
-        lista.ordenar(tipoOrdenacao.DESCENDENTE);
+        lista.ordenar(TipoOrdenacao.DESCENDENTE);
         
         assertEquals(june, result.get(0));
         assertEquals(misty, result.get(1));

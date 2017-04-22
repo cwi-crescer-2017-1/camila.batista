@@ -78,9 +78,9 @@ public class ListaSaint{
     }
 
     public void ordenar(){
-        this.ordenar(tipoOrdenacao.ASCENDENTE);
+        this.ordenar(TipoOrdenacao.ASCENDENTE);
     }
-    public void ordenar(tipoOrdenacao tipoOrdenacao){
+    public void ordenar(TipoOrdenacao tipoOrdenacao){
 
             boolean posicao;
             do{
