@@ -1,4 +1,4 @@
-public enum TipoOrdenacao{
+public enum tipoOrdenacao{
     ASCENDENTE,
     DESCENDENTE;
 }
