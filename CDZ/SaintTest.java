@@ -221,6 +221,4 @@ public class SaintTest{
         assertEquals(sataImperial, saga.getProximoGolpe());
         assertEquals(outraDimensao, saga.getProximoGolpe());
     }*/
-
-    
 }

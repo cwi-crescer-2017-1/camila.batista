@@ -221,7 +221,7 @@ public class ListaSaintTest{
     public void ordenarComListaDeValoresIguais() throws Exception {
         ListaSaint listaSaints = new ListaSaint();
         Saint june = new Saint("June", new Armadura(new Constelacao("Camaleão"), Categoria.BRONZE));
-        Saint misty = new PrataSaint("Misty", new Armadura(new Constelacao("Lagarto"), Categoria    .PRATA));
+        Saint misty = new PrataSaint("Misty", new Armadura(new Constelacao("Lagarto"), Categoria.PRATA));
         Saint shun = new Saint("Shun", new Armadura(new Constelacao("Andrômeda"), Categoria.BRONZE));
         listaSaints.adicionaSaint(shun);
         listaSaints.adicionaSaint(misty);
@@ -233,4 +233,37 @@ public class ListaSaintTest{
         assertEquals(june, resultado.get(2));
     }
     
+    @Test
+    public void ordenarAscendente() throws Exception{
+        ListaSaint lista = new ListaSaint();
+        Saint june = new Saint ("june", new Armadura(new Constelacao("Camaleao"), Categoria.BRONZE));
+        Saint misty = new Saint ("Misty", new Armadura(new Constelacao("Lagarto"), Categoria.PRATA));
+        misty.perderVida(20);
+        
+        lista.adicionaSaint(june);
+        lista.adicionaSaint(misty);
+        
+        ArrayList<Saint> result = lista.todos();
+        lista.ordenar();
+
+        assertEquals(misty, result.get(0));
+        assertEquals(june, result.get(1));
+    }
+    
+    @Test
+    public void ordenarDescendente(){
+        ListaSaint lista = new ListaSaint();
+        Saint june = new Saint ("june", new Armadura(new Constelacao("Camaleao"), Categoria.BRONZE));
+        Saint misty = new Saint ("Misty", new Armadura(new Constelacao("Lagarto"), Categoria.PRATA));
+        misty.perderVida(20);
+        
+        lista.adicionaSaint(june);
+        lista.adicionaSaint(misty);
+        
+        ArrayList<Saint> result = lista.todos();
+        lista.ordenar(TipoOrdenacao.DESCENDENTE);
+        
+        assertEquals(june, result.get(0));
+        assertEquals(misty, result.get(1));
+    }
 }
