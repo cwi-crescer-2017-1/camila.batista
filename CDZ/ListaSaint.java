@@ -102,14 +102,32 @@ public class ListaSaint{
    
     public ListaSaint unir(ListaSaint lista){
         ListaSaint resultado = new ListaSaint();
-		
-		for(Saint saint : this.saints){
-			resultado.adicionaSaint(saint);
-		}       
-		for(Saint saint : lista.todos()){
-			resultado.adicionaSaint(saint);
-		}
+        
+        for(Saint saint : this.saints){
+            resultado.adicionaSaint(saint);
+        }       
+        for(Saint saint : lista.todos()){
+            resultado.adicionaSaint(saint);
+        }
 
+        return resultado;
+    }
+    
+    public ListaSaint diff (ListaSaint lista){
+        ListaSaint resultado = new ListaSaint();
+        
+        for(int a=0; a < this.saints.size(); a++){
+            resultado.adicionaSaint(this.saints.get(a));
+        }
+        
+        for(Saint saint : this.saints){
+                for(int a = 0; a < lista.todos().size(); a++){
+                    if(saints.equals(lista)){
+                        resultado.remover(lista.getListaSaint().get(a));
+                    }
+                }
+            }
+        
         return resultado;
     }
 }
