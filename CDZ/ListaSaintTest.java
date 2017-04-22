@@ -372,4 +372,57 @@ public class ListaSaintTest{
         result = lista1.diff(lista2);
         assertEquals(4, result.getListaSaint().size());
     }
+    
+        @Test
+    public void intersecComListasVazias(){
+        ListaSaint lista1 = new ListaSaint();
+        ListaSaint lista2 = new ListaSaint();
+        ListaSaint result = new ListaSaint();
+
+        result = lista1.intersec(lista2);
+
+        assertEquals(0, result.getListaSaint().size()); 
+    }
+    
+    // @Test
+    // public void intersecDoisElementos(){
+        // ListaSaint lista1 = new ListaSaint();
+        // ListaSaint lista2 = new ListaSaint();
+        // ListaSaint result = new ListaSaint();
+        
+        // Saint june = new Saint("June", new Armadura(new Constelacao(""), Categoria.BRONZE));
+        // Saint june1 = new PrataSaint("June", new Armadura(new Constelacao("Lagarto"), Categoria.PRATA));
+        // Saint shun = new Saint("Shun", new Armadura(new Constelacao("Andrômeda"), Categoria.BRONZE));
+        
+        // lista2.adicionaSaint(june);
+        // lista1.adicionaSaint(june1);
+        // lista1.adicionaSaint(shun);     
+
+       // // result = lista1.intersec(lista2);
+        // assertEquals(1, result.getListaSaint().size());
+    // }
+
+    // @Test
+    // public void intersecDuasListasComSeisElementos(){
+        // ListaSaint lista1 = new ListaSaint();
+        // ListaSaint lista2 = new ListaSaint();
+        // ListaSaint result = new ListaSaint();
+
+        // Saint june = new Saint("June", new Armadura(new Constelacao(""), Categoria.BRONZE));
+        // Saint misty = new PrataSaint("Misty", new Armadura(new Constelacao("Lagarto"), Categoria.PRATA));
+        // Saint shun = new Saint("Shun", new Armadura(new Constelacao("Andrômeda"), Categoria.BRONZE));
+        // Saint june2 = new PrataSaint("June", new Armadura(new Constelacao(""), Categoria.BRONZE));
+        // Saint misty2 = new PrataSaint("Misty", new Armadura(new Constelacao("Lagarto"), Categoria.PRATA));
+        // Saint shun2 = new Saint("Shun", new Armadura(new Constelacao("Andrômeda"), Categoria.BRONZE));
+        
+        // lista1.adicionaSaint(june);
+        // lista1.adicionaSaint(misty);
+        // lista1.adicionaSaint(shun);
+        // lista2.adicionaSaint(june2);
+        // lista2.adicionaSaint(misty2);
+        // lista2.adicionaSaint(shun2);
+
+        // result = lista1.intersec(lista2);
+        // assertEquals(3, result.getListaSaint().size());
+    // }
 }

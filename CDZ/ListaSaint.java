@@ -122,12 +122,26 @@ public class ListaSaint{
         
         for(Saint saint : this.saints){
                 for(int a = 0; a < lista.todos().size(); a++){
-                    if(saints.equals(lista)){
+                    if(saints.equals(lista) || lista.equals(saints)){
                         resultado.remover(lista.getListaSaint().get(a));
                     }
                 }
             }
         
+        return resultado;
+    }
+    
+    public ListaSaint intersec (ListaSaint lista){
+        ListaSaint resultado = new ListaSaint();
+        
+        for(Saint saint : this.saints){
+            for(Saint saint1 : lista.todos()){
+                if(saints.equals(lista)){
+                    resultado.adicionaSaint(saint);;
+                }
+            }
+        }
+
         return resultado;
     }
 }
