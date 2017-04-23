@@ -9,8 +9,8 @@ public class BatalhaTest{
 
     @Test
     public void maiorContraMenor(){
-        Saint s1 = new PrataSaint("Pudim", new Armadura(new Constelacao("Touro"), Categoria.PRATA));
-        Saint s2 = new BronzeSaint("Pudim", new Armadura(new Constelacao("Touro"), Categoria.BRONZE));
+        Saint s1 = new PrataSaint("Pudim", "Touro");
+        Saint s2 = new BronzeSaint("Pudim", "Touro");
         
         new Batalha(s1, s2).iniciar();
         
@@ -21,8 +21,8 @@ public class BatalhaTest{
     
     @Test
     public void menorContraMaior(){
-        Saint s1 = new PrataSaint("Pudim", new Armadura(new Constelacao("Touro"), Categoria.PRATA));
-        Saint s2 = new BronzeSaint("Pudim", new Armadura(new Constelacao("Touro"), Categoria.BRONZE));
+        Saint s1 = new PrataSaint("Pudim", "Touro");
+        Saint s2 = new BronzeSaint("Pudim", "Touro");
         
         new Batalha(s2, s1).iniciar();
         
@@ -32,8 +32,8 @@ public class BatalhaTest{
     
     @Test
     public void oponentesIguais(){
-        Saint s1 = new PrataSaint("Pudim", new Armadura(new Constelacao("Touro"), Categoria.PRATA));
-        Saint s2 = new PrataSaint("Pudim", new Armadura(new Constelacao("Touro"), Categoria.PRATA));
+        Saint s1 = new PrataSaint("Pudim", "Touro");
+        Saint s2 = new PrataSaint("Pudim", "Touro");
         
         new Batalha(s1, s2).iniciar();
         
