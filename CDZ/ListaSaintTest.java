@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 public class ListaSaintTest{
+    private final String separador = System.getProperty("line separator");
     
     @Test
     public void buscarPorNomeExistente(){
@@ -425,4 +426,70 @@ public class ListaSaintTest{
         // result = lista1.intersec(lista2);
         // assertEquals(3, result.getListaSaint().size());
     // }
+    
+    @Test
+    public void getCSVComListaVazia() throws Exception{
+        ListaSaint lista = new ListaSaint();
+        assertEquals("", lista.getCSV());
+    }
+    
+    @Test
+    public void getCSVComApenasUmSaint() throws Exception{
+        ListaSaint lista = new ListaSaint();
+        Saint june = new Saint("June", new Armadura(new Constelacao("Camaleao"), Categoria.BRONZE));
+        june.setGenero(Genero.FEMININO);
+        june.perderVida(15.5);
+        lista.adicionaSaint(june);
+        String esperado = "June, 84.5, Camaleao, BRONZE, VIVO, FEMININO, false";
+        assertEquals(esperado, lista.getCSV());
+    }
+    
+    @Test
+    public void getCSVComDoisSaints(){
+        ListaSaint lista = new ListaSaint();
+        Saint june = new Saint("June", new Armadura(new Constelacao("Camaleao"), Categoria.BRONZE));
+        june.setGenero(Genero.FEMININO);
+        june.perderVida(15.5);
+        lista.adicionaSaint(june);
+        Saint dohko = new Saint("Dohko", new Armadura(new Constelacao(""), Categoria.OURO));
+        dohko.perderVida(90);
+        dohko.vestir();
+        lista.adicionaSaint(dohko);
+        String esperado = "June, 84.5, Camaleao, BRONZE, VIVO, FEMININO, false" + separador + "Dohko, 10.0, , OURO, VIVO, NAO_INFORMADO, true";
+        assertEquals(esperado, lista.getCSV());
+    }
+    
+    @Test
+    public void getCSVComSaintMorto(){
+        ListaSaint lista = new ListaSaint();
+        Saint june = new Saint ("June", new Armadura(new Constelacao("Camaleao"), Categoria.PRATA));
+        june.perderVida(110);
+        lista.adicionaSaint(june);
+        String esperado = "June, 0.0, Camaleao, PRATA, MORTO, NAO_INFORMADO, false";
+        assertEquals(esperado, lista.getCSV());
+    }
+    
+    @Test
+    public void getCSVComTresSaints(){
+        ListaSaint lista = new ListaSaint();
+        
+        Saint june = new Saint("June", new Armadura(new Constelacao("Camaleao"), Categoria.BRONZE));
+        june.setGenero(Genero.FEMININO);
+        june.perderVida(15.5);
+        lista.adicionaSaint(june);
+        
+        Saint dohko = new Saint("Dohko", new Armadura(new Constelacao(""), Categoria.OURO));
+        dohko.perderVida(90);
+        dohko.vestir();
+        lista.adicionaSaint(dohko);
+        
+        Saint albafica = new Saint("Albafica", new Armadura(new Constelacao("Peixe"), Categoria.OURO));
+        albafica.perderVida(100);
+        albafica.setGenero(Genero.MASCULINO);
+        lista.adicionaSaint(albafica);
+        
+        String esperado = "June, 84.5, Camaleao, BRONZE, VIVO, FEMININO, false" + separador + "Dohko, 10.0, , OURO, VIVO, NAO_INFORMADO, true" + separador + "Albafica, 0.0, Peixe, OURO, MORTO, MASCULINO, false";        
+    }
+
+    
 }

@@ -144,4 +144,21 @@ public class ListaSaint{
 
         return resultado;
     }
+    
+    public String getCSV(){
+        if(this.saints.isEmpty()){
+            return "";
+        }
+        String separador = System.getProperty("line separator");
+        StringBuilder builder = new StringBuilder(512);
+        
+        builder.append(this.saints.get(0).getCSV());
+        
+        for(int a = 1; a < this.saints.size(); a++){
+            Saint saint = this.saints.get(a);
+            builder.append(separador);
+            builder.append(saint.getCSV());
+        }
+        return builder.toString();
+    }
 }
