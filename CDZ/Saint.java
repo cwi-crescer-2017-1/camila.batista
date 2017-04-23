@@ -29,9 +29,10 @@ public class Saint{
             throw new InvalidParameterException("dano negativo");
         }
         
-        if(this.vida >= 1){
+        if(this.vida > 1){
             this.vida -= dano;
-        }else{
+        }
+        if(this.vida < 1){
             this.status = Status.MORTO;
             this.vida = 0;
         }
@@ -86,6 +87,19 @@ public class Saint{
     
     public ArrayList<Golpe> getGolpes(){
         return this.getArmadura().getConstelacao().getGolpes();
+    }
+    
+    public String getCSV(){
+        return String.format(
+            "%s, %s, %s, %s, %s, %s, %s",
+            this.nome,
+            this.vida,
+            this.armadura.getConstelacao().getNome(),
+            this.armadura.getCategoria(),
+            this.status,
+            this.genero,
+            this.vestida
+        );
     }
     
 }    

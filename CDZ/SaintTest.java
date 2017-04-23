@@ -65,7 +65,7 @@ public class SaintTest{
     public void perder1000Vida(){
         Saint s1 = new Saint("Pudim", new Armadura(new Constelacao("Touro"), Categoria.BRONZE));
         s1.perderVida(1000);
-        assertEquals(-900, s1.getVida(), 0.001);
+        assertEquals(0, s1.getVida(), 0.001);
     }
     
     @Test
