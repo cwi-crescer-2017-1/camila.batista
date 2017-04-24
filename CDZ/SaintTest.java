@@ -175,22 +175,25 @@ public class SaintTest{
         assertEquals(outraDimensao, saga.getProximoGolpe());
     }
 
-    /*@Test
+    @Test
     public void getProximoGolpeComDois() throws Exception {
-        Saint saga = new Saint("Saga", new Armadura(new Constelacao("Gêmeos"), Categoria.OURO));
+        Saint saga = new OuroSaint("Saga", "Gêmeos");
         
         Golpe outraDimensao = new Golpe("Outra dimensão", 10);
         Golpe explosaoGalatica = new Golpe("Explosão Galáctica", 11);
-        saga.aprenderGolpe(outraDimensao);
-        saga.aprenderGolpe(explosaoGalatica);
+        //saga.aprenderGolpe(outraDimensao);
+        //saga.aprenderGolpe(explosaoGalatica);
+        
+        saga.getArmadura().getConstelacao().adicionarGolpe(outraDimensao);
+        saga.getArmadura().getConstelacao().adicionarGolpe(explosaoGalatica);
         
         assertEquals(outraDimensao, saga.getProximoGolpe());
         assertEquals(explosaoGalatica, saga.getProximoGolpe());
-    }*/
+    }
 
-    /*@Test
+    @Test
     public void getProximoGolpeComTres() throws Exception {
-        Saint saga = new Saint("Saga", new Armadura(new Constelacao("Gêmeos"), Categoria.OURO));
+        Saint saga = new OuroSaint("Saga", "Gêmeos");
        
         Golpe outraDimensao = new Golpe("Outra dimensão", 10);
         Golpe explosaoGalatica = new Golpe("Explosão Galáctica", 11);
@@ -202,15 +205,16 @@ public class SaintTest{
         assertEquals(outraDimensao, saga.getProximoGolpe());
         assertEquals(explosaoGalatica, saga.getProximoGolpe());
         assertEquals(sataImperial, saga.getProximoGolpe());
-    }*/
+    }
     
-    /*@Test
+    @Test
     public void getProximoGolpeComQuatroChamadas() throws Exception {
-        Saint saga = new Saint("Saga", new Armadura(new Constelacao("Gêmeos"), Categoria.OURO));
+        Saint saga = new OuroSaint("Saga", "Gêmeos");
       
         Golpe outraDimensao = new Golpe("Outra dimensão", 10);
         Golpe explosaoGalatica = new Golpe("Explosão Galáctica", 11);
         Golpe sataImperial = new Golpe("Satã Imperial", 42);
+       
         saga.aprenderGolpe(outraDimensao);
         saga.aprenderGolpe(explosaoGalatica);
         saga.aprenderGolpe(sataImperial);
@@ -219,5 +223,23 @@ public class SaintTest{
         assertEquals(explosaoGalatica, saga.getProximoGolpe());
         assertEquals(sataImperial, saga.getProximoGolpe());
         assertEquals(outraDimensao, saga.getProximoGolpe());
-    }*/
+    }
+    
+    @Test
+    public void getProximoMovimentoComZero(){
+    }
+    
+    @Test
+    public void getProximoMovimentoComApenasUm(){
+
+    }
+    
+    @Test
+    public void getProximoMovimentoComDois(){
+    }
+    
+    @Test
+    public void getProximoMovimentoComTres(){
+    }
+    
 }

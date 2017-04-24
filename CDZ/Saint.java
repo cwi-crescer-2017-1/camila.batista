@@ -11,7 +11,7 @@ public abstract class Saint{
     
     private Categoria categoria;
     protected int qtdSentidosDespertos;
-    private int acumuladorProximoGolpe; 
+    private int acumuladorProximoGolpe, proximoMovimento; 
     
     ArrayList<Movimento> movimentos = new ArrayList<>();
     
@@ -106,4 +106,13 @@ public abstract class Saint{
         this.movimentos.add(movimento);
     }
     
+    public Movimento getProximoMovimento(){
+        if(this.movimentos.isEmpty()){
+            return null;
+        }
+        
+        int pos = this.proximoMovimento % movimentos.size(); 
+        this.proximoMovimento++; 
+        return movimentos.get(pos);  
+    }
 }    
