@@ -21,7 +21,10 @@ public class Batalha{
             ataca2 = this.saint1;
         }
         
-        while(saint1.getStatus().equals(Status.VIVO) || saint2.getStatus().equals(Status.VIVO)){
+        boolean saint1Vivo = saint1.getStatus().equals(Status.VIVO);
+        boolean saint2Vivo = saint2.getStatus().equals(Status.VIVO);
+        
+        do{
             mov = ataca.getProximoMovimento();
             mov.executar();
             
@@ -30,9 +33,9 @@ public class Batalha{
                 mov.executar();
             }
             
-            if(ataca.getStatus().equals(Status.MORTO) || (ataca2.getStatus().equals(Status.MORTO))){
-                break;
-            }
-        }    
+            // if(!saint1Vivo || !saint2Vivo){
+                // break;
+            // }
+        }while(saint1Vivo && saint2Vivo);    
    }
 }
