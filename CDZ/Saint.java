@@ -44,8 +44,10 @@ public abstract class Saint{
 
     public Golpe getProximoGolpe(){
         ArrayList<Golpe> golpes = getArmadura().getConstelacao().getGolpes();
-        int pos = this.acumuladorProximoGolpe % golpes.size();
-        return golpes.get(pos);
+        
+        int pos = this.acumuladorProximoGolpe % golpes.size(); 
+        this.acumuladorProximoGolpe++; 
+        return golpes.get(pos);    
     }
     
     
@@ -73,7 +75,7 @@ public abstract class Saint{
         return this.status;
     }
     
-    public Categoria getCaregoria(){
+    public Categoria getCategoria(){
         return this.categoria;
     }
     
