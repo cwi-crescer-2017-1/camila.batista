@@ -25,12 +25,14 @@ public class Batalha{
             mov = ataca.getProximoMovimento();
             mov.executar();
             
-            if(ataca2.getStatus() != Status.MORTO){
+            if(ataca2.getStatus().equals(Status.VIVO)){
                 mov = ataca2.getProximoMovimento();
                 mov.executar();
             }
-        }
-        
+            
+            if(ataca.getStatus().equals(Status.MORTO) || (ataca2.getStatus().equals(Status.MORTO))){
+                break;
+            }
+        }    
    }
-
 }
