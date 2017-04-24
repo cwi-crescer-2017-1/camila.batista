@@ -9,10 +9,28 @@ public class Batalha{
     }
     
     public void iniciar(){
+        Movimento mov;
+        Saint ataca = saint1;;
+        Saint ataca2 = saint2;
+        
         if((this.saint1.getArmadura().getCategoria().getValor()) >= (this.saint2.getArmadura().getCategoria().getValor())){
-            saint2.perderVida(dano);
-        }else if((this.saint2.getArmadura().getCategoria().getValor()) > (this.saint1.getArmadura().getCategoria().getValor())){
-            saint1.perderVida(dano);
+            ataca = this.saint1;
+            ataca2 = this.saint2;
+        }else{
+            ataca = this.saint2;
+            ataca2 = this.saint1;
         }
-    }
+        
+        while(saint1.getStatus().equals(Status.VIVO) || saint2.getStatus().equals(Status.VIVO)){
+            mov = ataca.getProximoMovimento();
+            mov.executar();
+            
+            if(ataca2.getStatus() != Status.MORTO){
+                mov = ataca2.getProximoMovimento();
+                mov.executar();
+            }
+        }
+        
+   }
+
 }

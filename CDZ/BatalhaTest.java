@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class BatalhaTest{
 
-    @Test
+    @Test(expected=Exception.class)
     public void maiorContraMenor(){
         Saint s1 = new PrataSaint("Pudim", "Touro");
         Saint s2 = new BronzeSaint("Pudim", "Touro");
@@ -19,7 +19,7 @@ public class BatalhaTest{
         
     }
     
-    @Test
+    @Test(expected=Exception.class)
     public void menorContraMaior(){
         Saint s1 = new PrataSaint("Pudim", "Touro");
         Saint s2 = new BronzeSaint("Pudim", "Touro");
@@ -30,7 +30,7 @@ public class BatalhaTest{
         assertEquals(90, s2.getVida(), 0.001);
     }
     
-    @Test
+    @Test(expected=Exception.class)
     public void oponentesIguais(){
         Saint s1 = new PrataSaint("Pudim", "Touro");
         Saint s2 = new PrataSaint("Pudim", "Touro");
