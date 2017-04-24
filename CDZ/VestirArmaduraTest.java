@@ -21,8 +21,7 @@ public class VestirArmaduraTest
     public void naoVestirArmadura(){
         Saint june = new BronzeSaint("June", "Camaleao");
         Movimento mov = new VestirArmadura(june);
-        
-        mov.executar();
+
         assertFalse(june.isVestida());
     }
     
