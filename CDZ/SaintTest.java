@@ -224,14 +224,19 @@ public class SaintTest{
         assertEquals(sataImperial, saga.getProximoGolpe());
         assertEquals(outraDimensao, saga.getProximoGolpe());
     }
-    
+    //(expected = ArithmeticException.class)
     @Test
-    public void getProximoMovimentoComZero(){
+    public void getProximoMovimentoListaVazia(){
+        Saint shiryu = new BronzeSaint("Shiryu", "Dragão");
+        Movimento mov = shiryu.getProximoMovimento();
     }
     
     @Test
     public void getProximoMovimentoComApenasUm(){
-
+        // Saint shiryu = new BronzeSaint("Shiryu", "Dragão");
+        // Movimento mov = new VestirArmadura(shiryu);
+        // shiryu.getProximoMovimento();
+        // assertEquals(mov, shiryu.getProximoMovimento());
     }
     
     @Test
