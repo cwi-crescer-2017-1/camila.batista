@@ -13,13 +13,15 @@ public abstract class Saint{
     protected int qtdSentidosDespertos;
     private int acumuladorProximoGolpe, proximoMovimento; 
     
-    private static int qtdSaints = 0;
+    private static int qtdSaints = 0, acumuladorSaints = 1;
+    private int id;
     
     ArrayList<Movimento> movimentos = new ArrayList<>();
     
     public Saint(String nome, Armadura armadura){
         this.nome = nome;
         this.armadura = armadura;
+        this.id = ++Saint.acumuladorSaints;
         qtdSaints++;
     }
     
@@ -125,5 +127,13 @@ public abstract class Saint{
     
     public static int getQtdSaints(){
         return Saint.qtdSaints;
+    }
+    
+    public int getId(){
+        return this.id;
+    }
+    
+    public static int getAcumuladorSaints(){
+        return Saint.acumuladorSaints;
     }
 }    

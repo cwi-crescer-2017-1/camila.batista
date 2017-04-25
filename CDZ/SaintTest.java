@@ -260,4 +260,20 @@ public class SaintTest{
         }
         assertEquals(antes + 100, Saint.getQtdSaints());
     }
+    
+    @Test
+    public void criarUmSaintIdUm() throws Exception{
+        int idAntes = Saint.getAcumuladorSaints();
+        assertEquals(idAntes + 1, new BronzeSaint("Shun", "Andromeda").getId());
+    }
+    
+    @Test
+    public void criarCemSaintsIdCem() throws Exception{
+        int idAntes = Saint.getQtdSaints();
+        for(int a = 0; a < 100; a++){
+            new OuroSaint("Ouro " + a, "Peixes");
+        }
+        assertEquals(idAntes + 100, Saint.getQtdSaints());
+    }
+    
 }
