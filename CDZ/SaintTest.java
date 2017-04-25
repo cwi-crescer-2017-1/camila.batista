@@ -254,11 +254,11 @@ public class SaintTest{
     
     @Test
     public void criarCemSaintsQuantidadeCem() throws Exception{
-        //int antes = Saint.getQtdSaints();
+        int antes = Saint.getQtdSaints();
         for(int a = 0; a < 100; a++){
             new OuroSaint("Ouro " + a, "Peixes");
         }
-        assertEquals(100, Saint.getQtdSaints());
+        assertEquals(antes + 100, Saint.getQtdSaints());
     }
     
     @Test
