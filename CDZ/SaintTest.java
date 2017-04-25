@@ -7,6 +7,11 @@ import java.util.ArrayList;
 public class SaintTest{
     
     @Test
+    public void tearDown(){
+        System.gc(); //Chama o garbege collection
+    }
+    
+    @Test
     public void vestirVerdadeiroArmaduraVestida(){
         Saint s1 = new BronzeSaint("Pudim", "Touro");
         

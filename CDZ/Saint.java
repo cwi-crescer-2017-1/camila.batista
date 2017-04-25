@@ -23,6 +23,10 @@ public abstract class Saint{
         qtdSaints++;
     }
     
+    protected void finalize() throws Throwable{
+        Saint.qtdSaints--;
+    }
+    
     public void vestir(){
         this.vestida = true;
     }
