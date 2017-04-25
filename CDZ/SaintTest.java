@@ -238,13 +238,21 @@ public class SaintTest{
         // shiryu.getProximoMovimento();
         // assertEquals(mov, shiryu.getProximoMovimento());
     }
-    
+   
     @Test
-    public void getProximoMovimentoComDois(){
+    public void criarUmSaintQuantidadeUm() throws Exception{
+        int antes = Saint.getQtdSaints();
+        Saint albafica = new OuroSaint ("Albafica", "Peixes");
+        assertEquals(antes + 1, Saint.getQtdSaints());
+        //assertEquals(1, Saint.getQtdSaints()); > se executar desta forma vai da erro, pois o get irá pegar todos os saints já instanciados
     }
     
     @Test
-    public void getProximoMovimentoComTres(){
+    public void criarCemSaintsQuantidadeCem() throws Exception{
+        int antes = Saint.getQtdSaints();
+        for(int a = 0; a < 100; a++){
+            new OuroSaint("Ouro " + a, "Peixes");
+        }
+        assertEquals(antes + 100, Saint.getQtdSaints());
     }
-    
 }

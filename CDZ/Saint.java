@@ -13,11 +13,14 @@ public abstract class Saint{
     protected int qtdSentidosDespertos;
     private int acumuladorProximoGolpe, proximoMovimento; 
     
+    private static int qtdSaints = 0;
+    
     ArrayList<Movimento> movimentos = new ArrayList<>();
     
     public Saint(String nome, Armadura armadura){
         this.nome = nome;
         this.armadura = armadura;
+        qtdSaints++;
     }
     
     public void vestir(){
@@ -114,5 +117,9 @@ public abstract class Saint{
         int pos = this.proximoMovimento % movimentos.size(); 
         this.proximoMovimento++; 
         return movimentos.get(pos);  
+    }
+    
+    public static int getQtdSaints(){
+        return Saint.qtdSaints;
     }
 }    
