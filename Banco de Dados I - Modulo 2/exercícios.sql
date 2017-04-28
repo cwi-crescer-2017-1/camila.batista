@@ -123,8 +123,8 @@ create table produtos
 
 --Exercício 4
 insert into produtos (Nome, Descricao, DataCriacao, LocalEstoque, Quantidade, Preco) values 
-('Produto 1', 'Alguma coisa', 2004-05-23, 'em algum lugar', 23, 10.8);
-insert into produtos values ('Produto 2', 'pudim', 2018-09-22, 'por ai', 43, 0.98);
+('Produto 1', 'Alguma coisa', getdate(), 'em algum lugar', 23, 10.8);
+insert into produtos values ('Produto 2', 'pudim', getdate(), 'por ai', 43, 0.98);
 
 
 select * from produtos;
