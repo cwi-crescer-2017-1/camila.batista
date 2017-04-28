@@ -61,7 +61,7 @@ SELECT IDEmpregado, NomeEmpregado FROM empregado ORDER BY DataAdmissao ASC;
 SELECT * FROM Empregado WHERE Comissao IS NULL ORDER BY Salario ASC;
 
 --Exercício 3
-SELECT IDEmpregado, NomeEmpregado, (Salario * 13) as SalarioAnual, (Comissao * 12) as ComissaoAnual, ((Salario * 13) + (Comissao * 12)) as RendaAnual from empregado;  
+SELECT IDEmpregado, NomeEmpregado, (Salario * 13) as SalarioAnual, (Comissao * 12) as ComissaoAnual, ((Salario * 13) + (ISNULL(Comissao, 0) * 12)) as RendaAnual from empregado;  
 
 --Exercício 4
 SELECT IDEmpregado, NomeEmpregado, Cargo, Salario FROM Empregado WHERE (Salario * 13) < 18500 AND Cargo LIKE 'Atendente';
