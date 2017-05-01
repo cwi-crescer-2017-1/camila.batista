@@ -5,3 +5,6 @@ SELECT IDEmpregado, NomeEmpregado FROM Empregado WHERE YEAR(DataAdmissao) LIKE 1
 
 --Exercício 2
 SELECT NomeDepartamento, COUNT(IDEmpregado) AS QuantidadeEmpregados FROM Departamento, Empregado WHERE Departamento.IDDepartamento = Empregado.IDDepartamento GROUP BY NomeDepartamento, Departamento.IDDepartamento;
+
+--Exercício 3
+SELECT UF, COUNT(IDCidade) AS QuantidadeCidade FROM Cidade GROUP BY UF;
