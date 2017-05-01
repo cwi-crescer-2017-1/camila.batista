@@ -8,3 +8,8 @@ SELECT NomeDepartamento, COUNT(IDEmpregado) AS QuantidadeEmpregados FROM Departa
 
 --Exercício 3
 SELECT UF, COUNT(IDCidade) AS QuantidadeCidade FROM Cidade GROUP BY UF;
+
+--Exercício 4
+INSERT INTO Departamento VALUES (70, 'Inovação', 'São Leopoldo');
+
+UPDATE Empregado SET IDDepartamento = 70 WHERE MONTH(DataAdmissao) LIKE 12 AND Cargo NOT LIKE 'Atendente';
