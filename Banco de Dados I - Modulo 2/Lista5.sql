@@ -12,7 +12,9 @@ UPDATE Empregado SET Salario = (Salario*0.173) WHERE Empregado.IDDepartamento = 
 SELECT Salario, (Salario * 0.173) AS NovoSalario FROM Empregado, Departamento WHERE Empregado.IDDepartamento = Departamento.IDDepartamento AND Localizacao LIKE 'SAO PAULO';
 
 -- Exercício 4
-SELECT Nome, UF FROM Cidade UNION ALL SELECT Nome, UF FROM Cidade GO;
+SELECT Nome, UF FROM Cidade GROUP BY Nome, UF HAVING COUNT(IDCidade) >= 2;
+
+SELECT Nome, UF FROM Cidade UNION SELECT Nome, UF FROM Cidade GO;
 
 -- Exercício 5
 SELECT Nome, UF FROM Cidade INNER JOIN (SELECT (Nome + '*') AS Nome, (UF + '*') AS UF FROM Cidade WHERE IDCidade IN (SELECT MAX(IDCidade) FROM Cidade)));
