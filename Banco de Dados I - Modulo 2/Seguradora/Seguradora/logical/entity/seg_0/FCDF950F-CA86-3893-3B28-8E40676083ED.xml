@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FCDF950F-CA86-3893-3B28-8E40676083ED" name="Beneficiario">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>0894538A-BAB8-D1E0-4772-58BC7B9F8A6D</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDBeneficiario" id="714A8551-4EEB-660F-1AE7-8E7F0A49C2AA">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>9BB68ECF-6BD1-00EA-0D98-A51174DB20BD</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contrato IDContrato" id="0C0467A3-25D3-042D-1325-0C9C99265514">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>52FF245B-81AD-2941-5279-1C708752EEA2</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<referedAttribute>0E28BE5D-0A0E-C5A6-09B2-60DF15B728F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPessoa" id="2845217B-98D4-4CD6-F362-627CDDA5927C">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:43 UTC</createdTime>
+<generatorID>88218637-57A0-9A32-D568-78660E1DF2F6</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<referedAttribute>FE446783-C7E2-789D-748D-C77AAE4C46A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3D37883-A8FD-584B-D3C0-95A7D6B24203" name="Beneficiarios PK">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>66E71BAF-5067-3C74-3663-0C9337281FAF</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>714A8551-4EEB-660F-1AE7-8E7F0A49C2AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

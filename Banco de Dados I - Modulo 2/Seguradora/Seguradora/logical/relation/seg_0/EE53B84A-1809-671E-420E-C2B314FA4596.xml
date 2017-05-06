@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_Pessoa_Fisica" directorySegmentName="seg_0" id="EE53B84A-1809-671E-420E-C2B314FA4596">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>2CAF594F-B044-ADFA-D478-8DEA271B64DB</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<sourcePk>333E19FA-E592-8D28-9787-743E5E701817</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>46248C78-1490-C877-1C22-AB802A44EE90</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1CFAC1C0-DDD8-3DF6-1E48-3895693435ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

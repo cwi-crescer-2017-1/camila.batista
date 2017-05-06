@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75575488-616F-3925-D270-E259CE0D616E" name="Pessoa">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:01:28 UTC</createdTime>
+<generatorID>FE09EDB7-1484-612A-8622-949BBDA92BB1</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPessoa" id="8C2850F3-D7D0-AEF8-A9C7-A14EEFC5A246">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:01:28 UTC</createdTime>
+<generatorID>78CE2B5A-D1E3-0ED8-5C62-E347C810E605</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pessoa_Fisica_IDPessoaFisica" id="291418BA-06C5-EAED-4606-E811372D41FE">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:02:04 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CAF594F-B044-ADFA-D478-8DEA271B64DB" referredColumn="119F89DC-81F6-6EB8-E592-F17F4E812DA7"/>
+</associations>
+</Column>
+<Column name="PessoaJuridica_IDPessoaJuridica" id="74DB986F-E768-01BF-7EFA-F22D196C3FB9">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:02:31 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F8B801C-5CCF-D20D-B84F-BC97FA383099" referredColumn="5FE6634C-D794-FF5E-A5CA-99A68B0728BB"/>
+</associations>
+</Column>
+<Column name="DataNascimento" id="31844563-AE57-4F64-5814-84E596CB5571">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:04:08 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="C0AAD51A-22EE-0C16-6061-E001874F7DD7">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:04:27 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco_IDEndereco" id="7B2EE829-8C7D-8691-1729-7BF51F9882D6">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:07:26 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3C3EAA2-A72C-4827-488E-F78CC201E820" referredColumn="AF1EE3DF-4BD6-DB55-9E21-78FBB434CD7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D7E5C07-DAB9-53FC-EF8C-50DA32F639D4" name="Pessoa_PK">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:01:28 UTC</createdTime>
+<generatorID>CF129C11-325C-E09A-9908-4167B7644A94</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C2850F3-D7D0-AEF8-A9C7-A14EEFC5A246"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB28B3F9-A825-376A-9E23-F1FCBEE092EE" name="Pessoa_Pessoa_Fisica_FK">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:02:04 UTC</createdTime>
+<generatorID>7762503F-6625-6052-DFFC-207D70BD641D</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="291418BA-06C5-EAED-4606-E811372D41FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A06DCE9-D7DC-14B0-9C7D-4D4207159497" name="Pessoa_PessoaJuridica_FK">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:02:31 UTC</createdTime>
+<generatorID>A29399EE-9441-9178-7F05-0162EE65A639</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74DB986F-E768-01BF-7EFA-F22D196C3FB9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2327A739-7DDC-29E6-2390-E0047A51A3B5" name="Pessoa_Endereco_FK">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:07:26 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B2EE829-8C7D-8691-1729-7BF51F9882D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

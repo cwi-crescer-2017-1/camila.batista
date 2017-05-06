@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD6B0B8B-E4BC-E4EC-04A6-717A3E9728B7" name="PessoaJuridica">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>ACE26DDC-A4F3-442A-2D34-2AA26362D158</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDPessoaJuridica" id="B018E380-711D-3E7E-007E-A9147DA74B5C">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>5FE6634C-D794-FF5E-A5CA-99A68B0728BB</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNPJ" id="B10AF75B-7DFD-973E-72AE-D5439AB9798E">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>2EAA05B2-A6E7-F513-A8F4-30725E9B8DD8</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2FB93DB9-4716-D42D-5200-6CFE72A53346" name="PessoaJuridica PK">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>89DC5ACD-AC46-849B-1362-EC9228976310</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B018E380-711D-3E7E-007E-A9147DA74B5C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

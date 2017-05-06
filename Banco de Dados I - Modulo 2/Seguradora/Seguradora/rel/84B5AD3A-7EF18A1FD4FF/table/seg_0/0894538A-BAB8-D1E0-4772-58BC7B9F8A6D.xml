@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0894538A-BAB8-D1E0-4772-58BC7B9F8A6D" name="Beneficiario">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:19:09 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDBeneficiario" id="9BB68ECF-6BD1-00EA-0D98-A51174DB20BD">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:19:36 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contrato_IDContrato" id="3B8FD348-778C-042B-CB14-D9EA3E8630C0">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:21:14 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EA7C058-E7C3-1C13-FB71-0965FF864A23" referredColumn="21D3F124-4755-7DE8-AB6C-EAEB689E0592"/>
+</associations>
+</Column>
+<Column name="Pessoa_IDPessoa" id="435AFE46-00A7-B1CB-08BF-DCE847234E05">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:35:06 UTC</createdTime>
+<generatorID>2845217B-98D4-4CD6-F362-627CDDA5927C</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71834C07-7619-664C-22EE-BEF3881098AC" referredColumn="8C2850F3-D7D0-AEF8-A9C7-A14EEFC5A246"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66E71BAF-5067-3C74-3663-0C9337281FAF" name="Beneficiario_PK">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:19:36 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BB68ECF-6BD1-00EA-0D98-A51174DB20BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D46DE6E-C96A-231E-4AC2-410E048DF0AD" name="Beneficiario__IDX">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:35:06 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>88218637-57A0-9A32-D568-78660E1DF2F6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="435AFE46-00A7-B1CB-08BF-DCE847234E05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C074CBD-B3BF-CD2A-B33F-13FE24875DA2" name="Beneficiario_Contrato_FK">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:21:14 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B8FD348-778C-042B-CB14-D9EA3E8630C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE9D18FD-5F19-DD43-F955-B9FAD6798037" name="FK_Beneficiario_Pessoa">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:35:06 UTC</createdTime>
+<generatorID>88218637-57A0-9A32-D568-78660E1DF2F6</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="435AFE46-00A7-B1CB-08BF-DCE847234E05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

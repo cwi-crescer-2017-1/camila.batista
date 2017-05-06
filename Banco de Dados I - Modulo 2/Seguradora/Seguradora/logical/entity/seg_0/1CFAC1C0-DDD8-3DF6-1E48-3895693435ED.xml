@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1CFAC1C0-DDD8-3DF6-1E48-3895693435ED" name="Pessoa">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>75575488-616F-3925-D270-E259CE0D616E</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDPessoa" id="FE446783-C7E2-789D-748D-C77AAE4C46A8">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>8C2850F3-D7D0-AEF8-A9C7-A14EEFC5A246</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pessoa Fisica IDPessoaFisica" id="6A22BFB3-90DF-6FB2-5C43-45ABE7528C90">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>EE53B84A-1809-671E-420E-C2B314FA4596</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<referedAttribute>C6DE3A01-BEF2-EE7C-4869-24FEAC17C01E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PessoaJuridica IDPessoaJuridica" id="44226A64-2970-967A-0750-31AA290A26F0">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>55847DA9-2C31-5334-674D-45687F10DF78</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<referedAttribute>B018E380-711D-3E7E-007E-A9147DA74B5C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataNascimento" id="2E3B7D09-59EE-EE9B-66C9-5BAF1A28232D">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>31844563-AE57-4F64-5814-84E596CB5571</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="A9EDA1EE-379D-2D0E-D192-1836F45A1B5C">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>C0AAD51A-22EE-0C16-6061-E001874F7DD7</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereco IDEndereco" id="64569D1E-6507-2246-A4D7-5E03E06CF6FA">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>BC7B51AB-317B-E23D-FAFF-2A39D0ED3E40</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="true"/>
+</engineerTo>
+<referedAttribute>02B170CC-21D7-1526-D74C-A7B3D1A8345B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7352EBE5-EBD1-1595-B993-CE9AFF5C2213" name="Pessoa PK">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:34:32 UTC</createdTime>
+<generatorID>0D7E5C07-DAB9-53FC-EF8C-50DA32F639D4</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="84B5AD3A-1997-9A11-310C-7EF18A1FD4FF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE446783-C7E2-789D-748D-C77AAE4C46A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

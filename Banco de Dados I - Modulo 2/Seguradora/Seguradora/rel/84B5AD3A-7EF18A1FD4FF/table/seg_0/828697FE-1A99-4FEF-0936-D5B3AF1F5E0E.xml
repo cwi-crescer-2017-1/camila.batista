@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="828697FE-1A99-4FEF-0936-D5B3AF1F5E0E" name="Seguro">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:14:41 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDSeguro" id="FB7A4D9A-EB0C-DBA5-BDC1-DEB4EB44F7A7">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:15:03 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="638D43BD-19A7-0AC5-B1A4-33BE60EA8A88" name="Seguro_PK">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:15:03 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB7A4D9A-EB0C-DBA5-BDC1-DEB4EB44F7A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

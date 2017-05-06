@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="521319F2-D48B-D456-74D3-38894DA4D360" name="Endereco">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:04:54 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDEndereco" id="AF1EE3DF-4BD6-DB55-9E21-78FBB434CD7C">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:05:11 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco" id="FD82E005-60B1-EBA6-73C6-DC9B5830B1EB">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:05:39 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bairro" id="D78278A7-C56B-A190-3360-79E46B38809D">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:05:54 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero" id="29B15C25-8300-DA02-E3E3-5D89FA6F9DC4">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:06:09 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Complemento" id="0C2030B7-5AA6-7A65-1982-8E685D61095A">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:06:22 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="F72439AD-5ABE-8B94-8185-5583F489BC58">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:06:43 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cidade" id="4C1339A3-D223-F962-8FBB-9A09283420BA">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:07:09 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UF" id="54E5F298-71F5-2632-E02E-0DA4C4C7D8B9">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:06:56 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EE61102-E1C6-0DDD-D9FF-3CD2FEE17695" name="Endereco_PK">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:05:11 UTC</createdTime>
+<ownerDesignName>Seguradora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF1EE3DF-4BD6-DB55-9E21-78FBB434CD7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

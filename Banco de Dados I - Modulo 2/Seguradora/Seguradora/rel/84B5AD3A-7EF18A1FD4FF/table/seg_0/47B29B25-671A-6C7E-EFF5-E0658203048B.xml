@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47B29B25-671A-6C7E-EFF5-E0658203048B" name="Pessoa_Fisica">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:01:28 UTC</createdTime>
+<generatorID>344E09BE-8B6D-E996-75AD-CF8F075920CB</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPessoaFisica" id="119F89DC-81F6-6EB8-E592-F17F4E812DA7">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:01:28 UTC</createdTime>
+<generatorID>E103852C-D7A5-C257-E0DC-979F60CA66A2</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CPF" id="3B54C8FF-DB37-D47D-FEFF-FE81F954A314">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:01:28 UTC</createdTime>
+<generatorID>0BDED98D-9F49-AE26-5B3A-43CEA676B520</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RG" id="4A9972FE-A3BE-5BFE-1439-33FE76BD3D4F">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:01:28 UTC</createdTime>
+<generatorID>A06A3ED7-E233-0ED9-27FE-4F37DCF264CA</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD21B9F6-68A9-6822-3CFF-AEC8B0578E1E" name="Pessoa_Fisica_PK">
+<createdBy>Camila</createdBy>
+<createdTime>2017-05-06 17:01:28 UTC</createdTime>
+<generatorID>7762503F-6625-6052-DFFC-207D70BD641D</generatorID>
+<ownerDesignName>Seguradora</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="119F89DC-81F6-6EB8-E592-F17F4E812DA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
