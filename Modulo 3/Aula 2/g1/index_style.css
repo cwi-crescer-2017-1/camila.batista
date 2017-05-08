@@ -1,0 +1,90 @@
+  *{
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+    background: #fafafa;
+    color: #333;
+    margin: 0 auto;
+  }
+
+  header{
+    background: #c4170c;
+    color: #fafafa;
+    text-align: center;
+    font-weight: bolder;
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    margin: 0 auto;
+  }
+
+  section h1{
+    color: #c4170c;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-bottom: 0;
+    text-align: left;
+    line-height: 30px;
+  }
+  section h2{
+    color: #bbb;
+    font-weight: normal;
+    font-size: 15px;
+  }
+  section{
+    /*font-size: 0;*/
+    padding: 30px;
+  }
+
+  .primeiro:first-letter {
+    font-size: 50px;
+    color: #c4170c;
+    float: left;
+    margin-top: 15px;
+    padding-right: 5px;
+  }
+
+  .noticia{
+    margin: 20px 30px 30px 20px;
+    background: #fff;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    width: 46%;
+    padding: 35px;
+    text-align: justify;
+    word-spacing: 2px;
+  }
+
+  .noticia:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .noticia p {
+    line-height: 26px;
+  }
+
+  .noticia img{
+    float: right;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .noticia .com-subtitulo{
+    float: right;
+    margin: 90px 10px 10px 10px;
+  }
+
+  .noticia span{
+    color: #bbb;
+    float: right;
+  }
+  .n1, .n3{
+    float: left;
+  }
+
+  .n2{
+    float: right;
+  }
