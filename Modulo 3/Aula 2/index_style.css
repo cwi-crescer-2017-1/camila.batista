@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.principal{
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: black;
+  font-size: 0;
+}
+
+.primeira{
+  display: inline-block;
+  font-size: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 25%;
+  border: 2px solid black;
+  background-color: red;
+}
+
+.p1, .p2, .p3, .p4{
+  font-size: initial;
+  display: inline-block;
+  margin: 0 auto;
+  width: 25%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.segunda{
+  font-size: 0;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+  height: 25%;
+  border: 2px solid black;
+  background-color: blue;
+}
+.s1, .s2{
+  font-size: initial;
+  display: inline-block;
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+.terceira{
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 100%;
+  height: 25%;
+  border: 2px solid black;
+  background-color: purple;
+}
+
+.quarta{
+  font-size: 0;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+  height: 25%;
+  border: 2px solid black;
+  background-color: yellow;
+}
+
+.q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10{
+  display: inline-block;
+  margin: 0 auto;
+  width: 10%;
+  height: 100%;
+  border: 2px solid black;
+  font-size: initial;
+}
