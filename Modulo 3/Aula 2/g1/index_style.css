@@ -81,10 +81,10 @@
     color: #bbb;
     float: right;
   }
-  .n1, .n3{
+
+  .noticia:nth-child(odd){
     float: left;
   }
-
-  .n2{
+  .noticia:nth-child(even){
     float: right;
   }
