@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <style media="screen">
+      h1{
+        float: left;
+        position: absolute;
+        padding-top: 15px;
+        margin-left: 4%;
+      }
+      form{
+        padding-top: 10%;
+        margin-right: 4%;
+        margin-left: 4%;
+      }
+      .buttons{
+        float: right;
+        margin-top: 30px;
+        margin-right: 4%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Formulário de Cadastro</h1>
+    <form>
+      <div class="form-group col-md-6">
+          <label for="nome-completo">Nome Completo </label>
+          <input id="nome-completo" class="form-control" type="text" name="nome" placeholder="Ex.: Pedro Henrique Pires">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="email">Email</label>
+        <input id="email" type="email" class="form-control" name="email" placeholder="Ex.:pedro.pires@cwi.com.br">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="nascimento">Data de Nascimento</label>
+        <input id="nascimento" type="date" class="form-control" name="nascimento">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="estado">Estado</label>
+        <select id="estado" class="form-control" name="">
+          <option value="" disabled selected>Selecione um estado</option>
+          <option value="1">Rio grande do sul</option>
+          <option value="2">Bahia</option>
+        </select>
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="cidade">Cidade</label>
+        <input id="cidade" class="form-control" type="text" name="cidade">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="sexo">Sexo</label>
+        <select class="form-control" id="sexo" name="">
+          <option value="" disabled selected>Selecione um sexo</option>
+          <option value="1">Feminino</option>
+          <option value="2">Masculino</option>
+        </select>
+      </div>
+      <div class="buttons">
+        <button class="btn btn-primary" type="button" name="enviar">Enviar</button>
+        <button class="btn btn-default" type="reset" name="button">Limpar</button>
+      </div>
+    </form>
+  </body>
+</html>
