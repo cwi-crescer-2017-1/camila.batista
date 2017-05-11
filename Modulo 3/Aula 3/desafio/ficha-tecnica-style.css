@@ -1,0 +1,16 @@
+.corpo{
+  height: 100%;
+}
+
+.corpo h1{
+  font-size: 30px;
+}
+.imagem{
+  position: relative;
+  float: left;
+  padding-right: 15px;
+}
+.info p{
+  padding: 0;
+  margin:0;
+}
