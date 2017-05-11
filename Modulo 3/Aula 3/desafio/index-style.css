@@ -5,8 +5,10 @@ body{
   background-image:url("https://assets.vg247.it/current//2016/02/street-fighter-5-guida-mosse-trucchi.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #fff;
   margin: 0;
   padding: 0;
+  font-family: "Arial", sans-serif;
 
 }
 
@@ -35,9 +37,9 @@ body{
   position: relative;
   list-style: none;
   display: inline;
-  font-size: 20px;
+  font-size: 17.5px;
   font-weight: bolder;
-  padding: 2%;
+  padding: 20px;
 }
 
 /*Ancora*/
@@ -46,29 +48,49 @@ body{
   color: white;
 }
 
-
 .corpo{
   position: absolute;
   top: 45%;
   width: 50%;
-  height: 60%;
+  height: 184%;
   left: 50%;
+  margin-bottom: 30px;
   transform: translate(-50%);
-  background: rgb(139, 143, 150);
+  background: rgb(237, 237, 237);
+}
+
+.historia, .sumario{
+  border-bottom: 1px solid #9A9A9A;
+}
+
+.texto{
+  padding: 15px;
 }
 
 .corpo .titulo{
   display: block;
   position: relative;
-  background-color: rgb(47, 49, 51);
+  background-color: rgb(68, 68, 68);
   float: left;
   width: 100%;
   height: 67px;
+  margin-bottom: 35px;
 }
 
 .corpo .titulo h1{
-  color: white;
+  color: #ddd;
   font-weight: bold;
+  font-size: 24px;
   padding-left: 15px;
+  padding-top: 5px;
   float: left;
+}
+
+.corpo h2{
+  font-size: 19px;
+}
+
+.corpo h1{
+  font-size: 24px;
+  padding-top: 5px;
 }
