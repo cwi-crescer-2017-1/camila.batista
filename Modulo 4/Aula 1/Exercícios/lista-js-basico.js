@@ -33,7 +33,36 @@ function imprime(array, funcao){
   if(typeof funcao != "function"){
     return;
   }
-  for(var a = 0; a < array.length; a++){
-    funcao(array[a]);
+  for(a of array){
+    funcao(a);
   }
+}
+
+//Exercício 4
+function somar(a){
+  function somar2(b){
+    return a + b;
+  }
+  return somar2;
+}
+
+//Exercício 5
+function fiboSum(x) {
+  var a = 0;
+  var b = 1;
+  var c = 1;
+  var soma = 1;
+  for(var i = 1; i < x; i++){
+    c = a + b;
+
+    a = b;
+    b = c;
+    soma += c;
+  }
+  return soma;
+}
+
+//Exercício 6
+// function queroCafe(mascada, precos) {
+
 }
