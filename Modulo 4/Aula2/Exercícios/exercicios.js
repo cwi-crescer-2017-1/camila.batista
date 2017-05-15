@@ -26,7 +26,21 @@ function seriesInvalidas(series){
     }
 
   }
-  return seriesInvalidas.join(' - ');
+  return 'Série Inválida: ' + seriesInvalidas.join(' - ');
+}
+
+// --- Resolução Bernardo ---
+function seriesInvalidas(series){
+  function serieInvalida(serie){
+    //for(let campo in serie)
+    let algumCampoInvalido = Object.values(serie).some(v => v === null || typeof v === 'undefined');
+    let estreiaInvalida = serie.anoEstreia > new Date().getFullYear();
+
+    return algumCampoInvalido || estreiaInvalida;
+  }
+
+  let invalidas = series.filter(serieInvalida);
+  return `Series Inválidas:  ${ invalidas.map(n => n.titulo).join(' - ')}`;
 }
 
 // Exercício 2
