@@ -171,6 +171,7 @@ function creditosIlluminatis(){
   console.log("Elenco: " + elencoOrdenado);
 }
 
+
 // Exercício 8 - Serie Illuminati
 //
 // Escondemos um pequeno easter egg neste exercicio!
@@ -189,3 +190,12 @@ function creditosIlluminatis(){
 //
 // Uma vez achada a série, vamos modificar um pouquinho a implementação. Coloque todas as palavras abreviadas (de preferência sem os pontos finais) em uma string que será retornada ao final do método.
 // Forme uma hashtag com a palavra! #PALAVRA
+
+String.prototype.temAbreviacao = function(){
+  return this.match(/ [A-Z][.] /gi) !== null;
+}
+
+function descobrirAbreviados(){
+  let abreviadas = series.find(s => s.elenco.every(e => e.temAbreviacao())).elenco.map(e => e.match(/ [a-z][.] /gi)[0][1]).join("");
+  return `#${ abreviadas }`;
+}
