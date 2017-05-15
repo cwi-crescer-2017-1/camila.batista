@@ -91,7 +91,7 @@ function procurarPorNome(series, nome){
 
 // ---- Solução Bernardo ----
 function procurarPorNome(series, nome){
-  //poderia usar indexOf, se fosse encontrado o valor iria retornar 1 
+  //poderia usar indexOf, se fosse encontrado o valor iria retornar 1
   return series.some(s => s.elenco.some(e => e.includes(nome)));
 }
 
@@ -125,6 +125,11 @@ function queroGenero(genero){
   return arraySerie;
 }
 
+// --- Solução Bernardo ----
+function queroGenero(genero){
+  return series.filter(s => s.genero.includes(genero));
+}
+
 // B) Sei exatamente o que quero assisitir! Escreva uma função chamada queroTitulo que retorne um array, com os títulos das séries que tem título semelhante ao passado
 
 function queroTitulo(titulo){
@@ -135,6 +140,11 @@ function queroTitulo(titulo){
     }
   }
   return arraySerie;
+}
+
+// --- Solução Bernardo ---
+function queroTitulo(titulo){
+  return series.filter(s => s.titulo.includes(titulo));
 }
 
 // Exercício 7
