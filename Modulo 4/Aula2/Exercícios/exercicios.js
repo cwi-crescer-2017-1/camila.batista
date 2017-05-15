@@ -29,7 +29,7 @@ function seriesInvalidas(series){
   return 'Série Inválida: ' + seriesInvalidas.join(' - ');
 }
 
-// --- Resolução Bernardo ---
+// --- Solução Bernardo ---
 function seriesInvalidas(series){
   function serieInvalida(serie){
     //for(let campo in serie)
@@ -65,7 +65,7 @@ function mediaDeEpisodios(series){
   return soma / series.length;
 }
 
-// ---- Resolução Bernardo ----
+// ---- Solução Bernardo ----
 function mediaDeEpisodios(series){
   return series.map((e) => e.numeroEpisodios).reduce((soma, e) => (soma + e), 0) / series.length;
 }
@@ -87,6 +87,12 @@ function procurarPorNome(series, nome){
     }
   }
   return nn;
+}
+
+// ---- Solução Bernardo ----
+function procurarPorNome(series, nome){
+  //poderia usar indexOf, se fosse encontrado o valor iria retornar 1 
+  return series.some(s => s.elenco.some(e => e.includes(nome)));
 }
 
 // Exercício 5
