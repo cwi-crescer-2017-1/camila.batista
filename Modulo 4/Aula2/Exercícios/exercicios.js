@@ -127,7 +127,7 @@ function queroGenero(genero){
 
 // --- Solução Bernardo ----
 function queroGenero(genero){
-  return series.filter(s => s.genero.includes(genero));
+  return series.filter(s => s.genero.includes(genero)).map(s => s.titulo);
 }
 
 // B) Sei exatamente o que quero assisitir! Escreva uma função chamada queroTitulo que retorne um array, com os títulos das séries que tem título semelhante ao passado
@@ -144,7 +144,7 @@ function queroTitulo(titulo){
 
 // --- Solução Bernardo ---
 function queroTitulo(titulo){
-  return series.filter(s => s.titulo.includes(titulo));
+  return series.filter(s => s.titulo.includes(titulo)).map(s => s.titulo);
 }
 
 // Exercício 7
@@ -155,6 +155,21 @@ function queroTitulo(titulo){
 //
 // Tranquilo né? Easy! MAS, tem o seguinte: Os créditos são sempre ordenados alfabeticamente, mas pelo ÚLTIMO NOME!! Faça os ajustes necessários para que isso seja possível.
 
+function creditosIlluminatis(){
+  let criterioIllminatis = (s1, s2) => {
+    let obterUltimoNome = (s) => {
+      let partesNome = s.trim().slipt(" ");
+      return partesNome[partesNome.length - 1];
+    }
+    return obterUltimoNome(s1)localeCompare(obterUltimoNome(s2));
+  }
+  let elencoOrdenado = serie.elenco.sort(criterioIllminatis);
+  let diretorOrdenado = serie.diretor.sort(creditoIlluminatis);
+
+  console.log(series.titulo);
+  console.log("Diretor: " + diretorOrdenado);
+  console.log("Elenco: " + elencoOrdenado);
+}
 
 // Exercício 8 - Serie Illuminati
 //
