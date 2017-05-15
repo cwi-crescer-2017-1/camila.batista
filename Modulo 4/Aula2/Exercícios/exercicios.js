@@ -65,6 +65,11 @@ function mediaDeEpisodios(series){
   return soma / series.length;
 }
 
+// ---- Resolução Bernardo ----
+function mediaDeEpisodios(series){
+  return series.map((e) => e.numeroEpisodios).reduce((soma, e) => (soma + e), 0) / series.length;
+}
+
 // Exercício 4
 //
 // Eu sou um ator de séries?
