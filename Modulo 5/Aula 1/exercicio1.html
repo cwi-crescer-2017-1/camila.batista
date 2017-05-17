@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script type="text/javascript" src="controllerExercicio1.js"></script>
+  </head>
+  <body ng-app="oi">
+    <h1>{{nomePok}}</h1>
+    <div ng-controller="pokemon">
+      <label for="tipo">Nome:</label>
+      <input ng-model="pokemon.nome" id="tipo" type="text"/>
+      <h1> {{pokemon.nome}}</h1>
+      <h2>{{pokemon.tipo}}</h2>
+    </div>
+
+
+
+  </body>
+</html>
