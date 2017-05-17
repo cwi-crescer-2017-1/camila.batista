@@ -5,15 +5,36 @@
     <title>Exemplo</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script type="text/javascript" src="controller.js"></script>
+    <link rel="stylesheet" href="index-style.css">
   </head>
   <body ng-app="oi">
     <!-- tudo fora da controller é rootScope -->
+    <p>Exemplo 1</p>
     <h1>Hello, {{texto}}!</h1>
-    <div ng-controller="controller1">
+    <div class="exemplo" ng-controller="controller1">
+
     <!-- <div ng-init="texto=1"> -->
       <label for="nome">Nome:</label>
       <input ng-model="texto" id="nome" type="text" name="nome" value=""/>
       <h1>Hello, {{texto}}!</h1>
     </div>
+
+    <div class="exemplo" ng-controller="exemplo2">
+      <p>Exemplo 2</p>
+      <!-- <div ng-repeat="p in pokemons"> -->
+        <!-- {{p}} -->
+      <!-- </div> -->
+
+      <ul>
+        <li ng-repeat="p in pokemons">{{p.nome | uppercase}} é do tipo {{p.tipo}}</li>
+      </ul>
+    </div>
+
+    <!-- FAZER FILTRO PARA POKEMON
+    ONDE QUANDO DIGITADO NO INPUT POKEMON, APARARECE TODOS OS POKEMONS
+    E QUANDO ESCREVER O NOME DO POKEMON APARECER SÓ O CORRESPONDENTE ÀQUELE NOME -->
+    <!-- <div class="pesquisar">
+      <input ng-model="filtro" type="text" name="" value="">
+    </div> -->
   </body>
 </html>

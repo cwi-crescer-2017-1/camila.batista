@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+
+.exemplo{
+  position: relative;
+  float: left;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
