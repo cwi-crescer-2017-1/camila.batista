@@ -2,12 +2,12 @@ var a = angular.module('modulo', []);
 
 a.filter('m', function(){
   return function(nome){
-    return nome.replace(/nunes/i, '$ '+ nome +' $');
+    return nome.replace(/(nunes)/i, '$ $1 $');
   }
 });
 
 
-a.controller('mascada', function($scope){
+a.controller('mascada', function($scope, $filter){
   $scope.instrutores = [{
     nome: 'Bernardo',
     aula: [{
