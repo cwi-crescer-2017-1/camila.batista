@@ -26,13 +26,25 @@ document.addEventListener('DOMContentLoaded', function(){
       });
 
       divPok.appendChild(nomePoK);
-      divPok.appendChild(imgPok);
       divPok.appendChild(idPok);
+      divPok.appendChild(imgPok);
       divPok.appendChild(listaPok);
+
+
+      json.stats.forEach((e) =>{
+        let prog = document.createElement('h4');
+        prog.innerText = e.stat.name;
+        let progresso = document.createElement('progress');
+        progresso.max = 100;
+        progresso.value = e.base_stat;
+
+        divPok.appendChild(prog);
+        divPok.appendChild(progresso);
+      });
     })
   }
 });
-// 
+//
 // document.getElementById('labelPesquisar').addEventListener('clicou', function functionName(event) {
 //     console.log(event);
 // });
