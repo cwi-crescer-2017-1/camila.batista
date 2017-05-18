@@ -33,7 +33,7 @@
     <div class="pesquisar" ng-controller="exemplo2">
       <input ng-model="filtro" type="text" name="" value="">
       <ul>
-        <li ng-repeat="p in pokemons | filter: filtro">{{p.nome}} é do tipo {{p.tipo}}</li>
+        <li ng-repeat="p in pokemons | filter: {nome:filtro}">{{p.nome}} é do tipo {{p.tipo}}</li>
       </ul>
 
     </div>
