@@ -3,21 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Alguma coisa</title>
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
   </head>
   <body>
-    <header>
-      <h1>Pokemon API</h1>
-      <h2 class="escolha-h2">Escolha seu pokémon</h2>
-    </header>
     <div class="escolha">
-      <label class="pesquisar" for="numPok">Digite o número do pokémon</label>
+      <label class="pesquisar" id="labelPesquisar" for="numPok">Digite o número do pokémon</label>
+      <br>
       <input class="input-pesquisar" id="numPok" type="number" name="numPok" placeholder="Ex.: 65">
-      <button id="buttonPesquisar" type="button" name="button" onclick="buscar()">Pesquisar</button>
+      <button id="buttonPesquisar" class="btnPesquisar" type="button" name="button" onclick="buscar()">Pesquisar</button>
     </div>
 
     <div class="pokemons">
       <div class="novo-pokemon" id="divPokemon">
-        
+
       </div>
     </div>
 
