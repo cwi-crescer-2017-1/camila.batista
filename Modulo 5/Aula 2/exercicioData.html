@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aula 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script type="text/javascript" src="exercicioData.js"></script>
+    <link rel="stylesheet" href="exercicioData.css">
+  </head>
+  <body ng-app="aula2">
+    <div ng-controller="exercicio1">
+      <label for="dataDigitada">Digite uma data</label>
+      <input ng-model="dataDigitada" type="text" value="" placeholder="dd.MM.yyyy">
+
+      <button type="button" name="button" ng-click= "converter()">Clique me</button>
+        {{dataObjeto | date: 'mediumDate'}}
+    </div>
+  </body>
+</html>
