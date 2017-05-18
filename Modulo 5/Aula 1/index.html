@@ -24,17 +24,18 @@
       <!-- <div ng-repeat="p in pokemons"> -->
         <!-- {{p}} -->
       <!-- </div> -->
-
       <ul>
         <li ng-repeat="p in pokemons">{{p.nome | uppercase}} é do tipo {{p.tipo}}</li>
       </ul>
     </div>
 
-    <!-- FAZER FILTRO PARA POKEMON
-    ONDE QUANDO DIGITADO NO INPUT POKEMON, APARARECE TODOS OS POKEMONS
-    E QUANDO ESCREVER O NOME DO POKEMON APARECER SÓ O CORRESPONDENTE ÀQUELE NOME -->
-    <!-- <div class="pesquisar">
+
+    <div class="pesquisar" ng-controller="exemplo2">
       <input ng-model="filtro" type="text" name="" value="">
-    </div> -->
+      <ul>
+        <li ng-repeat="p in pokemons | filter: filtro">{{p.nome}} é do tipo {{p.tipo}}</li>
+      </ul>
+
+    </div>
   </body>
 </html>
