@@ -6,6 +6,10 @@ oi.controller('controller1', function($scope, $rootScope){
     $scope.texto = 'Heil Rainha!';
 });
 
+oi.controller('pokemon', function($scope, $rootScope){
+  $rootScope.nomePok = 'ROOT ROOT ROOT';
+  $scope.pokemon = {nome: 'Togepi', tipo: 'Fada'};
+});
 
 oi.controller('exemplo2', function($scope){
   let pokemons = [

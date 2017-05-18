@@ -29,13 +29,24 @@
       </ul>
     </div>
 
+    <div class="exemplo ex1">
+      <h1>Exercício 1</h1>
+      <h2>{{nomePok}}</h2>
+      <div ng-controller="pokemon">
+        <label for="tipo">Nome:</label>
+        <input ng-model="pokemon.nome" id="tipo" type="text"/>
+        <h1> {{pokemon.nome}}</h1>
+        <h2>{{pokemon.tipo}}</h2>
+      </div>
+    </div>
 
-    <div class="pesquisar" ng-controller="exemplo2">
-      <input ng-model="filtro" type="text" name="" value="">
+
+    <div class="exemplo pesquisar" ng-controller="exemplo2">
+      <h2>Exercício 2</h2>
+      <input ng-model="filtro" type="text" placeholder="Nome do pokemon" value="">
       <ul>
         <li ng-repeat="p in pokemons | filter: {nome:filtro}">{{p.nome}} é do tipo {{p.tipo}}</li>
       </ul>
-
     </div>
   </body>
 </html>
