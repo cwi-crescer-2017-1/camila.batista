@@ -7,8 +7,20 @@
     <script type="text/javascript" src="script.js"></script>
   </head>
   <body ng-app="modulo">
-    <ul ng-controller="mascada">
-      <li ng-repeat="i in instrutores">{{i.nome | m}}</li>
-    </ul>
+
+    <div class="exercicio1" ng-controller="mascada">
+      <ul>
+        <li ng-repeat="ex1 in crescer | orderBy: 'numAula'">{{ex1.aulaNome}} - {{ex1.instrutor}}</li>
+      </ul>
+    </div>
+
+
+
+    <div class="exercicio2" ng-controller="mascada">
+      <ul>
+        <li ng-repeat="ex2 in instrutores">{{ex2.nome | exercicio2}}</li>
+      </ul>
+    </div>
+
   </body>
 </html>
