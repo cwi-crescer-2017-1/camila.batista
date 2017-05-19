@@ -16,6 +16,11 @@ a.filter('exercicio2', function(){
   }
 });
 
+a.filter('exercicio3', function(){
+  return function(numAula){
+    return console.log(numAula.length);
+  }
+});
 
 a.controller('mascada', function($scope, $filter){
   var instrutores = [{
