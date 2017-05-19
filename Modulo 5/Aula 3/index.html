@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      .ng-invalid input{
+        /*background: red;*/
+        border: 2px solid red;
+      }
+      .ng-valid input{
+        border: 2px solid green;
+      }
+    </style>
+  </head>
+  <body ng-app="oi">
+    <div class="form" ng-controller="mainController">
+
+      <form novalidate name="meuForm" ng-submit="adicionar(novoNome)">
+        <label for="nome">Novo nome:</label>
+        <input type="text" id="nome" name="input" ng-model="novoNome" required ng-minlength="3">
+
+         <!-- ng-click="adicionar(novoNome)" -->
+        <button type="button" name="button">Adicionar</button>
+        <!-- <h3>{{novoNome}}</h3> -->
+      </form>
+
+      <span ng-show="meuForm.input.$error.required">REQUIRE!</span>
+      <span ng-show="meuForm.input.$error.minlength">No mínimo 3 caracteres.</span>
+
+      <h1>Nomes</h1>
+      <ul>
+        <li ng-repeat="n in nomes">{{n}}</li>
+      </ul>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script type="text/javascript" src="jsmain.js"></script>
+  </body>
+</html>
