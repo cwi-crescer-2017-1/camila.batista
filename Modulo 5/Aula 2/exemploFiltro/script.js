@@ -17,8 +17,10 @@ a.filter('exercicio2', function(){
 });
 
 a.filter('exercicio3', function(){
-  return function(numAula){
-    return console.log(numAula.length);
+  return function (numAula){
+    let num = numAula.toString();
+    let b = '000';
+    return pad.substring(0, b.length - num.length) + num;
   }
 });
 
