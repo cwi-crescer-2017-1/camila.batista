@@ -11,7 +11,7 @@
   <body ng-app="modulo">
 
     <div class="exercicio1" ng-controller="mascada">
-      <span>Exercício 1:</span>
+      <span>Exercícios 1, 2 e 3:</span>
       <table>
         <thead>
           <tr>
@@ -22,33 +22,9 @@
         </thead>
         <tbody>
           <tr ng-repeat="ex1 in crescer | orderBy: 'numAula'">
-            <th>{{ex1.numAula}}</th>
+            <th>{{ex1.numAula | exercicio3}}</th>
             <th>{{ex1.aulaNome}}</th>
-            <th>{{ex1.instrutor}}</th>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="exercicio2" ng-controller="mascada">
-      <span><small>Exercício 2:</small></span>
-      <h4>Instrutores</h4>
-      <ul>
-        <li ng-repeat="ex2 in instrutores">{{ex2.nome | exercicio2}}</li>
-      </ul>
-    </div>
-
-    <div class="exercicio3" ng-controller="mascada">
-      <span>Exercício 3:</span>
-      <table>
-        <thead>
-          <th></th>
-          <th>Aula</th>
-          <th>instrutor</th>
-        </thead>
-        <tbody>
-          <tr ng-repeat="ex3 in crescer">
-            <th>{{ex3.numAula | exercicio3}}</th>
+            <th>{{ex1.instrutor | exercicio2}}</th>
           </tr>
         </tbody>
       </table>

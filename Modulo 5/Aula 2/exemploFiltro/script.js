@@ -19,8 +19,12 @@ a.filter('exercicio2', function(){
 a.filter('exercicio3', function(){
   return function (numAula){
     let num = numAula.toString();
-    let b = '000';
-    return pad.substring(0, b.length - num.length) + num;
+    while(num.length < 3){ num=('0').concat(num)};
+    //console.log(num);
+    //let b = '000';
+    //let aa = num.substring(0, b.length - num.length) + num;
+  //  return aa.concat(num);
+  return num;
   }
 });
 
