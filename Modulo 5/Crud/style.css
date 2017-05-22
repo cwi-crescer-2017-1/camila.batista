@@ -2,18 +2,19 @@
   box-sizing: border-box;
 }
 input{
-  position: relative;
-  float: left;
-  display: inline-block;
-  width: 500px;
+  width: 70vw;
   height: 30px;
   margin: 10px;
 }
-
+.campo{
+  position: relative;
+  float: left;
+}
 input[type='radio']{
   height: 15px;
   width: 15px;
 }
+
 
 form .adiciona{
   margin-top: 12px;

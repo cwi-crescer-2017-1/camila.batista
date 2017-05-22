@@ -12,7 +12,7 @@
       <form novalidate name="formAulas">
         <label for="nomeAula">Nome da Aula</label>
         <input type="text" id="nomeAula" value="" ng-model="novaAula.nome" required ng-minlength="3" ng-maxlength="20">
-        <button type="button" name="button" ng-click="adicionarAula()">Adicionar aula</button>
+        <button type="button" name="button" ng-click="adicionarAula()">Adicionar</button>
       </form>
 
       <table ng-show="mostrarAula">
@@ -40,25 +40,40 @@
       </form>
 
       <form novalidate name="formInstrutores">
-        <label for="nomeInstrutor">Nome Instrutor</label>
-        <input type="text" id="nomeInstrutor" ng-model="novoInstrutor.nome" required ng-minlength="3" ng-maxlength="20">
-        <label for="sobrenome">Sobrenome</label>
-        <input type="text" id="sobrenome" ng-model="novoInstrutor.sobrenome" ng-maxlength="30">
-        <label for="idade">Idade</label>
-        <input type="number" id="idade" ng-model="novoInstrutor.idade" required ng-maxlength="90">
-        <label for="email">Email</label>
-        <input type="email" id="email" ng-model="novoInstrutor.email" required="">
-        <label for="dandoAula">Está dando aula?</label>
-        <label><input value="sim" type="radio" ng-model="novoInstrutor.dandoAula">SIM</label>
-        <label><input value="nao" type="radio" ng-model="novoInstrutor.dandoAula">NÃO</label>
-        <select ng-model="novoInstrutor.aula" multiple>
-          <option value="0" disabled selected>Selecione uma opção</option>
-          <option ng-repeat="a in aulas | orderBy: 'id'" value="{{a.id}}">{{a.nome}}</option>
-        </select>
-        <label for="imagem">Adicionar url da foto</label>
-        <input type="text" id="imagem" ng-model="novoInstrutor.urlFoto">
+        <div class="campos">
+          <label for="nomeInstrutor">Nome Instrutor</label>
+          <input type="text" id="nomeInstrutor" ng-model="novoInstrutor.nome" required ng-minlength="3" ng-maxlength="20">
+        </div>
+        <div class="campos">
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" id="sobrenome" ng-model="novoInstrutor.sobrenome" ng-maxlength="30">
+        </div>
+        <div class="campo">
+          <label for="idade">Idade</label>
+          <input type="number" id="idade" ng-model="novoInstrutor.idade" required ng-maxlength="90">
+        </div>
+        <div class="campo">
+          <label for="email">Email</label>
+          <input type="email" id="email" ng-model="novoInstrutor.email" required="">
+        </div>
+        <div class="campo">
+          <label for="dandoAula">Está dando aula?</label>
+          <label><input value="sim" type="radio" ng-model="novoInstrutor.dandoAula">SIM</label>
+          <label><input value="nao" type="radio" ng-model="novoInstrutor.dandoAula">NÃO</label>
+        </div>
+        <div class="campo">
+          <label>Selecione as aulas</label>
+          <select ng-model="novoInstrutor.aula" multiple>
+            <option value="0" disabled selected>Selecione uma opção</option>
+            <option ng-repeat="a in aulas | orderBy: 'id'" value="{{a.id}}">{{a.nome}}</option>
+          </select>
+        </div>
+        <div class="campo">
+          <label for="imagem">Adicionar url da foto</label>
+          <input type="text" id="imagem" ng-model="novoInstrutor.urlFoto">
+        </div>
       </form>
-      <button type="button" name="adicionar" ng-click="adicionarInstrutor()">Adicionar Instrutor</button>
+      <button type="button" name="adicionar" ng-click="adicionarInstrutor()">Adicionar</button>
 
       <table>
         <thead>
