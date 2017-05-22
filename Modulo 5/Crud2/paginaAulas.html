@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aulas</title>
+  </head>
+  <body>
+    <div class="aula" ng-controller="controllerAula">
+      <form novalidate name="formAulas">
+        <label for="nomeAula">Nome da Aula</label>
+        <input type="text" id="nomeAula" value="" ng-model="novaAula.nome" required ng-minlength="3" ng-maxlength="20">
+        <button type="button" name="button" ng-click="adicionarAula()">Adicionar</button>
+      </form>
+
+      <table ng-show="mostrarAula">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Nome</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="a in aulas | orderBy: 'id'">
+            <th>{{a.id}}</th>
+            <th>{{a.nome}}</th>
+            <th><button type="button" name="editar" ng-click="editar(a)">Editar</button></th>
+            <th><button type="button" name="deletar" ng-click="deletar(a)">Deletar</button></th>
+          </tr>
+        </tbody>
+      </table>
+      <form novalidate name="alteracao">
+        <div class="alteracoes" ng-show="edita">
+          <input type="text" ng-model="novoNomeAula">
+          <button type="button" name="salvar" ng-click=salvar(novoNomeAula)>Salvar</button>
+          <button type="button" name="cancelar" ng-click="cancelar(edit)">Cancelar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
