@@ -2,6 +2,7 @@ var app = angular.module('oi', []);
 
 app.controller('contro', function ($scope) {
   $scope.instrutores = [{
+    id: 0,
     nome: 'Bernardo',
     sobrenome: 'Rezende',
     idade: 30,

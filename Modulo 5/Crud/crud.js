@@ -41,15 +41,26 @@ c.controller('crudAula', function($scope){
     $scope.array = angular.copy(edit);
   }
   //não ta funcionando, altera apenas a primeira aula cadastrada
-  $scope.salvar = function(array){
+  $scope.salvar = function(novoNome){
     if($scope.alteracao.$valid){
-      $scope.aulas.splice(array.id, 1, array);
+      //$scope.aulas.splice(array.id, 1, array);
+      let index = $scope.pegarIndexAulaPorID($scope.array.id);
+      $scope.aulas[index].nome = novoNome;
+
+    //  $scope.aulas[array.id] = angular.copy(array);
       delete $scope.array;
+      $scope.novoNomeAula ='';
       $scope.edita = false;
       $scope.editaInstrutor = false;
     }
   }
-
+  $scope.pegarIndexAulaPorID = function(idAula){
+    for(let i=0; i<$scope.aulas.length; i++){
+      if($scope.aulas[i].id === idAula){
+        return i;
+      }
+    }
+  }
   $scope.cancelar = function(array){
     delete $scope.array;
     $scope.edita = false;
@@ -94,13 +105,38 @@ c.controller('crudAula', function($scope){
       }
 
       $scope.novoInstrutor.id = geradorId($scope.instrutores);
+
+
+        for(let a = 0; a < $scope.novoInstrutor.aula.length; a++){
+          if(typeof $scope.novoInstrutor.aula[a] === 'string'){
+          $scope.novoInstrutor.aula[a] =  parseInt($scope.novoInstrutor.aula[a]);
+        }
+      }
+
       $scope.instrutores.push($scope.novoInstrutor);
       delete $scope.novoInstrutor;
       $scope.mostrarInstrutor = true;
 
     }
   }
+  //Verifica se a aula esta ligada a algum instrutor
+  function verificaInstrutor(id){
+    if($scope.instrutores[id].aula.length>0){
+      return true;
+    }else{
+      return false;
+    }
+  }
 
+  $scope.deletarInstrutor = function(instrutor){
+    let id = $scope.instrutores.indexOf(instrutor);
+    if(verificaInstrutor(instrutor.id)){
+      alert('Instrutor dando aula, impossível deletar');
+      return;
+    }
+
+    $scope.instrutores.splice(id, 1);
+  }
 
 
   $scope.aulas = [

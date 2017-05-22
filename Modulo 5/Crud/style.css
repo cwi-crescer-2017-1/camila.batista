@@ -1,6 +1,30 @@
 *{
   box-sizing: border-box;
 }
+input{
+  position: relative;
+  float: left;
+  display: inline-block;
+  width: 500px;
+  height: 30px;
+  margin: 10px;
+}
+
+input[type='radio']{
+  height: 15px;
+  width: 15px;
+}
+
+form .adiciona{
+  margin-top: 12px;
+}
+
+button{
+  float: left;
+  width: 90px;
+  height: 30px;
+}
+
 form{
   position: relative;
   float: left;
@@ -8,9 +32,34 @@ form{
   margin: 10px;
 }
 
-input < label{
+label{
   display: inline;
   float: left;
   margin: 5px;
   padding: 15px;
+  width: 190px;
+}
+
+h2{
+  text-align: center;
+  position: relative;
+  float: left;
+  display: inline-block;
+}
+
+div table{
+  width: 500px;
+  float: center;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+div > table > tbody th{
+  font-weight: normal;
+  height: 50px;
+}
+
+div > table th, tr{
+  padding: 5px;
+  text-align: center;
 }
