@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body ng-app="crud">
     <div class="aula" ng-controller="crudAula">
@@ -10,7 +11,7 @@
 
       <form novalidate name="formAulas">
         <label for="nomeAula">Nome da Aula</label>
-        <input type="text" id="nomeAula" value="" ng-model="novaAula.nome" required>
+        <input type="text" id="nomeAula" value="" ng-model="novaAula.nome" required ng-minlength="3" ng-maxlength="20">
         <button type="button" name="button" ng-click="adicionarAula()">Adicionar aula</button>
       </form>
 
@@ -38,6 +39,62 @@
         </div>
       </form>
 
+      <form novalidate name="formInstrutores">
+        <label for="nomeInstrutor">Nome Instrutor</label>
+        <input type="text" id="nomeInstrutor" ng-model="novoInstrutor.nome" required ng-minlength="3" ng-maxlength="20">
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" id="sobrenome" ng-model="novoInstrutor.sobrenome" ng-maxlength="30">
+        <label for="idade">Idade</label>
+        <input type="number" id="idade" ng-model="novoInstrutor.idade" required ng-maxlength="90">
+        <label for="email">Email</label>
+        <input type="email" id="email" ng-model="novoInstrutor.email" required="">
+        <label for="dandoAula">Está dando aula?</label>
+        <label><input value="sim" type="radio" ng-model="novoInstrutor.dandoAula">SIM</label>
+        <label><input value="nao" type="radio" ng-model="novoInstrutor.dandoAula">NÃO</label>
+        <select ng-model="novoInstrutor.aula">
+          <option value="0" disabled selected>Selecione uma opção</option>
+          <option ng-repeat="a in aulas | orderBy: 'id'" value="{{a}}">{{a.nome}}</option>
+        </select>
+        <label for="imagem">Adicionar url da foto</label>
+        <input type="text" id="imagem" ng-model="novoInstrutor.urlFoto">
+      </form>
+      <button type="button" name="adicionar" ng-click="adicionarInstrutor()">Adicionar Instrutor</button>
+
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Idade</th>
+            <th>Email</th>
+            <th>Dando Aula?</th>
+            <th>Aulas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="i in instrutores">
+            <th>{{i.urlFoto}}</th>
+            <th>{{i.id}}</th>
+            <th>{{i.nome}}</th>
+            <th>{{i.sobrenome}}</th>
+            <th>{{i.idade}}</th>
+            <th>{{i.email}}</th>
+            <th>{{i.dandoAula}}</th>
+            <th>{{i.aula}}</th>
+            <th><button type="button" name="editar" ng-click="editarInstrutor(i)">Editar</button></th>
+            <th><button type="button" name="deletar" ng-click="deletarInstrutor(i)">Deletar</button></th>
+          </tr>
+        </tbody>
+      </table>
+      <form novalidate name="alteracao">
+        <div class="alteracoes" ng-show="editaInstrutor">
+          <input type="text" ng-model="edit.nome">
+          <button type="button" name="salvar" ng-click=salvar(edit)>Salvar</button>
+          <button type="button" name="cancelar" ng-click="cancelar(edit)">Cancelar</button>
+        </div>
+      </form>
 
 
     </div>

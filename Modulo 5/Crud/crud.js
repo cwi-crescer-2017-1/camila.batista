@@ -4,8 +4,10 @@ c.controller('crudAula', function($scope){
   let mostrarAula;
   let mostrarInstrutor;
   let edita = false;
+  let editaInstrutor = false;
 
-  function comparar (array, objeto){
+  //Verifica o objeto é igual a algum já existente
+  function comparar(array, objeto){
     let c = false;
     for(let i = 0; i < array.length; i++){
       if(array[i].nome.localeCompare(objeto.nome) === 0){
@@ -21,6 +23,7 @@ c.controller('crudAula', function($scope){
     return array.length > 0 ? array.length : null;
   }
 
+  //Verifica se a aula esta ligada a algum instrutor
   function verifica(id){
     for(let i = 0; $scope.instrutores.length > i; i++){
       for(let a = 0; a < $scope.instrutores[i].aula.length; a++){
@@ -34,6 +37,7 @@ c.controller('crudAula', function($scope){
 
   $scope.editar = function(edit){
     $scope.edita = true;
+    $scope.editaInstrutor = true;
     $scope.array = angular.copy(edit);
   }
   //não ta funcionando, altera apenas a primeira aula cadastrada
@@ -42,12 +46,14 @@ c.controller('crudAula', function($scope){
       $scope.aulas.splice(array.id, 1, array);
       delete $scope.array;
       $scope.edita = false;
+      $scope.editaInstrutor = false;
     }
   }
 
   $scope.cancelar = function(array){
     delete $scope.array;
     $scope.edita = false;
+    $scope.editaInstrutor = false;
   }
 
   $scope.deletar = function(aula){
@@ -75,6 +81,27 @@ c.controller('crudAula', function($scope){
 
     }
   }
+
+  $scope.adicionarInstrutor = function(){
+    if($scope.formInstrutores.$valid){
+      let compareNome = comparar($scope.instrutores, $scope.novoInstrutor);
+      if(compareNome){
+        return;
+      }
+
+      if(typeof $scope.instrutores.urlFoto === 'undefined' | $scope.instrutores.urlFoto === null){
+        $scope.instrutores.urlFoto = 'http://fbuzz.net/wp-content/uploads/2012/05/giga-pudding.jpg';
+      }
+
+      $scope.novoInstrutor.id = geradorId($scope.instrutores);
+      $scope.instrutores.push($scope.novoInstrutor);
+      delete $scope.novoInstrutor;
+      $scope.mostrarInstrutor = true;
+
+    }
+  }
+
+
 
   $scope.aulas = [
     {id: 0, nome: 'POO'},
