@@ -20,22 +20,5 @@ a.config(function ($routeProvider) {
 
 a.controller('principalController', function($scope){
 
-  //Implementar de outro modo (ERRADO)
-  function geradorId(array){
-    return array.length > 0 ? array.length : null;
-  };
-
-  function verificar(id){
-    for(let i = 0; $scope.instrutores.length > i; i++){
-      for(let a = 0; a < $scope.instrutores[i].aula.length; a++){
-        if(id === $scope.instrutores[i].aula[a]){
-          return true;
-        }
-      }
-    }
-    return false;
-  }
-
-  $scope.geradorId = geradorId;
-  $scope.verificar = verificar;
+  
 });
