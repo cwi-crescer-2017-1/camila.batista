@@ -21,11 +21,11 @@ a.config(function ($routeProvider) {
 a.controller('principalController', function($scope){
 
   //Implementar de outro modo (ERRADO)
-  $scope.geradorId = function(array){
+  function geradorId(array){
     return array.length > 0 ? array.length : null;
   };
 
-  $scope.verificar = function(id){
+  function verificar(id){
     for(let i = 0; $scope.instrutores.length > i; i++){
       for(let a = 0; a < $scope.instrutores[i].aula.length; a++){
         if(id === $scope.instrutores[i].aula[a]){
@@ -35,4 +35,7 @@ a.controller('principalController', function($scope){
     }
     return false;
   }
+
+  $scope.geradorId = geradorId;
+  $scope.verificar = verificar;
 });

@@ -8,13 +8,13 @@
     <h1>Aulas</h1>
 
     <div class="aulaForm">
-      <form name="aulaForm" ng-show="mostrar">
-        <label for="nome">Nome da aula</label>
-        <input type="text" id="nome" ng-model="novaAula.nome">
+      <form name="aulaForm">
+        <label for="novaAula">Nome da aula</label>
+        <input type="text" id="novaAula" ng-model="novaAula.nome">
       </form>
-      <button type="button" name="button" ng-click="AdicionarAula()">Adicionar</button>
+      <button type="button" name="button" ng-click="adicionarAula()">Adicionar</button>
 
-      <table>
+      <table ng-show="mostrar">
         <thead>
           <th>Id</th>
           <th>Nome</th>
@@ -23,11 +23,19 @@
           <tr ng-repeat="a in aula">
             <th>{{a.id}}</th>
             <th>{{a.nome}}</th>
-            <th><button type="button" name="button" ng-click="editar()">Editar</button></th>
-            <th><button type="button" name="button" ng-click="deletar()">Deletar</button></th>
+            <th><button type="button" name="button" ng-click="editar(a)">Editar</button></th>
+            <th><button type="button" name="button" ng-click="deletar(a)">Deletar</button></th>
           </tr>
         </tbody>
       </table>
+      <form novalidate name="alteracao">
+        <div class="alteracoes" ng-show="edita">
+          <input type="text" ng-model="novoNomeAula">
+          <button type="button" name="salvar" ng-click=salvar(novoNomeAula)>Salvar</button>
+          <button type="button" name="cancelar" ng-click="cancelar(edit)">Cancelar</button>
+        </div>
+      </form>
+
     </div>
   </body>
 </html>
