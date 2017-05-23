@@ -7,5 +7,27 @@
   <body>
     <h1>Aulas</h1>
 
+    <div class="aulaForm">
+      <form name="aulaForm" ng-show="mostrar">
+        <label for="nome">Nome da aula</label>
+        <input type="text" id="nome" ng-model="novaAula.nome">
+      </form>
+      <button type="button" name="button" ng-click="AdicionarAula()">Adicionar</button>
+
+      <table>
+        <thead>
+          <th>Id</th>
+          <th>Nome</th>
+        </thead>
+        <tbody>
+          <tr ng-repeat="a in aula">
+            <th>{{a.id}}</th>
+            <th>{{a.nome}}</th>
+            <th><button type="button" name="button" ng-click="editar()">Editar</button></th>
+            <th><button type="button" name="button" ng-click="deletar()">Deletar</button></th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>
