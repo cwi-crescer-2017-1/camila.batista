@@ -9,16 +9,15 @@ a.config(function ($routeProvider) {
     })
     .when('/aula', {
       controller: 'aulaController',
-      templateUrl: '/aula.html'
+      templateUrl: 'aula/aula.html'
     })
     .when('/instrutor', {
       controller: 'intrutorController',
-      templateUrl: 'instrutor.html'
+      templateUrl: 'instrutor/instrutor.html'
     })
     .otherwise({redirecTo: '/index'});
 });
 
 a.controller('principalController', function($scope){
 
-  
 });
