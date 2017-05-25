@@ -12,7 +12,7 @@
         <label for="novaAula">Nome da aula</label>
         <input type="text" id="novaAula" ng-model="novaAula.nome">
       </form>
-      <button type="button" name="button" ng-click="adicionarAula()">Adicionar</button>
+      <button type="button" name="button" ng-click="salvar()">Adicionar</button>
 
       <table ng-show="mostrar">
         <thead>
@@ -24,12 +24,12 @@
             <th>{{a.id}}</th>
             <th>{{a.nome}}</th>
             <th><button type="button" name="button" ng-click="editar(a)">Editar</button></th>
-            <th><button type="button" name="button" ng-click="deletar(a)">Deletar</button></th>
+            <th><button type="button" name="button" ng-click="excluir(a)">Deletar</button></th>
           </tr>
         </tbody>
       </table>
       <form novalidate name="alteracao">
-        <div class="alteracoes" ng-show="edita">
+        <div class="alteracoes">
           <input type="text" ng-model="novoNomeAula">
           <button type="button" name="salvar" ng-click=salvar(novoNomeAula)>Salvar</button>
           <button type="button" name="cancelar" ng-click="cancelar(edit)">Cancelar</button>
