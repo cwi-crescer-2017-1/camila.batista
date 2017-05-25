@@ -44,4 +44,3 @@ namespace FolhaPagamento
         public Desconto Fgts { get; private set; }
     }
 }
-}
