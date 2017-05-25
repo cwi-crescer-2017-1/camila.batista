@@ -1,4 +1,4 @@
-angular.module('rotas').controller('intrutorController', function($scope){
+angular.module('rotas').controller('instrutorController', function($scope){
   let mostrar;
   let edita = false;
 
