@@ -1,16 +1,8 @@
 angular.module('rotas').factory('aulaService', function($http){
   let url = 'http://localhost:3000';
 
-  return{
-    listar: listar,
-    findById: findById,
-    atualizar: atualizar,
-    criar: criar,
-    deletar: deletar
-  }
-
   function listar(){
-    return $http.get(url + '/aula');
+    return $http.get(url + '/aula/');
   }
 
   function findById(id){
@@ -23,10 +15,19 @@ angular.module('rotas').factory('aulaService', function($http){
 
   function criar(aula){
     aula.id = ++idAtual;
-    aulas.push(angular.copy(aula));
+    // aula.push(angular.copy(aula));
+    return $http.post(url + '/aula/', aula.push(angular.copy(aula)));
   }
 
   function deletar(aula){
-    return;
+    return $http.delete(url + '/aula/' + aula.id);
+  }
+
+  return{
+    listar: listar,
+    atualizar: atualizar,
+    criar: criar,
+    deletar: deletar,
+    findById: findById
   }
 });
