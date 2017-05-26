@@ -13,16 +13,16 @@ namespace FolhaPagamento
             double valorHora = salarioBase / horasCategoria;
             HorasCalculadas extras = new HorasCalculadas(horasExtras, Math.Round((valorHora * horasExtras), 2));
             HorasCalculadas descontadas = new HorasCalculadas(horasDescontadas, Math.Round((valorHora * horasDescontadas), 2));
-            double totalProventos = Math.Round((salarioBase + extras.ValorTotalHoras - descontadas.ValorTotalHoras), 2);
+            double totalProventos = Math.Truncate(salarioBase + extras.ValorTotalHoras - descontadas.ValorTotalHoras);
             Desconto inss = INSS(totalProventos);
             Desconto irrf = IRRF(totalProventos, inss);
             Desconto fgts = FGTS(totalProventos);
-            double totalDescontos = Math.Round((inss.Valor + fgts.Valor), 2);
-            double salarioLiquido = Math.Round((salarioBase - totalDescontos), 2);
+            double totalDescontos = Math.Truncate(inss.Valor + fgts.Valor);
+            double salarioLiquido = Math.Truncate(salarioBase - totalDescontos);
 
 
             Demonstrativo d = new Demonstrativo(
-                Math.Round(salarioBase, 2),
+                Math.Truncate(salarioBase),
                 horasCategoria,
                 extras,
                 descontadas,
@@ -52,7 +52,7 @@ namespace FolhaPagamento
                 a = 0.10;
             }
 
-            return new Desconto(a, Math.Round(((TotalProventos * a) / 100), 2));
+            return new Desconto(a, Math.Truncate(((TotalProventos * a) / 100)));
         }
 
         public static Desconto IRRF(double TotalProventos, Desconto INSS)
@@ -81,12 +81,12 @@ namespace FolhaPagamento
                 a = 0.275;
             }
 
-            return new Desconto(a, Math.Round(((v * a) / 100), 2));
+            return new Desconto(a, Math.Truncate(((v * a) / 100)));
         }
 
         private static Desconto FGTS (double TotalProventos)
         {
-            return new Desconto(0.11, Math.Round((TotalProventos * 0.11) / 100, 2));
+            return new Desconto(0.11, Math.Truncate((TotalProventos * 0.11) / 100));
         }
     }
 }
