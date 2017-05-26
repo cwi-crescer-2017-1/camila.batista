@@ -113,7 +113,7 @@ namespace Repositorio
 
         private int CalcularIdade(DateTime dataNascimento)
         {
-            throw new NotImplementedException();
+            return DateTime.Now.Year - dataNascimento.Year;
         }
 
         public double SalarioMedio(TurnoTrabalho? turno = null)
