@@ -98,17 +98,17 @@ namespace Repositorio
         }
         public IList<Funcionario> BuscarPorNome(string nome)
         {
-            throw new NotImplementedException();
+            return Funcionarios.Where(funcionario => Regex.IsMatch(funcionario.Nome, nome, RegexOptions.IgnoreCase)).ToList();
         }
 
         public IList<Funcionario> BuscarPorTurno(params TurnoTrabalho[] turnos)
         {
-            throw new NotImplementedException();
+            return Funcionarios.Where(funcionario => turnos.Contains(funcionario.TurnoTrabalho)).ToList();
         }
 
         public IList<Funcionario> FiltrarPorIdadeAproximada(int idade)
         {
-            throw new NotImplementedException();
+            return Funcionarios.Where(funcionario => CalcularIdade(funcionario.DataNascimento) >= (idade - 5) && CalcularIdade(funcionario.DataNascimento) <= (idade + 5)).ToList();
         }
 
         private int CalcularIdade(DateTime dataNascimento)
