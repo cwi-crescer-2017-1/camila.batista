@@ -118,12 +118,11 @@ namespace Repositorio
 
         public double SalarioMedio(TurnoTrabalho? turno = null)
         {
-            throw new NotImplementedException();
-        }
+            return Funcionarios.Where(funcionario => turno.Equals(null) ? true : funcionario.TurnoTrabalho.Equals(turno)).Select(funcionario => funcionario.Cargo.Salario).Averange();        }
 
         public IList<Funcionario> AniversariantesDoMes()
         {
-            throw new NotImplementedException();
+            return Funcionarios.Where(funcionario => funcionario.DataNascimento.Month.Equals(DateTime.Now.Month)).ToList();
         }
 
         public IList<dynamic> BuscaRapida()
