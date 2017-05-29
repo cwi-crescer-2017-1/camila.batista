@@ -29,9 +29,9 @@ namespace Chat.Controllers
             {
                 lock (objetoLock)
                 {
-			mensagem.Texto = Regex.Replace(mensagem.Texto, "André Nunes", "$$$$$ $$$$$", RegexOptions.IgnoreCase);
-                mensagem.Data = DateTime.Now;    
-		Mensagens.Add(mensagem);
+			        mensagem.Texto = Regex.Replace(mensagem.Texto, "André Nunes", "$$$$$ $$$$$", RegexOptions.IgnoreCase);
+                    mensagem.Data = DateTime.Now;    
+		            Mensagens.Add(mensagem);
                     
                     return Ok(mensagem);
                 }
