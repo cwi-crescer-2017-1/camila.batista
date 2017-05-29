@@ -9,8 +9,8 @@ chat.factory('UsuarioService', function($http){
     return $http.post(url, Usuario);
   }
 
-  return {
+  return ({
     listar: get,
     criar: envia
-  };
+  });
 });
