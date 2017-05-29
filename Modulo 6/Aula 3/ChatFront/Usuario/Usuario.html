@@ -4,7 +4,14 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body>
-    <h1>Usuario</h1>
+  <body ng-controller="UsuarioController">
+    <form novalidate name="login">
+      <label for="nome">Nome do usuário</label>
+      <input type="text" id="nome" ng-model="Usuario.Nome" required>
+      <label for="foto">Url da foto</label>
+      <input type="text" id="foto" ng-model="Usuario.Foto" required>
+      <button type="button" name="button" ng-click="cadastrar(Usuario)" ng-disabled="login.$invalid">Login</button>
+    </form>
+
   </body>
 </html>
