@@ -5,6 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
+using System.Text.RegularExpressions;
 
 namespace Chat.Controllers
 {
@@ -28,8 +29,10 @@ namespace Chat.Controllers
             {
                 lock (objetoLock)
                 {
-                    Mensagens.Add(mensagem);
-                    mensagem.Data = DateTime.Now;
+			mensagem.Texto = Regex.Replace(mensagem.Texto, "André Nunes", "$$$$$ $$$$$", RegexOptions.IgnoreCase);
+                mensagem.Data = DateTime.Now;    
+		Mensagens.Add(mensagem);
+                    
                     return Ok(mensagem);
                 }
             }
