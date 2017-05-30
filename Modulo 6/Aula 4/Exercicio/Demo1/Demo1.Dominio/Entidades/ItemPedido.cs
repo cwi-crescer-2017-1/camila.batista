@@ -15,14 +15,10 @@ namespace Demo1.Dominio.Entidades
         public bool Validar(out List<string> mensagens)
         {
             mensagens = new List<string>();
-
-            if(ProdutoId < 0)
+            
+            if (Quantidade < 1)
             {
-                mensagens.Add("Id produto deve ser maior que zero");
-            }
-            if(Quantidade < 0)
-            {
-                mensagens.Add("Quantidade deve ser maior que zero");
+                mensagens.Add("A quantidade deve ser maior que zero");
             }
             return mensagens.Count() == 0;
         }
