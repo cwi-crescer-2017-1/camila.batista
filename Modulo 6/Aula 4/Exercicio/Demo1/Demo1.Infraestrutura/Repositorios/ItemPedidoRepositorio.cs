@@ -14,7 +14,20 @@ namespace Demo1.Infraestrutura.Repositorios
 
         public void Alterar(ItemPedido itemPedido)
         {
-            throw new NotImplementedException();
+            using (var conexao = new SqlConnection(stringConexao))
+            {
+                conexao.Open();
+                using (var comando = conexao.CreateCommand())
+                {
+                    comando.CommandText = @"UPDATE ITEMPEDIDO SET ProdutoId = @produtoId, Quantidade = @quantidade WHERE Id = @id";
+
+                    comando.Parameters.AddWithValue("@id", itemPedido.Id);
+                    comando.Parameters.AddWithValue("@produtoId", itemPedido.ProdutoId);
+                    comando.Parameters.AddWithValue("@quantidade", itemPedido.Quantidade);
+
+                    comando.ExecuteNonQuery();
+                }
+            }
         }
 
         public void Criar(ItemPedido itemPedido)
@@ -44,17 +57,72 @@ namespace Demo1.Infraestrutura.Repositorios
 
         public void Excluir(int id)
         {
-            throw new NotImplementedException();
+            using(var conexao = new SqlConnection(stringConexao))
+            {
+                conexao.Open();
+                using (var comando = conexao.CreateCommand())
+                {
+                    comando.CommandText = @"DELETE ItemPedido WHERE Id = @id";
+
+                    comando.Parameters.AddWithValue("@id", id);
+                    comando.ExecuteNonQuery();
+                }
+            }
         }
 
         public IEnumerable<ItemPedido> Listar()
         {
+            var itens = new List<ItemPedido>();
+            using(var conexao = new SqlConnection(stringConexao))
+            {
+                conexao.Open();
+                using (var comando = conexao.CreateCommand())
+                {
+                    comando.CommandText = @"SELECT Id, ProdutoId, Quantidade FROM ItemPedido";
+                    var dataReader = comando.ExecuteReader();
 
+                    while (dataReader.Read())
+                    {
+                        var item = new ItemPedido();
+
+                        item.Id = (int)dataReader["Id"];
+                        item.ProdutoId = (int)dataReader["ProdutoId"];
+                        item.Quantidade = (int)dataReader["Quantidade"];
+
+                        itens.Add(item);
+                    }
+                }
+            }
+            return itens;
         }
 
         public ItemPedido Obter(int id)
         {
-            throw new NotImplementedException();
+            ItemPedido itemPedido = null;
+
+            using(var conexao = new SqlConnection(stringConexao))
+            {
+                conexao.Open();
+                using (var comando = conexao.CreateCommand())
+                {
+                    comando.CommandText = @"SELECT Id, ProdutoId, Quantidade FROM ItemPedido WHERE Id = @id";
+                    comando.Parameters.AddWithValue("@id", id);
+
+                    var dataReader = comando.ExecuteReader();
+                    while (dataReader.Read())
+                    {
+                        itemPedido = new ItemPedido();
+
+                        itemPedido.Id = (int)dataReader["Id"];
+                        itemPedido.ProdutoId = (int)dataReader["ProdutoId"];
+                        itemPedido.Quantidade = (int)dataReader["Quantidade"];
+
+                        return itemPedido;
+                    }
+                }
+            }
+
+            return itemPedido;
         }
     }
 }

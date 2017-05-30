@@ -14,7 +14,21 @@ namespace Demo1.Infraestrutura.Repositorios
 
         public void Alterar(Produto produto)
         {
-            throw new NotImplementedException();
+            using (var conexao = new SqlConnection(stringConexao))
+            {
+                conexao.Open();
+                using(var comando = conexao.CreateCommand())
+                {
+                    comando.CommandText = @"UPDATE PRODUTO SET Nome = @nome, Preco = @preco, Estoque = @estoque WHERE Id = @id";
+
+                    comando.Parameters.AddWithValue("@id", produto.Id);
+                    comando.Parameters.AddWithValue("@nome", produto.Nome);
+                    comando.Parameters.AddWithValue("@preco", produto.Preco);
+                    comando.Parameters.AddWithValue("@estoque", produto.Estoque);
+
+                    comando.ExecuteNonQuery();
+                }
+            }
         }
 
         public void Criar(Produto produto)
@@ -45,7 +59,17 @@ namespace Demo1.Infraestrutura.Repositorios
 
         public void Excluir(int id)
         {
-            throw new NotImplementedException();
+            using(var conexao = new SqlConnection(stringConexao))
+            {
+                conexao.Open();
+                using (var comando = conexao.CreateCommand())
+                {
+                    comando.CommandText = @"DELETE Produto WHERE Id = @id";
+
+                    comando.Parameters.AddWithValue("@id", id);
+                    comando.ExecuteNonQuery();
+                }
+            }
         }
 
         public IEnumerable<Produto> Listar()
@@ -80,7 +104,33 @@ namespace Demo1.Infraestrutura.Repositorios
 
         public Produto Obter(int id)
         {
-            throw new NotImplementedException();
+            Produto produto = null;
+
+            using (var conexao = new SqlConnection(stringConexao))
+            {
+                conexao.Open();
+                using (var comando = conexao.CreateCommand())
+                {
+                    comando.CommandText = @"SELECT Id, Nome, Preco, Estoque FROM Produto WHERE Id = @id";
+
+                    comando.Parameters.AddWithValue("@id", id);
+
+                    var dataReader = comando.ExecuteReader();
+
+                    while (dataReader.Read())
+                    {
+                        produto = new Produto();
+
+                        produto.Id = (int)dataReader["Id"];
+                        produto.Nome = (string)dataReader["Nome"];
+                        produto.Preco = (decimal)dataReader["Preco"];
+                        produto.Estoque = (int)dataReader["Estoque"];
+
+                        return produto;
+                    }
+                }
+            }
+            return produto;
         }
     }
 }

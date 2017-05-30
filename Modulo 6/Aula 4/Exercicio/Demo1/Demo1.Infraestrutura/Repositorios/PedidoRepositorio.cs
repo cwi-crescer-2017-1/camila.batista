@@ -14,7 +14,20 @@ namespace Demo1.Infraestrutura.Repositorios
 
         public void Alterar(Pedido pedido)
         {
-            throw new NotImplementedException();
+            using (var conexao = new SqlConnection(stringConexao))
+            {
+                conexao.Open();
+                using (var comando = conexao.CreateCommand())
+                {
+                    comando.CommandText = @"UPDATE PEDIDO SET NomeCliente = @nomeCliente, Itens = @itens WHERE Id = @id";
+
+                    comando.Parameters.AddWithValue("@id", pedido.Id);
+                    comando.Parameters.AddWithValue("@nomeCliente", pedido.NomeCliente);
+                    comando.Parameters.AddWithValue("@itens", pedido.Itens);
+
+                    comando.ExecuteNonQuery();
+                }
+            }
         }
 
         public void Criar(Pedido pedido)
@@ -46,7 +59,18 @@ namespace Demo1.Infraestrutura.Repositorios
 
         public void Excluir(int id)
         {
-            throw new NotImplementedException();
+            using (var conexao = new SqlConnection(stringConexao))
+            {
+                conexao.Open();
+                using (var comando = conexao.CreateCommand())
+                {
+                    comando.CommandText = @"DELETE Pedido WHERE Id = @id";
+
+                    comando.Parameters.AddWithValue("@id", id);
+
+                    comando.ExecuteNonQuery();
+                }
+            }
         }
 
         public IEnumerable<Pedido> Listar()
@@ -80,7 +104,33 @@ namespace Demo1.Infraestrutura.Repositorios
 
         public Pedido Obter(int id)
         {
-            throw new NotImplementedException();
+            Pedido pedido = null;
+
+            using (var conexao = new SqlConnection(stringConexao))
+            {
+                conexao.Open();
+                using (var comando = conexao.CreateCommand())
+                {
+                    comando.CommandText = @"SELECT Id, NomeCliente, Itens FROM Pedido WHERE Id = @id";
+
+                    comando.Parameters.AddWithValue("@id", id);
+
+                    var dataReader = comando.ExecuteReader();
+
+                    while (dataReader.Read())
+                    {
+                        pedido = new Pedido();
+
+                        pedido.Id = (int)dataReader["Id"];
+                        pedido.NomeCliente = (string)dataReader["NomeCliente"];
+                        pedido.Itens = (List<ItemPedido>)dataReader["Itens"];
+
+                        return pedido;
+                    }
+                }
+            }
+
+            return pedido;
         }
     }
 }
