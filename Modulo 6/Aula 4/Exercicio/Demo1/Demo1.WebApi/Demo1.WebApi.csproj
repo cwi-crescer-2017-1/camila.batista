@@ -165,6 +165,16 @@
     <Folder Include="Views\Pedido\" />
     <Folder Include="Views\Produto\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Demo1.Dominio\Demo1.Dominio.csproj">
+      <Project>{0C8EBB9D-6777-441C-B6B2-1D1086CA07D4}</Project>
+      <Name>Demo1.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Demo1.Infraestrutura\Demo1.Infraestrutura.csproj">
+      <Project>{84954011-5620-48D8-AED2-D4644DC2EB99}</Project>
+      <Name>Demo1.Infraestrutura</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
