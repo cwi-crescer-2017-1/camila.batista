@@ -17,6 +17,8 @@ namespace EditoraCrescer.Infraesturtura
 
         public DbSet<Livro> Livros { get; set; }
 
+        public DbSet<Revisor> Revisores { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Configurations.Add(new AutorMap());
