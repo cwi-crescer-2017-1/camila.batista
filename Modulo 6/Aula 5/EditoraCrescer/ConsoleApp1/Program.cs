@@ -28,7 +28,8 @@ namespace ConsoleApp1
                     Titulo = "O senhor dos anéis",
                     Descricao = "Um livro bem legal",
                     Genero = "Aventura",
-                    DataPublicacao = DateTime.Now
+                    DataPublicacao = DateTime.Now,
+                    DataRevisao = DateTime.Now
                 };
 
                 contexto.Livros.Add(livro);
