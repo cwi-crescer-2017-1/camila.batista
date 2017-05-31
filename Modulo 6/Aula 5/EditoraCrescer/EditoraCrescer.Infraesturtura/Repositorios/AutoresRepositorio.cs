@@ -16,16 +16,32 @@ namespace EditoraCrescer.Infraesturtura.Repositorios
             return contexto.Autores.ToList();
         }
 
+        public List<Autor> ObterPorId(int id)
+        {
+            return contexto.Autores.Where(x => x.Id == id).ToList();
+        }
+
+        //TERMINAR
+        public object ObterLivros(Autor autor)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Criar(Autor autor)
         {
             contexto.Autores.Add(autor);
             contexto.SaveChanges();
         }
 
+        //PUT
+
         public void Remover (int id)
         {
             var autor = contexto.Autores.FirstOrDefault(x => x.Id == id);
             contexto.Autores.Remove(autor);
+            contexto.SaveChanges();
         }
+
+        
     }
 }
