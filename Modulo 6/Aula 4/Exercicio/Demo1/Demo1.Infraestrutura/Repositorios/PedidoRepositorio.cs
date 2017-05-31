@@ -8,11 +8,83 @@ using System.Data.SqlClient;
 
 namespace Demo1.Infraestrutura.Repositorios
 {
-    public class PedidoRepositorio : IPedidoRepositorio
+    public class PedidoRepositorio : IPedidoRepositorio 
     {
         string stringConexao = "Server=13.65.101.67;User Id=camila.batista; Password=123456; Database=aluno19db";
 
-        public void Alterar(Pedido pedido)
+
+        private ItemPedido LerItemPedido(SqlDataReader dataReader)
+        {
+            return new ItemPedido()
+            {
+                Id = (int)dataReader["Id"],
+                ProdutoId = (int)dataReader["ProdutoId"],
+                Quantidade = (int)dataReader["Quantidade"]
+            };
+        }
+        private void BaixarEstoque(SqlConnection conexao, ItemPedido item, SqlTransaction tran = null)
+        {
+            using (var comando = conexao.CreateCommand())
+            {
+                comando.Transaction = tran;
+                comando.CommandText = "UPDATE PRODUTO SET Estoque = Estoque - @quantidade WHERE Id = @produtoId";
+                comando.Parameters.AddWithValue("@produtoId", item.ProdutoId);
+                comando.Parameters.AddWithValue("@quantidade", item.Quantidade);
+                comando.ExecuteNonQuery();
+            }
+        }
+
+        private void IncrementarEstoque(SqlConnection conexao, ItemPedido item)
+        {
+            using (var comando = conexao.CreateCommand())
+            {
+                comando.CommandText = "UPDATE PRODUTO SET Estoque = Estoque + @quantidade WHERE Id = @produtoId";
+                comando.Parameters.AddWithValue("@produtoId", item.ProdutoId);
+                comando.Parameters.AddWithValue("@quantidade", item.Quantidade);
+                comando.ExecuteNonQuery();
+            }
+        }
+
+        private void AtualizarEstoque(SqlConnection conexao, ItemPedido item, int diferenca)
+        {
+            using (var comando = conexao.CreateCommand())
+            {
+                comando.CommandText = "UPDATE Produto SET Estoque = Estoque - @quantidade WHERE Id = @produtoid";
+                comando.Parameters.AddWithValue("@produtoId", item.ProdutoId);
+                comando.Parameters.AddWithValue("@quantidade", item.Quantidade - diferenca);
+
+                comando.ExecuteNonQuery();
+            }
+        }
+
+        private void CriarItemPedido(SqlConnection conexao, Pedido pedido, ItemPedido itemPedido, SqlTransaction tran = null)
+        {
+            using (var comando = conexao.CreateCommand())
+            {
+                comando.Transaction = tran;
+
+                comando.CommandText =
+                    @"INSERT INTO ItemPedido (PedidoId, ProdutoId, Quantidade) 
+                            VALUES (@pedidoId, @produtoId, @quantidade)";
+
+                comando.Parameters.AddWithValue("@pedidoId", pedido.Id);
+                comando.Parameters.AddWithValue("@produtoId", itemPedido.ProdutoId);
+                comando.Parameters.AddWithValue("@quantidade", itemPedido.Quantidade);
+
+                comando.ExecuteNonQuery();
+            }
+
+            using (var comando = conexao.CreateCommand())
+            {
+                comando.Transaction = tran;
+                comando.CommandText = "SELECT CAST(@@IDENTITY AS INT)";
+                itemPedido.Id = (int)comando.ExecuteScalar();
+            }
+        }
+
+
+
+    public void Alterar(Pedido pedido)
         {
             using (var conexao = new SqlConnection(stringConexao))
             {
@@ -58,7 +130,7 @@ namespace Demo1.Infraestrutura.Repositorios
 
                             comando.ExecuteNonQuery();
                         }
-                        AtualizaEstoque(conexao, item, diferenca);
+                        AtualizarEstoque(conexao, item, diferenca);
                     }
                 }
 
@@ -69,16 +141,15 @@ namespace Demo1.Infraestrutura.Repositorios
                     comando.CommandText = @"SELECT Id, PedidoId, ProdutoId, Quantidade FROM ItemPedido WHERE PedidoId = @pedidoId";
                     comando.Parameters.AddWithValue("@pedidoId", pedido.Id);
 
-                    using (var dataReader = comando.ExecuteReader())
-                    {
-                        while (dataReader.Read())
-                        {
-                            var excluir = LerItemPedido(dataReader);
+                    var dataReader = comando.ExecuteReader();
 
-                            if(!pedido.Itens.Where(i => i.Id == itensExcluidos.Id).Any())
-                            {
-                                excluir.Add(itensExcluidos);
-                            }
+                    while (dataReader.Read())
+                    {
+                        var excluir = LerItemPedido(dataReader);
+
+                        if(!pedido.Itens.Where(i => i.Id == excluir.Id).Any())
+                        {
+                            itensExcluidos.Add(excluir);
                         }
                     }
                 }
