@@ -13,7 +13,8 @@ namespace EditoraCrescer.Infraesturtura.Mappings
         public RevisorMap()
         {
             ToTable("Revisores");
-            Property(p => p.Nome).HasMaxLength(300);    
+            Property(p => p.Nome).HasMaxLength(300);
+            HasKey(x => x.Id);
         }
     }
 }
