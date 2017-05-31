@@ -25,9 +25,9 @@ namespace Demo1.Dominio.Entidades
             {
                 mensagens.Add("Deve ser informado o nome do cliente");
             }
-            if(Itens.Count < 1)
+            if(Itens.Where(q => q.Quantidade < 0).Any())
             {
-                mensagens.Add("Deve ser informado os itens pedidos");
+                mensagens.Add("Não é possível gerar um pedido com a quantidade de itens pedidos negativa");
             }
             return mensagens.Count() == 0;
         }
