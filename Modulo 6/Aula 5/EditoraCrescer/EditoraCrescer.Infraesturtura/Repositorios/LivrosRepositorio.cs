@@ -11,9 +11,18 @@ namespace EditoraCrescer.Infraesturtura.Repositorios
     {
         private Contexto contexto = new Contexto();
 
-        public List<Livro> Obter()
+        public Dynamic Obter()
         {
-            return contexto.Livros.ToList();
+            //return contexto.Livros.ToList();
+            return contexto.Livros
+                .Select(x => new
+                    {
+                        Isbn = x.Isbn,
+                        Titulo = x.Titulo,
+                        Capa = x.Capa,
+                        NomeAutor = x.Autor.Nome,
+                        Genero = x.Genero
+                     }).ToList();
         }
 
         public List<Livro> ObterPorId(int isbn)
@@ -21,10 +30,20 @@ namespace EditoraCrescer.Infraesturtura.Repositorios
             return contexto.Livros.Where(x => x.Isbn == isbn).ToList(); 
         }
 
-        public List<Livro> ObterPorGenero(string genero)
+        public Dynamic ObterPorGenero(string genero)
         {
-            return contexto.Livros.Where(x => x.Genero.Contains(genero)).ToList();
+            List<Livro> livro = contexto.Livros.Where(x => x.Genero.Contains(genero)).ToList();
+            return livro.Select(x => new
+                {
+                    Isbn = x.Isbn,
+                    Titulo = x.Titulo,
+                    Capa = x.Capa,
+                    NomeAutor = x.Autor.Nome,
+                    Genero = x.Genero
+                 }).ToList();
         }
+        
+        //GET DA ULTIMA SEMANA
 
         public void Criar(Livro livro)
         {
