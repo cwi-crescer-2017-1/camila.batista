@@ -21,12 +21,10 @@ namespace EditoraCrescer.Infraesturtura.Repositorios
             return contexto.Autores.Where(x => x.Id == id).ToList();
         }
 
-        //TERMINAR
-        public object ObterLivros(Autor autor)
+        public bool verificaSeAutorExiste(int id)
         {
-            throw new NotImplementedException();
+            return contexto.Autores.Count(e => e.Id == id) > 0;
         }
-        
         
         public void Criar(Autor autor)
         {
