@@ -28,9 +28,7 @@ namespace EditoraCrescer.Api.Controllers
             var autores = _autoresRepositorio.ObterPorId(id);
             return Ok(autores);
         }
-
         
-        //MÉTODO OBTERLIVRO NAO IMPLEMENTADO
         [Route("{id}/Livros")]
         [HttpGet]
         public IHttpActionResult ObterLivrosDeAutor(Autor autor)
@@ -46,7 +44,23 @@ namespace EditoraCrescer.Api.Controllers
             return Ok();
         }
 
-        //POST
+        [Route("{id: int}")]
+        [HttpPut]
+        public IHttpActionResult Put (int id, Autor autor)
+        {
+            if (id != autor.Id)
+                return Request.CreateResponse(HttpStatusCode.BadRequest,
+                    new { mensagens = new string[] { "Ids não conferem" } });
+
+            if (!_autoresRepositorio.VerificaSeAutorExiste(id))
+                return Request.CreateResponse(HttpStatusCode.NotFound,
+                    new { mensagens = new string[] { "Autor não encontrado" } });
+
+            _autoresRepositorio.Alterar(autor);
+
+            return Request.CreateResponse(HttpStatusCode.OK);
+        }
+        
 
         [Route("{id}")]
         [HttpDelete]
