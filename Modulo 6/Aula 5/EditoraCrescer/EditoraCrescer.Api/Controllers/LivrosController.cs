@@ -38,12 +38,38 @@ namespace EditoraCrescer.Api.Controllers
             var livros = _livroRepositorio.ObterPorGenero(genero);
             return Ok(livros);
         }
+        
+        [Route("Lancamento")]
+        [HttpGet]
+        public IHttpActionResult ObterLancamentos()
+        {
+            var result = _livroRepositorio.ObterLancamentos();
+            result Ok(livros);
+        }
 
         [Route("")]
         public IHttpActionResult Post(Livro livro)
         {
             _livroRepositorio.Criar(livro);
             return Ok();
+        }
+
+        
+        [Route("{isbn}")]
+        [HttpPut]
+        public IHttpActionResult Put (int isbn, Livro livro)
+        {
+            if (isbn != livro.Isbn)
+                return Request.CreateResponse(HttpStatusCode.BadRequest,
+                    new { mensagens = new string[] { "Ids não conferem" } });
+
+            if (!repositorio.VerificaSeLivroExiste(isbn))
+                return Request.CreateResponse(HttpStatusCode.NotFound,
+                    new { mensagens = new string[] { "Livro não encontrado" } });
+
+            repositorio.AlterarLivro(livro);
+
+            return Request.CreateResponse(HttpStatusCode.OK);
         }
 
         [HttpDelete]
