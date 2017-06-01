@@ -26,14 +26,19 @@ namespace EditoraCrescer.Infraesturtura.Repositorios
         {
             throw new NotImplementedException();
         }
-
+        
+        
         public void Criar(Autor autor)
         {
             contexto.Autores.Add(autor);
             contexto.SaveChanges();
         }
 
-        //PUT
+        public void Alterar(Autor autor)
+        {
+            contexto.Entry(autor).State = EntityState.Modified;
+            contexto.SaveChanges();   
+        }
 
         public void Remover (int id)
         {
@@ -41,7 +46,6 @@ namespace EditoraCrescer.Infraesturtura.Repositorios
             contexto.Autores.Remove(autor);
             contexto.SaveChanges();
         }
-
         
     }
 }
