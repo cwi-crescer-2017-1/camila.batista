@@ -4,6 +4,8 @@ using EditoraCrescer.Infraesturtura.Repositorios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Web;
 using System.Web.Http;
 
@@ -20,7 +22,7 @@ namespace EditoraCrescer.Api.Controllers
         {
             var livros = _livroRepositorio.Obter();
 
-            return Ok(livros);
+            return Ok(new { dados = livros });
         }
 
         [Route("{isbn:int}")]
@@ -28,7 +30,7 @@ namespace EditoraCrescer.Api.Controllers
         public IHttpActionResult ObterPorId(int isbn)
         {
             var livros = _livroRepositorio.ObterPorId(isbn);
-            return Ok(livros);
+            return Ok(new { dados = livros });
         }
 
         [Route("{genero}")]
@@ -36,15 +38,23 @@ namespace EditoraCrescer.Api.Controllers
         public IHttpActionResult ObterPorGenero(string genero)
         {
             var livros = _livroRepositorio.ObterPorGenero(genero);
-            return Ok(livros);
+            return Ok(new { dados = livros});
         }
-        
+
+        [HttpGet]
+        [Route("{autor}")]
+        public IHttpActionResult ObterLivroPorAutor(string genero)
+        {
+            var livro = _livroRepositorio.ObterPorGenero(genero);
+            return Ok(new { dados = livro });
+        }
+
         [Route("Lancamento")]
         [HttpGet]
         public IHttpActionResult ObterLancamentos()
         {
             var result = _livroRepositorio.ObterLancamentos();
-            result Ok(livros);
+            return Ok(result);
         }
 
         [Route("")]
@@ -57,20 +67,21 @@ namespace EditoraCrescer.Api.Controllers
         
         [Route("{isbn}")]
         [HttpPut]
-        public IHttpActionResult Put (int isbn, Livro livro)
+        public HttpResponseMessage Put (int isbn, Livro livro)
         {
             if (isbn != livro.Isbn)
                 return Request.CreateResponse(HttpStatusCode.BadRequest,
                     new { mensagens = new string[] { "Ids não conferem" } });
 
-            if (!repositorio.VerificaSeLivroExiste(isbn))
+            if (!_livroRepositorio.VerificaSeLivroExiste(isbn))
                 return Request.CreateResponse(HttpStatusCode.NotFound,
                     new { mensagens = new string[] { "Livro não encontrado" } });
 
-            repositorio.AlterarLivro(livro);
+            _livroRepositorio.Alterar(livro);
 
             return Request.CreateResponse(HttpStatusCode.OK);
         }
+
 
         [HttpDelete]
         [Route("{Isbn:int}")]

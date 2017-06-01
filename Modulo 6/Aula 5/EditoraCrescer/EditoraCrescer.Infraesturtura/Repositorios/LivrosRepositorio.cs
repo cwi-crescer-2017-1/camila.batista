@@ -1,6 +1,7 @@
 ﻿using EditoraCrescer.Infraesturtura.Entidades;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,13 @@ namespace EditoraCrescer.Infraesturtura.Repositorios
     {
         private Contexto contexto = new Contexto();
 
-        public Dynamic Obter()
+
+        public bool VerificaSeLivroExiste(int isbn)
+        {
+            return contexto.Livros.Count(e => e.Isbn == isbn) > 0;
+        }
+
+        public object Obter()
         {
             //return contexto.Livros.ToList();
             return contexto.Livros
@@ -30,7 +37,7 @@ namespace EditoraCrescer.Infraesturtura.Repositorios
             return contexto.Livros.Where(x => x.Isbn == isbn).ToList(); 
         }
 
-        public Dynamic ObterPorGenero(string genero)
+        public object ObterPorGenero(string genero)
         {
             List<Livro> livro = contexto.Livros.Where(x => x.Genero.Contains(genero)).ToList();
             return livro.Select(x => new
@@ -44,16 +51,16 @@ namespace EditoraCrescer.Infraesturtura.Repositorios
         }
         
         //GET DA ULTIMA SEMANA
-        public Dynamic ObterLancamentos()
+        public object ObterLancamentos()
         {
             List<Livro> li = contexto.Livros.Where(livro => DbFunctions.DiffDays(livro.DataPublicacao, DateTime.Now) <= 7).ToList();
             return li.Select(x => new
                 {
-                    Isbn = li.Isbn,
-                    Titulo = li.Titulo,
-                    Capa = li.Capa,
-                    NomeAutor = li.Autor.Nome,
-                    Genero = li.Genero
+                    Isbn = x.Isbn,
+                    Titulo = x.Titulo,
+                    Capa = x.Capa,
+                    NomeAutor = x.Autor.Nome,
+                    Genero = x.Genero
                 }).ToList();
         }
 

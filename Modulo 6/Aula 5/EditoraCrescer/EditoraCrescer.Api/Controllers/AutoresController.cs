@@ -29,13 +29,13 @@ namespace EditoraCrescer.Api.Controllers
             return Ok(autores);
         }
         
-        [Route("{id}/Livros")]
-        [HttpGet]
-        public IHttpActionResult ObterLivrosDeAutor(Autor autor)
-        {
-            var livros = _autoresRepositorio.ObterLivros(autor);
-            return Ok(livros);
-        }
+        //[Route("{id}/Livros")]
+        //[HttpGet]
+        //public IHttpActionResult ObterLivrosDeAutor(Autor autor)
+        //{
+            //var livros = _autoresRepositorio.ObterLivros(autor);
+            //return Ok(livros);
+        //}
 
         [Route("")]
         public IHttpActionResult Post(Autor autor)
@@ -44,22 +44,22 @@ namespace EditoraCrescer.Api.Controllers
             return Ok();
         }
 
-        [Route("{id: int}")]
-        [HttpPut]
-        public IHttpActionResult Put (int id, Autor autor)
-        {
-            if (id != autor.Id)
-                return Request.CreateResponse(HttpStatusCode.BadRequest,
-                    new { mensagens = new string[] { "Ids não conferem" } });
+        //[Route("{id: int}")]
+        //[HttpPut]
+        //public IHttpActionResult Put (int id, Autor autor)
+        //{
+        //    if (id != autor.Id)
+        //        return Request.CreateResponse(HttpStatusCode.BadRequest,
+        //            new { mensagens = new string[] { "Ids não conferem" } });
 
-            if (!_autoresRepositorio.VerificaSeAutorExiste(id))
-                return Request.CreateResponse(HttpStatusCode.NotFound,
-                    new { mensagens = new string[] { "Autor não encontrado" } });
+        //    if (!_autoresRepositorio.VerificaSeAutorExiste(id))
+        //        return Request.CreateResponse(HttpStatusCode.NotFound,
+        //            new { mensagens = new string[] { "Autor não encontrado" } });
 
-            _autoresRepositorio.Alterar(autor);
+        //    _autoresRepositorio.Alterar(autor);
 
-            return Request.CreateResponse(HttpStatusCode.OK);
-        }
+        //    return Request.CreateResponse(HttpStatusCode.OK);
+        //}
         
 
         [Route("{id}")]
