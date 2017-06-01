@@ -44,10 +44,28 @@ namespace EditoraCrescer.Infraesturtura.Repositorios
         }
         
         //GET DA ULTIMA SEMANA
+        public Dynamic ObterLancamentos()
+        {
+            List<Livro> li = contexto.Livros.Where(livro => DbFunctions.DiffDays(livro.DataPublicacao, DateTime.Now) <= 7).ToList();
+            return li.Select(x => new
+                {
+                    Isbn = li.Isbn,
+                    Titulo = li.Titulo,
+                    Capa = li.Capa,
+                    NomeAutor = li.Autor.Nome,
+                    Genero = li.Genero
+                }).ToList();
+        }
 
         public void Criar(Livro livro)
         {
             contexto.Livros.Add(livro);
+            contexto.SaveChanges();
+        }
+        
+        public void Alterar(Livro livro)
+        {
+            contexto.Entry(livro).State = EntityState.Modified;
             contexto.SaveChanges();
         }
 
