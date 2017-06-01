@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body ng-app="editora">
+
+    <header>
+      <div class="">
+        <button type="button" name="button">Login</button>
+        <button type="button" name="button">Cadastrar</button>
+      </div>
+    </header>
+
+    <!-- <section>
+      <div class="livro" ng-controller="a in livros">
+        <ul>
+          <img src="{{a.Capa}}" alt="{{a.Titulo}}">
+          <li>{{a.Titulo}}</li>
+          <li>{{a.Genero}}</li>
+          <li>{{a.NomeAutor}}</li>
+        </ul>
+      </div>
+    </section> -->
+
+
+    <ng-view></ng-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-i18n/1.6.4/angular-locale_pt-br.min.js"></script>
+
+    <script type="text/javascript" src="modulo.js"></script>
+    <script type="text/javascript" src="rotas.js"></script>
+    <script type="text/javascript" src="Controllers/livroController.js"></script>
+    <script type="text/javascript" src="Services/livroService.js"></script>
+
+
+  </body>
+</html>
