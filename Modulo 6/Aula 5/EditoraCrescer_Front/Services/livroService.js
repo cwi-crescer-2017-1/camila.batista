@@ -1,18 +1,18 @@
 modulo.factory('livroService', function($http){
-  var url = 'http://localhost:8080';
+  var url = 'http://localhost:8081';
 
   return {
     listar: Obter,
-    findById: ObterPorId,
+    listarPorId: ObterPorId,
     criar: Criar
   }
 
-  function Obter(){
-    return $http.get(url + '/Livros');
+  function Obter(skip){
+    return $http.get(url + '/api/Livro/' + skip);
   }
 
   function ObterPorId(isbn){
-    return $http.get(url + '/Livros' + isbn);
+    return $http.get(url + 'api/Livros' + isbn);
   }
 
   function Criar(livro){
