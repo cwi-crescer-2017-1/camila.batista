@@ -1,0 +1,17 @@
+<h1>HOME</h1>
+
+<section ng-controller="livroController">
+    <div>
+        <ul ng-repeat="i in livro">
+            <li>{{i.Isbn}}</li>
+            <li>{{i.Capa}}</li>
+            <li>{{i.Titulo}}</li>
+            <li>{{i.Genero}}</li>
+            <li>{{i.NomeAutor}}</li>
+        </ul>
+        
+    </div>
+    <div ng-repeat="i in paginas">
+        <label for="{{i}}"><a id="{{i}}" ng-click="debugge;obterPagina(i)"/>{{i}}</label>
+    </div>
+</section>
