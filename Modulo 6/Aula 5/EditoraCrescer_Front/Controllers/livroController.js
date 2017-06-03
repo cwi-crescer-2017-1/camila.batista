@@ -1,7 +1,7 @@
 modulo.controller('livroController', function($scope, livroService){
 
     $scope.livro;
-
+    $scope.livroLancamento;
 
     $scope.obterPagina = function(num){
         livroService.listar(num).then(function(livros){
@@ -11,4 +11,12 @@ modulo.controller('livroController', function($scope, livroService){
         });
     }
     $scope.obterPagina(1);
+
+    $scope.obterLancamentos = function(){
+        livroService.lancamento().then(function(livros){
+            $scope.livroLancamento = livros.data.dados;
+            debugger;
+        });
+    }
+    $scope.obterLancamentos();
 });
