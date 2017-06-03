@@ -18,20 +18,35 @@ namespace EditoraCrescer.Infraesturtura.Repositorios
             return contexto.Livros.Count(e => e.Isbn == isbn) > 0;
         }
 
-        public object Obter()
+        public object Obter(int skip)
         {
             //return contexto.Livros.ToList();
             return contexto.Livros
                 .Select(x => new
-                    {
-                        Isbn = x.Isbn,
-                        Titulo = x.Titulo,
-                        Capa = x.Capa,
-                        NomeAutor = x.Autor.Nome,
-                        Genero = x.Genero
-                     }).ToList();
+                {
+                    Isbn = x.Isbn,
+                    Titulo = x.Titulo,
+                    Capa = x.Capa,
+                    NomeAutor = x.Autor.Nome,
+                    Genero = x.Genero
+                }).OrderBy(x => x.Isbn)
+                .Skip(skip * 10)
+                .Take(10)
+                .ToList();
         }
 
+        public List<int> ObterPaginacao()
+        {
+            List<int> paginas = new List<int>();
+            int count = contexto.Livros.Count()/10;
+            for(int x = 1; x <= count; x++)
+            {
+                paginas.Add(x);
+            }
+
+            return paginas;
+        }
+            
         public List<Livro> ObterPorId(int isbn)
         {
             return contexto.Livros.Where(x => x.Isbn == isbn).ToList(); 

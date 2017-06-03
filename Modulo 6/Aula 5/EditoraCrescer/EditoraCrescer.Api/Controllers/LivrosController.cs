@@ -16,16 +16,18 @@ namespace EditoraCrescer.Api.Controllers
     {
         private LivrosRepositorio _livroRepositorio = new LivrosRepositorio();
 
-        [Route("")]
+        [Route("{skip}")]
         [HttpGet]
-        public IHttpActionResult Obter()
+        public IHttpActionResult Obter(int skip)
         {
-            var livros = _livroRepositorio.Obter();
+            var livros = _livroRepositorio.Obter(skip - 1);
 
-            return Ok(new { dados = livros });
+            var paginas = _livroRepositorio.ObterPaginacao();
+
+            return Ok(new { dados = livros, paginas = paginas });
         }
 
-        [Route("{isbn:int}")]
+        [Route("Descricao")]
         [HttpGet]
         public IHttpActionResult ObterPorId(int isbn)
         {
@@ -33,21 +35,21 @@ namespace EditoraCrescer.Api.Controllers
             return Ok(new { dados = livros });
         }
 
-        [Route("{genero}")]
-        [HttpGet]
-        public IHttpActionResult ObterPorGenero(string genero)
-        {
-            var livros = _livroRepositorio.ObterPorGenero(genero);
-            return Ok(new { dados = livros});
-        }
+        //[Route("{genero}")]
+        //[HttpPost]
+        //public IHttpActionResult ObterPorGenero(string genero)
+        //{
+        //    var livros = _livroRepositorio.ObterPorGenero(genero);
+        //    return Ok(new { dados = livros });
+        //}
 
-        [HttpGet]
-        [Route("{autor}")]
-        public IHttpActionResult ObterLivroPorAutor(string genero)
-        {
-            var livro = _livroRepositorio.ObterPorGenero(genero);
-            return Ok(new { dados = livro });
-        }
+        //[HttpGet]
+        //[Route("{autor}")]
+        //public IHttpActionResult ObterLivroPorAutor(string genero)
+        //{
+        //    var livro = _livroRepositorio.ObterPorGenero(genero);
+        //    return Ok(new { dados = livro });
+        //}
 
         [Route("Lancamento")]
         [HttpGet]
@@ -64,10 +66,10 @@ namespace EditoraCrescer.Api.Controllers
             return Ok();
         }
 
-        
+
         [Route("{isbn}")]
         [HttpPut]
-        public HttpResponseMessage Put (int isbn, Livro livro)
+        public HttpResponseMessage Put(int isbn, Livro livro)
         {
             if (isbn != livro.Isbn)
                 return Request.CreateResponse(HttpStatusCode.BadRequest,
