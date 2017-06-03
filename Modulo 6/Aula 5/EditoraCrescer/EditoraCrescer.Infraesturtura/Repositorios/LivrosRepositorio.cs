@@ -64,19 +64,24 @@ namespace EditoraCrescer.Infraesturtura.Repositorios
                     Genero = x.Genero
                  }).ToList();
         }
-        
+
         //GET DA ULTIMA SEMANA
+        
+
         public object ObterLancamentos()
         {
-            List<Livro> li = contexto.Livros.Where(livro => DbFunctions.DiffDays(livro.DataPublicacao, DateTime.Now) <= 7).ToList();
-            return li.Select(x => new
-                {
-                    Isbn = x.Isbn,
-                    Titulo = x.Titulo,
-                    Capa = x.Capa,
-                    NomeAutor = x.Autor.Nome,
-                    Genero = x.Genero
-                }).ToList();
+            var data = DateTime.Now.AddDays(-7);
+            return contexto.Livros
+                            .Where(x => x.DataPublicacao != null && x.DataPublicacao > data)
+                            .OrderByDescending(x => x.DataPublicacao)
+                            .Select(x => new
+                            {
+                                Isbn = x.Isbn,
+                                Titulo = x.Titulo,
+                                Capa = x.Capa,
+                                NomeAutor = x.Autor.Nome,
+                                Genero = x.Genero
+                            }).ToList();
         }
 
         public void Criar(Livro livro)
