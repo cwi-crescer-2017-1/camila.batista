@@ -2,9 +2,25 @@
 
 <section ng-controller="livroController">
     <div>
+        <ul ng-repeat="i in livroLancamento">
+            debugge;
+            <li>{{i.Isbn}}</li>
+            <li><img src='{{i.Capa}}'/></li>
+            <li>{{i.Titulo}}</li>
+            <li>{{i.Genero}}</li>
+            <li>{{i.NomeAutor}}</li>
+        </ul>
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <div>
         <ul ng-repeat="i in livro">
             <li>{{i.Isbn}}</li>
-            <li>{{i.Capa}}</li>
+            <li><img src='{{i.Capa}}'/></li>
             <li>{{i.Titulo}}</li>
             <li>{{i.Genero}}</li>
             <li>{{i.NomeAutor}}</li>
