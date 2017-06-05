@@ -21,7 +21,7 @@ modulo.factory('livroService', function($http){
   }
 
   function ObterPorId(isbn){
-    return $http.get(url + '/api/Livro/Descricao' + isbn);
+    return $http.get(url + '/api/Livro/Descricao/' + isbn);
   }
 
   function Criar(livro){
