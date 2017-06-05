@@ -16,7 +16,7 @@ namespace EditoraCrescer.Api.Controllers
     {
         private LivrosRepositorio _livroRepositorio = new LivrosRepositorio();
 
-        [Route("{skip}")]
+        [Route("{skip:int}")]
         [HttpGet]
         public IHttpActionResult Obter(int skip)
         {
@@ -27,7 +27,7 @@ namespace EditoraCrescer.Api.Controllers
             return Ok(new { dados = livros, paginas = paginas });
         }
 
-        [Route("Descricao")]
+        [Route("descricao/{isbn:int}")]
         [HttpGet]
         public IHttpActionResult ObterPorId(int isbn)
         {
