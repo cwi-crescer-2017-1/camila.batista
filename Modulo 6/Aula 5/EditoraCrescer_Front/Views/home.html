@@ -24,10 +24,13 @@
             <li>{{i.Titulo}}</li>
             <li>{{i.Genero}}</li>
             <li>{{i.NomeAutor}}</li>
+            <div>
+                <button type="button" ng-click="obterId(i.Isbn)">Detalhes</button>
+            </div>
         </ul>
-        
+
     </div>
     <div ng-repeat="i in paginas">
-        <label for="{{i}}"><a id="{{i}}" ng-click="debugge;obterPagina(i)"/>{{i}}</label>
+        <label for="{{i}}"><a id="{{i}}" ng-click="obterPagina(i)"/>{{i}}</label>
     </div>
 </section>

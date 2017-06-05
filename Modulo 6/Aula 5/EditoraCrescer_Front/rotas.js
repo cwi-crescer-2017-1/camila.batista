@@ -8,6 +8,10 @@ modulo.config(function($routeProvider){
       controller: 'livroDetalhesController',
       templateUrl: 'Views/livro.html'
     })
+    .when('/login',{
+      controller: 'loginController',
+      templateUrl: 'Views/login.html'
+    })
     .when('/Autor', {
       controller: 'autorController',
       templateUrl: 'Views/autor.html'
