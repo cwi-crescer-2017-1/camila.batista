@@ -4,13 +4,13 @@ modulo.config(function($routeProvider){
       controller: 'livroController',
       templateUrl: 'Views/home.html'
     })
-    .when('/Livros',{
-      controller: 'livroController',
+    .when('/home/:isbn',{
+      controller: 'livroDetalhesController',
       templateUrl: 'Views/livro.html'
     })
     .when('/Autor', {
       controller: 'autorController',
       templateUrl: 'Views/autor.html'
     })
-    .otherwise({redirectTo: 'index.html'});
+    .otherwise({redirectTo: 'Views/home.html'});
 });
