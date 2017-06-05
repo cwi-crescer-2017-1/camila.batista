@@ -14,7 +14,6 @@ namespace EditoraCrescer.Infraesturtura.Mappings
         {
             ToTable("Revisores");
             Property(p => p.Nome).HasMaxLength(300);
-            HasKey(x => x.Id);
         }
     }
 }
