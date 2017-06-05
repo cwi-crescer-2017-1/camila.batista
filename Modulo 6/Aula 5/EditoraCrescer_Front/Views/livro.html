@@ -1,1 +1,22 @@
 <h1>LIVRO</h1>
+
+<table>
+    <thead>
+        <tr>
+          <th></th>
+          <th>Título:</th>
+          <th>Descrição:</th>
+          <th>Genero:</th>:
+          <th>Autor:</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="i in livroId">
+            <th>{{i.Capa}}</th>
+            <th>{{i.Titulo}}</th>
+            <th>{{i.Descricao}}</th>
+            <th>{{i.Genero}}</th>:
+            <th>{{i.AutorNome}}</th>
+        </tr>
+    </tbody>
+</table>
