@@ -49,11 +49,15 @@
   <ItemGroup>
     <Compile Include="Contexto.cs" />
     <Compile Include="Entidades\Autor.cs" />
+    <Compile Include="Entidades\Permissao.cs" />
+    <Compile Include="Entidades\EntidadeBasica.cs" />
     <Compile Include="Entidades\Livro.cs" />
     <Compile Include="Entidades\Revisor.cs" />
+    <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="Mappings\AutorMap.cs" />
     <Compile Include="Mappings\LivroMap.cs" />
     <Compile Include="Mappings\RevisorMap.cs" />
+    <Compile Include="Mappings\UsuarioMap.cs" />
     <Compile Include="Migrations\201705301935342_CriacaoDoBanco.cs" />
     <Compile Include="Migrations\201705301935342_CriacaoDoBanco.Designer.cs">
       <DependentUpon>201705301935342_CriacaoDoBanco.cs</DependentUpon>
@@ -62,11 +66,16 @@
     <Compile Include="Migrations\201705311841236_CriacaoTabelaRevisor.Designer.cs">
       <DependentUpon>201705311841236_CriacaoTabelaRevisor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706051317414_ImplementacaoUsuario.cs" />
+    <Compile Include="Migrations\201706051317414_ImplementacaoUsuario.Designer.cs">
+      <DependentUpon>201706051317414_ImplementacaoUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorios\AutoresRepositorio.cs" />
     <Compile Include="Repositorios\LivrosRepositorio.cs" />
     <Compile Include="Repositorios\RevisoresRepositorio.cs" />
+    <Compile Include="Repositorios\UsuarioRepositorio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -78,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705311841236_CriacaoTabelaRevisor.resx">
       <DependentUpon>201705311841236_CriacaoTabelaRevisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706051317414_ImplementacaoUsuario.resx">
+      <DependentUpon>201706051317414_ImplementacaoUsuario.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
