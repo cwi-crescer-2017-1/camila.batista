@@ -19,6 +19,12 @@ namespace Veiculos.Infraestrutura.Mapping
             Property(x => x.Endereco).HasMaxLength(500);
             Property(x => x.CPF).HasMaxLength(20);
 
+            Property(x => x.Nome).IsRequired();
+            Property(x => x.Endereco).IsRequired();
+            Property(x => x.CPF).IsRequired();
+            Property(x => x.Sexo).IsRequired();
+            Property(x => x.DataNascimento).IsRequired();
+
         }
     }
 }
