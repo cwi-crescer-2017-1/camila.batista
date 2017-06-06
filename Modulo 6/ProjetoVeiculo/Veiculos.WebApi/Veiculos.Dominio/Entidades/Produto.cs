@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Veiculos.Infraestrutura.Entidades
+{
+    public class Produto
+    {
+        public int Id { get; private set; }
+
+        public string Nome { get; set; }
+
+        public decimal ValorUnitario { get; set; }
+
+        public int Quantidade { get; set; }
+
+        public Produto() { }
+    }
+}
