@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Veiculos.Dominio.Entidades
 {
-    public class Adicionais
+    public class Adicional
     {
         public int Id { get; private set; }
 
@@ -16,6 +16,6 @@ namespace Veiculos.Dominio.Entidades
 
         public int Quantidade { get; set; }
 
-        public Adicionais() { }
+        public Adicional() { }
     }
 }
