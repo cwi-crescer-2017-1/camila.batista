@@ -4,18 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Veiculos.Infraestrutura.Entidades
+namespace Veiculos.Dominio.Entidades
 {
-    public class Adicionais
+    public class Funcionario
     {
         public int Id { get; private set; }
 
         public string Nome { get; set; }
 
-        public decimal ValorUnitario { get; set; }
+        public Tipo Cargo { get; set; }
 
-        public int Quantidade { get; set; } 
+        public string Login { get; set; }
 
-        public Adicionais() { }
+        public string Senha { get; set; }
+
+        public Funcionario() { }
     }
 }
