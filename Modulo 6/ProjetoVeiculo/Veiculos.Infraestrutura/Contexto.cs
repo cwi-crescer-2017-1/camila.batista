@@ -11,8 +11,8 @@ namespace Veiculos.Infraestrutura
 {
     public class Contexto : DbContext
     {
-        public Contexto() : base(){ }
-        
+        public Contexto() : base("ExemploEFSP"){ }
+
         public DbSet<Adicional> Adicionais { get; set; }
 
         public DbSet<Cliente> Clientes { get; set; }
