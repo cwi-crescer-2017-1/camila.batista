@@ -18,23 +18,23 @@ namespace Veiculos.Infraestrutura.Mapping
 
             HasRequired(x => x.cliente)
                 .WithMany()
-                .HasForeignKey(x => x.cliente.Id);
+                .Map(x => x.MapKey("IdCliente"));
 
             HasRequired(x => x.funcionario)
                 .WithMany()
-                .HasForeignKey(x => x.funcionario.Id);
+                .Map(x => x.MapKey("IdFuncionario"));
 
             HasRequired(x => x.adicionais)
                 .WithMany()
-                .HasForeignKey(x => x.adicionais.Id);
+                .Map(x => x.MapKey("IdAdicionais"));
 
             HasRequired(x => x.produto)
                 .WithMany()
-                .HasForeignKey(x => x.produto.Id);
+                .Map(x => x.MapKey("IdProduto"));
 
             HasRequired(x => x.pacote)
                 .WithMany()
-                .HasForeignKey(x => x.pacote.Id);
+                .Map(x => x.MapKey("IdPacote"));
         }
 
     }
