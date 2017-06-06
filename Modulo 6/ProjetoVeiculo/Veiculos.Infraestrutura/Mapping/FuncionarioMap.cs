@@ -17,6 +17,9 @@ namespace Veiculos.Infraestrutura.Mapping
 
             Property(p => p.Nome).HasMaxLength(300);
 
+            Property(x => x.Nome).IsRequired();
+            Property(x => x.Login).IsRequired();
+            Property(x => x.Senha).IsRequired();
         }
     }
 }
