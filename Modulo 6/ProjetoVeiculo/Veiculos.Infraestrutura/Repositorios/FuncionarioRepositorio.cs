@@ -11,7 +11,7 @@ namespace Veiculos.Infraestrutura.Repositorios
     {
         public FuncionarioRepositorio() { }
 
-        private readonly Contexto _dbContext = new Contexto();
+        private Contexto _dbContext = new Contexto();
 
         public Funcionario GetLogin(string login)
         {

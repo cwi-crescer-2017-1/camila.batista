@@ -1,8 +1,10 @@
-﻿using System;
+﻿using AutDemo.WebApi;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading;
 using System.Web.Http;
 using Veiculos.Dominio.Entidades;
 using Veiculos.Infraestrutura.Repositorios;
@@ -10,20 +12,14 @@ using Veiculos.Infraestrutura.Repositorios;
 namespace Veiculos.WebApi.Controllers
 {
     [RoutePrefix("api/funcionario")]
+    [BasicAuthorization]
     public class FuncionarioController : ApiController
     {
-        readonly FuncionarioRepositorio _funcionarioRepositorio;
+        FuncionarioRepositorio _funcionarioRepositorio;
 
         public FuncionarioController()
         {
             _funcionarioRepositorio = new FuncionarioRepositorio();
-        }
-
-        [HttpGet]
-        public IHttpActionResult Obter()
-        {
-            var funcionarios = _funcionarioRepositorio.GetAll();
-            return Ok(funcionarios);
         }
 
         [HttpGet]
@@ -32,6 +28,17 @@ namespace Veiculos.WebApi.Controllers
         {
             var funcionarios = _funcionarioRepositorio.GetById(id);
             return Ok(funcionarios);
+        }
+
+        [HttpGet]
+        public IHttpActionResult Obter()
+        {
+            var funcionario = _funcionarioRepositorio.GetLogin(Thread.CurrentPrincipal.Identity.Name);
+            if (funcionario == null)
+            {
+                return BadRequest();
+            }
+            return Ok(funcionario);
         }
 
         [HttpPut]
