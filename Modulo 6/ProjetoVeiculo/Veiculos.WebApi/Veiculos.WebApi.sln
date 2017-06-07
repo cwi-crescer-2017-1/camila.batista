@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veiculos.Infraestrutura", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veiculos.Dominio", "Veiculos.Dominio\Veiculos.Dominio.csproj", "{128E6685-6FA6-4F09-B9DF-283DFF79F5C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testes", "Testes\Testes.csproj", "{5C65E993-B95A-4099-9D6C-28F8CD727D5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{128E6685-6FA6-4F09-B9DF-283DFF79F5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{128E6685-6FA6-4F09-B9DF-283DFF79F5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{128E6685-6FA6-4F09-B9DF-283DFF79F5C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C65E993-B95A-4099-9D6C-28F8CD727D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C65E993-B95A-4099-9D6C-28F8CD727D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C65E993-B95A-4099-9D6C-28F8CD727D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C65E993-B95A-4099-9D6C-28F8CD727D5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

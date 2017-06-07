@@ -58,6 +58,14 @@
     <Compile Include="Migrations\201706062040449_GerarEntidades.Designer.cs">
       <DependentUpon>201706062040449_GerarEntidades.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706071919580_Teste.cs" />
+    <Compile Include="Migrations\201706071919580_Teste.Designer.cs">
+      <DependentUpon>201706071919580_Teste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706072050216_AdicionarMultaDiaria.cs" />
+    <Compile Include="Migrations\201706072050216_AdicionarMultaDiaria.Designer.cs">
+      <DependentUpon>201706072050216_AdicionarMultaDiaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorios\AdicionalRepositorio.cs" />
@@ -71,6 +79,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201706062040449_GerarEntidades.resx">
       <DependentUpon>201706062040449_GerarEntidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706071919580_Teste.resx">
+      <DependentUpon>201706071919580_Teste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706072050216_AdicionarMultaDiaria.resx">
+      <DependentUpon>201706072050216_AdicionarMultaDiaria.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

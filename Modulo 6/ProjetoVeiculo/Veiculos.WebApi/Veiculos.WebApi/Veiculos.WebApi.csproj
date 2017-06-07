@@ -96,12 +96,19 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\BasicAuthorization.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AdicionalController.cs" />
+    <Compile Include="Controllers\ClienteController.cs" />
+    <Compile Include="Controllers\FuncionarioController.cs" />
+    <Compile Include="Controllers\PacoteController.cs" />
+    <Compile Include="Controllers\PedidoController.cs" />
+    <Compile Include="Controllers\ProdutoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\ClienteViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -120,6 +127,10 @@
     <ProjectReference Include="..\..\Veiculos.Infraestrutura\Veiculos.Infraestrutura.csproj">
       <Project>{6254A7D0-1531-4AF3-9B49-5282C2FB7A66}</Project>
       <Name>Veiculos.Infraestrutura</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Veiculos.Dominio\Veiculos.Dominio.csproj">
+      <Project>{128E6685-6FA6-4F09-B9DF-283DFF79F5C4}</Project>
+      <Name>Veiculos.Dominio</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
