@@ -16,13 +16,16 @@ namespace Veiculos.Dominio.Entidades
 
         public int Quantidade { get; set; }
 
+        public decimal MultaDiaria { get; set; }
+
         public Produto() { }
 
-        public Produto(string nome, decimal valorUnitario, int quantidade)
+        public Produto(string nome, decimal valorUnitario, int quantidade, decimal multaDiaria)
         {
             Nome = nome;
             ValorUnitario = valorUnitario;
             Quantidade = quantidade;
+            MultaDiaria = multaDiaria;
         }
 
         List<string> mensagens = new List<string>();

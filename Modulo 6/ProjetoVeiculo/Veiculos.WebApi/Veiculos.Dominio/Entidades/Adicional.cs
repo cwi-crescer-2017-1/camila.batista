@@ -16,15 +16,18 @@ namespace Veiculos.Dominio.Entidades
 
         public int Quantidade { get; set; }
 
+        public decimal MultaDiaria { get; set; }
+
         List<String> mensagens = new List<string>();
 
         public Adicional() { }
 
-        public Adicional(string nome, decimal valorUnitario, int quantidade)
+        public Adicional(string nome, decimal valorUnitario, int quantidade, decimal multaDiaria)
         {
             Nome = nome;
             ValorUnitario = valorUnitario;
             Quantidade = quantidade;
+            MultaDiaria = multaDiaria;
         }
 
         public bool Validar()

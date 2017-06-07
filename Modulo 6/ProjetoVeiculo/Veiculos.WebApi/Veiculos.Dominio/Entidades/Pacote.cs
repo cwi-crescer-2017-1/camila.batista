@@ -14,12 +14,15 @@ namespace Veiculos.Dominio.Entidades
 
         public decimal ValorUnitario { get; set; }
 
+        public decimal MultaDiaria { get; set; }
+
         public Pacote() { }
 
-        public Pacote(string nome, decimal valorUnitario)
+        public Pacote(string nome, decimal valorUnitario, decimal multaDiaria)
         {
             Nome = nome;
             ValorUnitario = valorUnitario;
+            MultaDiaria = multaDiaria;
         }
 
         List<string> mensagens = new List<string>();
