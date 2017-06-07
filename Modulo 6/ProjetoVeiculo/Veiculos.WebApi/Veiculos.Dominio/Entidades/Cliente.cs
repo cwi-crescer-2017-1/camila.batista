@@ -32,6 +32,14 @@ namespace Veiculos.Dominio.Entidades
             CPF = cpf;
             Sexo = sexo;
             DataNascimento = dataNascimento;
+
+            if(Sexo.Equals(1))
+            {
+                sexo = Genero.FEMININO;
+            }else if (Sexo.Equals(2))
+            {
+                sexo = Genero.MASCULINO;
+            }
         }
 
         public bool Validar()
