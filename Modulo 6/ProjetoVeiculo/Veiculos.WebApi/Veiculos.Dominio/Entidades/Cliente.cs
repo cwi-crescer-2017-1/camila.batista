@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Veiculos.Dominio.Enum;
 
 namespace Veiculos.Dominio.Entidades
 {
@@ -20,6 +21,39 @@ namespace Veiculos.Dominio.Entidades
 
         public DateTime DataNascimento { get; set; }
 
+        List<string> mensagens = new List<string>();
+
         public Cliente() { }
+
+        public Cliente(string nome, string endereco, string cpf, Genero sexo, DateTime dataNascimento)
+        {
+            Nome = nome;
+            Endereco = endereco;
+            CPF = cpf;
+            Sexo = sexo;
+            DataNascimento = dataNascimento;
+        }
+
+        public bool Validar()
+        {
+            mensagens.Clear();
+
+            if (Nome.Length == 0 || Nome.Length > 100)
+            {
+                mensagens.Add("Nome digitado invalido");
+            }
+
+            if(CPF.Length > 11)
+            {
+                mensagens.Add("CPF digitado invalido");
+            }
+
+            if (DataNascimento.Equals(DateTime.Now))
+            {
+                mensagens.Add("Data de nascimento inválida");
+            }
+            
+            return mensagens.Count() > 0 ? true : false;
+        }
     }
 }

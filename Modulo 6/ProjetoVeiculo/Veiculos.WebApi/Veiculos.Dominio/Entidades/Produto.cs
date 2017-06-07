@@ -17,5 +17,36 @@ namespace Veiculos.Dominio.Entidades
         public int Quantidade { get; set; }
 
         public Produto() { }
+
+        public Produto(string nome, decimal valorUnitario, int quantidade)
+        {
+            Nome = nome;
+            ValorUnitario = valorUnitario;
+            Quantidade = quantidade;
+        }
+
+        List<string> mensagens = new List<string>();
+
+        public bool Validar()
+        {
+            mensagens.Clear();
+
+            if (Nome.Length == 0 || Nome.Length > 100)
+            {
+                mensagens.Add("Nome digitado invalido");
+            }
+
+            if (ValorUnitario <= 0)
+            {
+                mensagens.Add("Valor unitário inválido");
+            }
+
+            if (Quantidade <= 0)
+            {
+                mensagens.Add("Quantidade inválida");
+            }
+
+            return mensagens.Count() > 0 ? true : false;
+        }
     }
 }
