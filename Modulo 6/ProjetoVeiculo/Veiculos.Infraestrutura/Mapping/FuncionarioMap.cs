@@ -15,7 +15,7 @@ namespace Veiculos.Infraestrutura.Mapping
             ToTable("Funcionario");
             HasKey(x => x.Id);
 
-            Property(p => p.Nome).HasMaxLength(300);
+            Property(p => p.Nome).HasMaxLength(100);
 
             Property(x => x.Nome).IsRequired();
             Property(x => x.Login).IsRequired();

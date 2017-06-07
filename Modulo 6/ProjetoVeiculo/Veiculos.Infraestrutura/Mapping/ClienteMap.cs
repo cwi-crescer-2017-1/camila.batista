@@ -15,9 +15,9 @@ namespace Veiculos.Infraestrutura.Mapping
             ToTable("Cliente");
             HasKey(x => x.Id);
 
-            Property(p => p.Nome).HasMaxLength(300); 
-            Property(x => x.Endereco).HasMaxLength(500);
-            Property(x => x.CPF).HasMaxLength(20);
+            Property(p => p.Nome).HasMaxLength(100); 
+            Property(x => x.Endereco).HasMaxLength(300);
+            Property(x => x.CPF).HasMaxLength(11);
 
             Property(x => x.Nome).IsRequired();
             Property(x => x.Endereco).IsRequired();

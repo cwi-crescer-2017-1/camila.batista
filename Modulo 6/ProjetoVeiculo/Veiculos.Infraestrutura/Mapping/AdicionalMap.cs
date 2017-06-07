@@ -15,7 +15,7 @@ namespace Veiculos.Infraestrutura.Mapping
             ToTable("Adicional");
             HasKey(x => x.Id);
 
-            Property(x => x.Nome).HasMaxLength(300);
+            Property(x => x.Nome).HasMaxLength(100);
             Property(x => x.ValorUnitario).IsRequired();
             Property(x => x.Quantidade).IsRequired();
         }
