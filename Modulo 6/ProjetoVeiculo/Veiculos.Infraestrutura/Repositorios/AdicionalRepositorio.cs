@@ -3,28 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Veiculos.Dominio.Entidades;
 
 namespace Veiculos.Infraestrutura.Repositorios
 {
-    public class AdicionalRepositorio : IDisposable
+    public class AdicionalRepositorio : BasicRepositorio<Adicional>
     {
-        private Contexto contexto = new Contexto();
 
-
-
-        public void Dispose()
+        public AdicionalRepositorio()
         {
-            contexto.Dispose();
-        }
-
-        public object Obter()
-        {
-            throw new NotImplementedException();
-        }
-
-        public object ObterPorId(int id)
-        {
-            throw new NotImplementedException();
-        }
+        }   
     }
 }
