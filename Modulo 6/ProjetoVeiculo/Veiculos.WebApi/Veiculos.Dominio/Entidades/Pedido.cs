@@ -10,8 +10,6 @@ namespace Veiculos.Dominio.Entidades
     {
         public int Id { get; private set; }
 
-        public decimal ValorTotal { get; set; }
-
         public DateTime DataInicial { get; private set; }
 
         public DateTime DataPrevista { get; set; }
@@ -29,5 +27,13 @@ namespace Veiculos.Dominio.Entidades
         public Pacote pacote { get; private set; }
 
         public Pedido() { }
+
+        public decimal ValorTotal(int quantidade, decimal valorUnitario)
+        {
+            int quantidadeTotal = adicionais.Quantidade + produto.Quantidade;
+            decimal valorUnitarioTotal = pacote.ValorUnitario + adicionais.ValorUnitario + produto.ValorUnitario;
+
+            return quantidadeTotal * valorUnitarioTotal;
+        }
     }
 }
