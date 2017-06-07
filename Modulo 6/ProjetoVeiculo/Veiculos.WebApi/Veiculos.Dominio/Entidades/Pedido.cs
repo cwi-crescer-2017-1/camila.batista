@@ -35,5 +35,17 @@ namespace Veiculos.Dominio.Entidades
 
             return quantidadeTotal * valorUnitarioTotal;
         }
+
+        public int diasAtraso (DateTime dataPrevista, DateTime dataFinal)
+        {
+             return DateTime.Compare(DataPrevista, dataFinal);
+        }
+
+        public decimal multa(decimal multaDiaria)
+        {
+            decimal multaDiariaTotal = adicionais.MultaDiaria + pacote.MultaDiaria + produto.MultaDiaria;
+
+            return diasAtraso(DataPrevista, DataFinal) * multaDiariaTotal;
+        }
     }
 }
