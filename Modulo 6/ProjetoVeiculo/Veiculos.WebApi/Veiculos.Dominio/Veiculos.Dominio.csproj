@@ -43,11 +43,11 @@
     <Compile Include="Entidades\Adicional.cs" />
     <Compile Include="Entidades\Cliente.cs" />
     <Compile Include="Entidades\Funcionario.cs" />
-    <Compile Include="Entidades\Genero.cs" />
+    <Compile Include="Enum\Genero.cs" />
     <Compile Include="Entidades\Pacote.cs" />
     <Compile Include="Entidades\Pedido.cs" />
     <Compile Include="Entidades\Produto.cs" />
-    <Compile Include="Entidades\Tipo.cs" />
+    <Compile Include="Enum\Tipo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
