@@ -27,6 +27,15 @@ namespace Veiculos.Dominio.Entidades
             Cargo = cargo;
             Login = login;
             Senha = senha;
+
+            if (Cargo.Equals(1))
+            {
+                cargo = Tipo.ADMINISTRADOR;
+            }
+            else if (Cargo.Equals(2))
+            {
+                cargo = Tipo.OPERADOR;
+            }
         }
 
         List<string> mensagens = new List<string>();
