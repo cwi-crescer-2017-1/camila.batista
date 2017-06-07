@@ -9,6 +9,7 @@ using Veiculos.Infraestrutura.Repositorios;
 
 namespace Veiculos.WebApi.Controllers
 {
+    [RoutePrefix("api/funcionario")]
     public class FuncionarioController : ApiController
     {
         readonly FuncionarioRepositorio _funcionarioRepositorio;
@@ -26,6 +27,7 @@ namespace Veiculos.WebApi.Controllers
         }
 
         [HttpGet]
+        [Route("{id}")]
         public IHttpActionResult ObterPorId(int id)
         {
             var funcionarios = _funcionarioRepositorio.GetById(id);

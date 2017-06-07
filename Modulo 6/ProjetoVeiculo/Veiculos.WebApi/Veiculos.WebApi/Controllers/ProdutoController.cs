@@ -9,6 +9,7 @@ using Veiculos.Infraestrutura.Repositorios;
 
 namespace Veiculos.WebApi.Controllers
 {
+    [RoutePrefix("api/produto")]
     public class ProdutoController : ApiController
     {
         readonly ProdutoRepositorio _produtoRepositorio;
@@ -26,6 +27,7 @@ namespace Veiculos.WebApi.Controllers
         }
 
         [HttpGet]
+        [Route("{id}")]
         public IHttpActionResult ObterPorId(int id)
         {
             var produtos = _produtoRepositorio.GetById(id);

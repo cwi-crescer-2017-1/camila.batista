@@ -9,7 +9,7 @@ using Veiculos.Infraestrutura.Repositorios;
 
 namespace Veiculos.WebApi.Controllers
 {
-    [RoutePrefix("api/Cliente")]
+    [RoutePrefix("api/cliente")]
     public class ClienteController : ApiController
     {
 
@@ -28,6 +28,7 @@ namespace Veiculos.WebApi.Controllers
         }
 
         [HttpGet]
+        [Route("{id}")]
         public IHttpActionResult ObterPorId(int id)
         {
             var clientes = _clienteRepositorio.GetById(id);

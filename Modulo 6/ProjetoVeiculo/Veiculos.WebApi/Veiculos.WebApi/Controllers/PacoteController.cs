@@ -9,6 +9,7 @@ using Veiculos.Infraestrutura.Repositorios;
 
 namespace Veiculos.WebApi.Controllers
 {
+    [RoutePrefix("api/pacote")]
     public class PacoteController : ApiController
     {
         readonly PacoteRepositorio _pacoteRepositorio;
@@ -26,6 +27,7 @@ namespace Veiculos.WebApi.Controllers
         }
 
         [HttpGet]
+        [Route("{id}")]
         public IHttpActionResult ObterPorId(int id)
         {
             var pacotes = _pacoteRepositorio.GetById(id);

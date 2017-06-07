@@ -27,7 +27,7 @@ namespace Veiculos.WebApi.Controllers
         }
 
         [HttpGet]
-        [Route("{id : int}")]
+        [Route("{id}")]
         public IHttpActionResult ObterPorId(int id)
         {
             var adicionais = _adicionalRepositorio.GetById(id);
