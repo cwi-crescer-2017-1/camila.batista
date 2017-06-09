@@ -1,10 +1,15 @@
 modulo.controller('pedidoController', function($scope, $routeParams, pedidoService){
-    $scope.pedido;
+    $scope.pedido; //nao precisa
+    // $scope.clientes = {};
+    // $scope.produtos = {};
+    // $scope.adicionais = {};
+    // $scope.pacotes = {};
 
     function load(){
         pedidoService.getAll()
             .then(function(response){
                 $scope.pedido = response.data;
+                debugger;
             });
     }
 
@@ -15,6 +20,16 @@ modulo.controller('pedidoController', function($scope, $routeParams, pedidoServi
             });
     }
 
+    function relatorioMensal(){
+        pedidoService.procurar(6)
+            .then(function(response){
+                $scope.pedido = response.data;
+            });
+    }
+
     $scope.cadastrar = cadastrar;
+    $scope.relatorioMensal = relatorioMensal;
+    debugger;
+    relatorioMensal();
     load();
 });
