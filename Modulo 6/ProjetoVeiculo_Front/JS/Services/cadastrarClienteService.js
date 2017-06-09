@@ -21,6 +21,6 @@ modulo.factory('cadastrarClienteService', function($http){
     }
 
     function Apagar(cliente){
-        Cliente.delete(cliente);
+       return $http.delete(url + '/cliente', cliente);
     }
 });
