@@ -1,0 +1,35 @@
+<form>
+      <div class="form-group col-md-6">
+          <label for="nome-completo">Nome Completo </label>
+          <input id="nome-completo" class="form-control" type="text" name="nome" ng-model="cliente.Nome" placeholder="Ex.: Pedro Henrique Pires">
+      </div>
+
+      <div class="form-group col-md-6">
+          <label for="cpf">CPF</label>
+          <input id="cpf" class="form-control" type="text" name="cpf" ng-model="cliente.CPF" placeholder="12345678911">
+      </div>
+
+
+      <div class="form-group col-md-6">
+        <label for="nascimento">Data de Nascimento</label>
+        <input id="nascimento" type="date" class="form-control" name="nascimento" ng-model="cliente.DataNascimento">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="endereco">Endereco</label>
+        <input id="endereco" class="form-control" type="text" name="endereco" ng-model="cliente.Endereco">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="sexo">Sexo</label>
+        <select class="form-control" id="sexo" name=""  ng-model="cliente.Sexo">
+          <option value="" disabled selected>Selecione um sexo</option>
+          <option ng-value="1">Feminino</option>
+          <option ng-value="2">Masculino</option>
+        </select>
+      </div>
+      <div class="buttons">
+        <button class="btn btn-primary" type="button" name="enviar" ng-click="cadastrar()">Cadastrar</button>
+        <button class="btn btn-default" type="reset" name="button">Limpar</button>
+      </div>
+    </form>
