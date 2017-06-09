@@ -28,24 +28,31 @@ namespace Veiculos.Dominio.Entidades
 
         public Pedido() { }
 
+        List<string> mensagens = new List<string>();
+
+        public bool Validar()
+        {
+            if (produto.Nome.Equals("Fiat Mobi") && adicionais.Nome.Equals("Reboque") || produto.Nome.Equals("Toyota Hilux") && adicionais.Nome.Equals("Rack"))
+            {
+                mensagens.Add("Impossivel selecionar o produto com este adicional");
+            }
+            return mensagens.Count() > 0 ? true : false;
+        }
+
         public decimal ValorTotal(int quantidade, decimal valorUnitario)
         {
             int quantidadeTotal = adicionais.Quantidade + produto.Quantidade;
             decimal valorUnitarioTotal = pacote.ValorUnitario + adicionais.ValorUnitario + produto.ValorUnitario;
-
-            return quantidadeTotal * valorUnitarioTotal;
-        }
-
-        public int diasAtraso (DateTime dataPrevista, DateTime dataFinal)
-        {
-             return DateTime.Compare(DataPrevista, dataFinal);
-        }
-
-        public decimal multa(decimal multaDiaria)
-        {
             decimal multaDiariaTotal = adicionais.MultaDiaria + pacote.MultaDiaria + produto.MultaDiaria;
 
-            return diasAtraso(DataPrevista, DataFinal) * multaDiariaTotal;
+            return (quantidadeTotal * valorUnitarioTotal) + (DiasAtraso(DataPrevista, DataFinal) * multaDiariaTotal);
         }
+
+        public int DiasAtraso (DateTime dataPrevista, DateTime dataFinal)
+        {
+            return (DataFinal - dataPrevista).Days;
+             //return DateTime.Compare(DataPrevista, dataFinal);
+        }
+
     }
 }
