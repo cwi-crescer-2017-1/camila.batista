@@ -23,5 +23,9 @@ modulo.config(function($routeProvider){
         .when('/pedido/:action/:idURL',{
             controller: 'pedidoController',
             templateUrl: 'VIEWS/pedidoCadastrar.html'
+        })
+        .when('/relatorio',{
+            controller: 'pedidoController',
+            templateUrl: 'VIEWS/relatorio.html'
         });
 });
