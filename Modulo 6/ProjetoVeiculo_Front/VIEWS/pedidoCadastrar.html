@@ -2,24 +2,26 @@
 	<h1>Cadastrar Novo Pedido</h1>
 
     <div ng-class="produto">
-		<div ng-repeat="produto in pedido">
-			<input type="checkbox" id="{{pedido.Produto.Id}}">
-			<label for="{{pedido.Produto.Id}}">{{pedido.Produto.Nome}}</label>
-		</div>
+			<div ng-repeat="produto in produtos">
+				<input type="radio" id="{{produto.Id}}">
+				<label for="option-{{option.value}}">{{$parent.Nome}}</label>
+			</div>
     </div>
 
+
+		
     <div ng-class="pacote">
-		<div ng-repeat="pacote in pacote">
-			<input type="checkbox" id="{{pacote.Id}}">
-			<label for="{{pacote.Id}}">{{pacote.Nome}}</label>
-		</div>
+			<div ng-repeat="pacote in pacotes">
+				<input type="radio" id="{{pacote.Nome}}">
+				<label for="{{pacote.Id}}">{{$parent.Nome}}</label>
+			</div>
     </div>
 
     <div ng-class="adicional">
-		<div ng-repeat="adicional in adicional">
-			<input type="checkbox" checked id="{{adicional.Id}}">
-			<label for="{{adicional.Id}}">{{adicional.Nome}}</label>
-		</div>
+			<div ng-repeat="adicional in adicionais">
+				<input type="radio" id="{{adicional.Id}}">
+				<label for="{{adicional.Id}}">{{$parent.Nome}}</label>
+			</div>
     </div>
 
     <div class="buttons">
