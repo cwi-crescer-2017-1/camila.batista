@@ -15,5 +15,13 @@ modulo.config(function($routeProvider){
         .when('/cliente/:action/:idURL',{
             controller: 'cadastrarClienteController',
             templateUrl: 'VIEWS/cadastrarCliente.html'
+        })
+        .when('/pedido',{
+            controller: 'pedidoController',
+            templateUrl: 'VIEWS/pedido.html'
+        })
+        .when('/pedido/:action/:idURL',{
+            controller: 'pedidoController',
+            templateUrl: 'VIEWS/pedidoCadastrar.html'
         });
 });
