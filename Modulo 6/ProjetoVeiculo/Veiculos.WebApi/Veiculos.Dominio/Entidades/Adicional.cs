@@ -48,8 +48,10 @@ namespace Veiculos.Dominio.Entidades
             {
                 mensagens.Add("Quantidade inválida");
             }
-
+            
             return mensagens.Count() > 0 ? true : false;
         }
+
+
     }
 }
