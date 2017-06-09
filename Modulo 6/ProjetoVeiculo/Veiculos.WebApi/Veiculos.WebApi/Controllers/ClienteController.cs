@@ -42,7 +42,7 @@ namespace Veiculos.WebApi.Controllers
         }
 
         [HttpDelete]
-        public void Apagar(Cliente cliente)
+        public void Deletar(Cliente cliente)
         {
             _clienteRepositorio.Delete(cliente);
         }
