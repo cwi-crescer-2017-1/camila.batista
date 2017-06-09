@@ -53,6 +53,5 @@ namespace Veiculos.Dominio.Entidades
             return (DataFinal - dataPrevista).Days;
              //return DateTime.Compare(DataPrevista, dataFinal);
         }
-
     }
 }
