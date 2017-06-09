@@ -1,0 +1,17 @@
+
+<div>
+    <nav>
+        <ul class="menu-ul">
+        <li class="menu-li"><a class="menu-a" href="#!/cliente/adicionar/0">Adicionar</a></li>
+      </ul>
+    </nav>
+</div>
+
+<div>
+    <ul>
+        <li ng-repeat="c in clientes">{{c.Nome}} 
+            <a href="#!/cliente/editar/{{c.Id}}"><button type="button" ng-click="editar(c.Id)">Editar</button></a>
+            <a href="#!/cliente/excluir/{{c.Id}}"><button type="button" ng-click="excluir(c.Id)">Excluir</button></a>
+        </li>
+    </ul>
+</div>
