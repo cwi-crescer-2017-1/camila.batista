@@ -25,37 +25,29 @@ modulo.controller('cadastrarClienteController', function($scope, $filter, $route
                
                 $scope.cliente.DataNascimento = new Date();
 
-                $scope.$watch('dateString', function (dateString)
-                {
-                    $scope.date = new Date(dateString);
-                });
+                // $scope.$watch('dateString', function (dateString)
+                // {
+                //     $scope.date = new Date(dateString);
+                // });
 
-debugger;
-                $scope.cliente.Sexo = parseInt($scope.cliente.Sexo);
-
-                
-                
+                $scope.cliente.Sexo = parseInt($scope.cliente.Sexo);                
             });
     }
 
-            // if(Sexo.Equals(1))
-            // {
-            //     sexo = Genero.FEMININO;
-            // }else if (Sexo.Equals(2))
-            // {
-            //     sexo = Genero.MASCULINO;
-            // }
+    // function excluir(id){
+    //     debugger;
+    //     cadastrarClienteService.delete(id)
+    //         .then(function(response){
+    //             debugger;
+    //             $scope.cliente = response.data;
 
-    function excluir(id){
-        cadastrarClienteService.getById(id)
-            .then(function(respose){
-                $scope.clientes = response.data;
-            });
-    }
+    //             // cadastrarClienteService.load();
+    //         });
+    // }
 
     $scope.cadastrar = cadastrar;
     $scope.editar = editar;
-    $scope.excluir = excluir;
+    // $scope.excluir = excluir;
     
     debugger;
     if($routeParams.action == 'editar'){
