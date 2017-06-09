@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutDemo.WebApi;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -10,6 +11,7 @@ using Veiculos.Infraestrutura.Repositorios;
 namespace Veiculos.WebApi.Controllers
 {
     [RoutePrefix("api/pacote")]
+    [BasicAuthorization]
     public class PacoteController : ApiController
     {
         readonly PacoteRepositorio _pacoteRepositorio;
