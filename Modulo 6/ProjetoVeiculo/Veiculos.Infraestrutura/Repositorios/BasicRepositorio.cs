@@ -9,7 +9,7 @@ namespace Veiculos.Infraestrutura.Repositorios
 {
     public class BasicRepositorio<TEntity> where TEntity : class
     {
-        private readonly Contexto _dbContext = new Contexto();
+        public Contexto _dbContext = new Contexto();
 
         public BasicRepositorio()
         {
@@ -26,6 +26,11 @@ namespace Veiculos.Infraestrutura.Repositorios
             _dbContext.Set<TEntity>().Remove(entity);
             _dbContext.SaveChanges();
         }
+
+        //public IQueryable<TEntity> SearchFor(Expression<Func<TEntity, bool>> predicate)
+        //{
+        //    return _dbContext.Set<TEntity>().Where(predicate);
+        //}
 
         public IQueryable<TEntity> SearchFor(Expression<Func<TEntity, bool>> predicate)
         {
