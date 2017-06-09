@@ -1,0 +1,29 @@
+<form>
+	<h1>Cadastrar Novo Pedido</h1>
+
+    <div ng-class="produto">
+		<div ng-repeat="produto in pedido">
+			<input type="checkbox" id="{{pedido.Produto.Id}}">
+			<label for="{{pedido.Produto.Id}}">{{pedido.Produto.Nome}}</label>
+		</div>
+    </div>
+
+    <div ng-class="pacote">
+		<div ng-repeat="pacote in pacote">
+			<input type="checkbox" id="{{pacote.Id}}">
+			<label for="{{pacote.Id}}">{{pacote.Nome}}</label>
+		</div>
+    </div>
+
+    <div ng-class="adicional">
+		<div ng-repeat="adicional in adicional">
+			<input type="checkbox" checked id="{{adicional.Id}}">
+			<label for="{{adicional.Id}}">{{adicional.Nome}}</label>
+		</div>
+    </div>
+
+    <div class="buttons">
+        <button class="btn btn-primary" type="button" name="enviar" ng-click="cadastrar()">Cadastrar</button>
+        <button class="btn btn-default" type="reset" name="button">Limpar</button>
+    </div>
+</form>
