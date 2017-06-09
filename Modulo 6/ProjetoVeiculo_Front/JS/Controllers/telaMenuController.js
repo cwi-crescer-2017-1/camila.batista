@@ -1,3 +1,3 @@
-modulo.controller('telaMenuController', function($scope, $routeParams, $location, telaMenuService, authService, authConfig, toastr){
+modulo.controller('telaMenuController', function($scope, $routeParams, toastr){
 
 });
