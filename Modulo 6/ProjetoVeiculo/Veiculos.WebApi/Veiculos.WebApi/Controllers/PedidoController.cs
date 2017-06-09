@@ -19,6 +19,13 @@ namespace Veiculos.WebApi.Controllers
             _pedidoRepositorio = new PedidoRepositorio();
         }
 
+        //[HttpGet]
+        //public IHttpActionResult Obter()
+        //{
+        //    var pedido = _pedidoRepositorio.GetAll();
+        //    return Ok(pedido);
+        //}
+
         [HttpGet]
         public IHttpActionResult Obter()
         {
@@ -44,6 +51,14 @@ namespace Veiculos.WebApi.Controllers
         public void Apagar(Pedido pedido)
         {
             _pedidoRepositorio.Delete(pedido);
+        }
+
+        [HttpGet]
+        [Route("ObterRelatorioMensal/{mes}")]
+        public IHttpActionResult ObterRelatorioMensal(int mes)
+        {
+            List<Pedido> pedidos = _pedidoRepositorio.obetRelatorioMensal(mes);
+            return Ok(pedidos);
         }
     }
 }
