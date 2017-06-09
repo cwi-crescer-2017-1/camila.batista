@@ -1,0 +1,22 @@
+<table>
+    <thead>
+        <th>Id</th>
+        <th>Cliente</th>
+        <th>Data Inicial</th>
+        <th>Data Prevista</th>
+        <th>Produto</th>       
+        <th>Pacote</th>
+        <th>Adicional</th> 
+    </thead>
+    <tbody>
+        <tr ng-repeat="p in pedido">
+           <th>{{p.Id}}</th>
+           <th>{{p.cliente.Nome}}</th>
+           <th>{{p.DataInicial}}</th> 
+           <th>{{p.DataPrevista}}</th>
+           <th>{{p.produto.Nome}}</th>
+           <th>{{p.pacote.Nome}}</th>
+           <th>{{p.adicionais.Nome}}</th>
+        </tr>
+    </tbody>
+</table>
