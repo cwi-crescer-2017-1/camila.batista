@@ -5,6 +5,7 @@ modulo.factory('pedidoService', function($http){
         getAll: Obter,
         getById: ObterPorId,
         insert: Adicionar,
+        procurar: Procurar,
         delete: Apagar
     }
 
@@ -18,6 +19,10 @@ modulo.factory('pedidoService', function($http){
 
     function Adicionar(cliente){
         return $http.put(url + '/pedido', cliente);
+    }
+
+    function Procurar(mes){
+        return $http.get(url + '/pedido/ObterRelatorioMensal/' + mes);
     }
 
     function Apagar(cliente){
