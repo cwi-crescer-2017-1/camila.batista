@@ -1,4 +1,4 @@
-modulo.controller('loginController', function($scope, $routeParams, $location, $modal, loginService, authService, authConfig, toastr){
+modulo.controller('loginController', function($scope, $routeParams, $location, loginService, authService, authConfig, toastr){
 
     function login(funcionario){
         console.log("oi");
@@ -14,14 +14,14 @@ modulo.controller('loginController', function($scope, $routeParams, $location, $
             );
     }
 
-    function cadastrar(funcionario){
-        console.log("tchau");
-        var modalInstance = $modal.open({
-            templateUrl: 'index.html',
-            controller: 'cadastrarController'
-        });
+    // function cadastrar(funcionario){
+    //     console.log("tchau");
+    //     var modalInstance = $modal.open({
+    //         templateUrl: 'index.html',
+    //         controller: 'cadastrarController'
+    //     });
 
-    }
+    // }
     $scope.login = login;
-    $scope.cadastrar = cadastrar;
+    // $scope.cadastrar = cadastrar;
 });
