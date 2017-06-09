@@ -7,5 +7,13 @@ modulo.config(function($routeProvider){
         .when('/telaMenu', {
             controller: 'telaMenuController',
             templateUrl: 'VIEWS/telaMenu.html'
+        })
+        .when('/cliente',{
+            controller: 'cadastrarClienteController',
+            templateUrl: 'VIEWS/cliente.html'
+        })
+        .when('/cliente/:action/:idURL',{
+            controller: 'cadastrarClienteController',
+            templateUrl: 'VIEWS/cadastrarCliente.html'
         });
 });
