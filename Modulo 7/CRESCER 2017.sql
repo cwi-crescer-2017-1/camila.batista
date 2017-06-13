@@ -89,6 +89,23 @@ END;
 
 
 -------EXERCICIO 2
+DECLARE
+  CURSOR C_PEDIDO(IDPED IN number) IS
+    SELECT QUANTIDADE , PRECOUNITARIO  FROM PEDIDOITEM 
+    where IDPED = IDPEDIDO;
+    --INNER JOIN PEDIDO ON PEDIDO.IDPEDIDO = PEDIDOITEM.IDPEDIDO and IDPEDIDO = PEDIDO.IDPEDIDO
+  vPEDIDO PEDIDO.IDPEDIDO%TYPE;
+  vValor PEDIDO.VALORPEDIDO%type;
+BEGIN
+  vPEDIDO := 43;
+  vValor := 0.0;
+  for i in C_PEDIDO(vPedido) loop
+    vValor := vValor + ( i.quantidade * i.precounitario);
+  end loop;
+  UPDATE PEDIDO 
+  SET VALORPEDIDO =  vValor
+  WHERE IDPEDIDO = vPEDIDO;
+END;
 
-
+select * from pedido where idpedido = 43
 
