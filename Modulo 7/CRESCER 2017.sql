@@ -86,14 +86,16 @@ BEGIN
   END LOOP;
 END;
 
-
+CREATE INDEX IX_CIDADE_NOME_UF ON CIDADE (NOME, UF);
+CREATE INDEX IX_CLIENTE_CIDADE ON CLIENTE (IDCIDADE);
 
 -------EXERCICIO 2
+
+
 DECLARE
   CURSOR C_PEDIDO(IDPED IN number) IS
     SELECT QUANTIDADE , PRECOUNITARIO  FROM PEDIDOITEM 
     where IDPED = IDPEDIDO;
-    --INNER JOIN PEDIDO ON PEDIDO.IDPEDIDO = PEDIDOITEM.IDPEDIDO and IDPEDIDO = PEDIDO.IDPEDIDO
   vPEDIDO PEDIDO.IDPEDIDO%TYPE;
   vValor PEDIDO.VALORPEDIDO%type;
 BEGIN
@@ -109,3 +111,87 @@ END;
 
 select * from pedido where idpedido = 43
 
+
+
+
+
+
+
+-------------------------------------------------
+CREATE OR REPLACE
+PROCEDURE Atualiza_Valor_Pedido (pIDPedido IN INTEGER) AS
+  vValorPedido  Pedido.ValorPedido%type;
+BEGIN
+
+   Select SUM(Quantidade * PrecoUnitario)
+   into   vValorPedido
+   From   PedidoItem
+   Where  IDPedido = pIDPedido;
+   
+   Update Pedido
+   Set    ValorPedido = vValorPedido
+   Where  IDPedido    = pIDPedido;
+
+END;
+
+-----------------------------------------------------------------
+CREATE OR REPLACE PACKAGE "PCK_ELIMINA_CIDADES_DUPLICADAS" AS
+  PROCEDURE CLIENTES_RELACIONADOS;
+  FUNCTION menorId(cNome VARCHAR2, cUF VARCHAR2) RETURN INTEGER;
+END;
+
+------------------------------------------------------------------
+
+CREATE OR REPLACE PACKAGE BODY PCK_ELIMINA_CIDADES_DUPLICADAS AS
+  FUNCTION menorId(cNome VARCHAR2, cUF VARCHAR2) RETURN INTEGER AS
+    vMinimo INTEGER;
+    BEGIN 
+      SELECT MIN(IDCIDADE)
+      INTO vMinimo
+      FROM CIDADE
+      WHERE NOME = cNome AND UF = cUf;
+      RETURN vMinimo;
+    END menorId;
+  
+  PROCEDURE CLIENTES_RELACIONADOS AS
+    valorMinimo INTEGER;
+
+    CURSOR C_CIDADES_DUPLICADAS IS 
+      SELECT NOME, UF
+      FROM CIDADE
+      HAVING COUNT(IDCIDADE) > 1
+      GROUP BY NOME, UF
+      ORDER BY 2, 1;
+    
+    CURSOR C_CLIENTES(cNOME CIDADE.NOME%TYPE, cUF CIDADE.UF%TYPE) IS 
+      SELECT CLIENTE.IDCLIENTE
+      FROM CLIENTE 
+      INNER JOIN CIDADE ON CLIENTE.IDCIDADE = CIDADE.IDCIDADE
+      WHERE CIDADE.NOME = cNOME AND CIDADE.UF = cUF;
+  BEGIN    
+
+    FOR a IN C_CIDADES_DUPLICADAS LOOP
+      valorMinimo := menorId(a.nome, a.uf);
+      FOR q IN C_CLIENTES(a.NOME, a.UF) LOOP
+        UPDATE CLIENTE 
+        SET IDCIDADE = valorMinimo
+        WHERE IDCIDADE != valorMinimo
+        AND q.IDCLIENTE = IDCLIENTE;
+        
+      END LOOP;
+      
+      DELETE FROM CIDADE
+      WHERE IDCIDADE != valorMinimo
+      AND a.nome = CIDADE.NOME 
+      AND a.uf = CIDADE.UF;
+      
+    END LOOP;
+  END;
+END PCK_ELIMINA_CIDADES_DUPLICADAS;  
+
+
+BEGIN
+  PCK_ELIMINA_CIDADES_DUPLICADAS.CLIENTES_RELACIONADOS;
+END;
+
+select * from cidade order by nome;
