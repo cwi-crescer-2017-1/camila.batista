@@ -1,0 +1,5566 @@
+IDCIDADE,NOME,UF
+11,Alta Floresta D Oeste,RO
+12,Ariquemes,RO
+13,Cabixi,RO
+14,Cacoal,RO
+15,Cerejeiras,RO
+16,Colorado do Oeste,RO
+17,Corumbiara,RO
+18,Costa Marques,RO
+19,Espig?o D Oeste,RO
+20,Guajar?-Mirim,RO
+21,Jaru,RO
+22,Ji-Paran?,RO
+23,Machadinho D Oeste,RO
+24,Nova Brasil?ndia D Oeste,RO
+25,Ouro Preto do Oeste,RO
+26,Pimenta Bueno,RO
+27,Porto Velho,RO
+28,Presidente M?dici,RO
+29,Rio Crespo,RO
+30,Rolim de Moura,RO
+31,Santa Luzia D Oeste,RO
+32,Vilhena,RO
+33,S?o Miguel do Guapor?,RO
+34,Nova Mamor?,RO
+35,Alvorada D Oeste,RO
+36,Alto Alegre dos Parecis,RO
+37,Alto Para?so,RO
+38,Buritis,RO
+39,Novo Horizonte do Oeste,RO
+40,Cacaul?ndia,RO
+41,Campo Novo de Rond?nia,RO
+42,Candeias do Jamari,RO
+43,Castanheiras,RO
+44,Chupinguaia,RO
+45,Cujubim,RO
+46,Governador Jorge Teixeira,RO
+47,Itapu? do Oeste,RO
+48,Ministro Andreazza,RO
+49,Mirante da Serra,RO
+50,Monte Negro,RO
+51,Nova Uni?o,RO
+52,Parecis,RO
+53,Pimenteiras do Oeste,RO
+54,Primavera de Rond?nia,RO
+55,S?o Felipe D Oeste,RO
+56,S?o Francisco do Guapor?,RO
+57,Seringueiras,RO
+58,Teixeir?polis,RO
+59,Theobroma,RO
+60,Urup?,RO
+61,Vale do Anari,RO
+62,Vale do Para?so,RO
+63,Acrel?ndia,AC
+64,Assis Brasil,AC
+65,Brasil?ia,AC
+66,Bujari,AC
+67,Capixaba,AC
+68,Cruzeiro do Sul,AC
+69,Epitaciol?ndia,AC
+70,Feij?,AC
+71,Jord?o,AC
+72,M?ncio Lima,AC
+73,Manoel Urbano,AC
+74,Marechal Thaumaturgo,AC
+75,Pl?cido de Castro,AC
+76,Porto Walter,AC
+77,Rio Branco,AC
+78,Rodrigues Alves,AC
+79,Santa Rosa do Purus,AC
+80,Senador Guiomard,AC
+81,Sena Madureira,AC
+82,Tarauac?,AC
+83,Xapuri,AC
+84,Porto Acre,AC
+85,Alvar?es,AM
+86,Amatur?,AM
+87,Anam?,AM
+88,Anori,AM
+89,Apu?,AM
+90,Atalaia do Norte,AM
+91,Autazes,AM
+92,Barcelos,AM
+93,Barreirinha,AM
+94,Benjamin Constant,AM
+95,Beruri,AM
+96,Boa Vista do Ramos,AM
+97,Boca do Acre,AM
+98,Borba,AM
+99,Caapiranga,AM
+100,Canutama,AM
+101,Carauari,AM
+102,Careiro,AM
+103,Careiro da V?rzea,AM
+104,Coari,AM
+105,Codaj?s,AM
+106,Eirunep?,AM
+107,Envira,AM
+108,Fonte Boa,AM
+109,Guajar?,AM
+110,Humait?,AM
+111,Ipixuna,AM
+112,Iranduba,AM
+113,Itacoatiara,AM
+114,Itamarati,AM
+115,Itapiranga,AM
+116,Japur?,AM
+117,Juru?,AM
+118,Juta?,AM
+119,L?brea,AM
+120,Manacapuru,AM
+121,Manaquiri,AM
+122,Manaus,AM
+123,Manicor?,AM
+124,Mara?,AM
+125,Mau?s,AM
+126,Nhamund?,AM
+127,Nova Olinda do Norte,AM
+128,Novo Air?o,AM
+129,Novo Aripuan?,AM
+130,Parintins,AM
+131,Pauini,AM
+132,Presidente Figueiredo,AM
+133,Rio Preto da Eva,AM
+134,Santa Isabel do Rio Negro,AM
+135,Santo Ant?nio do I??,AM
+136,S?o Gabriel da Cachoeira,AM
+137,S?o Paulo de Oliven?a,AM
+138,S?o Sebasti?o do Uatum?,AM
+139,Silves,AM
+140,Tabatinga,AM
+141,Tapau?,AM
+142,Tef?,AM
+143,Tonantins,AM
+144,Uarini,AM
+145,Urucar?,AM
+146,Urucurituba,AM
+147,Amajari,RR
+148,Alto Alegre,RR
+149,Boa Vista,RR
+150,Bonfim,RR
+151,Cant?,RR
+152,Caracara?,RR
+153,Caroebe,RR
+154,Iracema,RR
+155,Mucaja?,RR
+156,Normandia,RR
+157,Pacaraima,RR
+158,Rorain?polis,RR
+159,S?o Jo?o da Baliza,RR
+160,S?o Luiz,RR
+161,Uiramut?,RR
+162,Abaetetuba,PA
+163,Abel Figueiredo,PA
+164,Acar?,PA
+165,Afu?,PA
+166,?gua Azul do Norte,PA
+167,Alenquer,PA
+168,Almeirim,PA
+169,Altamira,PA
+170,Anaj?s,PA
+5575,Ananindeua,PA
+172,Anapu,PA
+173,Augusto Corr?a,PA
+174,Aurora do Par?,PA
+175,Aveiro,PA
+176,Bagre,PA
+177,Bai?o,PA
+178,Bannach,PA
+179,Barcarena,PA
+180,Bel?m,PA
+181,Belterra,PA
+182,Benevides,PA
+183,Bom Jesus do Tocantins,PA
+184,Bonito,PA
+185,Bragan?a,PA
+186,Brasil Novo,PA
+187,Brejo Grande do Araguaia,PA
+188,Breu Branco,PA
+189,Breves,PA
+190,Bujaru,PA
+191,Cachoeira do Piri?,PA
+192,Cachoeira do Arari,PA
+193,Camet?,PA
+194,Cana? dos Caraj?s,PA
+195,Capanema,PA
+196,Capit?o Po?o,PA
+197,Castanhal,PA
+198,Chaves,PA
+199,Colares,PA
+200,Concei??o do Araguaia,PA
+201,Conc?rdia do Par?,PA
+202,Cumaru do Norte,PA
+203,Curion?polis,PA
+204,Curralinho,PA
+205,Curu?,PA
+206,Curu??,PA
+207,Dom Eliseu,PA
+208,Eldorado dos Caraj?s,PA
+209,Faro,PA
+210,Floresta do Araguaia,PA
+211,Garraf?o do Norte,PA
+212,Goian?sia do Par?,PA
+213,Gurup?,PA
+214,Igarap?-A?u,PA
+215,Igarap?-Miri,PA
+216,Inhangapi,PA
+217,Ipixuna do Par?,PA
+218,Irituia,PA
+219,Itaituba,PA
+220,Itupiranga,PA
+221,Jacareacanga,PA
+222,Jacund?,PA
+223,Juruti,PA
+224,Limoeiro do Ajuru,PA
+225,M?e do Rio,PA
+226,Magalh?es Barata,PA
+227,Marab?,PA
+228,Maracan?,PA
+229,Marapanim,PA
+230,Marituba,PA
+231,Medicil?ndia,PA
+232,Melga?o,PA
+233,Mocajuba,PA
+234,Moju,PA
+235,Monte Alegre,PA
+236,Muan?,PA
+237,Nova Esperan?a do Piri?,PA
+238,Nova Ipixuna,PA
+239,Nova Timboteua,PA
+240,Novo Progresso,PA
+241,Novo Repartimento,PA
+242,?bidos,PA
+243,Oeiras do Par?,PA
+244,Oriximin?,PA
+245,Our?m,PA
+246,Ouril?ndia do Norte,PA
+247,Pacaj?,PA
+248,Palestina do Par?,PA
+249,Paragominas,PA
+250,Parauapebas,PA
+251,Pau D Arco,PA
+252,Peixe-Boi,PA
+253,Pi?arra,PA
+254,Placas,PA
+255,Ponta de Pedras,PA
+256,Portel,PA
+257,Porto de Moz,PA
+258,Prainha,PA
+259,Primavera,PA
+260,Quatipuru,PA
+261,Reden??o,PA
+262,Rio Maria,PA
+263,Rondon do Par?,PA
+264,Rur?polis,PA
+265,Salin?polis,PA
+266,Salvaterra,PA
+267,Santa B?rbara do Par?,PA
+268,Santa Cruz do Arari,PA
+269,Santa Isabel do Par?,PA
+270,Santa Luzia do Par?,PA
+271,Santa Maria das Barreiras,PA
+272,Santa Maria do Par?,PA
+273,Santana do Araguaia,PA
+274,Santar?m,PA
+275,Santar?m Novo,PA
+276,Santo Ant?nio do Tau?,PA
+277,S?o Caetano de Odivelas,PA
+278,S?o Domingos do Araguaia,PA
+279,S?o Domingos do Capim,PA
+280,S?o F?lix do Xingu,PA
+281,S?o Francisco do Par?,PA
+282,S?o Geraldo do Araguaia,PA
+283,S?o Jo?o da Ponta,PA
+284,S?o Jo?o de Pirabas,PA
+285,S?o Jo?o do Araguaia,PA
+286,S?o Miguel do Guam?,PA
+287,S?o Sebasti?o da Boa Vista,PA
+288,Sapucaia,PA
+289,Senador Jos? Porf?rio,PA
+290,Soure,PA
+291,Tail?ndia,PA
+292,Terra Alta,PA
+293,Terra Santa,PA
+294,Tom?-A?u,PA
+295,Tracuateua,PA
+296,Trair?o,PA
+297,Tucum?,PA
+298,Tucuru?,PA
+299,Ulian?polis,PA
+300,Uruar?,PA
+301,Vigia,PA
+302,Viseu,PA
+303,Vit?ria do Xingu,PA
+304,Xinguara,PA
+305,Serra do Navio,AP
+306,Amap?,AP
+307,Pedra Branca do Amapari,AP
+308,Cal?oene,AP
+309,Cutias,AP
+310,Ferreira Gomes,AP
+311,Itaubal,AP
+312,Laranjal do Jari,AP
+313,Macap?,AP
+314,Mazag?o,AP
+315,Oiapoque,AP
+316,Porto Grande,AP
+317,Pracu?ba,AP
+318,Santana,AP
+319,Tartarugalzinho,AP
+320,Vit?ria do Jari,AP
+321,Abreul?ndia,TO
+322,Aguiarn?polis,TO
+323,Alian?a do Tocantins,TO
+324,Almas,TO
+325,Alvorada,TO
+326,Anan?s,TO
+327,Angico,TO
+328,Aparecida do Rio Negro,TO
+329,Aragominas,TO
+330,Araguacema,TO
+331,Aragua?u,TO
+332,Aragua?na,TO
+333,Araguan?,TO
+334,Araguatins,TO
+335,Arapoema,TO
+336,Arraias,TO
+337,Augustin?polis,TO
+338,Aurora do Tocantins,TO
+339,Axix? do Tocantins,TO
+340,Baba?ul?ndia,TO
+341,Bandeirantes do Tocantins,TO
+342,Barra do Ouro,TO
+343,Barrol?ndia,TO
+344,Bernardo Say?o,TO
+345,Bom Jesus do Tocantins,TO
+346,Brasil?ndia do Tocantins,TO
+347,Brejinho de Nazar?,TO
+348,Buriti do Tocantins,TO
+349,Cachoeirinha,TO
+350,Campos Lindos,TO
+351,Cariri do Tocantins,TO
+352,Carmol?ndia,TO
+353,Carrasco Bonito,TO
+354,Caseara,TO
+355,Centen?rio,TO
+356,Chapada de Areia,TO
+357,Chapada da Natividade,TO
+358,Colinas do Tocantins,TO
+359,Combinado,TO
+360,Concei??o do Tocantins,TO
+361,Couto Magalh?es,TO
+362,Cristal?ndia,TO
+363,Crix?s do Tocantins,TO
+364,Darcin?polis,TO
+365,Dian?polis,TO
+366,Divin?polis do Tocantins,TO
+367,Dois Irm?os do Tocantins,TO
+368,Duer?,TO
+369,Esperantina,TO
+370,F?tima,TO
+371,Figueir?polis,TO
+372,Filad?lfia,TO
+373,Formoso do Araguaia,TO
+374,Fortaleza do Taboc?o,TO
+375,Goianorte,TO
+376,Goiatins,TO
+377,Guara?,TO
+378,Gurupi,TO
+379,Ipueiras,TO
+380,Itacaj?,TO
+381,Itaguatins,TO
+382,Itapiratins,TO
+383,Itapor? do Tocantins,TO
+384,Ja? do Tocantins,TO
+385,Juarina,TO
+386,Lagoa da Confus?o,TO
+387,Lagoa do Tocantins,TO
+388,Lajeado,TO
+389,Lavandeira,TO
+390,Lizarda,TO
+391,Luzin?polis,TO
+392,Marian?polis do Tocantins,TO
+393,Mateiros,TO
+394,Mauril?ndia do Tocantins,TO
+395,Miracema do Tocantins,TO
+396,Miranorte,TO
+397,Monte do Carmo,TO
+398,Monte Santo do Tocantins,TO
+399,Palmeiras do Tocantins,TO
+400,Muricil?ndia,TO
+401,Natividade,TO
+402,Nazar?,TO
+403,Nova Olinda,TO
+404,Nova Rosal?ndia,TO
+405,Novo Acordo,TO
+406,Novo Alegre,TO
+407,Novo Jardim,TO
+408,Oliveira de F?tima,TO
+409,Palmeirante,TO
+410,Palmeir?polis,TO
+411,Para?so do Tocantins,TO
+412,Paran?,TO
+413,Pau D Arco,TO
+414,Pedro Afonso,TO
+415,Peixe,TO
+416,Pequizeiro,TO
+417,Colm?ia,TO
+418,Pindorama do Tocantins,TO
+419,Piraqu?,TO
+420,Pium,TO
+421,Ponte Alta do Bom Jesus,TO
+422,Ponte Alta do Tocantins,TO
+423,Porto Alegre do Tocantins,TO
+424,Porto Nacional,TO
+425,Praia Norte,TO
+426,Presidente Kennedy,TO
+427,Pugmil,TO
+428,Recursol?ndia,TO
+429,Riachinho,TO
+430,Rio da Concei??o,TO
+431,Rio dos Bois,TO
+432,Rio Sono,TO
+433,Sampaio,TO
+434,Sandol?ndia,TO
+435,Santa F? do Araguaia,TO
+436,Santa Maria do Tocantins,TO
+437,Santa Rita do Tocantins,TO
+438,Santa Rosa do Tocantins,TO
+439,Santa Tereza do Tocantins,TO
+440,Santa Terezinha do Tocantins,TO
+441,S?o Bento do Tocantins,TO
+442,S?o F?lix do Tocantins,TO
+443,S?o Miguel do Tocantins,TO
+444,S?o Salvador do Tocantins,TO
+445,S?o Sebasti?o do Tocantins,TO
+446,S?o Val?rio,TO
+447,Silvan?polis,TO
+448,S?tio Novo do Tocantins,TO
+449,Sucupira,TO
+450,Taguatinga,TO
+451,Taipas do Tocantins,TO
+452,Talism?,TO
+453,Palmas,TO
+454,Tocant?nia,TO
+455,Tocantin?polis,TO
+456,Tupirama,TO
+457,Tupiratins,TO
+458,Wanderl?ndia,TO
+459,Xambio?,TO
+460,A?ail?ndia,MA
+461,Afonso Cunha,MA
+462,?gua Doce do Maranh?o,MA
+463,Alc?ntara,MA
+464,Aldeias Altas,MA
+465,Altamira do Maranh?o,MA
+466,Alto Alegre do Maranh?o,MA
+467,Alto Alegre do Pindar?,MA
+468,Alto Parna?ba,MA
+469,Amap? do Maranh?o,MA
+470,Amarante do Maranh?o,MA
+471,Anajatuba,MA
+472,Anapurus,MA
+473,Apicum-A?u,MA
+474,Araguan?,MA
+475,Araioses,MA
+476,Arame,MA
+477,Arari,MA
+478,Axix?,MA
+479,Bacabal,MA
+480,Bacabeira,MA
+481,Bacuri,MA
+482,Bacurituba,MA
+483,Balsas,MA
+484,Bar?o de Graja?,MA
+485,Barra do Corda,MA
+486,Barreirinhas,MA
+487,Bel?gua,MA
+488,Bela Vista do Maranh?o,MA
+489,Benedito Leite,MA
+490,Bequim?o,MA
+491,Bernardo do Mearim,MA
+492,Boa Vista do Gurupi,MA
+493,Bom Jardim,MA
+494,Bom Jesus das Selvas,MA
+495,Bom Lugar,MA
+496,Brejo,MA
+497,Brejo de Areia,MA
+498,Buriti,MA
+499,Buriti Bravo,MA
+500,Buriticupu,MA
+501,Buritirana,MA
+502,Cachoeira Grande,MA
+503,Cajapi?,MA
+504,Cajari,MA
+505,Campestre do Maranh?o,MA
+506,C?ndido Mendes,MA
+507,Cantanhede,MA
+508,Capinzal do Norte,MA
+509,Carolina,MA
+510,Carutapera,MA
+511,Caxias,MA
+512,Cedral,MA
+513,Central do Maranh?o,MA
+514,Centro do Guilherme,MA
+515,Centro Novo do Maranh?o,MA
+516,Chapadinha,MA
+517,Cidel?ndia,MA
+518,Cod?,MA
+519,Coelho Neto,MA
+520,Colinas,MA
+521,Concei??o do Lago-A?u,MA
+522,Coroat?,MA
+523,Cururupu,MA
+524,Davin?polis,MA
+525,Dom Pedro,MA
+526,Duque Bacelar,MA
+527,Esperantin?polis,MA
+528,Estreito,MA
+529,Feira Nova do Maranh?o,MA
+530,Fernando Falc?o,MA
+531,Formosa da Serra Negra,MA
+532,Fortaleza dos Nogueiras,MA
+533,Fortuna,MA
+534,Godofredo Viana,MA
+535,Gon?alves Dias,MA
+536,Governador Archer,MA
+537,Governador Edison Lob?o,MA
+538,Governador Eug?nio Barros,MA
+539,Governador Luiz Rocha,MA
+540,Governador Newton Bello,MA
+541,Governador Nunes Freire,MA
+542,Gra?a Aranha,MA
+543,Graja?,MA
+544,Guimar?es,MA
+545,Humberto de Campos,MA
+546,Icatu,MA
+547,Igarap? do Meio,MA
+548,Igarap? Grande,MA
+549,Imperatriz,MA
+550,Itaipava do Graja?,MA
+551,Itapecuru Mirim,MA
+552,Itinga do Maranh?o,MA
+553,Jatob?,MA
+554,Jenipapo dos Vieiras,MA
+555,Jo?o Lisboa,MA
+556,Josel?ndia,MA
+557,Junco do Maranh?o,MA
+558,Lago da Pedra,MA
+559,Lago do Junco,MA
+560,Lago Verde,MA
+561,Lagoa do Mato,MA
+562,Lago dos Rodrigues,MA
+563,Lagoa Grande do Maranh?o,MA
+564,Lajeado Novo,MA
+565,Lima Campos,MA
+566,Loreto,MA
+567,Lu?s Domingues,MA
+568,Magalh?es de Almeida,MA
+569,Maraca?um?,MA
+570,Maraj? do Sena,MA
+571,Maranh?ozinho,MA
+572,Mata Roma,MA
+573,Matinha,MA
+574,Mat?es,MA
+575,Mat?es do Norte,MA
+576,Milagres do Maranh?o,MA
+577,Mirador,MA
+578,Miranda do Norte,MA
+579,Mirinzal,MA
+580,Mon??o,MA
+581,Montes Altos,MA
+582,Morros,MA
+583,Nina Rodrigues,MA
+584,Nova Colinas,MA
+585,Nova Iorque,MA
+586,Nova Olinda do Maranh?o,MA
+587,Olho d ?gua das Cunh?s,MA
+588,Olinda Nova do Maranh?o,MA
+589,Pa?o do Lumiar,MA
+590,Palmeir?ndia,MA
+591,Paraibano,MA
+592,Parnarama,MA
+593,Passagem Franca,MA
+594,Pastos Bons,MA
+595,Paulino Neves,MA
+596,Paulo Ramos,MA
+597,Pedreiras,MA
+598,Pedro do Ros?rio,MA
+599,Penalva,MA
+600,Peri Mirim,MA
+601,Peritor?,MA
+602,Pindar?-Mirim,MA
+603,Pinheiro,MA
+604,Pio XII,MA
+605,Pirapemas,MA
+606,Po??o de Pedras,MA
+607,Porto Franco,MA
+608,Porto Rico do Maranh?o,MA
+609,Presidente Dutra,MA
+610,Presidente Juscelino,MA
+611,Presidente M?dici,MA
+612,Presidente Sarney,MA
+613,Presidente Vargas,MA
+614,Primeira Cruz,MA
+615,Raposa,MA
+616,Riach?o,MA
+617,Ribamar Fiquene,MA
+618,Ros?rio,MA
+619,Samba?ba,MA
+620,Santa Filomena do Maranh?o,MA
+621,Santa Helena,MA
+622,Santa In?s,MA
+623,Santa Luzia,MA
+624,Santa Luzia do Paru?,MA
+625,Santa Quit?ria do Maranh?o,MA
+626,Santa Rita,MA
+627,Santana do Maranh?o,MA
+628,Santo Amaro do Maranh?o,MA
+629,Santo Ant?nio dos Lopes,MA
+630,S?o Benedito do Rio Preto,MA
+631,S?o Bento,MA
+632,S?o Bernardo,MA
+633,S?o Domingos do Azeit?o,MA
+634,S?o Domingos do Maranh?o,MA
+635,S?o F?lix de Balsas,MA
+636,S?o Francisco do Brej?o,MA
+637,S?o Francisco do Maranh?o,MA
+638,S?o Jo?o Batista,MA
+639,S?o Jo?o do Car?,MA
+640,S?o Jo?o do Para?so,MA
+641,S?o Jo?o do Soter,MA
+642,S?o Jo?o dos Patos,MA
+643,S?o Jos? de Ribamar,MA
+644,S?o Jos? dos Bas?lios,MA
+645,S?o Lu?s,MA
+646,S?o Lu?s Gonzaga do Maranh?o,MA
+647,S?o Mateus do Maranh?o,MA
+648,S?o Pedro da ?gua Branca,MA
+649,S?o Pedro dos Crentes,MA
+650,S?o Raimundo das Mangabeiras,MA
+651,S?o Raimundo do Doca Bezerra,MA
+652,S?o Roberto,MA
+653,S?o Vicente Ferrer,MA
+654,Satubinha,MA
+655,Senador Alexandre Costa,MA
+656,Senador La Rocque,MA
+657,Serrano do Maranh?o,MA
+658,S?tio Novo,MA
+659,Sucupira do Norte,MA
+660,Sucupira do Riach?o,MA
+661,Tasso Fragoso,MA
+662,Timbiras,MA
+663,Timon,MA
+664,Trizidela do Vale,MA
+665,Tufil?ndia,MA
+666,Tuntum,MA
+667,Turia?u,MA
+668,Turil?ndia,MA
+669,Tut?ia,MA
+670,Urbano Santos,MA
+671,Vargem Grande,MA
+672,Viana,MA
+673,Vila Nova dos Mart?rios,MA
+674,Vit?ria do Mearim,MA
+675,Vitorino Freire,MA
+676,Z? Doca,MA
+677,Acau?,PI
+678,Agricol?ndia,PI
+679,?gua Branca,PI
+680,Alagoinha do Piau?,PI
+681,Alegrete do Piau?,PI
+682,Alto Long?,PI
+683,Altos,PI
+684,Alvorada do Gurgu?ia,PI
+685,Amarante,PI
+686,Angical do Piau?,PI
+687,An?sio de Abreu,PI
+688,Ant?nio Almeida,PI
+689,Aroazes,PI
+690,Aroeiras do Itaim,PI
+691,Arraial,PI
+692,Assun??o do Piau?,PI
+693,Avelino Lopes,PI
+694,Baixa Grande do Ribeiro,PI
+695,Barra D Alc?ntara,PI
+696,Barras,PI
+697,Barreiras do Piau?,PI
+698,Barro Duro,PI
+699,Batalha,PI
+700,Bela Vista do Piau?,PI
+701,Bel?m do Piau?,PI
+702,Beneditinos,PI
+703,Bertol?nia,PI
+704,Bet?nia do Piau?,PI
+705,Boa Hora,PI
+706,Bocaina,PI
+707,Bom Jesus,PI
+708,Bom Princ?pio do Piau?,PI
+709,Bonfim do Piau?,PI
+710,Boqueir?o do Piau?,PI
+711,Brasileira,PI
+712,Brejo do Piau?,PI
+713,Buriti dos Lopes,PI
+714,Buriti dos Montes,PI
+715,Cabeceiras do Piau?,PI
+716,Cajazeiras do Piau?,PI
+717,Cajueiro da Praia,PI
+718,Caldeir?o Grande do Piau?,PI
+719,Campinas do Piau?,PI
+720,Campo Alegre do Fidalgo,PI
+721,Campo Grande do Piau?,PI
+722,Campo Largo do Piau?,PI
+723,Campo Maior,PI
+724,Canavieira,PI
+725,Canto do Buriti,PI
+726,Capit?o de Campos,PI
+727,Capit?o Gerv?sio Oliveira,PI
+728,Caracol,PI
+729,Cara?bas do Piau?,PI
+730,Caridade do Piau?,PI
+731,Castelo do Piau?,PI
+732,Caxing?,PI
+733,Cocal,PI
+734,Cocal de Telha,PI
+735,Cocal dos Alves,PI
+736,Coivaras,PI
+737,Col?nia do Gurgu?ia,PI
+738,Col?nia do Piau?,PI
+739,Concei??o do Canind?,PI
+740,Coronel Jos? Dias,PI
+741,Corrente,PI
+742,Cristal?ndia do Piau?,PI
+743,Cristino Castro,PI
+744,Curimat?,PI
+745,Currais,PI
+746,Curralinhos,PI
+747,Curral Novo do Piau?,PI
+748,Demerval Lob?o,PI
+749,Dirceu Arcoverde,PI
+750,Dom Expedito Lopes,PI
+751,Domingos Mour?o,PI
+752,Dom Inoc?ncio,PI
+753,Elesb?o Veloso,PI
+754,Eliseu Martins,PI
+755,Esperantina,PI
+756,Fartura do Piau?,PI
+757,Flores do Piau?,PI
+758,Floresta do Piau?,PI
+759,Floriano,PI
+760,Francin?polis,PI
+761,Francisco Ayres,PI
+762,Francisco Macedo,PI
+763,Francisco Santos,PI
+764,Fronteiras,PI
+765,Geminiano,PI
+766,Gilbu?s,PI
+767,Guadalupe,PI
+768,Guaribas,PI
+769,Hugo Napole?o,PI
+770,Ilha Grande,PI
+771,Inhuma,PI
+772,Ipiranga do Piau?,PI
+773,Isa?as Coelho,PI
+774,Itain?polis,PI
+775,Itaueira,PI
+776,Jacobina do Piau?,PI
+777,Jaic?s,PI
+778,Jardim do Mulato,PI
+779,Jatob? do Piau?,PI
+780,Jerumenha,PI
+781,Jo?o Costa,PI
+782,Joaquim Pires,PI
+783,Joca Marques,PI
+784,Jos? de Freitas,PI
+785,Juazeiro do Piau?,PI
+786,J?lio Borges,PI
+787,Jurema,PI
+788,Lagoinha do Piau?,PI
+789,Lagoa Alegre,PI
+790,Lagoa do Barro do Piau?,PI
+791,Lagoa de S?o Francisco,PI
+792,Lagoa do Piau?,PI
+793,Lagoa do S?tio,PI
+794,Landri Sales,PI
+795,Lu?s Correia,PI
+796,Luzil?ndia,PI
+797,Madeiro,PI
+798,Manoel Em?dio,PI
+799,Marcol?ndia,PI
+800,Marcos Parente,PI
+801,Massap? do Piau?,PI
+802,Matias Ol?mpio,PI
+803,Miguel Alves,PI
+804,Miguel Le?o,PI
+805,Milton Brand?o,PI
+806,Monsenhor Gil,PI
+807,Monsenhor Hip?lito,PI
+808,Monte Alegre do Piau?,PI
+809,Morro Cabe?a no Tempo,PI
+810,Morro do Chap?u do Piau?,PI
+811,Murici dos Portelas,PI
+812,Nazar? do Piau?,PI
+813,Naz?ria ,PI
+814,Nossa Senhora de Nazar?,PI
+815,Nossa Senhora dos Rem?dios,PI
+816,Novo Oriente do Piau?,PI
+817,Novo Santo Ant?nio,PI
+818,Oeiras,PI
+819,Olho D ?gua do Piau?,PI
+820,Padre Marcos,PI
+821,Paes Landim,PI
+822,Paje? do Piau?,PI
+823,Palmeira do Piau?,PI
+824,Palmeirais,PI
+825,Paquet?,PI
+826,Parnagu?,PI
+827,Parna?ba,PI
+828,Passagem Franca do Piau?,PI
+829,Patos do Piau?,PI
+830,Pau D Arco do Piau?,PI
+831,Paulistana,PI
+832,Pavussu,PI
+833,Pedro II,PI
+834,Pedro Laurentino,PI
+835,Nova Santa Rita,PI
+836,Picos,PI
+837,Pimenteiras,PI
+838,Pio IX,PI
+839,Piracuruca,PI
+840,Piripiri,PI
+841,Porto,PI
+842,Porto Alegre do Piau?,PI
+843,Prata do Piau?,PI
+844,Queimada Nova,PI
+845,Reden??o do Gurgu?ia,PI
+846,Regenera??o,PI
+847,Riacho Frio,PI
+848,Ribeira do Piau?,PI
+849,Ribeiro Gon?alves,PI
+850,Rio Grande do Piau?,PI
+851,Santa Cruz do Piau?,PI
+852,Santa Cruz dos Milagres,PI
+853,Santa Filomena,PI
+854,Santa Luz,PI
+855,Santana do Piau?,PI
+856,Santa Rosa do Piau?,PI
+857,Santo Ant?nio de Lisboa,PI
+858,Santo Ant?nio dos Milagres,PI
+859,Santo In?cio do Piau?,PI
+860,S?o Braz do Piau?,PI
+861,S?o F?lix do Piau?,PI
+862,S?o Francisco de Assis do Piau?,PI
+863,S?o Francisco do Piau?,PI
+864,S?o Gon?alo do Gurgu?ia,PI
+865,S?o Gon?alo do Piau?,PI
+866,S?o Jo?o da Canabrava,PI
+867,S?o Jo?o da Fronteira,PI
+868,S?o Jo?o da Serra,PI
+869,S?o Jo?o da Varjota,PI
+870,S?o Jo?o do Arraial,PI
+871,S?o Jo?o do Piau?,PI
+872,S?o Jos? do Divino,PI
+873,S?o Jos? do Peixe,PI
+874,S?o Jos? do Piau?,PI
+875,S?o Juli?o,PI
+876,S?o Louren?o do Piau?,PI
+877,S?o Luis do Piau?,PI
+878,S?o Miguel da Baixa Grande,PI
+879,S?o Miguel do Fidalgo,PI
+880,S?o Miguel do Tapuio,PI
+881,S?o Pedro do Piau?,PI
+882,S?o Raimundo Nonato,PI
+883,Sebasti?o Barros,PI
+884,Sebasti?o Leal,PI
+885,Sigefredo Pacheco,PI
+886,Sim?es,PI
+887,Simpl?cio Mendes,PI
+888,Socorro do Piau?,PI
+889,Sussuapara,PI
+890,Tamboril do Piau?,PI
+891,Tanque do Piau?,PI
+892,Teresina,PI
+893,Uni?o,PI
+894,Uru?u?,PI
+895,Valen?a do Piau?,PI
+896,V?rzea Branca,PI
+897,V?rzea Grande,PI
+898,Vera Mendes,PI
+899,Vila Nova do Piau?,PI
+900,Wall Ferraz,PI
+901,Abaiara,CE
+902,Acarape,CE
+903,Acara?,CE
+904,Acopiara,CE
+905,Aiuaba,CE
+906,Alc?ntaras,CE
+907,Altaneira,CE
+908,Alto Santo,CE
+909,Amontada,CE
+910,Antonina do Norte,CE
+911,Apuiar?s,CE
+912,Aquiraz,CE
+913,Aracati,CE
+914,Aracoiaba,CE
+915,Ararend?,CE
+916,Araripe,CE
+917,Aratuba,CE
+918,Arneiroz,CE
+919,Assar?,CE
+920,Aurora,CE
+921,Baixio,CE
+922,Banabui?,CE
+923,Barbalha,CE
+924,Barreira,CE
+925,Barro,CE
+926,Barroquinha,CE
+927,Baturit?,CE
+928,Beberibe,CE
+929,Bela Cruz,CE
+930,Boa Viagem,CE
+931,Brejo Santo,CE
+932,Camocim,CE
+933,Campos Sales,CE
+934,Canind?,CE
+935,Capistrano,CE
+936,Caridade,CE
+937,Carir?,CE
+938,Cariria?u,CE
+939,Cari?s,CE
+940,Carnaubal,CE
+941,Cascavel,CE
+942,Catarina,CE
+943,Catunda,CE
+944,Caucaia,CE
+945,Cedro,CE
+946,Chaval,CE
+947,Chor?,CE
+948,Chorozinho,CE
+949,Corea?,CE
+950,Crate?s,CE
+951,Crato,CE
+952,Croat?,CE
+953,Cruz,CE
+954,Deputado Irapuan Pinheiro,CE
+955,Erer?,CE
+956,Eus?bio,CE
+957,Farias Brito,CE
+958,Forquilha,CE
+959,Fortaleza,CE
+960,Fortim,CE
+961,Frecheirinha,CE
+962,General Sampaio,CE
+963,Gra?a,CE
+964,Granja,CE
+965,Granjeiro,CE
+966,Groa?ras,CE
+967,Guai?ba,CE
+968,Guaraciaba do Norte,CE
+969,Guaramiranga,CE
+970,Hidrol?ndia,CE
+971,Horizonte,CE
+972,Ibaretama,CE
+973,Ibiapina,CE
+974,Ibicuitinga,CE
+975,Icapu?,CE
+976,Ic?,CE
+977,Iguatu,CE
+978,Independ?ncia,CE
+979,Ipaporanga,CE
+980,Ipaumirim,CE
+981,Ipu,CE
+982,Ipueiras,CE
+983,Iracema,CE
+984,Irau?uba,CE
+985,Itai?aba,CE
+986,Itaitinga,CE
+987,Itapag?,CE
+988,Itapipoca,CE
+989,Itapi?na,CE
+990,Itarema,CE
+991,Itatira,CE
+992,Jaguaretama,CE
+993,Jaguaribara,CE
+994,Jaguaribe,CE
+995,Jaguaruana,CE
+996,Jardim,CE
+997,Jati,CE
+998,Jijoca de Jericoacoara,CE
+999,Juazeiro do Norte,CE
+1000,Juc?s,CE
+1001,Lavras da Mangabeira,CE
+1002,Limoeiro do Norte,CE
+1003,Madalena,CE
+1004,Maracana?,CE
+1005,Maranguape,CE
+1006,Marco,CE
+1007,Martin?pole,CE
+1008,Massap?,CE
+1009,Mauriti,CE
+1010,Meruoca,CE
+1011,Milagres,CE
+1012,Milh?,CE
+1013,Mira?ma,CE
+1014,Miss?o Velha,CE
+1015,Momba?a,CE
+1016,Monsenhor Tabosa,CE
+1017,Morada Nova,CE
+1018,Mora?jo,CE
+1019,Morrinhos,CE
+1020,Mucambo,CE
+1021,Mulungu,CE
+1022,Nova Olinda,CE
+1023,Nova Russas,CE
+1024,Novo Oriente,CE
+1025,Ocara,CE
+1026,Or?s,CE
+1027,Pacajus,CE
+1028,Pacatuba,CE
+1029,Pacoti,CE
+1030,Pacuj?,CE
+1031,Palhano,CE
+1032,Palm?cia,CE
+1033,Paracuru,CE
+1034,Paraipaba,CE
+1035,Parambu,CE
+1036,Paramoti,CE
+1037,Pedra Branca,CE
+1038,Penaforte,CE
+1039,Pentecoste,CE
+1040,Pereiro,CE
+1041,Pindoretama,CE
+1042,Piquet Carneiro,CE
+1043,Pires Ferreira,CE
+1044,Poranga,CE
+1045,Porteiras,CE
+1046,Potengi,CE
+1047,Potiretama,CE
+1048,Quiterian?polis,CE
+1049,Quixad?,CE
+1050,Quixel?,CE
+1051,Quixeramobim,CE
+1052,Quixer?,CE
+1053,Reden??o,CE
+1054,Reriutaba,CE
+1055,Russas,CE
+1056,Saboeiro,CE
+1057,Salitre,CE
+1058,Santana do Acara?,CE
+1059,Santana do Cariri,CE
+1060,Santa Quit?ria,CE
+1061,S?o Benedito,CE
+1062,S?o Gon?alo do Amarante,CE
+1063,S?o Jo?o do Jaguaribe,CE
+1064,S?o Lu?s do Curu,CE
+1065,Senador Pompeu,CE
+1066,Senador S?,CE
+1067,Sobral,CE
+1068,Solon?pole,CE
+1069,Tabuleiro do Norte,CE
+1070,Tamboril,CE
+1071,Tarrafas,CE
+1072,Tau?,CE
+1073,Teju?uoca,CE
+1074,Tiangu?,CE
+1075,Trairi,CE
+1076,Tururu,CE
+1077,Ubajara,CE
+1078,Umari,CE
+1079,Umirim,CE
+1080,Uruburetama,CE
+1081,Uruoca,CE
+1082,Varjota,CE
+1083,V?rzea Alegre,CE
+1084,Vi?osa do Cear?,CE
+1085,Acari,RN
+1086,A?u,RN
+1087,Afonso Bezerra,RN
+1088,?gua Nova,RN
+1089,Alexandria,RN
+1090,Almino Afonso,RN
+1091,Alto do Rodrigues,RN
+1092,Angicos,RN
+1093,Ant?nio Martins,RN
+1094,Apodi,RN
+1095,Areia Branca,RN
+1096,Ar?s,RN
+1097,Augusto Severo,RN
+1098,Ba?a Formosa,RN
+1099,Bara?na,RN
+1100,Barcelona,RN
+1101,Bento Fernandes,RN
+1102,Bod?,RN
+1103,Bom Jesus,RN
+1104,Brejinho,RN
+1105,Cai?ara do Norte,RN
+1106,Cai?ara do Rio do Vento,RN
+1107,Caic?,RN
+1108,Campo Redondo,RN
+1109,Canguaretama,RN
+1110,Cara?bas,RN
+1111,Carna?ba dos Dantas,RN
+1112,Carnaubais,RN
+1113,Cear?-Mirim,RN
+1114,Cerro Cor?,RN
+1115,Coronel Ezequiel,RN
+1116,Coronel Jo?o Pessoa,RN
+1117,Cruzeta,RN
+1118,Currais Novos,RN
+1119,Doutor Severiano,RN
+1120,Parnamirim,RN
+1121,Encanto,RN
+1122,Equador,RN
+1123,Esp?rito Santo,RN
+1124,Extremoz,RN
+1125,Felipe Guerra,RN
+1126,Fernando Pedroza,RN
+1127,Flor?nia,RN
+1128,Francisco Dantas,RN
+1129,Frutuoso Gomes,RN
+1130,Galinhos,RN
+1131,Goianinha,RN
+1132,Governador Dix-Sept Rosado,RN
+1133,Grossos,RN
+1134,Guamar?,RN
+1135,Ielmo Marinho,RN
+1136,Ipangua?u,RN
+1137,Ipueira,RN
+1138,Itaj?,RN
+1139,Ita?,RN
+1140,Ja?an?,RN
+1141,Janda?ra,RN
+1142,Jandu?s,RN
+1143,Janu?rio Cicco,RN
+1144,Japi,RN
+1145,Jardim de Angicos,RN
+1146,Jardim de Piranhas,RN
+1147,Jardim do Serid?,RN
+1148,Jo?o C?mara,RN
+1149,Jo?o Dias,RN
+1150,Jos? da Penha,RN
+1151,Jucurutu,RN
+1152,Jundi?,RN
+1153,Lagoa d Anta,RN
+1154,Lagoa de Pedras,RN
+1155,Lagoa de Velhos,RN
+1156,Lagoa Nova,RN
+1157,Lagoa Salgada,RN
+1158,Lajes,RN
+1159,Lajes Pintadas,RN
+1160,Lucr?cia,RN
+1161,Lu?s Gomes,RN
+1162,Maca?ba,RN
+1163,Macau,RN
+1164,Major Sales,RN
+1165,Marcelino Vieira,RN
+1166,Martins,RN
+1167,Maxaranguape,RN
+1168,Messias Targino,RN
+1169,Montanhas,RN
+1170,Monte Alegre,RN
+1171,Monte das Gameleiras,RN
+1172,Mossor?,RN
+1173,Natal,RN
+1174,N?sia Floresta,RN
+1175,Nova Cruz,RN
+1176,Olho-d ?gua do Borges,RN
+1177,Ouro Branco,RN
+1178,Paran?,RN
+1179,Para?,RN
+1180,Parazinho,RN
+1181,Parelhas,RN
+1182,Rio do Fogo,RN
+1183,Passa e Fica,RN
+1184,Passagem,RN
+1185,Patu,RN
+1186,Santa Maria,RN
+1187,Pau dos Ferros,RN
+1188,Pedra Grande,RN
+1189,Pedra Preta,RN
+1190,Pedro Avelino,RN
+1191,Pedro Velho,RN
+1192,Pend?ncias,RN
+1193,Pil?es,RN
+1194,Po?o Branco,RN
+1195,Portalegre,RN
+1196,Porto do Mangue,RN
+1197,Presidente Juscelino,RN
+1198,Pureza,RN
+1199,Rafael Fernandes,RN
+1200,Rafael Godeiro,RN
+1201,Riacho da Cruz,RN
+1202,Riacho de Santana,RN
+1203,Riachuelo,RN
+1204,Rodolfo Fernandes,RN
+1205,Tibau,RN
+1206,Ruy Barbosa,RN
+1207,Santa Cruz,RN
+1208,Santana do Matos,RN
+1209,Santana do Serid?,RN
+1210,Santo Ant?nio,RN
+1211,S?o Bento do Norte,RN
+1212,S?o Bento do Trair?,RN
+1213,S?o Fernando,RN
+1214,S?o Francisco do Oeste,RN
+1215,S?o Gon?alo do Amarante,RN
+1216,S?o Jo?o do Sabugi,RN
+1217,S?o Jos? de Mipibu,RN
+1218,S?o Jos? do Campestre,RN
+1219,S?o Jos? do Serid?,RN
+1220,S?o Miguel,RN
+1221,S?o Miguel do Gostoso,RN
+1222,S?o Paulo do Potengi,RN
+1223,S?o Pedro,RN
+1224,S?o Rafael,RN
+1225,S?o Tom?,RN
+1226,S?o Vicente,RN
+1227,Senador El?i de Souza,RN
+1228,Senador Georgino Avelino,RN
+1229,Serra de S?o Bento,RN
+1230,Serra do Mel,RN
+1231,Serra Negra do Norte,RN
+1232,Serrinha,RN
+1233,Serrinha dos Pintos,RN
+1234,Severiano Melo,RN
+1235,S?tio Novo,RN
+1236,Taboleiro Grande,RN
+1237,Taipu,RN
+1238,Tangar?,RN
+1239,Tenente Ananias,RN
+1240,Tenente Laurentino Cruz,RN
+1241,Tibau do Sul,RN
+1242,Timba?ba dos Batistas,RN
+1243,Touros,RN
+1244,Triunfo Potiguar,RN
+1245,Umarizal,RN
+1246,Upanema,RN
+1247,V?rzea,RN
+1248,Venha-Ver,RN
+1249,Vera Cruz,RN
+1250,Vi?osa,RN
+1251,Vila Flor,RN
+1252,?gua Branca,PB
+1253,Aguiar,PB
+1254,Alagoa Grande,PB
+1255,Alagoa Nova,PB
+1256,Alagoinha,PB
+1257,Alcantil,PB
+1258,Algod?o de Janda?ra,PB
+1259,Alhandra,PB
+1260,S?o Jo?o do Rio do Peixe,PB
+1261,Amparo,PB
+1262,Aparecida,PB
+1263,Ara?agi,PB
+1264,Arara,PB
+1265,Araruna,PB
+1266,Areia,PB
+1267,Areia de Bara?nas,PB
+1268,Areial,PB
+1269,Aroeiras,PB
+1270,Assun??o,PB
+1271,Ba?a da Trai??o,PB
+1272,Bananeiras,PB
+1273,Bara?na,PB
+1274,Barra de Santana,PB
+1275,Barra de Santa Rosa,PB
+1276,Barra de S?o Miguel,PB
+1277,Bayeux,PB
+1278,Bel?m,PB
+1279,Bel?m do Brejo do Cruz,PB
+1280,Bernardino Batista,PB
+1281,Boa Ventura,PB
+1282,Boa Vista,PB
+1283,Bom Jesus,PB
+1284,Bom Sucesso,PB
+1285,Bonito de Santa F?,PB
+1286,Boqueir?o,PB
+1287,Igaracy,PB
+1288,Borborema,PB
+1289,Brejo do Cruz,PB
+1290,Brejo dos Santos,PB
+1291,Caapor?,PB
+1292,Cabaceiras,PB
+1293,Cabedelo,PB
+1294,Cachoeira dos ?ndios,PB
+1295,Cacimba de Areia,PB
+1296,Cacimba de Dentro,PB
+1297,Cacimbas,PB
+1298,Cai?ara,PB
+1299,Cajazeiras,PB
+1300,Cajazeirinhas,PB
+1301,Caldas Brand?o,PB
+1302,Camala?,PB
+1303,Campina Grande,PB
+1304,Capim,PB
+1305,Cara?bas,PB
+1306,Carrapateira,PB
+1307,Casserengue,PB
+1308,Catingueira,PB
+1309,Catol? do Rocha,PB
+1310,Caturit?,PB
+1311,Concei??o,PB
+1312,Condado,PB
+1313,Conde,PB
+1314,Congo,PB
+1315,Coremas,PB
+1316,Coxixola,PB
+1317,Cruz do Esp?rito Santo,PB
+1318,Cubati,PB
+1319,Cuit?,PB
+1320,Cuitegi,PB
+1321,Cuit? de Mamanguape,PB
+1322,Curral de Cima,PB
+1323,Curral Velho,PB
+1324,Dami?o,PB
+1325,Desterro,PB
+1326,Vista Serrana,PB
+1327,Diamante,PB
+1328,Dona In?s,PB
+1329,Duas Estradas,PB
+1330,Emas,PB
+1331,Esperan?a,PB
+1332,Fagundes,PB
+1333,Frei Martinho,PB
+1334,Gado Bravo,PB
+1335,Guarabira,PB
+1336,Gurinh?m,PB
+1337,Gurj?o,PB
+1338,Ibiara,PB
+1339,Imaculada,PB
+1340,Ing?,PB
+1341,Itabaiana,PB
+1342,Itaporanga,PB
+1343,Itapororoca,PB
+1344,Itatuba,PB
+1345,Jacara?,PB
+1346,Jeric?,PB
+1347,Jo?o Pessoa,PB
+1348,Juarez T?vora,PB
+1349,Juazeirinho,PB
+1350,Junco do Serid?,PB
+1351,Juripiranga,PB
+1352,Juru,PB
+1353,Lagoa,PB
+1354,Lagoa de Dentro,PB
+1355,Lagoa Seca,PB
+1356,Lastro,PB
+1357,Livramento,PB
+1358,Logradouro,PB
+1359,Lucena,PB
+1360,M?e d ?gua,PB
+1361,Malta,PB
+1362,Mamanguape,PB
+1363,Mana?ra,PB
+1364,Marca??o,PB
+1365,Mari,PB
+1366,Mariz?polis,PB
+1367,Massaranduba,PB
+1368,Mataraca,PB
+1369,Matinhas,PB
+1370,Mato Grosso,PB
+1371,Matur?ia,PB
+1372,Mogeiro,PB
+1373,Montadas,PB
+1374,Monte Horebe,PB
+1375,Monteiro,PB
+1376,Mulungu,PB
+1377,Natuba,PB
+1378,Nazarezinho,PB
+1379,Nova Floresta,PB
+1380,Nova Olinda,PB
+1381,Nova Palmeira,PB
+1382,Olho d ?gua,PB
+1383,Olivedos,PB
+1384,Ouro Velho,PB
+1385,Parari,PB
+1386,Passagem,PB
+1387,Patos,PB
+1388,Paulista,PB
+1389,Pedra Branca,PB
+1390,Pedra Lavrada,PB
+1391,Pedras de Fogo,PB
+1392,Pianc?,PB
+1393,Picu?,PB
+1394,Pilar,PB
+1395,Pil?es,PB
+1396,Pil?ezinhos,PB
+1397,Pirpirituba,PB
+1398,Pitimbu,PB
+1399,Pocinhos,PB
+1400,Po?o Dantas,PB
+1401,Po?o de Jos? de Moura,PB
+1402,Pombal,PB
+1403,Prata,PB
+1404,Princesa Isabel,PB
+1405,Puxinan?,PB
+1406,Queimadas,PB
+1407,Quixab?,PB
+1408,Rem?gio,PB
+1409,Pedro R?gis,PB
+1410,Riach?o,PB
+1411,Riach?o do Bacamarte,PB
+1412,Riach?o do Po?o,PB
+1413,Riacho de Santo Ant?nio,PB
+1414,Riacho dos Cavalos,PB
+1415,Rio Tinto,PB
+1416,Salgadinho,PB
+1417,Salgado de S?o F?lix,PB
+1418,Santa Cec?lia,PB
+1419,Santa Cruz,PB
+1420,Santa Helena,PB
+1421,Santa In?s,PB
+1422,Santa Luzia,PB
+1423,Santana de Mangueira,PB
+1424,Santana dos Garrotes,PB
+1425,Joca Claudino,PB
+1426,Santa Rita,PB
+1427,Santa Teresinha,PB
+1428,Santo Andr?,PB
+1429,S?o Bento,PB
+1430,S?o Bentinho,PB
+1431,S?o Domingos do Cariri,PB
+1432,S?o Domingos,PB
+1433,S?o Francisco,PB
+1434,S?o Jo?o do Cariri,PB
+1435,S?o Jo?o do Tigre,PB
+1436,S?o Jos? da Lagoa Tapada,PB
+1437,S?o Jos? de Caiana,PB
+1438,S?o Jos? de Espinharas,PB
+1439,S?o Jos? dos Ramos,PB
+1440,S?o Jos? de Piranhas,PB
+1441,S?o Jos? de Princesa,PB
+1442,S?o Jos? do Bonfim,PB
+1443,S?o Jos? do Brejo do Cruz,PB
+1444,S?o Jos? do Sabugi,PB
+1445,S?o Jos? dos Cordeiros,PB
+1446,S?o Mamede,PB
+1447,S?o Miguel de Taipu,PB
+1448,S?o Sebasti?o de Lagoa de Ro?a,PB
+1449,S?o Sebasti?o do Umbuzeiro,PB
+1450,Sap?,PB
+1451,Serid?,PB
+1452,Serra Branca,PB
+1453,Serra da Raiz,PB
+1454,Serra Grande,PB
+1455,Serra Redonda,PB
+1456,Serraria,PB
+1457,Sert?ozinho,PB
+1458,Sobrado,PB
+1459,Sol?nea,PB
+1460,Soledade,PB
+1461,Soss?go,PB
+1462,Sousa,PB
+1463,Sum?,PB
+1464,Tacima,PB
+1465,Tapero?,PB
+1466,Tavares,PB
+1467,Teixeira,PB
+1468,Ten?rio,PB
+1469,Triunfo,PB
+1470,Uira?na,PB
+1471,Umbuzeiro,PB
+1472,V?rzea,PB
+1473,Vieir?polis,PB
+1474,Zabel?,PB
+1475,Abreu e Lima,PE
+1476,Afogados da Ingazeira,PE
+1477,Afr?nio,PE
+1478,Agrestina,PE
+1479,?gua Preta,PE
+1480,?guas Belas,PE
+1481,Alagoinha,PE
+1482,Alian?a,PE
+1483,Altinho,PE
+1484,Amaraji,PE
+1485,Angelim,PE
+1486,Ara?oiaba,PE
+1487,Araripina,PE
+1488,Arcoverde,PE
+1489,Barra de Guabiraba,PE
+1490,Barreiros,PE
+1491,Bel?m de Maria,PE
+1492,Bel?m do S?o Francisco,PE
+1493,Belo Jardim,PE
+1494,Bet?nia,PE
+1495,Bezerros,PE
+1496,Bodoc?,PE
+1497,Bom Conselho,PE
+1498,Bom Jardim,PE
+1499,Bonito,PE
+1500,Brej?o,PE
+1501,Brejinho,PE
+1502,Brejo da Madre de Deus,PE
+1503,Buenos Aires,PE
+1504,Bu?que,PE
+1505,Cabo de Santo Agostinho,PE
+1506,Cabrob?,PE
+1507,Cachoeirinha,PE
+1508,Caet?s,PE
+1509,Cal?ado,PE
+1510,Calumbi,PE
+1511,Camaragibe,PE
+1512,Camocim de S?o F?lix,PE
+1513,Camutanga,PE
+1514,Canhotinho,PE
+1515,Capoeiras,PE
+1516,Carna?ba,PE
+1517,Carnaubeira da Penha,PE
+1518,Carpina,PE
+1519,Caruaru,PE
+1520,Casinhas,PE
+1521,Catende,PE
+1522,Cedro,PE
+1523,Ch? de Alegria,PE
+1524,Ch? Grande,PE
+1525,Condado,PE
+1526,Correntes,PE
+1527,Cort?s,PE
+1528,Cumaru,PE
+1529,Cupira,PE
+1530,Cust?dia,PE
+1531,Dormentes,PE
+1532,Escada,PE
+1533,Exu,PE
+1534,Feira Nova,PE
+1535,Fernando de Noronha,PE
+1536,Ferreiros,PE
+1537,Flores,PE
+1538,Floresta,PE
+1539,Frei Miguelinho,PE
+1540,Gameleira,PE
+1541,Garanhuns,PE
+1542,Gl?ria do Goit?,PE
+1543,Goiana,PE
+1544,Granito,PE
+1545,Gravat?,PE
+1546,Iati,PE
+1547,Ibimirim,PE
+1548,Ibirajuba,PE
+1549,Igarassu,PE
+1550,Iguaraci,PE
+1551,Inaj?,PE
+1552,Ingazeira,PE
+1553,Ipojuca,PE
+1554,Ipubi,PE
+1555,Itacuruba,PE
+1556,Ita?ba,PE
+1557,Ilha de Itamarac?,PE
+1558,Itamb?,PE
+1559,Itapetim,PE
+1560,Itapissuma,PE
+1561,Itaquitinga,PE
+1562,Jaboat?o dos Guararapes,PE
+1563,Jaqueira,PE
+1564,Jata?ba,PE
+1565,Jatob?,PE
+1566,Jo?o Alfredo,PE
+1567,Joaquim Nabuco,PE
+1568,Jucati,PE
+1569,Jupi,PE
+1570,Jurema,PE
+1571,Lagoa do Carro,PE
+1572,Lagoa de Itaenga,PE
+1573,Lagoa do Ouro,PE
+1574,Lagoa dos Gatos,PE
+1575,Lagoa Grande,PE
+1576,Lajedo,PE
+1577,Limoeiro,PE
+1578,Macaparana,PE
+1579,Machados,PE
+1580,Manari,PE
+1581,Maraial,PE
+1582,Mirandiba,PE
+1583,Moreno,PE
+1584,Nazar? da Mata,PE
+1585,Olinda,PE
+1586,Orob?,PE
+1587,Oroc?,PE
+1588,Ouricuri,PE
+1589,Palmares,PE
+1590,Palmeirina,PE
+1591,Panelas,PE
+1592,Paranatama,PE
+1593,Parnamirim,PE
+1594,Passira,PE
+1595,Paudalho,PE
+1596,Paulista,PE
+1597,Pedra,PE
+1598,Pesqueira,PE
+1599,Petrol?ndia,PE
+1600,Petrolina,PE
+1601,Po??o,PE
+1602,Pombos,PE
+1603,Primavera,PE
+1604,Quipap?,PE
+1605,Quixaba,PE
+1606,Recife,PE
+1607,Riacho das Almas,PE
+1608,Ribeir?o,PE
+1609,Rio Formoso,PE
+1610,Sair?,PE
+1611,Salgadinho,PE
+1612,Salgueiro,PE
+1613,Salo?,PE
+1614,Sanhar?,PE
+1615,Santa Cruz,PE
+1616,Santa Cruz da Baixa Verde,PE
+1617,Santa Cruz do Capibaribe,PE
+1618,Santa Filomena,PE
+1619,Santa Maria da Boa Vista,PE
+1620,Santa Maria do Cambuc?,PE
+1621,Santa Terezinha,PE
+1622,S?o Benedito do Sul,PE
+1623,S?o Bento do Una,PE
+1624,S?o Caitano,PE
+1625,S?o Jo?o,PE
+1626,S?o Joaquim do Monte,PE
+1627,S?o Jos? da Coroa Grande,PE
+1628,S?o Jos? do Belmonte,PE
+1629,S?o Jos? do Egito,PE
+1630,S?o Louren?o da Mata,PE
+1631,S?o Vicente Ferrer,PE
+1632,Serra Talhada,PE
+1633,Serrita,PE
+1634,Sert?nia,PE
+1635,Sirinha?m,PE
+1636,Moreil?ndia,PE
+1637,Solid?o,PE
+1638,Surubim,PE
+1639,Tabira,PE
+1640,Tacaimb?,PE
+1641,Tacaratu,PE
+1642,Tamandar?,PE
+1643,Taquaritinga do Norte,PE
+1644,Terezinha,PE
+1645,Terra Nova,PE
+1646,Timba?ba,PE
+1647,Toritama,PE
+1648,Tracunha?m,PE
+1649,Trindade,PE
+1650,Triunfo,PE
+1651,Tupanatinga,PE
+1652,Tuparetama,PE
+1653,Venturosa,PE
+1654,Verdejante,PE
+1655,Vertente do L?rio,PE
+1656,Vertentes,PE
+1657,Vic?ncia,PE
+1658,Vit?ria de Santo Ant?o,PE
+1659,Xex?u,PE
+1660,?gua Branca,AL
+1661,Anadia,AL
+1662,Arapiraca,AL
+1663,Atalaia,AL
+1664,Barra de Santo Ant?nio,AL
+1665,Barra de S?o Miguel,AL
+1666,Batalha,AL
+1667,Bel?m,AL
+1668,Belo Monte,AL
+1669,Boca da Mata,AL
+1670,Branquinha,AL
+1671,Cacimbinhas,AL
+1672,Cajueiro,AL
+1673,Campestre,AL
+1674,Campo Alegre,AL
+1675,Campo Grande,AL
+1676,Canapi,AL
+1677,Capela,AL
+1678,Carneiros,AL
+1679,Ch? Preta,AL
+1680,Coit? do N?ia,AL
+1681,Col?nia Leopoldina,AL
+1682,Coqueiro Seco,AL
+1683,Coruripe,AL
+1684,Cra?bas,AL
+1685,Delmiro Gouveia,AL
+1686,Dois Riachos,AL
+1687,Estrela de Alagoas,AL
+1688,Feira Grande,AL
+1689,Feliz Deserto,AL
+1690,Flexeiras,AL
+1691,Girau do Ponciano,AL
+1692,Ibateguara,AL
+1693,Igaci,AL
+1694,Igreja Nova,AL
+1695,Inhapi,AL
+1696,Jacar? dos Homens,AL
+1697,Jacu?pe,AL
+1698,Japaratinga,AL
+1699,Jaramataia,AL
+1700,Jequi? da Praia,AL
+1701,Joaquim Gomes,AL
+1702,Jundi?,AL
+1703,Junqueiro,AL
+1704,Lagoa da Canoa,AL
+1705,Limoeiro de Anadia,AL
+1706,Macei?,AL
+1707,Major Isidoro,AL
+1708,Maragogi,AL
+1709,Maravilha,AL
+1710,Marechal Deodoro,AL
+1711,Maribondo,AL
+1712,Mar Vermelho,AL
+1713,Mata Grande,AL
+1714,Matriz de Camaragibe,AL
+1715,Messias,AL
+1716,Minador do Negr?o,AL
+1717,Monteir?polis,AL
+1718,Murici,AL
+1719,Novo Lino,AL
+1720,Olho d ?gua das Flores,AL
+1721,Olho d ?gua do Casado,AL
+1722,Olho d ?gua Grande,AL
+1723,Oliven?a,AL
+1724,Ouro Branco,AL
+1725,Palestina,AL
+1726,Palmeira dos ?ndios,AL
+1727,P?o de A??car,AL
+1728,Pariconha,AL
+1729,Paripueira,AL
+1730,Passo de Camaragibe,AL
+1731,Paulo Jacinto,AL
+1732,Penedo,AL
+1733,Pia?abu?u,AL
+1734,Pilar,AL
+1735,Pindoba,AL
+1736,Piranhas,AL
+1737,Po?o das Trincheiras,AL
+1738,Porto Calvo,AL
+1739,Porto de Pedras,AL
+1740,Porto Real do Col?gio,AL
+1741,Quebrangulo,AL
+1742,Rio Largo,AL
+1743,Roteiro,AL
+1744,Santa Luzia do Norte,AL
+1745,Santana do Ipanema,AL
+1746,Santana do Munda?,AL
+1747,S?o Br?s,AL
+1748,S?o Jos? da Laje,AL
+1749,S?o Jos? da Tapera,AL
+1750,S?o Lu?s do Quitunde,AL
+1751,S?o Miguel dos Campos,AL
+1752,S?o Miguel dos Milagres,AL
+1753,S?o Sebasti?o,AL
+1754,Satuba,AL
+1755,Senador Rui Palmeira,AL
+1756,Tanque d Arca,AL
+1757,Taquarana,AL
+1758,Teot?nio Vilela,AL
+1759,Traipu,AL
+1760,Uni?o dos Palmares,AL
+1761,Vi?osa,AL
+1762,Amparo de S?o Francisco,SE
+1763,Aquidab?,SE
+1764,Aracaju,SE
+1765,Arau?,SE
+1766,Areia Branca,SE
+1767,Barra dos Coqueiros,SE
+1768,Boquim,SE
+1769,Brejo Grande,SE
+1770,Campo do Brito,SE
+1771,Canhoba,SE
+1772,Canind? de S?o Francisco,SE
+1773,Capela,SE
+1774,Carira,SE
+1775,Carm?polis,SE
+1776,Cedro de S?o Jo?o,SE
+1777,Cristin?polis,SE
+1778,Cumbe,SE
+1779,Divina Pastora,SE
+1780,Est?ncia,SE
+1781,Feira Nova,SE
+1782,Frei Paulo,SE
+1783,Gararu,SE
+1784,General Maynard,SE
+1785,Gracho Cardoso,SE
+1786,Ilha das Flores,SE
+1787,Indiaroba,SE
+1788,Itabaiana,SE
+1789,Itabaianinha,SE
+1790,Itabi,SE
+1791,Itaporanga d Ajuda,SE
+1792,Japaratuba,SE
+1793,Japoat?,SE
+1794,Lagarto,SE
+1795,Laranjeiras,SE
+1796,Macambira,SE
+1797,Malhada dos Bois,SE
+1798,Malhador,SE
+1799,Maruim,SE
+1800,Moita Bonita,SE
+1801,Monte Alegre de Sergipe,SE
+1802,Muribeca,SE
+1803,Ne?polis,SE
+1804,Nossa Senhora Aparecida,SE
+1805,Nossa Senhora da Gl?ria,SE
+1806,Nossa Senhora das Dores,SE
+1807,Nossa Senhora de Lourdes,SE
+1808,Nossa Senhora do Socorro,SE
+1809,Pacatuba,SE
+1810,Pedra Mole,SE
+1811,Pedrinhas,SE
+1812,Pinh?o,SE
+1813,Pirambu,SE
+1814,Po?o Redondo,SE
+1815,Po?o Verde,SE
+1816,Porto da Folha,SE
+1817,Propri?,SE
+1818,Riach?o do Dantas,SE
+1819,Riachuelo,SE
+1820,Ribeir?polis,SE
+1821,Ros?rio do Catete,SE
+1822,Salgado,SE
+1823,Santa Luzia do Itanhy,SE
+1824,Santana do S?o Francisco,SE
+1825,Santa Rosa de Lima,SE
+1826,Santo Amaro das Brotas,SE
+1827,S?o Crist?v?o,SE
+1828,S?o Domingos,SE
+1829,S?o Francisco,SE
+1830,S?o Miguel do Aleixo,SE
+1831,Sim?o Dias,SE
+1832,Siriri,SE
+1833,Telha,SE
+1834,Tobias Barreto,SE
+1835,Tomar do Geru,SE
+1836,Umba?ba,SE
+1837,Aba?ra,BA
+1838,Abar?,BA
+1839,Acajutiba,BA
+1840,Adustina,BA
+1841,?gua Fria,BA
+1842,?rico Cardoso,BA
+1843,Aiquara,BA
+1844,Alagoinhas,BA
+1845,Alcoba?a,BA
+1846,Almadina,BA
+1847,Amargosa,BA
+1848,Am?lia Rodrigues,BA
+1849,Am?rica Dourada,BA
+1850,Anag?,BA
+1851,Andara?,BA
+1852,Andorinha,BA
+1853,Angical,BA
+1854,Anguera,BA
+1855,Antas,BA
+1856,Ant?nio Cardoso,BA
+1857,Ant?nio Gon?alves,BA
+1858,Apor?,BA
+1859,Apuarema,BA
+1860,Aracatu,BA
+1861,Ara?as,BA
+1862,Araci,BA
+1863,Aramari,BA
+1864,Arataca,BA
+1865,Aratu?pe,BA
+1866,Aurelino Leal,BA
+1867,Baian?polis,BA
+1868,Baixa Grande,BA
+1869,Banza?,BA
+1870,Barra,BA
+1871,Barra da Estiva,BA
+1872,Barra do Cho?a,BA
+1873,Barra do Mendes,BA
+1874,Barra do Rocha,BA
+1875,Barreiras,BA
+1876,Barro Alto,BA
+1877,Barrocas,BA
+1878,Barro Preto,BA
+1879,Belmonte,BA
+1880,Belo Campo,BA
+1881,Biritinga,BA
+1882,Boa Nova,BA
+1883,Boa Vista do Tupim,BA
+1884,Bom Jesus da Lapa,BA
+1885,Bom Jesus da Serra,BA
+1886,Boninal,BA
+1887,Bonito,BA
+1888,Boquira,BA
+1889,Botupor?,BA
+1890,Brej?es,BA
+1891,Brejol?ndia,BA
+1892,Brotas de Maca?bas,BA
+1893,Brumado,BA
+1894,Buerarema,BA
+1895,Buritirama,BA
+1896,Caatiba,BA
+1897,Cabaceiras do Paragua?u,BA
+1898,Cachoeira,BA
+1899,Cacul?,BA
+1900,Ca?m,BA
+1901,Caetanos,BA
+1902,Caetit?,BA
+1903,Cafarnaum,BA
+1904,Cairu,BA
+1905,Caldeir?o Grande,BA
+1906,Camacan,BA
+1907,Cama?ari,BA
+1908,Camamu,BA
+1909,Campo Alegre de Lourdes,BA
+1910,Campo Formoso,BA
+1911,Can?polis,BA
+1912,Canarana,BA
+1913,Canavieiras,BA
+1914,Candeal,BA
+1915,Candeias,BA
+1916,Candiba,BA
+1917,C?ndido Sales,BA
+1918,Cansan??o,BA
+1919,Canudos,BA
+1920,Capela do Alto Alegre,BA
+1921,Capim Grosso,BA
+1922,Cara?bas,BA
+1923,Caravelas,BA
+1924,Cardeal da Silva,BA
+1925,Carinhanha,BA
+1926,Casa Nova,BA
+1927,Castro Alves,BA
+1928,Catol?ndia,BA
+1929,Catu,BA
+1930,Caturama,BA
+1931,Central,BA
+1932,Chorroch?,BA
+1933,C?cero Dantas,BA
+1934,Cip?,BA
+1935,Coaraci,BA
+1936,Cocos,BA
+1937,Concei??o da Feira,BA
+1938,Concei??o do Almeida,BA
+1939,Concei??o do Coit?,BA
+1940,Concei??o do Jacu?pe,BA
+1941,Conde,BA
+1942,Conde?ba,BA
+1943,Contendas do Sincor?,BA
+1944,Cora??o de Maria,BA
+1945,Cordeiros,BA
+1946,Coribe,BA
+1947,Coronel Jo?o S?,BA
+1948,Correntina,BA
+1949,Cotegipe,BA
+1950,Cravol?ndia,BA
+1951,Cris?polis,BA
+1952,Crist?polis,BA
+1953,Cruz das Almas,BA
+1954,Cura??,BA
+1955,D?rio Meira,BA
+1956,Dias d ?vila,BA
+1957,Dom Bas?lio,BA
+1958,Dom Macedo Costa,BA
+1959,El?sio Medrado,BA
+1960,Encruzilhada,BA
+1961,Entre Rios,BA
+1962,Esplanada,BA
+1963,Euclides da Cunha,BA
+1964,Eun?polis,BA
+1965,F?tima,BA
+1966,Feira da Mata,BA
+1967,Feira de Santana,BA
+1968,Filad?lfia,BA
+1969,Firmino Alves,BA
+1970,Floresta Azul,BA
+1971,Formosa do Rio Preto,BA
+1972,Gandu,BA
+1973,Gavi?o,BA
+1974,Gentio do Ouro,BA
+1975,Gl?ria,BA
+1976,Gongogi,BA
+1977,Governador Mangabeira,BA
+1978,Guajeru,BA
+1979,Guanambi,BA
+1980,Guaratinga,BA
+1981,Heli?polis,BA
+1982,Ia?u,BA
+1983,Ibiassuc?,BA
+1984,Ibicara?,BA
+1985,Ibicoara,BA
+1986,Ibicu?,BA
+1987,Ibipeba,BA
+1988,Ibipitanga,BA
+1989,Ibiquera,BA
+1990,Ibirapitanga,BA
+1991,Ibirapu?,BA
+1992,Ibirataia,BA
+1993,Ibitiara,BA
+1994,Ibitit?,BA
+1995,Ibotirama,BA
+1996,Ichu,BA
+1997,Igapor?,BA
+1998,Igrapi?na,BA
+1999,Igua?,BA
+2000,Ilh?us,BA
+2001,Inhambupe,BA
+2002,Ipecaet?,BA
+2003,Ipia?,BA
+2004,Ipir?,BA
+2005,Ipupiara,BA
+2006,Irajuba,BA
+2007,Iramaia,BA
+2008,Iraquara,BA
+2009,Irar?,BA
+2010,Irec?,BA
+2011,Itabela,BA
+2012,Itaberaba,BA
+2013,Itabuna,BA
+2014,Itacar?,BA
+2015,Itaet?,BA
+2016,Itagi,BA
+2017,Itagib?,BA
+2018,Itagimirim,BA
+2019,Itagua?u da Bahia,BA
+2020,Itaju do Col?nia,BA
+2021,Itaju?pe,BA
+2022,Itamaraju,BA
+2023,Itamari,BA
+2024,Itamb?,BA
+2025,Itanagra,BA
+2026,Itanh?m,BA
+2027,Itaparica,BA
+2028,Itap?,BA
+2029,Itapebi,BA
+2030,Itapetinga,BA
+2031,Itapicuru,BA
+2032,Itapitanga,BA
+2033,Itaquara,BA
+2034,Itarantim,BA
+2035,Itatim,BA
+2036,Itiru?u,BA
+2037,Iti?ba,BA
+2038,Itoror?,BA
+2039,Itua?u,BA
+2040,Ituber?,BA
+2041,Iui?,BA
+2042,Jaborandi,BA
+2043,Jacaraci,BA
+2044,Jacobina,BA
+2045,Jaguaquara,BA
+2046,Jaguarari,BA
+2047,Jaguaripe,BA
+2048,Janda?ra,BA
+2049,Jequi?,BA
+2050,Jeremoabo,BA
+2051,Jiquiri??,BA
+2052,Jita?na,BA
+2053,Jo?o Dourado,BA
+2054,Juazeiro,BA
+2055,Jucuru?u,BA
+2056,Jussara,BA
+2057,Jussari,BA
+2058,Jussiape,BA
+2059,Lafaiete Coutinho,BA
+2060,Lagoa Real,BA
+2061,Laje,BA
+2062,Lajed?o,BA
+2063,Lajedinho,BA
+2064,Lajedo do Tabocal,BA
+2065,Lamar?o,BA
+2066,Lap?o,BA
+2067,Lauro de Freitas,BA
+2068,Len??is,BA
+2069,Lic?nio de Almeida,BA
+2070,Livramento de Nossa Senhora,BA
+2071,Lu?s Eduardo Magalh?es,BA
+2072,Macajuba,BA
+2073,Macarani,BA
+2074,Maca?bas,BA
+2075,Macurur?,BA
+2076,Madre de Deus,BA
+2077,Maetinga,BA
+2078,Maiquinique,BA
+2079,Mairi,BA
+2080,Malhada,BA
+2081,Malhada de Pedras,BA
+2082,Manoel Vitorino,BA
+2083,Mansid?o,BA
+2084,Marac?s,BA
+2085,Maragogipe,BA
+2086,Mara?,BA
+2087,Marcion?lio Souza,BA
+2088,Mascote,BA
+2089,Mata de S?o Jo?o,BA
+2090,Matina,BA
+2091,Medeiros Neto,BA
+2092,Miguel Calmon,BA
+2093,Milagres,BA
+2094,Mirangaba,BA
+2095,Mirante,BA
+2096,Monte Santo,BA
+2097,Morpar?,BA
+2098,Morro do Chap?u,BA
+2099,Mortugaba,BA
+2100,Mucug?,BA
+2101,Mucuri,BA
+2102,Mulungu do Morro,BA
+2103,Mundo Novo,BA
+2104,Muniz Ferreira,BA
+2105,Muqu?m de S?o Francisco,BA
+2106,Muritiba,BA
+2107,Mutu?pe,BA
+2108,Nazar?,BA
+2109,Nilo Pe?anha,BA
+2110,Nordestina,BA
+2111,Nova Cana?,BA
+2112,Nova F?tima,BA
+2113,Nova Ibi?,BA
+2114,Nova Itarana,BA
+2115,Nova Reden??o,BA
+2116,Nova Soure,BA
+2117,Nova Vi?osa,BA
+2118,Novo Horizonte,BA
+2119,Novo Triunfo,BA
+2120,Olindina,BA
+2121,Oliveira dos Brejinhos,BA
+2122,Ouri?angas,BA
+2123,Ourol?ndia,BA
+2124,Palmas de Monte Alto,BA
+2125,Palmeiras,BA
+2126,Paramirim,BA
+2127,Paratinga,BA
+2128,Paripiranga,BA
+2129,Pau Brasil,BA
+2130,Paulo Afonso,BA
+2131,P? de Serra,BA
+2132,Pedr?o,BA
+2133,Pedro Alexandre,BA
+2134,Piat?,BA
+2135,Pil?o Arcado,BA
+2136,Pinda?,BA
+2137,Pindoba?u,BA
+2138,Pintadas,BA
+2139,Pira? do Norte,BA
+2140,Pirip?,BA
+2141,Piritiba,BA
+2142,Planaltino,BA
+2143,Planalto,BA
+2144,Po??es,BA
+2145,Pojuca,BA
+2146,Ponto Novo,BA
+2147,Porto Seguro,BA
+2148,Potiragu?,BA
+2149,Prado,BA
+2150,Presidente Dutra,BA
+2151,Presidente J?nio Quadros,BA
+2152,Presidente Tancredo Neves,BA
+2153,Queimadas,BA
+2154,Quijingue,BA
+2155,Quixabeira,BA
+2156,Rafael Jambeiro,BA
+2157,Remanso,BA
+2158,Retirol?ndia,BA
+2159,Riach?o das Neves,BA
+2160,Riach?o do Jacu?pe,BA
+2161,Riacho de Santana,BA
+2162,Ribeira do Amparo,BA
+2163,Ribeira do Pombal,BA
+2164,Ribeir?o do Largo,BA
+2165,Rio de Contas,BA
+2166,Rio do Ant?nio,BA
+2167,Rio do Pires,BA
+2168,Rio Real,BA
+2169,Rodelas,BA
+2170,Ruy Barbosa,BA
+2171,Salinas da Margarida,BA
+2172,Salvador,BA
+2173,Santa B?rbara,BA
+2174,Santa Br?gida,BA
+2175,Santa Cruz Cabr?lia,BA
+2176,Santa Cruz da Vit?ria,BA
+2177,Santa In?s,BA
+2178,Santaluz,BA
+2179,Santa Luzia,BA
+2180,Santa Maria da Vit?ria,BA
+2181,Santana,BA
+2182,Santan?polis,BA
+2183,Santa Rita de C?ssia,BA
+2184,Santa Teresinha,BA
+2185,Santo Amaro,BA
+2186,Santo Ant?nio de Jesus,BA
+2187,Santo Est?v?o,BA
+2188,S?o Desid?rio,BA
+2189,S?o Domingos,BA
+2190,S?o F?lix,BA
+2191,S?o F?lix do Coribe,BA
+2192,S?o Felipe,BA
+2193,S?o Francisco do Conde,BA
+2194,S?o Gabriel,BA
+2195,S?o Gon?alo dos Campos,BA
+2196,S?o Jos? da Vit?ria,BA
+2197,S?o Jos? do Jacu?pe,BA
+2198,S?o Miguel das Matas,BA
+2199,S?o Sebasti?o do Pass?,BA
+2200,Sapea?u,BA
+2201,S?tiro Dias,BA
+2202,Saubara,BA
+2203,Sa?de,BA
+2204,Seabra,BA
+2205,Sebasti?o Laranjeiras,BA
+2206,Senhor do Bonfim,BA
+2207,Serra do Ramalho,BA
+2208,Sento S?,BA
+2209,Serra Dourada,BA
+2210,Serra Preta,BA
+2211,Serrinha,BA
+2212,Serrol?ndia,BA
+2213,Sim?es Filho,BA
+2214,S?tio do Mato,BA
+2215,S?tio do Quinto,BA
+2216,Sobradinho,BA
+2217,Souto Soares,BA
+2218,Tabocas do Brejo Velho,BA
+2219,Tanha?u,BA
+2220,Tanque Novo,BA
+2221,Tanquinho,BA
+2222,Tapero?,BA
+2223,Tapiramut?,BA
+2224,Teixeira de Freitas,BA
+2225,Teodoro Sampaio,BA
+2226,Teofil?ndia,BA
+2227,Teol?ndia,BA
+2228,Terra Nova,BA
+2229,Tremedal,BA
+2230,Tucano,BA
+2231,Uau?,BA
+2232,Uba?ra,BA
+2233,Ubaitaba,BA
+2234,Ubat?,BA
+2235,Uiba?,BA
+2236,Umburanas,BA
+2237,Una,BA
+2238,Urandi,BA
+2239,Uru?uca,BA
+2240,Utinga,BA
+2241,Valen?a,BA
+2242,Valente,BA
+2243,V?rzea da Ro?a,BA
+2244,V?rzea do Po?o,BA
+2245,V?rzea Nova,BA
+2246,Varzedo,BA
+2247,Vera Cruz,BA
+2248,Vereda,BA
+2249,Vit?ria da Conquista,BA
+2250,Wagner,BA
+2251,Wanderley,BA
+2252,Wenceslau Guimar?es,BA
+2253,Xique-Xique,BA
+2254,Abadia dos Dourados,MG
+2255,Abaet?,MG
+2256,Abre Campo,MG
+2257,Acaiaca,MG
+2258,A?ucena,MG
+2259,?gua Boa,MG
+2260,?gua Comprida,MG
+2261,Aguanil,MG
+2262,?guas Formosas,MG
+2263,?guas Vermelhas,MG
+2264,Aimor?s,MG
+2265,Aiuruoca,MG
+2266,Alagoa,MG
+2267,Albertina,MG
+2268,Al?m Para?ba,MG
+2269,Alfenas,MG
+2270,Alfredo Vasconcelos,MG
+2271,Almenara,MG
+2272,Alpercata,MG
+2273,Alpin?polis,MG
+2274,Alterosa,MG
+2275,Alto Capara?,MG
+2276,Alto Rio Doce,MG
+2277,Alvarenga,MG
+2278,Alvin?polis,MG
+2279,Alvorada de Minas,MG
+2280,Amparo do Serra,MG
+2281,Andradas,MG
+2282,Cachoeira de Paje?,MG
+2283,Andrel?ndia,MG
+2284,Angel?ndia,MG
+2285,Ant?nio Carlos,MG
+2286,Ant?nio Dias,MG
+2287,Ant?nio Prado de Minas,MG
+2288,Ara?a?,MG
+2289,Aracitaba,MG
+2290,Ara?ua?,MG
+2291,Araguari,MG
+2292,Arantina,MG
+2293,Araponga,MG
+2294,Arapor?,MG
+2295,Arapu?,MG
+2296,Ara?jos,MG
+2297,Arax?,MG
+2298,Arceburgo,MG
+2299,Arcos,MG
+2300,Areado,MG
+2301,Argirita,MG
+2302,Aricanduva,MG
+2303,Arinos,MG
+2304,Astolfo Dutra,MG
+2305,Atal?ia,MG
+2306,Augusto de Lima,MG
+2307,Baependi,MG
+2308,Baldim,MG
+2309,Bambu?,MG
+2310,Bandeira,MG
+2311,Bandeira do Sul,MG
+2312,Bar?o de Cocais,MG
+2313,Bar?o de Monte Alto,MG
+2314,Barbacena,MG
+2315,Barra Longa,MG
+2316,Barroso,MG
+2317,Bela Vista de Minas,MG
+2318,Belmiro Braga,MG
+2319,Belo Horizonte,MG
+2320,Belo Oriente,MG
+2321,Belo Vale,MG
+2322,Berilo,MG
+2323,Bert?polis,MG
+2324,Berizal,MG
+2325,Betim,MG
+2326,Bias Fortes,MG
+2327,Bicas,MG
+2328,Biquinhas,MG
+2329,Boa Esperan?a,MG
+2330,Bocaina de Minas,MG
+2331,Bocai?va,MG
+2332,Bom Despacho,MG
+2333,Bom Jardim de Minas,MG
+2334,Bom Jesus da Penha,MG
+2335,Bom Jesus do Amparo,MG
+2336,Bom Jesus do Galho,MG
+2337,Bom Repouso,MG
+2338,Bom Sucesso,MG
+2339,Bonfim,MG
+2340,Bonfin?polis de Minas,MG
+2341,Bonito de Minas,MG
+2342,Borda da Mata,MG
+2343,Botelhos,MG
+2344,Botumirim,MG
+2345,Brasil?ndia de Minas,MG
+2346,Bras?lia de Minas,MG
+2347,Br?s Pires,MG
+2348,Bra?nas,MG
+2349,Bras?polis,MG
+2350,Brumadinho,MG
+2351,Bueno Brand?o,MG
+2352,Buen?polis,MG
+2353,Bugre,MG
+2354,Buritis,MG
+2355,Buritizeiro,MG
+2356,Cabeceira Grande,MG
+2357,Cabo Verde,MG
+2358,Cachoeira da Prata,MG
+2359,Cachoeira de Minas,MG
+2360,Cachoeira Dourada,MG
+2361,Caetan?polis,MG
+2362,Caet?,MG
+2363,Caiana,MG
+2364,Cajuri,MG
+2365,Caldas,MG
+2366,Camacho,MG
+2367,Camanducaia,MG
+2368,Cambu?,MG
+2369,Cambuquira,MG
+2370,Campan?rio,MG
+2371,Campanha,MG
+2372,Campestre,MG
+2373,Campina Verde,MG
+2374,Campo Azul,MG
+2375,Campo Belo,MG
+2376,Campo do Meio,MG
+2377,Campo Florido,MG
+2378,Campos Altos,MG
+2379,Campos Gerais,MG
+2380,Cana?,MG
+2381,Can?polis,MG
+2382,Cana Verde,MG
+2383,Candeias,MG
+2384,Cantagalo,MG
+2385,Capara?,MG
+2386,Capela Nova,MG
+2387,Capelinha,MG
+2388,Capetinga,MG
+2389,Capim Branco,MG
+2390,Capin?polis,MG
+2391,Capit?o Andrade,MG
+2392,Capit?o En?as,MG
+2393,Capit?lio,MG
+2394,Caputira,MG
+2395,Cara?,MG
+2396,Carana?ba,MG
+2397,Caranda?,MG
+2398,Carangola,MG
+2399,Caratinga,MG
+2400,Carbonita,MG
+2401,Carea?u,MG
+2402,Carlos Chagas,MG
+2403,Carm?sia,MG
+2404,Carmo da Cachoeira,MG
+2405,Carmo da Mata,MG
+2406,Carmo de Minas,MG
+2407,Carmo do Cajuru,MG
+2408,Carmo do Parana?ba,MG
+2409,Carmo do Rio Claro,MG
+2410,Carm?polis de Minas,MG
+2411,Carneirinho,MG
+2412,Carrancas,MG
+2413,Carvalh?polis,MG
+2414,Carvalhos,MG
+2415,Casa Grande,MG
+2416,Cascalho Rico,MG
+2417,C?ssia,MG
+2418,Concei??o da Barra de Minas,MG
+2419,Cataguases,MG
+2420,Catas Altas,MG
+2421,Catas Altas da Noruega,MG
+2422,Catuji,MG
+2423,Catuti,MG
+2424,Caxambu,MG
+2425,Cedro do Abaet?,MG
+2426,Central de Minas,MG
+2427,Centralina,MG
+2428,Ch?cara,MG
+2429,Chal?,MG
+2430,Chapada do Norte,MG
+2431,Chapada Ga?cha,MG
+2432,Chiador,MG
+2433,Cipot?nea,MG
+2434,Claraval,MG
+2435,Claro dos Po??es,MG
+2436,Cl?udio,MG
+2437,Coimbra,MG
+2438,Coluna,MG
+2439,Comendador Gomes,MG
+2440,Comercinho,MG
+2441,Concei??o da Aparecida,MG
+2442,Concei??o das Pedras,MG
+2443,Concei??o das Alagoas,MG
+2444,Concei??o de Ipanema,MG
+2445,Concei??o do Mato Dentro,MG
+2446,Concei??o do Par?,MG
+2447,Concei??o do Rio Verde,MG
+2448,Concei??o dos Ouros,MG
+2449,C?nego Marinho,MG
+2450,Confins,MG
+2451,Congonhal,MG
+2452,Congonhas,MG
+2453,Congonhas do Norte,MG
+2454,Conquista,MG
+2455,Conselheiro Lafaiete,MG
+2456,Conselheiro Pena,MG
+2457,Consola??o,MG
+2458,Contagem,MG
+2459,Coqueiral,MG
+2460,Cora??o de Jesus,MG
+2461,Cordisburgo,MG
+2462,Cordisl?ndia,MG
+2463,Corinto,MG
+2464,Coroaci,MG
+2465,Coromandel,MG
+2466,Coronel Fabriciano,MG
+2467,Coronel Murta,MG
+2468,Coronel Pacheco,MG
+2469,Coronel Xavier Chaves,MG
+2470,C?rrego Danta,MG
+2471,C?rrego do Bom Jesus,MG
+2472,C?rrego Fundo,MG
+2473,C?rrego Novo,MG
+2474,Couto de Magalh?es de Minas,MG
+2475,Cris?lita,MG
+2476,Cristais,MG
+2477,Crist?lia,MG
+2478,Cristiano Otoni,MG
+2479,Cristina,MG
+2480,Crucil?ndia,MG
+2481,Cruzeiro da Fortaleza,MG
+2482,Cruz?lia,MG
+2483,Cuparaque,MG
+2484,Curral de Dentro,MG
+2485,Curvelo,MG
+2486,Datas,MG
+2487,Delfim Moreira,MG
+2488,Delfin?polis,MG
+2489,Delta,MG
+2490,Descoberto,MG
+2491,Desterro de Entre Rios,MG
+2492,Desterro do Melo,MG
+2493,Diamantina,MG
+2494,Diogo de Vasconcelos,MG
+2495,Dion?sio,MG
+2496,Divin?sia,MG
+2497,Divino,MG
+2498,Divino das Laranjeiras,MG
+2499,Divinol?ndia de Minas,MG
+2500,Divin?polis,MG
+2501,Divisa Alegre,MG
+2502,Divisa Nova,MG
+2503,Divis?polis,MG
+2504,Dom Bosco,MG
+2505,Dom Cavati,MG
+2506,Dom Joaquim,MG
+2507,Dom Silv?rio,MG
+2508,Dom Vi?oso,MG
+2509,Dona Eus?bia,MG
+2510,Dores de Campos,MG
+2511,Dores de Guanh?es,MG
+2512,Dores do Indai?,MG
+2513,Dores do Turvo,MG
+2514,Dores?polis,MG
+2515,Douradoquara,MG
+2516,Durand?,MG
+2517,El?i Mendes,MG
+2518,Engenheiro Caldas,MG
+2519,Engenheiro Navarro,MG
+2520,Entre Folhas,MG
+2521,Entre Rios de Minas,MG
+2522,Erv?lia,MG
+2523,Esmeraldas,MG
+2524,Espera Feliz,MG
+2525,Espinosa,MG
+2526,Esp?rito Santo do Dourado,MG
+2527,Estiva,MG
+2528,Estrela Dalva,MG
+2529,Estrela do Indai?,MG
+2530,Estrela do Sul,MG
+2531,Eugen?polis,MG
+2532,Ewbank da C?mara,MG
+2533,Extrema,MG
+2534,Fama,MG
+2535,Faria Lemos,MG
+2536,Fel?cio dos Santos,MG
+2537,S?o Gon?alo do Rio Preto,MG
+2538,Felisburgo,MG
+2539,Felixl?ndia,MG
+2540,Fernandes Tourinho,MG
+2541,Ferros,MG
+2542,Fervedouro,MG
+2543,Florestal,MG
+2544,Formiga,MG
+2545,Formoso,MG
+2546,Fortaleza de Minas,MG
+2547,Fortuna de Minas,MG
+2548,Francisco Badar?,MG
+2549,Francisco Dumont,MG
+2550,Francisco S?,MG
+2551,Francisc?polis,MG
+2552,Frei Gaspar,MG
+2553,Frei Inoc?ncio,MG
+2554,Frei Lagonegro,MG
+2555,Fronteira,MG
+2556,Fronteira dos Vales,MG
+2557,Fruta de Leite,MG
+2558,Frutal,MG
+2559,Funil?ndia,MG
+2560,Galil?ia,MG
+2561,Gameleiras,MG
+2562,Glaucil?ndia,MG
+2563,Goiabeira,MG
+2564,Goian?,MG
+2565,Gon?alves,MG
+2566,Gonzaga,MG
+2567,Gouveia,MG
+2568,Governador Valadares,MG
+2569,Gr?o Mogol,MG
+2570,Grupiara,MG
+2571,Guanh?es,MG
+2572,Guap?,MG
+2573,Guaraciaba,MG
+2574,Guaraciama,MG
+2575,Guaran?sia,MG
+2576,Guarani,MG
+2577,Guarar?,MG
+2578,Guarda-Mor,MG
+2579,Guaxup?,MG
+2580,Guidoval,MG
+2581,Guimar?nia,MG
+2582,Guiricema,MG
+2583,Gurinhat?,MG
+2584,Heliodora,MG
+2585,Iapu,MG
+2586,Ibertioga,MG
+2587,Ibi?,MG
+2588,Ibia?,MG
+2589,Ibiracatu,MG
+2590,Ibiraci,MG
+2591,Ibirit?,MG
+2592,Ibiti?ra de Minas,MG
+2593,Ibituruna,MG
+2594,Icara? de Minas,MG
+2595,Igarap?,MG
+2596,Igaratinga,MG
+2597,Iguatama,MG
+2598,Ijaci,MG
+2599,Ilic?nea,MG
+2600,Imb? de Minas,MG
+2601,Inconfidentes,MG
+2602,Indaiabira,MG
+2603,Indian?polis,MG
+2604,Inga?,MG
+2605,Inhapim,MG
+2606,Inha?ma,MG
+2607,Inimutaba,MG
+2608,Ipaba,MG
+2609,Ipanema,MG
+2610,Ipatinga,MG
+2611,Ipia?u,MG
+2612,Ipui?na,MG
+2613,Ira? de Minas,MG
+2614,Itabira,MG
+2615,Itabirinha,MG
+2616,Itabirito,MG
+2617,Itacambira,MG
+2618,Itacarambi,MG
+2619,Itaguara,MG
+2620,Itaip?,MG
+2621,Itajub?,MG
+2622,Itamarandiba,MG
+2623,Itamarati de Minas,MG
+2624,Itambacuri,MG
+2625,Itamb? do Mato Dentro,MG
+2626,Itamogi,MG
+2627,Itamonte,MG
+2628,Itanhandu,MG
+2629,Itanhomi,MG
+2630,Itaobim,MG
+2631,Itapagipe,MG
+2632,Itapecerica,MG
+2633,Itapeva,MG
+2634,Itatiaiu?u,MG
+2635,Ita? de Minas,MG
+2636,Ita?na,MG
+2637,Itaverava,MG
+2638,Itinga,MG
+2639,Itueta,MG
+2640,Ituiutaba,MG
+2641,Itumirim,MG
+2642,Iturama,MG
+2643,Itutinga,MG
+2644,Jaboticatubas,MG
+2645,Jacinto,MG
+2646,Jacu?,MG
+2647,Jacutinga,MG
+2648,Jaguara?u,MG
+2649,Ja?ba,MG
+2650,Jampruca,MG
+2651,Jana?ba,MG
+2652,Janu?ria,MG
+2653,Japara?ba,MG
+2654,Japonvar,MG
+2655,Jeceaba,MG
+2656,Jenipapo de Minas,MG
+2657,Jequeri,MG
+2658,Jequita?,MG
+2659,Jequitib?,MG
+2660,Jequitinhonha,MG
+2661,Jesu?nia,MG
+2662,Joa?ma,MG
+2663,Joan?sia,MG
+2664,Jo?o Monlevade,MG
+2665,Jo?o Pinheiro,MG
+2666,Joaquim Fel?cio,MG
+2667,Jord?nia,MG
+2668,Jos? Gon?alves de Minas,MG
+2669,Jos? Raydan,MG
+2670,Josen?polis,MG
+2671,Nova Uni?o,MG
+2672,Juatuba,MG
+2673,Juiz de Fora,MG
+2674,Juramento,MG
+2675,Juruaia,MG
+2676,Juven?lia,MG
+2677,Ladainha,MG
+2678,Lagamar,MG
+2679,Lagoa da Prata,MG
+2680,Lagoa dos Patos,MG
+2681,Lagoa Dourada,MG
+2682,Lagoa Formosa,MG
+2683,Lagoa Grande,MG
+2684,Lagoa Santa,MG
+2685,Lajinha,MG
+2686,Lambari,MG
+2687,Lamim,MG
+2688,Laranjal,MG
+2689,Lassance,MG
+2690,Lavras,MG
+2691,Leandro Ferreira,MG
+2692,Leme do Prado,MG
+2693,Leopoldina,MG
+2694,Liberdade,MG
+2695,Lima Duarte,MG
+2696,Limeira do Oeste,MG
+2697,Lontra,MG
+2698,Luisburgo,MG
+2699,Luisl?ndia,MG
+2700,Lumin?rias,MG
+2701,Luz,MG
+2702,Machacalis,MG
+2703,Machado,MG
+2704,Madre de Deus de Minas,MG
+2705,Malacacheta,MG
+2706,Mamonas,MG
+2707,Manga,MG
+2708,Manhua?u,MG
+2709,Manhumirim,MG
+2710,Mantena,MG
+2711,Maravilhas,MG
+2712,Mar de Espanha,MG
+2713,Maria da F?,MG
+2714,Mariana,MG
+2715,Marilac,MG
+2716,M?rio Campos,MG
+2717,Marip? de Minas,MG
+2718,Marli?ria,MG
+2719,Marmel?polis,MG
+2720,Martinho Campos,MG
+2721,Martins Soares,MG
+2722,Mata Verde,MG
+2723,Materl?ndia,MG
+2724,Mateus Leme,MG
+2725,Matias Barbosa,MG
+2726,Matias Cardoso,MG
+2727,Matip?,MG
+2728,Mato Verde,MG
+2729,Matozinhos,MG
+2730,Matutina,MG
+2731,Medeiros,MG
+2732,Medina,MG
+2733,Mendes Pimentel,MG
+2734,Merc?s,MG
+2735,Mesquita,MG
+2736,Minas Novas,MG
+2737,Minduri,MG
+2738,Mirabela,MG
+2739,Miradouro,MG
+2740,Mira?,MG
+2741,Mirav?nia,MG
+2742,Moeda,MG
+2743,Moema,MG
+2744,Monjolos,MG
+2745,Monsenhor Paulo,MG
+2746,Montalv?nia,MG
+2747,Monte Alegre de Minas,MG
+2748,Monte Azul,MG
+2749,Monte Belo,MG
+2750,Monte Carmelo,MG
+2751,Monte Formoso,MG
+2752,Monte Santo de Minas,MG
+2753,Montes Claros,MG
+2754,Monte Si?o,MG
+2755,Montezuma,MG
+2756,Morada Nova de Minas,MG
+2757,Morro da Gar?a,MG
+2758,Morro do Pilar,MG
+2759,Munhoz,MG
+2760,Muria?,MG
+2761,Mutum,MG
+2762,Muzambinho,MG
+2763,Nacip Raydan,MG
+2764,Nanuque,MG
+2765,Naque,MG
+2766,Natal?ndia,MG
+2767,Nat?rcia,MG
+2768,Nazareno,MG
+2769,Nepomuceno,MG
+2770,Ninheira,MG
+2771,Nova Bel?m,MG
+2772,Nova Era,MG
+2773,Nova Lima,MG
+2774,Nova M?dica,MG
+2775,Nova Ponte,MG
+2776,Nova Porteirinha,MG
+2777,Nova Resende,MG
+2778,Nova Serrana,MG
+2779,Novo Cruzeiro,MG
+2780,Novo Oriente de Minas,MG
+2781,Novorizonte,MG
+2782,Olaria,MG
+2783,Olhos-d ?gua,MG
+2784,Ol?mpio Noronha,MG
+2785,Oliveira,MG
+2786,Oliveira Fortes,MG
+2787,On?a de Pitangui,MG
+2788,Orat?rios,MG
+2789,Oriz?nia,MG
+2790,Ouro Branco,MG
+2791,Ouro Fino,MG
+2792,Ouro Preto,MG
+2793,Ouro Verde de Minas,MG
+2794,Padre Carvalho,MG
+2795,Padre Para?so,MG
+2796,Paineiras,MG
+2797,Pains,MG
+2798,Pai Pedro,MG
+2799,Paiva,MG
+2800,Palma,MG
+2801,Palm?polis,MG
+2802,Papagaios,MG
+2803,Paracatu,MG
+2804,Par? de Minas,MG
+2805,Paragua?u,MG
+2806,Parais?polis,MG
+2807,Paraopeba,MG
+2808,Passab?m,MG
+2809,Passa Quatro,MG
+2810,Passa Tempo,MG
+2811,Passa-Vinte,MG
+2812,Passos,MG
+2813,Patis,MG
+2814,Patos de Minas,MG
+2815,Patroc?nio,MG
+2816,Patroc?nio do Muria?,MG
+2817,Paula C?ndido,MG
+2818,Paulistas,MG
+2819,Pav?o,MG
+2820,Pe?anha,MG
+2821,Pedra Azul,MG
+2822,Pedra Bonita,MG
+2823,Pedra do Anta,MG
+2824,Pedra do Indai?,MG
+2825,Pedra Dourada,MG
+2826,Pedralva,MG
+2827,Pedras de Maria da Cruz,MG
+2828,Pedrin?polis,MG
+2829,Pedro Leopoldo,MG
+2830,Pedro Teixeira,MG
+2831,Pequeri,MG
+2832,Pequi,MG
+2833,Perdig?o,MG
+2834,Perdizes,MG
+2835,Perd?es,MG
+2836,Periquito,MG
+2837,Pescador,MG
+2838,Piau,MG
+2839,Piedade de Caratinga,MG
+2840,Piedade de Ponte Nova,MG
+2841,Piedade do Rio Grande,MG
+2842,Piedade dos Gerais,MG
+2843,Pimenta,MG
+2844,Pingo-d ?gua,MG
+2845,Pint?polis,MG
+2846,Piracema,MG
+2847,Pirajuba,MG
+2848,Piranga,MG
+2849,Pirangu?u,MG
+2850,Piranguinho,MG
+2851,Pirapetinga,MG
+2852,Pirapora,MG
+2853,Pira?ba,MG
+2854,Pitangui,MG
+2855,Piumhi,MG
+2856,Planura,MG
+2857,Po?o Fundo,MG
+2858,Po?os de Caldas,MG
+2859,Pocrane,MG
+2860,Pomp?u,MG
+2861,Ponte Nova,MG
+2862,Ponto Chique,MG
+2863,Ponto dos Volantes,MG
+2864,Porteirinha,MG
+2865,Porto Firme,MG
+2866,Pot?,MG
+2867,Pouso Alegre,MG
+2868,Pouso Alto,MG
+2869,Prados,MG
+2870,Prata,MG
+2871,Prat?polis,MG
+2872,Pratinha,MG
+2873,Presidente Bernardes,MG
+2874,Presidente Juscelino,MG
+2875,Presidente Kubitschek,MG
+2876,Presidente Oleg?rio,MG
+2877,Alto Jequitib?,MG
+2878,Prudente de Morais,MG
+2879,Quartel Geral,MG
+2880,Queluzito,MG
+2881,Raposos,MG
+2882,Raul Soares,MG
+2883,Recreio,MG
+2884,Reduto,MG
+2885,Resende Costa,MG
+2886,Resplendor,MG
+2887,Ressaquinha,MG
+2888,Riachinho,MG
+2889,Riacho dos Machados,MG
+2890,Ribeir?o das Neves,MG
+2891,Ribeir?o Vermelho,MG
+2892,Rio Acima,MG
+2893,Rio Casca,MG
+2894,Rio Doce,MG
+2895,Rio do Prado,MG
+2896,Rio Espera,MG
+2897,Rio Manso,MG
+2898,Rio Novo,MG
+2899,Rio Parana?ba,MG
+2900,Rio Pardo de Minas,MG
+2901,Rio Piracicaba,MG
+2902,Rio Pomba,MG
+2903,Rio Preto,MG
+2904,Rio Vermelho,MG
+2905,Rit?polis,MG
+2906,Rochedo de Minas,MG
+2907,Rodeiro,MG
+2908,Romaria,MG
+2909,Ros?rio da Limeira,MG
+2910,Rubelita,MG
+2911,Rubim,MG
+2912,Sabar?,MG
+2913,Sabin?polis,MG
+2914,Sacramento,MG
+2915,Salinas,MG
+2916,Salto da Divisa,MG
+2917,Santa B?rbara,MG
+2918,Santa B?rbara do Leste,MG
+2919,Santa B?rbara do Monte Verde,MG
+2920,Santa B?rbara do Tug?rio,MG
+2921,Santa Cruz de Minas,MG
+2922,Santa Cruz de Salinas,MG
+2923,Santa Cruz do Escalvado,MG
+2924,Santa Efig?nia de Minas,MG
+2925,Santa F? de Minas,MG
+2926,Santa Helena de Minas,MG
+2927,Santa Juliana,MG
+2928,Santa Luzia,MG
+2929,Santa Margarida,MG
+2930,Santa Maria de Itabira,MG
+2931,Santa Maria do Salto,MG
+2932,Santa Maria do Sua?u?,MG
+2933,Santana da Vargem,MG
+2934,Santana de Cataguases,MG
+2935,Santana de Pirapama,MG
+2936,Santana do Deserto,MG
+2937,Santana do Garamb?u,MG
+2938,Santana do Jacar?,MG
+2939,Santana do Manhua?u,MG
+2940,Santana do Para?so,MG
+2941,Santana do Riacho,MG
+2942,Santana dos Montes,MG
+2943,Santa Rita de Caldas,MG
+2944,Santa Rita de Jacutinga,MG
+2945,Santa Rita de Minas,MG
+2946,Santa Rita de Ibitipoca,MG
+2947,Santa Rita do Itueto,MG
+2948,Santa Rita do Sapuca?,MG
+2949,Santa Rosa da Serra,MG
+2950,Santa Vit?ria,MG
+2951,Santo Ant?nio do Amparo,MG
+2952,Santo Ant?nio do Aventureiro,MG
+2953,Santo Ant?nio do Grama,MG
+2954,Santo Ant?nio do Itamb?,MG
+2955,Santo Ant?nio do Jacinto,MG
+2956,Santo Ant?nio do Monte,MG
+2957,Santo Ant?nio do Retiro,MG
+2958,Santo Ant?nio do Rio Abaixo,MG
+2959,Santo Hip?lito,MG
+2960,Santos Dumont,MG
+2961,S?o Bento Abade,MG
+2962,S?o Br?s do Sua?u?,MG
+2963,S?o Domingos das Dores,MG
+2964,S?o Domingos do Prata,MG
+2965,S?o F?lix de Minas,MG
+2966,S?o Francisco,MG
+2967,S?o Francisco de Paula,MG
+2968,S?o Francisco de Sales,MG
+2969,S?o Francisco do Gl?ria,MG
+2970,S?o Geraldo,MG
+2971,S?o Geraldo da Piedade,MG
+2972,S?o Geraldo do Baixio,MG
+2973,S?o Gon?alo do Abaet?,MG
+2974,S?o Gon?alo do Par?,MG
+2975,S?o Gon?alo do Rio Abaixo,MG
+2976,S?o Gon?alo do Sapuca?,MG
+2977,S?o Gotardo,MG
+2978,S?o Jo?o Batista do Gl?ria,MG
+2979,S?o Jo?o da Lagoa,MG
+2980,S?o Jo?o da Mata,MG
+2981,S?o Jo?o da Ponte,MG
+2982,S?o Jo?o das Miss?es,MG
+2983,S?o Jo?o del Rei,MG
+2984,S?o Jo?o do Manhua?u,MG
+2985,S?o Jo?o do Manteninha,MG
+2986,S?o Jo?o do Oriente,MG
+2987,S?o Jo?o do Pacu?,MG
+2988,S?o Jo?o do Para?so,MG
+2989,S?o Jo?o Evangelista,MG
+2990,S?o Jo?o Nepomuceno,MG
+2991,S?o Joaquim de Bicas,MG
+2992,S?o Jos? da Barra,MG
+2993,S?o Jos? da Lapa,MG
+2994,S?o Jos? da Safira,MG
+2995,S?o Jos? da Varginha,MG
+2996,S?o Jos? do Alegre,MG
+2997,S?o Jos? do Divino,MG
+2998,S?o Jos? do Goiabal,MG
+2999,S?o Jos? do Jacuri,MG
+3000,S?o Jos? do Mantimento,MG
+3001,S?o Louren?o,MG
+3002,S?o Miguel do Anta,MG
+3003,S?o Pedro da Uni?o,MG
+3004,S?o Pedro dos Ferros,MG
+3005,S?o Pedro do Sua?u?,MG
+3006,S?o Rom?o,MG
+3007,S?o Roque de Minas,MG
+3008,S?o Sebasti?o da Bela Vista,MG
+3009,S?o Sebasti?o da Vargem Alegre,MG
+3010,S?o Sebasti?o do Anta,MG
+3011,S?o Sebasti?o do Maranh?o,MG
+3012,S?o Sebasti?o do Oeste,MG
+3013,S?o Sebasti?o do Para?so,MG
+3014,S?o Sebasti?o do Rio Preto,MG
+3015,S?o Sebasti?o do Rio Verde,MG
+3016,S?o Tiago,MG
+3017,S?o Tom?s de Aquino,MG
+3018,S?o Thom? das Letras,MG
+3019,S?o Vicente de Minas,MG
+3020,Sapuca?-Mirim,MG
+3021,Sardo?,MG
+3022,Sarzedo,MG
+3023,Setubinha,MG
+3024,Sem-Peixe,MG
+3025,Senador Amaral,MG
+3026,Senador Cortes,MG
+3027,Senador Firmino,MG
+3028,Senador Jos? Bento,MG
+3029,Senador Modestino Gon?alves,MG
+3030,Senhora de Oliveira,MG
+3031,Senhora do Porto,MG
+3032,Senhora dos Rem?dios,MG
+3033,Sericita,MG
+3034,Seritinga,MG
+3035,Serra Azul de Minas,MG
+3036,Serra da Saudade,MG
+3037,Serra dos Aimor?s,MG
+3038,Serra do Salitre,MG
+3039,Serrania,MG
+3040,Serran?polis de Minas,MG
+3041,Serranos,MG
+3042,Serro,MG
+3043,Sete Lagoas,MG
+3044,Silveir?nia,MG
+3045,Silvian?polis,MG
+3046,Sim?o Pereira,MG
+3047,Simon?sia,MG
+3048,Sobr?lia,MG
+3049,Soledade de Minas,MG
+3050,Tabuleiro,MG
+3051,Taiobeiras,MG
+3052,Taparuba,MG
+3053,Tapira,MG
+3054,Tapira?,MG
+3055,Taquara?u de Minas,MG
+3056,Tarumirim,MG
+3057,Teixeiras,MG
+3058,Te?filo Otoni,MG
+3059,Tim?teo,MG
+3060,Tiradentes,MG
+3061,Tiros,MG
+3062,Tocantins,MG
+3063,Tocos do Moji,MG
+3064,Toledo,MG
+3065,Tombos,MG
+3066,Tr?s Cora??es,MG
+3067,Tr?s Marias,MG
+3068,Tr?s Pontas,MG
+3069,Tumiritinga,MG
+3070,Tupaciguara,MG
+3071,Turmalina,MG
+3072,Turvol?ndia,MG
+3073,Ub?,MG
+3074,Uba?,MG
+3075,Ubaporanga,MG
+3076,Uberaba,MG
+3077,Uberl?ndia,MG
+3078,Umburatiba,MG
+3079,Una?,MG
+3080,Uni?o de Minas,MG
+3081,Uruana de Minas,MG
+3082,Uruc?nia,MG
+3083,Urucuia,MG
+3084,Vargem Alegre,MG
+3085,Vargem Bonita,MG
+3086,Vargem Grande do Rio Pardo,MG
+3087,Varginha,MG
+3088,Varj?o de Minas,MG
+3089,V?rzea da Palma,MG
+3090,Varzel?ndia,MG
+3091,Vazante,MG
+3092,Verdel?ndia,MG
+3093,Veredinha,MG
+3094,Ver?ssimo,MG
+3095,Vermelho Novo,MG
+3096,Vespasiano,MG
+3097,Vi?osa,MG
+3098,Vieiras,MG
+3099,Mathias Lobato,MG
+3100,Virgem da Lapa,MG
+3101,Virg?nia,MG
+3102,Virgin?polis,MG
+3103,Virgol?ndia,MG
+3104,Visconde do Rio Branco,MG
+3105,Volta Grande,MG
+3106,Wenceslau Braz,MG
+3107,Afonso Cl?udio,ES
+3108,?guia Branca,ES
+3109,?gua Doce do Norte,ES
+3110,Alegre,ES
+3111,Alfredo Chaves,ES
+3112,Alto Rio Novo,ES
+3113,Anchieta,ES
+3114,Apiac?,ES
+3115,Aracruz,ES
+3116,Atilio Vivacqua,ES
+3117,Baixo Guandu,ES
+3118,Barra de S?o Francisco,ES
+3119,Boa Esperan?a,ES
+3120,Bom Jesus do Norte,ES
+3121,Brejetuba,ES
+3122,Cachoeiro de Itapemirim,ES
+3123,Cariacica,ES
+3124,Castelo,ES
+3125,Colatina,ES
+3126,Concei??o da Barra,ES
+3127,Concei??o do Castelo,ES
+3128,Divino de S?o Louren?o,ES
+3129,Domingos Martins,ES
+3130,Dores do Rio Preto,ES
+3131,Ecoporanga,ES
+3132,Fund?o,ES
+3133,Governador Lindenberg,ES
+3134,Gua?u?,ES
+3135,Guarapari,ES
+3136,Ibatiba,ES
+3137,Ibira?u,ES
+3138,Ibitirama,ES
+3139,Iconha,ES
+3140,Irupi,ES
+3141,Itagua?u,ES
+3142,Itapemirim,ES
+3143,Itarana,ES
+3144,I?na,ES
+3145,Jaguar?,ES
+3146,Jer?nimo Monteiro,ES
+3147,Jo?o Neiva,ES
+3148,Laranja da Terra,ES
+3149,Linhares,ES
+3150,Manten?polis,ES
+3151,Marata?zes,ES
+3152,Marechal Floriano,ES
+3153,Maril?ndia,ES
+3154,Mimoso do Sul,ES
+3155,Montanha,ES
+3156,Mucurici,ES
+3157,Muniz Freire,ES
+3158,Muqui,ES
+3159,Nova Ven?cia,ES
+3160,Pancas,ES
+3161,Pedro Can?rio,ES
+3162,Pinheiros,ES
+3163,Pi?ma,ES
+3164,Ponto Belo,ES
+3165,Presidente Kennedy,ES
+3166,Rio Bananal,ES
+3167,Rio Novo do Sul,ES
+3168,Santa Leopoldina,ES
+3169,Santa Maria de Jetib?,ES
+3170,Santa Teresa,ES
+3171,S?o Domingos do Norte,ES
+3172,S?o Gabriel da Palha,ES
+3173,S?o Jos? do Cal?ado,ES
+3174,S?o Mateus,ES
+3175,S?o Roque do Cana?,ES
+3176,Serra,ES
+3177,Sooretama,ES
+3178,Vargem Alta,ES
+3179,Venda Nova do Imigrante,ES
+3180,Viana,ES
+3181,Vila Pav?o,ES
+3182,Vila Val?rio,ES
+3183,Vila Velha,ES
+3184,Vit?ria,ES
+3185,Angra dos Reis,RJ
+3186,Aperib?,RJ
+3187,Araruama,RJ
+3188,Areal,RJ
+3189,Arma??o dos B?zios,RJ
+3190,Arraial do Cabo,RJ
+3191,Barra do Pira?,RJ
+3192,Barra Mansa,RJ
+3193,Belford Roxo,RJ
+3194,Bom Jardim,RJ
+3195,Bom Jesus do Itabapoana,RJ
+3196,Cabo Frio,RJ
+3197,Cachoeiras de Macacu,RJ
+3198,Cambuci,RJ
+3199,Carapebus,RJ
+3200,Comendador Levy Gasparian,RJ
+3201,Campos dos Goytacazes,RJ
+3202,Cantagalo,RJ
+3203,Cardoso Moreira,RJ
+3204,Carmo,RJ
+3205,Casimiro de Abreu,RJ
+3206,Concei??o de Macabu,RJ
+3207,Cordeiro,RJ
+3208,Duas Barras,RJ
+3209,Duque de Caxias,RJ
+3210,Engenheiro Paulo de Frontin,RJ
+3211,Guapimirim,RJ
+3212,Iguaba Grande,RJ
+3213,Itabora?,RJ
+3214,Itagua?,RJ
+3215,Italva,RJ
+3216,Itaocara,RJ
+3217,Itaperuna,RJ
+3218,Itatiaia,RJ
+3219,Japeri,RJ
+3220,Laje do Muria?,RJ
+3221,Maca?,RJ
+3222,Macuco,RJ
+3223,Mag?,RJ
+3224,Mangaratiba,RJ
+3225,Maric?,RJ
+3226,Mendes,RJ
+3227,Mesquita,RJ
+3228,Miguel Pereira,RJ
+3229,Miracema,RJ
+3230,Natividade,RJ
+3231,Nil?polis,RJ
+3232,Niter?i,RJ
+3233,Nova Friburgo,RJ
+3234,Nova Igua?u,RJ
+3235,Paracambi,RJ
+3236,Para?ba do Sul,RJ
+3237,Paraty,RJ
+3238,Paty do Alferes,RJ
+3239,Petr?polis,RJ
+3240,Pinheiral,RJ
+3241,Pira?,RJ
+3242,Porci?ncula,RJ
+3243,Porto Real,RJ
+3244,Quatis,RJ
+3245,Queimados,RJ
+3246,Quissam?,RJ
+3247,Resende,RJ
+3248,Rio Bonito,RJ
+3249,Rio Claro,RJ
+3250,Rio das Flores,RJ
+3251,Rio das Ostras,RJ
+3252,Rio de Janeiro,RJ
+3253,Santa Maria Madalena,RJ
+3254,Santo Ant?nio de P?dua,RJ
+3255,S?o Francisco de Itabapoana,RJ
+3256,S?o Fid?lis,RJ
+3257,S?o Gon?alo,RJ
+3258,S?o Jo?o da Barra,RJ
+3259,S?o Jo?o de Meriti,RJ
+3260,S?o Jos? de Ub?,RJ
+3261,S?o Jos? do Vale do Rio Preto,RJ
+3262,S?o Pedro da Aldeia,RJ
+3263,S?o Sebasti?o do Alto,RJ
+3264,Sapucaia,RJ
+3265,Saquarema,RJ
+3266,Serop?dica,RJ
+3267,Silva Jardim,RJ
+3268,Sumidouro,RJ
+3269,Tangu?,RJ
+3270,Teres?polis,RJ
+3271,Trajano de Moraes,RJ
+3272,Tr?s Rios,RJ
+3273,Valen?a,RJ
+3274,Varre-Sai,RJ
+3275,Vassouras,RJ
+3276,Volta Redonda,RJ
+3277,Adamantina,SP
+3278,Adolfo,SP
+3279,Agua?,SP
+3280,?guas da Prata,SP
+3281,?guas de Lind?ia,SP
+3282,?guas de Santa B?rbara,SP
+3283,?guas de S?o Pedro,SP
+3284,Agudos,SP
+3285,Alambari,SP
+3286,Alfredo Marcondes,SP
+3287,Altair,SP
+3288,Altin?polis,SP
+3289,Alto Alegre,SP
+3290,Alum?nio,SP
+3291,?lvares Florence,SP
+3292,?lvares Machado,SP
+3293,?lvaro de Carvalho,SP
+3294,Alvinl?ndia,SP
+3295,Americana,SP
+3296,Am?rico Brasiliense,SP
+3297,Am?rico de Campos,SP
+3298,Amparo,SP
+3299,Anal?ndia,SP
+3300,Andradina,SP
+3301,Angatuba,SP
+3302,Anhembi,SP
+3303,Anhumas,SP
+3304,Aparecida,SP
+3305,Aparecida d Oeste,SP
+3306,Apia?,SP
+3307,Ara?ariguama,SP
+3308,Ara?atuba,SP
+3309,Ara?oiaba da Serra,SP
+3310,Aramina,SP
+3311,Arandu,SP
+3312,Arape?,SP
+3313,Araraquara,SP
+3314,Araras,SP
+3315,Arco-?ris,SP
+3316,Arealva,SP
+3317,Areias,SP
+3318,Arei?polis,SP
+3319,Ariranha,SP
+3320,Artur Nogueira,SP
+3321,Aruj?,SP
+3322,Asp?sia,SP
+3323,Assis,SP
+3324,Atibaia,SP
+3325,Auriflama,SP
+3326,Ava?,SP
+3327,Avanhandava,SP
+3328,Avar?,SP
+3329,Bady Bassitt,SP
+3330,Balbinos,SP
+3331,B?lsamo,SP
+3332,Bananal,SP
+3333,Bar?o de Antonina,SP
+3334,Barbosa,SP
+3335,Bariri,SP
+3336,Barra Bonita,SP
+3337,Barra do Chap?u,SP
+3338,Barra do Turvo,SP
+3339,Barretos,SP
+3340,Barrinha,SP
+3341,Barueri,SP
+3342,Bastos,SP
+3343,Batatais,SP
+3344,Bauru,SP
+3345,Bebedouro,SP
+3346,Bento de Abreu,SP
+3347,Bernardino de Campos,SP
+3348,Bertioga,SP
+3349,Bilac,SP
+3350,Birigui,SP
+3351,Biritiba-Mirim,SP
+3352,Boa Esperan?a do Sul,SP
+3353,Bocaina,SP
+3354,Bofete,SP
+3355,Boituva,SP
+3356,Bom Jesus dos Perd?es,SP
+3357,Bom Sucesso de Itarar?,SP
+3358,Bor?,SP
+3359,Borac?ia,SP
+3360,Borborema,SP
+3361,Borebi,SP
+3362,Botucatu,SP
+3363,Bragan?a Paulista,SP
+3364,Bra?na,SP
+3365,Brejo Alegre,SP
+3366,Brodowski,SP
+3367,Brotas,SP
+3368,Buri,SP
+3369,Buritama,SP
+3370,Buritizal,SP
+3371,Cabr?lia Paulista,SP
+3372,Cabre?va,SP
+3373,Ca?apava,SP
+3374,Cachoeira Paulista,SP
+3375,Caconde,SP
+3376,Cafel?ndia,SP
+3377,Caiabu,SP
+3378,Caieiras,SP
+3379,Caiu?,SP
+3380,Cajamar,SP
+3381,Cajati,SP
+3382,Cajobi,SP
+3383,Cajuru,SP
+3384,Campina do Monte Alegre,SP
+3385,Campinas,SP
+3386,Campo Limpo Paulista,SP
+3387,Campos do Jord?o,SP
+3388,Campos Novos Paulista,SP
+3389,Canan?ia,SP
+3390,Canas,SP
+3391,C?ndido Mota,SP
+3392,C?ndido Rodrigues,SP
+3393,Canitar,SP
+3394,Cap?o Bonito,SP
+3395,Capela do Alto,SP
+3396,Capivari,SP
+3397,Caraguatatuba,SP
+3398,Carapicu?ba,SP
+3399,Cardoso,SP
+3400,Casa Branca,SP
+3401,C?ssia dos Coqueiros,SP
+3402,Castilho,SP
+3403,Catanduva,SP
+3404,Catigu?,SP
+3405,Cedral,SP
+3406,Cerqueira C?sar,SP
+3407,Cerquilho,SP
+3408,Ces?rio Lange,SP
+3409,Charqueada,SP
+3410,Clementina,SP
+3411,Colina,SP
+3412,Col?mbia,SP
+3413,Conchal,SP
+3414,Conchas,SP
+3415,Cordeir?polis,SP
+3416,Coroados,SP
+3417,Coronel Macedo,SP
+3418,Corumbata?,SP
+3419,Cosm?polis,SP
+3420,Cosmorama,SP
+3421,Cotia,SP
+3422,Cravinhos,SP
+3423,Cristais Paulista,SP
+3424,Cruz?lia,SP
+3425,Cruzeiro,SP
+3426,Cubat?o,SP
+3427,Cunha,SP
+3428,Descalvado,SP
+3429,Diadema,SP
+3430,Dirce Reis,SP
+3431,Divinol?ndia,SP
+3432,Dobrada,SP
+3433,Dois C?rregos,SP
+3434,Dolcin?polis,SP
+3435,Dourado,SP
+3436,Dracena,SP
+3437,Duartina,SP
+3438,Dumont,SP
+3439,Echapor?,SP
+3440,Eldorado,SP
+3441,Elias Fausto,SP
+3442,Elisi?rio,SP
+3443,Emba?ba,SP
+3444,Embu,SP
+3445,Embu-Gua?u,SP
+3446,Emilian?polis,SP
+3447,Engenheiro Coelho,SP
+3448,Esp?rito Santo do Pinhal,SP
+3449,Esp?rito Santo do Turvo,SP
+3450,Estrela d Oeste,SP
+3451,Estrela do Norte,SP
+3452,Euclides da Cunha Paulista,SP
+3453,Fartura,SP
+3454,Fernand?polis,SP
+3455,Fernando Prestes,SP
+3456,Fern?o,SP
+3457,Ferraz de Vasconcelos,SP
+3458,Flora Rica,SP
+3459,Floreal,SP
+3460,Fl?rida Paulista,SP
+3461,Flor?nia,SP
+3462,Franca,SP
+3463,Francisco Morato,SP
+3464,Franco da Rocha,SP
+3465,Gabriel Monteiro,SP
+3466,G?lia,SP
+3467,Gar?a,SP
+3468,Gast?o Vidigal,SP
+3469,Gavi?o Peixoto,SP
+3470,General Salgado,SP
+3471,Getulina,SP
+3472,Glic?rio,SP
+3473,Guai?ara,SP
+3474,Guaimb?,SP
+3475,Gua?ra,SP
+3476,Guapia?u,SP
+3477,Guapiara,SP
+3478,Guar?,SP
+3479,Guara?a?,SP
+3480,Guaraci,SP
+3481,Guarani d Oeste,SP
+3482,Guarant?,SP
+3483,Guararapes,SP
+3484,Guararema,SP
+3485,Guaratinguet?,SP
+3486,Guare?,SP
+3487,Guariba,SP
+3488,Guaruj?,SP
+3489,Guarulhos,SP
+3490,Guatapar?,SP
+3491,Guzol?ndia,SP
+3492,Hercul?ndia,SP
+3493,Holambra,SP
+3494,Hortol?ndia,SP
+3495,Iacanga,SP
+3496,Iacri,SP
+3497,Iaras,SP
+3498,Ibat?,SP
+3499,Ibir?,SP
+3500,Ibirarema,SP
+3501,Ibitinga,SP
+3502,Ibi?na,SP
+3503,Ic?m,SP
+3504,Iep?,SP
+3505,Igara?u do Tiet?,SP
+3506,Igarapava,SP
+3507,Igarat?,SP
+3508,Iguape,SP
+3509,Ilhabela,SP
+3510,Ilha Comprida,SP
+3511,Ilha Solteira,SP
+3512,Indaiatuba,SP
+3513,Indiana,SP
+3514,Indiapor?,SP
+3515,In?bia Paulista,SP
+3516,Ipaussu,SP
+3517,Iper?,SP
+3518,Ipe?na,SP
+3519,Ipigu?,SP
+3520,Iporanga,SP
+3521,Ipu?,SP
+3522,Iracem?polis,SP
+3523,Irapu?,SP
+3524,Irapuru,SP
+3525,Itaber?,SP
+3526,Ita?,SP
+3527,Itajobi,SP
+3528,Itaju,SP
+3529,Itanha?m,SP
+3530,Ita?ca,SP
+3531,Itapecerica da Serra,SP
+3532,Itapetininga,SP
+3533,Itapeva,SP
+3534,Itapevi,SP
+3535,Itapira,SP
+3536,Itapirapu? Paulista,SP
+3537,It?polis,SP
+3538,Itaporanga,SP
+3539,Itapu?,SP
+3540,Itapura,SP
+3541,Itaquaquecetuba,SP
+3542,Itarar?,SP
+3543,Itariri,SP
+3544,Itatiba,SP
+3545,Itatinga,SP
+3546,Itirapina,SP
+3547,Itirapu?,SP
+3548,Itobi,SP
+3549,Itu,SP
+3550,Itupeva,SP
+3551,Ituverava,SP
+3552,Jaborandi,SP
+3553,Jaboticabal,SP
+3554,Jacare?,SP
+3555,Jaci,SP
+3556,Jacupiranga,SP
+3557,Jaguari?na,SP
+3558,Jales,SP
+3559,Jambeiro,SP
+3560,Jandira,SP
+3561,Jardin?polis,SP
+3562,Jarinu,SP
+3563,Ja?,SP
+3564,Jeriquara,SP
+3565,Joan?polis,SP
+3566,Jo?o Ramalho,SP
+3567,Jos? Bonif?cio,SP
+3568,J?lio Mesquita,SP
+3569,Jumirim,SP
+3570,Jundia?,SP
+3571,Junqueir?polis,SP
+3572,Juqui?,SP
+3573,Juquitiba,SP
+3574,Lagoinha,SP
+3575,Laranjal Paulista,SP
+3576,Lav?nia,SP
+3577,Lavrinhas,SP
+3578,Leme,SP
+3579,Len??is Paulista,SP
+3580,Limeira,SP
+3581,Lind?ia,SP
+3582,Lins,SP
+3583,Lorena,SP
+3584,Lourdes,SP
+3585,Louveira,SP
+3586,Luc?lia,SP
+3587,Lucian?polis,SP
+3588,Lu?s Ant?nio,SP
+3589,Luizi?nia,SP
+3590,Lup?rcio,SP
+3591,Lut?cia,SP
+3592,Macatuba,SP
+3593,Macaubal,SP
+3594,Maced?nia,SP
+3595,Magda,SP
+3596,Mairinque,SP
+3597,Mairipor?,SP
+3598,Manduri,SP
+3599,Marab? Paulista,SP
+3600,Maraca?,SP
+3601,Marapoama,SP
+3602,Mari?polis,SP
+3603,Mar?lia,SP
+3604,Marin?polis,SP
+3605,Martin?polis,SP
+3606,Mat?o,SP
+3607,Mau?,SP
+3608,Mendon?a,SP
+3609,Meridiano,SP
+3610,Mes?polis,SP
+3611,Miguel?polis,SP
+3612,Mineiros do Tiet?,SP
+3613,Miracatu,SP
+3614,Mira Estrela,SP
+3615,Mirand?polis,SP
+3616,Mirante do Paranapanema,SP
+3617,Mirassol,SP
+3618,Mirassol?ndia,SP
+3619,Mococa,SP
+3620,Mogi das Cruzes,SP
+3621,Mogi Gua?u,SP
+3622,Moji Mirim,SP
+3623,Mombuca,SP
+3624,Mon??es,SP
+3625,Mongagu?,SP
+3626,Monte Alegre do Sul,SP
+3627,Monte Alto,SP
+3628,Monte Apraz?vel,SP
+3629,Monte Azul Paulista,SP
+3630,Monte Castelo,SP
+3631,Monteiro Lobato,SP
+3632,Monte Mor,SP
+3633,Morro Agudo,SP
+3634,Morungaba,SP
+3635,Motuca,SP
+3636,Murutinga do Sul,SP
+3637,Nantes,SP
+3638,Narandiba,SP
+3639,Natividade da Serra,SP
+3640,Nazar? Paulista,SP
+3641,Neves Paulista,SP
+3642,Nhandeara,SP
+3643,Nipo?,SP
+3644,Nova Alian?a,SP
+3645,Nova Campina,SP
+3646,Nova Cana? Paulista,SP
+3647,Nova Castilho,SP
+3648,Nova Europa,SP
+3649,Nova Granada,SP
+3650,Nova Guataporanga,SP
+3651,Nova Independ?ncia,SP
+3652,Novais,SP
+3653,Nova Luzit?nia,SP
+3654,Nova Odessa,SP
+3655,Novo Horizonte,SP
+3656,Nuporanga,SP
+3657,Ocau?u,SP
+3658,?leo,SP
+3659,Ol?mpia,SP
+3660,Onda Verde,SP
+3661,Oriente,SP
+3662,Orindi?va,SP
+3663,Orl?ndia,SP
+3664,Osasco,SP
+3665,Oscar Bressane,SP
+3666,Osvaldo Cruz,SP
+3667,Ourinhos,SP
+3668,Ouroeste,SP
+3669,Ouro Verde,SP
+3670,Pacaembu,SP
+3671,Palestina,SP
+3672,Palmares Paulista,SP
+3673,Palmeira d Oeste,SP
+3674,Palmital,SP
+3675,Panorama,SP
+3676,Paragua?u Paulista,SP
+3677,Paraibuna,SP
+3678,Para?so,SP
+3679,Paranapanema,SP
+3680,Paranapu?,SP
+3681,Parapu?,SP
+3682,Pardinho,SP
+3683,Pariquera-A?u,SP
+3684,Parisi,SP
+3685,Patroc?nio Paulista,SP
+3686,Paulic?ia,SP
+3687,Paul?nia,SP
+3688,Paulist?nia,SP
+3689,Paulo de Faria,SP
+3690,Pederneiras,SP
+3691,Pedra Bela,SP
+3692,Pedran?polis,SP
+3693,Pedregulho,SP
+3694,Pedreira,SP
+3695,Pedrinhas Paulista,SP
+3696,Pedro de Toledo,SP
+3697,Pen?polis,SP
+3698,Pereira Barreto,SP
+3699,Pereiras,SP
+3700,Peru?be,SP
+3701,Piacatu,SP
+3702,Piedade,SP
+3703,Pilar do Sul,SP
+3704,Pindamonhangaba,SP
+3705,Pindorama,SP
+3706,Pinhalzinho,SP
+3707,Piquerobi,SP
+3708,Piquete,SP
+3709,Piracaia,SP
+3710,Piracicaba,SP
+3711,Piraju,SP
+3712,Piraju?,SP
+3713,Pirangi,SP
+3714,Pirapora do Bom Jesus,SP
+3715,Pirapozinho,SP
+3716,Pirassununga,SP
+3717,Piratininga,SP
+3718,Pitangueiras,SP
+3719,Planalto,SP
+3720,Platina,SP
+3721,Po?,SP
+3722,Poloni,SP
+3723,Pomp?ia,SP
+3724,Ponga?,SP
+3725,Pontal,SP
+3726,Pontalinda,SP
+3727,Pontes Gestal,SP
+3728,Populina,SP
+3729,Porangaba,SP
+3730,Porto Feliz,SP
+3731,Porto Ferreira,SP
+3732,Potim,SP
+3733,Potirendaba,SP
+3734,Pracinha,SP
+3735,Prad?polis,SP
+3736,Praia Grande,SP
+3737,Prat?nia,SP
+3738,Presidente Alves,SP
+3739,Presidente Bernardes,SP
+3740,Presidente Epit?cio,SP
+3741,Presidente Prudente,SP
+3742,Presidente Venceslau,SP
+3743,Promiss?o,SP
+3744,Quadra,SP
+3745,Quat?,SP
+3746,Queiroz,SP
+3747,Queluz,SP
+3748,Quintana,SP
+3749,Rafard,SP
+3750,Rancharia,SP
+3751,Reden??o da Serra,SP
+3752,Regente Feij?,SP
+3753,Regin?polis,SP
+3754,Registro,SP
+3755,Restinga,SP
+3756,Ribeira,SP
+3757,Ribeir?o Bonito,SP
+3758,Ribeir?o Branco,SP
+3759,Ribeir?o Corrente,SP
+3760,Ribeir?o do Sul,SP
+3761,Ribeir?o dos ?ndios,SP
+3762,Ribeir?o Grande,SP
+3763,Ribeir?o Pires,SP
+3764,Ribeir?o Preto,SP
+3765,Riversul,SP
+3766,Rifaina,SP
+3767,Rinc?o,SP
+3768,Rin?polis,SP
+3769,Rio Claro,SP
+3770,Rio das Pedras,SP
+3771,Rio Grande da Serra,SP
+3772,Riol?ndia,SP
+3773,Rosana,SP
+3774,Roseira,SP
+3775,Rubi?cea,SP
+3776,Rubin?ia,SP
+3777,Sabino,SP
+3778,Sagres,SP
+3779,Sales,SP
+3780,Sales Oliveira,SP
+3781,Sales?polis,SP
+3782,Salmour?o,SP
+3783,Saltinho,SP
+3784,Salto,SP
+3785,Salto de Pirapora,SP
+3786,Salto Grande,SP
+3787,Sandovalina,SP
+3788,Santa Ad?lia,SP
+3789,Santa Albertina,SP
+3790,Santa B?rbara d Oeste,SP
+3791,Santa Branca,SP
+3792,Santa Clara d Oeste,SP
+3793,Santa Cruz da Concei??o,SP
+3794,Santa Cruz da Esperan?a,SP
+3795,Santa Cruz das Palmeiras,SP
+3796,Santa Cruz do Rio Pardo,SP
+3797,Santa Ernestina,SP
+3798,Santa F? do Sul,SP
+3799,Santa Gertrudes,SP
+3800,Santa Isabel,SP
+3801,Santa L?cia,SP
+3802,Santa Maria da Serra,SP
+3803,Santa Mercedes,SP
+3804,Santana da Ponte Pensa,SP
+3805,Santana de Parna?ba,SP
+3806,Santa Rita d Oeste,SP
+3807,Santa Rita do Passa Quatro,SP
+3808,Santa Rosa de Viterbo,SP
+3809,Santa Salete,SP
+3810,Santo Anast?cio,SP
+3811,Santo Andr?,SP
+3812,Santo Ant?nio da Alegria,SP
+3813,Santo Ant?nio de Posse,SP
+3814,Santo Ant?nio do Aracangu?,SP
+3815,Santo Ant?nio do Jardim,SP
+3816,Santo Ant?nio do Pinhal,SP
+3817,Santo Expedito,SP
+3818,Sant?polis do Aguape?,SP
+3819,Santos,SP
+3820,S?o Bento do Sapuca?,SP
+3821,S?o Bernardo do Campo,SP
+3822,S?o Caetano do Sul,SP
+3823,S?o Carlos,SP
+3824,S?o Francisco,SP
+3825,S?o Jo?o da Boa Vista,SP
+3826,S?o Jo?o das Duas Pontes,SP
+3827,S?o Jo?o de Iracema,SP
+3828,S?o Jo?o do Pau d Alho,SP
+3829,S?o Joaquim da Barra,SP
+3830,S?o Jos? da Bela Vista,SP
+3831,S?o Jos? do Barreiro,SP
+3832,S?o Jos? do Rio Pardo,SP
+3833,S?o Jos? do Rio Preto,SP
+3834,S?o Jos? dos Campos,SP
+3835,S?o Louren?o da Serra,SP
+3836,S?o Lu?s do Paraitinga,SP
+3837,S?o Manuel,SP
+3838,S?o Miguel Arcanjo,SP
+3839,S?o Paulo,SP
+3840,S?o Pedro,SP
+3841,S?o Pedro do Turvo,SP
+3842,S?o Roque,SP
+3843,S?o Sebasti?o,SP
+3844,S?o Sebasti?o da Grama,SP
+3845,S?o Sim?o,SP
+3846,S?o Vicente,SP
+3847,Sarapu?,SP
+3848,Sarutai?,SP
+3849,Sebastian?polis do Sul,SP
+3850,Serra Azul,SP
+3851,Serrana,SP
+3852,Serra Negra,SP
+3853,Sert?ozinho,SP
+3854,Sete Barras,SP
+3855,Sever?nia,SP
+3856,Silveiras,SP
+3857,Socorro,SP
+3858,Sorocaba,SP
+3859,Sud Mennucci,SP
+3860,Sumar?,SP
+3861,Suzano,SP
+3862,Suzan?polis,SP
+3863,Tabapu?,SP
+3864,Tabatinga,SP
+3865,Tabo?o da Serra,SP
+3866,Taciba,SP
+3867,Tagua?,SP
+3868,Taia?u,SP
+3869,Tai?va,SP
+3870,Tamba?,SP
+3871,Tanabi,SP
+3872,Tapira?,SP
+3873,Tapiratiba,SP
+3874,Taquaral,SP
+3875,Taquaritinga,SP
+3876,Taquarituba,SP
+3877,Taquariva?,SP
+3878,Tarabai,SP
+3879,Tarum?,SP
+3880,Tatu?,SP
+3881,Taubat?,SP
+3882,Tejup?,SP
+3883,Teodoro Sampaio,SP
+3884,Terra Roxa,SP
+3885,Tiet?,SP
+3886,Timburi,SP
+3887,Torre de Pedra,SP
+3888,Torrinha,SP
+3889,Trabiju,SP
+3890,Trememb?,SP
+3891,Tr?s Fronteiras,SP
+3892,Tuiuti,SP
+3893,Tup?,SP
+3894,Tupi Paulista,SP
+3895,Turi?ba,SP
+3896,Turmalina,SP
+3897,Ubarana,SP
+3898,Ubatuba,SP
+3899,Ubirajara,SP
+3900,Uchoa,SP
+3901,Uni?o Paulista,SP
+3902,Ur?nia,SP
+3903,Uru,SP
+3904,Urup?s,SP
+3905,Valentim Gentil,SP
+3906,Valinhos,SP
+3907,Valpara?so,SP
+3908,Vargem,SP
+3909,Vargem Grande do Sul,SP
+3910,Vargem Grande Paulista,SP
+3911,V?rzea Paulista,SP
+3912,Vera Cruz,SP
+3913,Vinhedo,SP
+3914,Viradouro,SP
+3915,Vista Alegre do Alto,SP
+3916,Vit?ria Brasil,SP
+3917,Votorantim,SP
+3918,Votuporanga,SP
+3919,Zacarias,SP
+3920,Chavantes,SP
+3921,Estiva Gerbi,SP
+3922,Abati?,PR
+3923,Adrian?polis,PR
+3924,Agudos do Sul,PR
+3925,Almirante Tamandar?,PR
+3926,Altamira do Paran?,PR
+3927,Alt?nia,PR
+3928,Alto Paran?,PR
+3929,Alto Piquiri,PR
+3930,Alvorada do Sul,PR
+3931,Amapor?,PR
+3932,Amp?re,PR
+3933,Anahy,PR
+3934,Andir?,PR
+3935,?ngulo,PR
+3936,Antonina,PR
+3937,Ant?nio Olinto,PR
+3938,Apucarana,PR
+3939,Arapongas,PR
+3940,Arapoti,PR
+3941,Arapu?,PR
+3942,Araruna,PR
+3943,Arauc?ria,PR
+3944,Ariranha do Iva?,PR
+3945,Assa?,PR
+3946,Assis Chateaubriand,PR
+3947,Astorga,PR
+3948,Atalaia,PR
+3949,Balsa Nova,PR
+3950,Bandeirantes,PR
+3951,Barbosa Ferraz,PR
+3952,Barrac?o,PR
+3953,Barra do Jacar?,PR
+3954,Bela Vista da Caroba,PR
+3955,Bela Vista do Para?so,PR
+3956,Bituruna,PR
+3957,Boa Esperan?a,PR
+3958,Boa Esperan?a do Igua?u,PR
+3959,Boa Ventura de S?o Roque,PR
+3960,Boa Vista da Aparecida,PR
+3961,Bocai?va do Sul,PR
+3962,Bom Jesus do Sul,PR
+3963,Bom Sucesso,PR
+3964,Bom Sucesso do Sul,PR
+3965,Borraz?polis,PR
+3966,Braganey,PR
+3967,Brasil?ndia do Sul,PR
+3968,Cafeara,PR
+3969,Cafel?ndia,PR
+3970,Cafezal do Sul,PR
+3971,Calif?rnia,PR
+3972,Cambar?,PR
+3973,Camb?,PR
+3974,Cambira,PR
+3975,Campina da Lagoa,PR
+3976,Campina do Sim?o,PR
+3977,Campina Grande do Sul,PR
+3978,Campo Bonito,PR
+3979,Campo do Tenente,PR
+3980,Campo Largo,PR
+3981,Campo Magro,PR
+3982,Campo Mour?o,PR
+3983,C?ndido de Abreu,PR
+3984,Cand?i,PR
+3985,Cantagalo,PR
+3986,Capanema,PR
+3987,Capit?o Le?nidas Marques,PR
+3988,Carambe?,PR
+3989,Carl?polis,PR
+3990,Cascavel,PR
+3991,Castro,PR
+3992,Catanduvas,PR
+3993,Centen?rio do Sul,PR
+3994,Cerro Azul,PR
+3995,C?u Azul,PR
+3996,Chopinzinho,PR
+3997,Cianorte,PR
+3998,Cidade Ga?cha,PR
+3999,Clevel?ndia,PR
+4000,Colombo,PR
+4001,Colorado,PR
+4002,Congonhinhas,PR
+4003,Conselheiro Mairinck,PR
+4004,Contenda,PR
+4005,Corb?lia,PR
+4006,Corn?lio Proc?pio,PR
+4007,Coronel Domingos Soares,PR
+4008,Coronel Vivida,PR
+4009,Corumbata? do Sul,PR
+4010,Cruzeiro do Igua?u,PR
+4011,Cruzeiro do Oeste,PR
+4012,Cruzeiro do Sul,PR
+4013,Cruz Machado,PR
+4014,Cruzmaltina,PR
+4015,Curitiba,PR
+4016,Curi?va,PR
+4017,Diamante do Norte,PR
+4018,Diamante do Sul,PR
+4019,Diamante D Oeste,PR
+4020,Dois Vizinhos,PR
+4021,Douradina,PR
+4022,Doutor Camargo,PR
+4023,En?as Marques,PR
+4024,Engenheiro Beltr?o,PR
+4025,Esperan?a Nova,PR
+4026,Entre Rios do Oeste,PR
+4027,Espig?o Alto do Igua?u,PR
+4028,Farol,PR
+4029,Faxinal,PR
+4030,Fazenda Rio Grande,PR
+4031,F?nix,PR
+4032,Fernandes Pinheiro,PR
+4033,Figueira,PR
+4034,Flora?,PR
+4035,Flor da Serra do Sul,PR
+4036,Floresta,PR
+4037,Florest?polis,PR
+4038,Fl?rida,PR
+4039,Formosa do Oeste,PR
+4040,Foz do Igua?u,PR
+4041,Francisco Alves,PR
+4042,Francisco Beltr?o,PR
+4043,Foz do Jord?o,PR
+4044,General Carneiro,PR
+4045,Godoy Moreira,PR
+4046,Goioer?,PR
+4047,Goioxim,PR
+4048,Grandes Rios,PR
+4049,Gua?ra,PR
+4050,Guaira??,PR
+4051,Guamiranga,PR
+4052,Guapirama,PR
+4053,Guaporema,PR
+4054,Guaraci,PR
+4055,Guarania?u,PR
+4056,Guarapuava,PR
+4057,Guaraque?aba,PR
+4058,Guaratuba,PR
+4059,Hon?rio Serpa,PR
+4060,Ibaiti,PR
+4061,Ibema,PR
+4062,Ibipor?,PR
+4063,Icara?ma,PR
+4064,Iguara?u,PR
+4065,Iguatu,PR
+4066,Imba?,PR
+4067,Imbituva,PR
+4068,In?cio Martins,PR
+4069,Inaj?,PR
+4070,Indian?polis,PR
+4071,Ipiranga,PR
+4072,Ipor?,PR
+4073,Iracema do Oeste,PR
+4074,Irati,PR
+4075,Iretama,PR
+4076,Itaguaj?,PR
+4077,Itaipul?ndia,PR
+4078,Itambarac?,PR
+4079,Itamb?,PR
+4080,Itapejara d Oeste,PR
+4081,Itaperu?u,PR
+4082,Ita?na do Sul,PR
+4083,Iva?,PR
+4084,Ivaipor?,PR
+4085,Ivat?,PR
+4086,Ivatuba,PR
+4087,Jaboti,PR
+4088,Jacarezinho,PR
+4089,Jaguapit?,PR
+4090,Jaguaria?va,PR
+4091,Jandaia do Sul,PR
+4092,Jani?polis,PR
+4093,Japira,PR
+4094,Japur?,PR
+4095,Jardim Alegre,PR
+4096,Jardim Olinda,PR
+4097,Jataizinho,PR
+4098,Jesu?tas,PR
+4099,Joaquim T?vora,PR
+4100,Jundia? do Sul,PR
+4101,Juranda,PR
+4102,Jussara,PR
+4103,Kalor?,PR
+4104,Lapa,PR
+4105,Laranjal,PR
+4106,Laranjeiras do Sul,PR
+4107,Le?polis,PR
+4108,Lidian?polis,PR
+4109,Lindoeste,PR
+4110,Loanda,PR
+4111,Lobato,PR
+4112,Londrina,PR
+4113,Luiziana,PR
+4114,Lunardelli,PR
+4115,Lupion?polis,PR
+4116,Mallet,PR
+4117,Mambor?,PR
+4118,Mandagua?u,PR
+4119,Mandaguari,PR
+4120,Mandirituba,PR
+4121,Manfrin?polis,PR
+4122,Mangueirinha,PR
+4123,Manoel Ribas,PR
+4124,Marechal C?ndido Rondon,PR
+4125,Maria Helena,PR
+4126,Marialva,PR
+4127,Maril?ndia do Sul,PR
+4128,Marilena,PR
+4129,Mariluz,PR
+4130,Maring?,PR
+4131,Mari?polis,PR
+4132,Marip?,PR
+4133,Marmeleiro,PR
+4134,Marquinho,PR
+4135,Marumbi,PR
+4136,Matel?ndia,PR
+4137,Matinhos,PR
+4138,Mato Rico,PR
+4139,Mau? da Serra,PR
+4140,Medianeira,PR
+4141,Mercedes,PR
+4142,Mirador,PR
+4143,Miraselva,PR
+4144,Missal,PR
+4145,Moreira Sales,PR
+4146,Morretes,PR
+4147,Munhoz de Melo,PR
+4148,Nossa Senhora das Gra?as,PR
+4149,Nova Alian?a do Iva?,PR
+4150,Nova Am?rica da Colina,PR
+4151,Nova Aurora,PR
+4152,Nova Cantu,PR
+4153,Nova Esperan?a,PR
+4154,Nova Esperan?a do Sudoeste,PR
+4155,Nova F?tima,PR
+4156,Nova Laranjeiras,PR
+4157,Nova Londrina,PR
+4158,Nova Ol?mpia,PR
+4159,Nova Santa B?rbara,PR
+4160,Nova Santa Rosa,PR
+4161,Nova Prata do Igua?u,PR
+4162,Nova Tebas,PR
+4163,Novo Itacolomi,PR
+4164,Ortigueira,PR
+4165,Ourizona,PR
+4166,Ouro Verde do Oeste,PR
+4167,Pai?andu,PR
+4168,Palmas,PR
+4169,Palmeira,PR
+4170,Palmital,PR
+4171,Palotina,PR
+4172,Para?so do Norte,PR
+4173,Paranacity,PR
+4174,Paranagu?,PR
+4175,Paranapoema,PR
+4176,Paranava?,PR
+4177,Pato Bragado,PR
+4178,Pato Branco,PR
+4179,Paula Freitas,PR
+4180,Paulo Frontin,PR
+4181,Peabiru,PR
+4182,Perobal,PR
+4183,P?rola,PR
+4184,P?rola d Oeste,PR
+4185,Pi?n,PR
+4186,Pinhais,PR
+4187,Pinhal?o,PR
+4188,Pinhal de S?o Bento,PR
+4189,Pinh?o,PR
+4190,Pira? do Sul,PR
+4191,Piraquara,PR
+4192,Pitanga,PR
+4193,Pitangueiras,PR
+4194,Planaltina do Paran?,PR
+4195,Planalto,PR
+4196,Ponta Grossa,PR
+4197,Pontal do Paran?,PR
+4198,Porecatu,PR
+4199,Porto Amazonas,PR
+4200,Porto Barreiro,PR
+4201,Porto Rico,PR
+4202,Porto Vit?ria,PR
+4203,Prado Ferreira,PR
+4204,Pranchita,PR
+4205,Presidente Castelo Branco,PR
+4206,Primeiro de Maio,PR
+4207,Prudent?polis,PR
+4208,Quarto Centen?rio,PR
+4209,Quatigu?,PR
+4210,Quatro Barras,PR
+4211,Quatro Pontes,PR
+4212,Quedas do Igua?u,PR
+4213,Quer?ncia do Norte,PR
+4214,Quinta do Sol,PR
+4215,Quitandinha,PR
+4216,Ramil?ndia,PR
+4217,Rancho Alegre,PR
+4218,Rancho Alegre D Oeste,PR
+4219,Realeza,PR
+4220,Rebou?as,PR
+4221,Renascen?a,PR
+4222,Reserva,PR
+4223,Reserva do Igua?u,PR
+4224,Ribeir?o Claro,PR
+4225,Ribeir?o do Pinhal,PR
+4226,Rio Azul,PR
+4227,Rio Bom,PR
+4228,Rio Bonito do Igua?u,PR
+4229,Rio Branco do Iva?,PR
+4230,Rio Branco do Sul,PR
+4231,Rio Negro,PR
+4232,Rol?ndia,PR
+4233,Roncador,PR
+4234,Rondon,PR
+4235,Ros?rio do Iva?,PR
+4236,Sab?udia,PR
+4237,Salgado Filho,PR
+4238,Salto do Itarar?,PR
+4239,Salto do Lontra,PR
+4240,Santa Am?lia,PR
+4241,Santa Cec?lia do Pav?o,PR
+4242,Santa Cruz de Monte Castelo,PR
+4243,Santa F?,PR
+4244,Santa Helena,PR
+4245,Santa In?s,PR
+4246,Santa Isabel do Iva?,PR
+4247,Santa Izabel do Oeste,PR
+4248,Santa L?cia,PR
+4249,Santa Maria do Oeste,PR
+4250,Santa Mariana,PR
+4251,Santa M?nica,PR
+4252,Santana do Itarar?,PR
+4253,Santa Tereza do Oeste,PR
+4254,Santa Terezinha de Itaipu,PR
+4255,Santo Ant?nio da Platina,PR
+4256,Santo Ant?nio do Caiu?,PR
+4257,Santo Ant?nio do Para?so,PR
+4258,Santo Ant?nio do Sudoeste,PR
+4259,Santo In?cio,PR
+4260,S?o Carlos do Iva?,PR
+4261,S?o Jer?nimo da Serra,PR
+4262,S?o Jo?o,PR
+4263,S?o Jo?o do Caiu?,PR
+4264,S?o Jo?o do Iva?,PR
+4265,S?o Jo?o do Triunfo,PR
+4266,S?o Jorge d Oeste,PR
+4267,S?o Jorge do Iva?,PR
+4268,S?o Jorge do Patroc?nio,PR
+4269,S?o Jos? da Boa Vista,PR
+4270,S?o Jos? das Palmeiras,PR
+4271,S?o Jos? dos Pinhais,PR
+4272,S?o Manoel do Paran?,PR
+4273,S?o Mateus do Sul,PR
+4274,S?o Miguel do Igua?u,PR
+4275,S?o Pedro do Igua?u,PR
+4276,S?o Pedro do Iva?,PR
+4277,S?o Pedro do Paran?,PR
+4278,S?o Sebasti?o da Amoreira,PR
+4279,S?o Tom?,PR
+4280,Sapopema,PR
+4281,Sarandi,PR
+4282,Saudade do Igua?u,PR
+4283,Seng?s,PR
+4284,Serran?polis do Igua?u,PR
+4285,Sertaneja,PR
+4286,Sertan?polis,PR
+4287,Siqueira Campos,PR
+4288,Sulina,PR
+4289,Tamarana,PR
+4290,Tamboara,PR
+4291,Tapejara,PR
+4292,Tapira,PR
+4293,Teixeira Soares,PR
+4294,Tel?maco Borba,PR
+4295,Terra Boa,PR
+4296,Terra Rica,PR
+4297,Terra Roxa,PR
+4298,Tibagi,PR
+4299,Tijucas do Sul,PR
+4300,Toledo,PR
+4301,Tomazina,PR
+4302,Tr?s Barras do Paran?,PR
+4303,Tunas do Paran?,PR
+4304,Tuneiras do Oeste,PR
+4305,Tup?ssi,PR
+4306,Turvo,PR
+4307,Ubirat?,PR
+4308,Umuarama,PR
+4309,Uni?o da Vit?ria,PR
+4310,Uniflor,PR
+4311,Ura?,PR
+4312,Wenceslau Braz,PR
+4313,Ventania,PR
+4314,Vera Cruz do Oeste,PR
+4315,Ver?,PR
+4316,Alto Para?so,PR
+4317,Doutor Ulysses,PR
+4318,Virmond,PR
+4319,Vitorino,PR
+4320,Xambr?,PR
+4321,Abdon Batista,SC
+4322,Abelardo Luz,SC
+4323,Agrol?ndia,SC
+4324,Agron?mica,SC
+4325,?gua Doce,SC
+4326,?guas de Chapec?,SC
+4327,?guas Frias,SC
+4328,?guas Mornas,SC
+4329,Alfredo Wagner,SC
+4330,Alto Bela Vista,SC
+4331,Anchieta,SC
+4332,Angelina,SC
+4333,Anita Garibaldi,SC
+4334,Anit?polis,SC
+4335,Ant?nio Carlos,SC
+4336,Api?na,SC
+4337,Arabut?,SC
+4338,Araquari,SC
+4339,Ararangu?,SC
+4340,Armaz?m,SC
+4341,Arroio Trinta,SC
+4342,Arvoredo,SC
+4343,Ascurra,SC
+4344,Atalanta,SC
+4345,Aurora,SC
+4346,Balne?rio Arroio do Silva,SC
+4347,Balne?rio Cambori?,SC
+4348,Balne?rio Barra do Sul,SC
+4349,Balne?rio Gaivota,SC
+4350,Bandeirante,SC
+4351,Barra Bonita,SC
+4352,Barra Velha,SC
+4353,Bela Vista do Toldo,SC
+4354,Belmonte,SC
+4355,Benedito Novo,SC
+4356,Bigua?u,SC
+4357,Blumenau,SC
+4358,Bocaina do Sul,SC
+4359,Bombinhas,SC
+4360,Bom Jardim da Serra,SC
+4361,Bom Jesus,SC
+4362,Bom Jesus do Oeste,SC
+4363,Bom Retiro,SC
+4364,Botuver?,SC
+4365,Bra?o do Norte,SC
+4366,Bra?o do Trombudo,SC
+4367,Brun?polis,SC
+4368,Brusque,SC
+4369,Ca?ador,SC
+4370,Caibi,SC
+4371,Calmon,SC
+4372,Cambori?,SC
+4373,Cap?o Alto,SC
+4374,Campo Alegre,SC
+4375,Campo Belo do Sul,SC
+4376,Campo Er?,SC
+4377,Campos Novos,SC
+4378,Canelinha,SC
+4379,Canoinhas,SC
+4380,Capinzal,SC
+4381,Capivari de Baixo,SC
+4382,Catanduvas,SC
+4383,Caxambu do Sul,SC
+4384,Celso Ramos,SC
+4385,Cerro Negro,SC
+4386,Chapad?o do Lageado,SC
+4387,Chapec?,SC
+4388,Cocal do Sul,SC
+4389,Conc?rdia,SC
+4390,Cordilheira Alta,SC
+4391,Coronel Freitas,SC
+4392,Coronel Martins,SC
+4393,Corup?,SC
+4394,Correia Pinto,SC
+4395,Crici?ma,SC
+4396,Cunha Por?,SC
+4397,Cunhata?,SC
+4398,Curitibanos,SC
+4399,Descanso,SC
+4400,Dion?sio Cerqueira,SC
+4401,Dona Emma,SC
+4402,Doutor Pedrinho,SC
+4403,Entre Rios,SC
+4404,Ermo,SC
+4405,Erval Velho,SC
+4406,Faxinal dos Guedes,SC
+4407,Flor do Sert?o,SC
+4408,Florian?polis,SC
+4409,Formosa do Sul,SC
+4410,Forquilhinha,SC
+4411,Fraiburgo,SC
+4412,Frei Rog?rio,SC
+4413,Galv?o,SC
+4414,Garopaba,SC
+4415,Garuva,SC
+4416,Gaspar,SC
+4417,Governador Celso Ramos,SC
+4418,Gr?o Par?,SC
+4419,Gravatal,SC
+4420,Guabiruba,SC
+4421,Guaraciaba,SC
+4422,Guaramirim,SC
+4423,Guaruj? do Sul,SC
+4424,Guatamb?,SC
+4425,Herval d Oeste,SC
+4426,Ibiam,SC
+4427,Ibicar?,SC
+4428,Ibirama,SC
+4429,I?ara,SC
+4430,Ilhota,SC
+4431,Imaru?,SC
+4432,Imbituba,SC
+4433,Imbuia,SC
+4434,Indaial,SC
+4435,Iomer?,SC
+4436,Ipira,SC
+4437,Ipor? do Oeste,SC
+4438,Ipua?u,SC
+4439,Ipumirim,SC
+4440,Iraceminha,SC
+4441,Irani,SC
+4442,Irati,SC
+4443,Irine?polis,SC
+4444,It?,SC
+4445,Itai?polis,SC
+4446,Itaja?,SC
+4447,Itapema,SC
+4448,Itapiranga,SC
+4449,Itapo?,SC
+4450,Ituporanga,SC
+4451,Jabor?,SC
+4452,Jacinto Machado,SC
+4453,Jaguaruna,SC
+4454,Jaragu? do Sul,SC
+4455,Jardin?polis,SC
+4456,Joa?aba,SC
+4457,Joinville,SC
+4458,Jos? Boiteux,SC
+4459,Jupi?,SC
+4460,Lacerd?polis,SC
+4461,Lages,SC
+4462,Laguna,SC
+4463,Lajeado Grande,SC
+4464,Laurentino,SC
+4465,Lauro Muller,SC
+4466,Lebon R?gis,SC
+4467,Leoberto Leal,SC
+4468,Lind?ia do Sul,SC
+4469,Lontras,SC
+4470,Luiz Alves,SC
+4471,Luzerna,SC
+4472,Macieira,SC
+4473,Mafra,SC
+4474,Major Gercino,SC
+4475,Major Vieira,SC
+4476,Maracaj?,SC
+4477,Maravilha,SC
+4478,Marema,SC
+4479,Massaranduba,SC
+4480,Matos Costa,SC
+4481,Meleiro,SC
+4482,Mirim Doce,SC
+4483,Modelo,SC
+4484,Monda?,SC
+4485,Monte Carlo,SC
+4486,Monte Castelo,SC
+4487,Morro da Fuma?a,SC
+4488,Morro Grande,SC
+4489,Navegantes,SC
+4490,Nova Erechim,SC
+4491,Nova Itaberaba,SC
+4492,Nova Trento,SC
+4493,Nova Veneza,SC
+4494,Novo Horizonte,SC
+4495,Orleans,SC
+4496,Otac?lio Costa,SC
+4497,Ouro,SC
+4498,Ouro Verde,SC
+4499,Paial,SC
+4500,Painel,SC
+4501,Palho?a,SC
+4502,Palma Sola,SC
+4503,Palmeira,SC
+4504,Palmitos,SC
+4505,Papanduva,SC
+4506,Para?so,SC
+4507,Passo de Torres,SC
+4508,Passos Maia,SC
+4509,Paulo Lopes,SC
+4510,Pedras Grandes,SC
+4511,Penha,SC
+4512,Peritiba,SC
+4513,Petrol?ndia,SC
+4514,Balne?rio Pi?arras,SC
+4515,Pinhalzinho,SC
+4516,Pinheiro Preto,SC
+4517,Piratuba,SC
+4518,Planalto Alegre,SC
+4519,Pomerode,SC
+4520,Ponte Alta,SC
+4521,Ponte Alta do Norte,SC
+4522,Ponte Serrada,SC
+4523,Porto Belo,SC
+4524,Porto Uni?o,SC
+4525,Pouso Redondo,SC
+4526,Praia Grande,SC
+4527,Presidente Castello Branco,SC
+4528,Presidente Get?lio,SC
+4529,Presidente Nereu,SC
+4530,Princesa,SC
+4531,Quilombo,SC
+4532,Rancho Queimado,SC
+4533,Rio das Antas,SC
+4534,Rio do Campo,SC
+4535,Rio do Oeste,SC
+4536,Rio dos Cedros,SC
+4537,Rio do Sul,SC
+4538,Rio Fortuna,SC
+4539,Rio Negrinho,SC
+4540,Rio Rufino,SC
+4541,Riqueza,SC
+4542,Rodeio,SC
+4543,Romel?ndia,SC
+4544,Salete,SC
+4545,Saltinho,SC
+4546,Salto Veloso,SC
+4547,Sang?o,SC
+4548,Santa Cec?lia,SC
+4549,Santa Helena,SC
+4550,Santa Rosa de Lima,SC
+4551,Santa Rosa do Sul,SC
+4552,Santa Terezinha,SC
+4553,Santa Terezinha do Progresso,SC
+4554,Santiago do Sul,SC
+4555,Santo Amaro da Imperatriz,SC
+4556,S?o Bernardino,SC
+4557,S?o Bento do Sul,SC
+4558,S?o Bonif?cio,SC
+4559,S?o Carlos,SC
+4560,S?o Cristov?o do Sul,SC
+4561,S?o Domingos,SC
+4562,S?o Francisco do Sul,SC
+4563,S?o Jo?o do Oeste,SC
+4564,S?o Jo?o Batista,SC
+4565,S?o Jo?o do Itaperi?,SC
+4566,S?o Jo?o do Sul,SC
+4567,S?o Joaquim,SC
+4568,S?o Jos?,SC
+4569,S?o Jos? do Cedro,SC
+4570,S?o Jos? do Cerrito,SC
+4571,S?o Louren?o do Oeste,SC
+4572,S?o Ludgero,SC
+4573,S?o Martinho,SC
+4574,S?o Miguel da Boa Vista,SC
+4575,S?o Miguel do Oeste,SC
+4576,S?o Pedro de Alc?ntara,SC
+4577,Saudades,SC
+4578,Schroeder,SC
+4579,Seara,SC
+4580,Serra Alta,SC
+4581,Sider?polis,SC
+4582,Sombrio,SC
+4583,Sul Brasil,SC
+4584,Tai?,SC
+4585,Tangar?,SC
+4586,Tigrinhos,SC
+4587,Tijucas,SC
+4588,Timb? do Sul,SC
+4589,Timb?,SC
+4590,Timb? Grande,SC
+4591,Tr?s Barras,SC
+4592,Treviso,SC
+4593,Treze de Maio,SC
+4594,Treze T?lias,SC
+4595,Trombudo Central,SC
+4596,Tubar?o,SC
+4597,Tun?polis,SC
+4598,Turvo,SC
+4599,Uni?o do Oeste,SC
+4600,Urubici,SC
+4601,Urupema,SC
+4602,Urussanga,SC
+4603,Varge?o,SC
+4604,Vargem,SC
+4605,Vargem Bonita,SC
+4606,Vidal Ramos,SC
+4607,Videira,SC
+4608,Vitor Meireles,SC
+4609,Witmarsum,SC
+4610,Xanxer?,SC
+4611,Xavantina,SC
+4612,Xaxim,SC
+4613,Zort?a,SC
+4614,Acegu?,RS
+4615,?gua Santa,RS
+4616,Agudo,RS
+4617,Ajuricaba,RS
+4618,Alecrim,RS
+4619,Alegrete,RS
+4620,Alegria,RS
+4621,Almirante Tamandar? do Sul,RS
+4622,Alpestre,RS
+4623,Alto Alegre,RS
+4624,Alto Feliz,RS
+4625,Alvorada,RS
+4626,Amaral Ferrador,RS
+4627,Ametista do Sul,RS
+4628,Andr? da Rocha,RS
+4629,Anta Gorda,RS
+4630,Ant?nio Prado,RS
+4631,Arambar?,RS
+4632,Araric?,RS
+4633,Aratiba,RS
+4634,Arroio do Meio,RS
+4635,Arroio do Sal,RS
+4636,Arroio do Padre,RS
+4637,Arroio dos Ratos,RS
+4638,Arroio do Tigre,RS
+4639,Arroio Grande,RS
+4640,Arvorezinha,RS
+4641,Augusto Pestana,RS
+4642,?urea,RS
+4643,Bag?,RS
+4644,Balne?rio Pinhal,RS
+4645,Bar?o,RS
+4646,Bar?o de Cotegipe,RS
+4647,Bar?o do Triunfo,RS
+4648,Barrac?o,RS
+4649,Barra do Guarita,RS
+4650,Barra do Quara?,RS
+4651,Barra do Ribeiro,RS
+4652,Barra do Rio Azul,RS
+4653,Barra Funda,RS
+4654,Barros Cassal,RS
+4655,Benjamin Constant do Sul,RS
+4656,Bento Gon?alves,RS
+4657,Boa Vista das Miss?es,RS
+4658,Boa Vista do Buric?,RS
+4659,Boa Vista do Cadeado,RS
+4660,Boa Vista do Incra,RS
+4661,Boa Vista do Sul,RS
+4662,Bom Jesus,RS
+4663,Bom Princ?pio,RS
+4664,Bom Progresso,RS
+4665,Bom Retiro do Sul,RS
+4666,Boqueir?o do Le?o,RS
+4667,Bossoroca,RS
+4668,Bozano,RS
+4669,Braga,RS
+4670,Brochier,RS
+4671,Buti?,RS
+4672,Ca?apava do Sul,RS
+4673,Cacequi,RS
+4674,Cachoeira do Sul,RS
+4675,Cachoeirinha,RS
+4676,Cacique Doble,RS
+4677,Caibat?,RS
+4678,Cai?ara,RS
+4679,Camaqu?,RS
+4680,Camargo,RS
+4681,Cambar? do Sul,RS
+4682,Campestre da Serra,RS
+4683,Campina das Miss?es,RS
+4684,Campinas do Sul,RS
+4685,Campo Bom,RS
+4686,Campo Novo,RS
+4687,Campos Borges,RS
+4688,Candel?ria,RS
+4689,C?ndido God?i,RS
+4690,Candiota,RS
+4691,Canela,RS
+4692,Cangu?u,RS
+4693,Canoas,RS
+4694,Canudos do Vale,RS
+4695,Cap?o Bonito do Sul,RS
+4696,Cap?o da Canoa,RS
+4697,Cap?o do Cip?,RS
+4698,Cap?o do Le?o,RS
+4699,Capivari do Sul,RS
+4700,Capela de Santana,RS
+4701,Capit?o,RS
+4702,Carazinho,RS
+4703,Cara?,RS
+4704,Carlos Barbosa,RS
+4705,Carlos Gomes,RS
+4706,Casca,RS
+4707,Caseiros,RS
+4708,Catu?pe,RS
+4709,Caxias do Sul,RS
+4710,Centen?rio,RS
+4711,Cerrito,RS
+4712,Cerro Branco,RS
+4713,Cerro Grande,RS
+4714,Cerro Grande do Sul,RS
+4715,Cerro Largo,RS
+4716,Chapada,RS
+4717,Charqueadas,RS
+4718,Charrua,RS
+4719,Chiapetta,RS
+4720,Chu?,RS
+4721,Chuvisca,RS
+4722,Cidreira,RS
+4723,Cir?aco,RS
+4724,Colinas,RS
+4725,Colorado,RS
+4726,Condor,RS
+4727,Constantina,RS
+4728,Coqueiro Baixo,RS
+4729,Coqueiros do Sul,RS
+4730,Coronel Barros,RS
+4731,Coronel Bicaco,RS
+4732,Coronel Pilar,RS
+4733,Cotipor?,RS
+4734,Coxilha,RS
+4735,Crissiumal,RS
+4736,Cristal,RS
+4737,Cristal do Sul,RS
+4738,Cruz Alta,RS
+4739,Cruzaltense,RS
+4740,Cruzeiro do Sul,RS
+4741,David Canabarro,RS
+4742,Derrubadas,RS
+4743,Dezesseis de Novembro,RS
+4744,Dilermando de Aguiar,RS
+4745,Dois Irm?os,RS
+4746,Dois Irm?os das Miss?es,RS
+4747,Dois Lajeados,RS
+4748,Dom Feliciano,RS
+4749,Dom Pedro de Alc?ntara,RS
+4750,Dom Pedrito,RS
+4751,Dona Francisca,RS
+4752,Doutor Maur?cio Cardoso,RS
+4753,Doutor Ricardo,RS
+4754,Eldorado do Sul,RS
+4755,Encantado,RS
+4756,Encruzilhada do Sul,RS
+4757,Engenho Velho,RS
+4758,Entre-Iju?s,RS
+4759,Entre Rios do Sul,RS
+4760,Erebango,RS
+4761,Erechim,RS
+4762,Ernestina,RS
+4763,Herval,RS
+4764,Erval Grande,RS
+4765,Erval Seco,RS
+4766,Esmeralda,RS
+4767,Esperan?a do Sul,RS
+4768,Espumoso,RS
+4769,Esta??o,RS
+4770,Est?ncia Velha,RS
+4771,Esteio,RS
+4772,Estrela,RS
+4773,Estrela Velha,RS
+4774,Eug?nio de Castro,RS
+4775,Fagundes Varela,RS
+4776,Farroupilha,RS
+4777,Faxinal do Soturno,RS
+4778,Faxinalzinho,RS
+4779,Fazenda Vilanova,RS
+4780,Feliz,RS
+4781,Flores da Cunha,RS
+4782,Floriano Peixoto,RS
+4783,Fontoura Xavier,RS
+4784,Formigueiro,RS
+4785,Forquetinha,RS
+4786,Fortaleza dos Valos,RS
+4787,Frederico Westphalen,RS
+4788,Garibaldi,RS
+4789,Garruchos,RS
+4790,Gaurama,RS
+4791,General C?mara,RS
+4792,Gentil,RS
+4793,Get?lio Vargas,RS
+4794,Giru?,RS
+4795,Glorinha,RS
+4796,Gramado,RS
+4797,Gramado dos Loureiros,RS
+4798,Gramado Xavier,RS
+4799,Gravata?,RS
+4800,Guabiju,RS
+4801,Gua?ba,RS
+4802,Guapor?,RS
+4803,Guarani das Miss?es,RS
+4804,Harmonia,RS
+4805,Herveiras,RS
+4806,Horizontina,RS
+4807,Hulha Negra,RS
+4808,Humait?,RS
+4809,Ibarama,RS
+4810,Ibia??,RS
+4811,Ibiraiaras,RS
+4812,Ibirapuit?,RS
+4813,Ibirub?,RS
+4814,Igrejinha,RS
+4815,Iju?,RS
+4816,Il?polis,RS
+4817,Imb?,RS
+4818,Imigrante,RS
+4819,Independ?ncia,RS
+4820,Inhacor?,RS
+4821,Ip?,RS
+4822,Ipiranga do Sul,RS
+4823,Ira?,RS
+4824,Itaara,RS
+4825,Itacurubi,RS
+4826,Itapuca,RS
+4827,Itaqui,RS
+4828,Itati,RS
+4829,Itatiba do Sul,RS
+4830,Ivor?,RS
+4831,Ivoti,RS
+4832,Jaboticaba,RS
+4833,Jacuizinho,RS
+4834,Jacutinga,RS
+4835,Jaguar?o,RS
+4836,Jaguari,RS
+4837,Jaquirana,RS
+4838,Jari,RS
+4839,J?ia,RS
+4840,J?lio de Castilhos,RS
+4841,Lagoa Bonita do Sul,RS
+4842,Lago?o,RS
+4843,Lagoa dos Tr?s Cantos,RS
+4844,Lagoa Vermelha,RS
+4845,Lajeado,RS
+4846,Lajeado do Bugre,RS
+4847,Lavras do Sul,RS
+4848,Liberato Salzano,RS
+4849,Lindolfo Collor,RS
+4850,Linha Nova,RS
+4851,Machadinho,RS
+4852,Ma?ambar?,RS
+4853,Mampituba,RS
+4854,Manoel Viana,RS
+4855,Maquin?,RS
+4856,Marat?,RS
+4857,Marau,RS
+4858,Marcelino Ramos,RS
+4859,Mariana Pimentel,RS
+4860,Mariano Moro,RS
+4861,Marques de Souza,RS
+4862,Mata,RS
+4863,Mato Castelhano,RS
+4864,Mato Leit?o,RS
+4865,Mato Queimado,RS
+4866,Maximiliano de Almeida,RS
+4867,Minas do Le?o,RS
+4868,Miragua?,RS
+4869,Montauri,RS
+4870,Monte Alegre dos Campos,RS
+4871,Monte Belo do Sul,RS
+4872,Montenegro,RS
+4873,Morma?o,RS
+4874,Morrinhos do Sul,RS
+4875,Morro Redondo,RS
+4876,Morro Reuter,RS
+4877,Mostardas,RS
+4878,Mu?um,RS
+4879,Muitos Cap?es,RS
+4880,Muliterno,RS
+4881,N?o-Me-Toque,RS
+4882,Nicolau Vergueiro,RS
+4883,Nonoai,RS
+4884,Nova Alvorada,RS
+4885,Nova Ara??,RS
+4886,Nova Bassano,RS
+4887,Nova Boa Vista,RS
+4888,Nova Br?scia,RS
+4889,Nova Candel?ria,RS
+4890,Nova Esperan?a do Sul,RS
+4891,Nova Hartz,RS
+4892,Nova P?dua,RS
+4893,Nova Palma,RS
+4894,Nova Petr?polis,RS
+4895,Nova Prata,RS
+4896,Nova Ramada,RS
+4897,Nova Roma do Sul,RS
+4898,Nova Santa Rita,RS
+4899,Novo Cabrais,RS
+4900,Novo Hamburgo,RS
+4901,Novo Machado,RS
+4902,Novo Tiradentes,RS
+4903,Novo Xingu,RS
+4904,Novo Barreiro,RS
+4905,Os?rio,RS
+4906,Paim Filho,RS
+4907,Palmares do Sul,RS
+4908,Palmeira das Miss?es,RS
+4909,Palmitinho,RS
+4910,Panambi,RS
+4911,Pantano Grande,RS
+4912,Para?,RS
+4913,Para?so do Sul,RS
+4914,Pareci Novo,RS
+4915,Parob?,RS
+4916,Passa Sete,RS
+4917,Passo do Sobrado,RS
+4918,Passo Fundo,RS
+4919,Paulo Bento,RS
+4920,Paverama,RS
+4921,Pedras Altas,RS
+4922,Pedro Os?rio,RS
+4923,Peju?ara,RS
+4924,Pelotas,RS
+4925,Picada Caf?,RS
+4926,Pinhal,RS
+4927,Pinhal da Serra,RS
+4928,Pinhal Grande,RS
+4929,Pinheirinho do Vale,RS
+4930,Pinheiro Machado,RS
+4931,Pirap?,RS
+4932,Piratini,RS
+4933,Planalto,RS
+4934,Po?o das Antas,RS
+4935,Pont?o,RS
+4936,Ponte Preta,RS
+4937,Port?o,RS
+4938,Porto Alegre,RS
+4939,Porto Lucena,RS
+4940,Porto Mau?,RS
+4941,Porto Vera Cruz,RS
+4942,Porto Xavier,RS
+4943,Pouso Novo,RS
+4944,Presidente Lucena,RS
+4945,Progresso,RS
+4946,Prot?sio Alves,RS
+4947,Putinga,RS
+4948,Quara?,RS
+4949,Quatro Irm?os,RS
+4950,Quevedos,RS
+4951,Quinze de Novembro,RS
+4952,Redentora,RS
+4953,Relvado,RS
+4954,Restinga Seca,RS
+4955,Rio dos ?ndios,RS
+4956,Rio Grande,RS
+4957,Rio Pardo,RS
+4958,Riozinho,RS
+4959,Roca Sales,RS
+4960,Rodeio Bonito,RS
+4961,Rolador,RS
+4962,Rolante,RS
+4963,Ronda Alta,RS
+4964,Rondinha,RS
+4965,Roque Gonzales,RS
+4966,Ros?rio do Sul,RS
+4967,Sagrada Fam?lia,RS
+4968,Saldanha Marinho,RS
+4969,Salto do Jacu?,RS
+4970,Salvador das Miss?es,RS
+4971,Salvador do Sul,RS
+4972,Sananduva,RS
+4973,Santa B?rbara do Sul,RS
+4974,Santa Cec?lia do Sul,RS
+4975,Santa Clara do Sul,RS
+4976,Santa Cruz do Sul,RS
+4977,Santa Maria,RS
+4978,Santa Maria do Herval,RS
+4979,Santa Margarida do Sul,RS
+4980,Santana da Boa Vista,RS
+4981,Sant Ana do Livramento,RS
+4982,Santa Rosa,RS
+4983,Santa Tereza,RS
+4984,Santa Vit?ria do Palmar,RS
+4985,Santiago,RS
+4986,Santo ?ngelo,RS
+4987,Santo Ant?nio do Palma,RS
+4988,Santo Ant?nio da Patrulha,RS
+4989,Santo Ant?nio das Miss?es,RS
+4990,Santo Ant?nio do Planalto,RS
+4991,Santo Augusto,RS
+4992,Santo Cristo,RS
+4993,Santo Expedito do Sul,RS
+4994,S?o Borja,RS
+4995,S?o Domingos do Sul,RS
+4996,S?o Francisco de Assis,RS
+4997,S?o Francisco de Paula,RS
+4998,S?o Gabriel,RS
+4999,S?o Jer?nimo,RS
+5000,S?o Jo?o da Urtiga,RS
+5001,S?o Jo?o do Pol?sine,RS
+5002,S?o Jorge,RS
+5003,S?o Jos? das Miss?es,RS
+5004,S?o Jos? do Herval,RS
+5005,S?o Jos? do Hort?ncio,RS
+5006,S?o Jos? do Inhacor?,RS
+5007,S?o Jos? do Norte,RS
+5008,S?o Jos? do Ouro,RS
+5009,S?o Jos? do Sul,RS
+5010,S?o Jos? dos Ausentes,RS
+5011,S?o Leopoldo,RS
+5012,S?o Louren?o do Sul,RS
+5013,S?o Luiz Gonzaga,RS
+5014,S?o Marcos,RS
+5015,S?o Martinho,RS
+5016,S?o Martinho da Serra,RS
+5017,S?o Miguel das Miss?es,RS
+5018,S?o Nicolau,RS
+5019,S?o Paulo das Miss?es,RS
+5020,S?o Pedro da Serra,RS
+5021,S?o Pedro das Miss?es,RS
+5022,S?o Pedro do Buti?,RS
+5023,S?o Pedro do Sul,RS
+5024,S?o Sebasti?o do Ca?,RS
+5025,S?o Sep?,RS
+5026,S?o Valentim,RS
+5027,S?o Valentim do Sul,RS
+5028,S?o Val?rio do Sul,RS
+5029,S?o Vendelino,RS
+5030,S?o Vicente do Sul,RS
+5031,Sapiranga,RS
+5032,Sapucaia do Sul,RS
+5033,Sarandi,RS
+5034,Seberi,RS
+5035,Sede Nova,RS
+5036,Segredo,RS
+5037,Selbach,RS
+5038,Senador Salgado Filho,RS
+5039,Sentinela do Sul,RS
+5040,Serafina Corr?a,RS
+5041,S?rio,RS
+5042,Sert?o,RS
+5043,Sert?o Santana,RS
+5044,Sete de Setembro,RS
+5045,Severiano de Almeida,RS
+5046,Silveira Martins,RS
+5047,Sinimbu,RS
+5048,Sobradinho,RS
+5049,Soledade,RS
+5050,Taba?,RS
+5051,Tapejara,RS
+5052,Tapera,RS
+5053,Tapes,RS
+5054,Taquara,RS
+5055,Taquari,RS
+5056,Taquaru?u do Sul,RS
+5057,Tavares,RS
+5058,Tenente Portela,RS
+5059,Terra de Areia,RS
+5060,Teut?nia,RS
+5061,Tio Hugo,RS
+5062,Tiradentes do Sul,RS
+5063,Toropi,RS
+5064,Torres,RS
+5065,Tramanda?,RS
+5066,Travesseiro,RS
+5067,Tr?s Arroios,RS
+5068,Tr?s Cachoeiras,RS
+5069,Tr?s Coroas,RS
+5070,Tr?s de Maio,RS
+5071,Tr?s Forquilhas,RS
+5072,Tr?s Palmeiras,RS
+5073,Tr?s Passos,RS
+5074,Trindade do Sul,RS
+5075,Triunfo,RS
+5076,Tucunduva,RS
+5077,Tunas,RS
+5078,Tupanci do Sul,RS
+5079,Tupanciret?,RS
+5080,Tupandi,RS
+5081,Tuparendi,RS
+5082,Turu?u,RS
+5083,Ubiretama,RS
+5084,Uni?o da Serra,RS
+5085,Unistalda,RS
+5086,Uruguaiana,RS
+5087,Vacaria,RS
+5088,Vale Verde,RS
+5089,Vale do Sol,RS
+5090,Vale Real,RS
+5091,Vanini,RS
+5092,Ven?ncio Aires,RS
+5093,Vera Cruz,RS
+5094,Veran?polis,RS
+5095,Vespasiano Correa,RS
+5096,Viadutos,RS
+5097,Viam?o,RS
+5098,Vicente Dutra,RS
+5099,Victor Graeff,RS
+5100,Vila Flores,RS
+5101,Vila L?ngaro,RS
+5102,Vila Maria,RS
+5103,Vila Nova do Sul,RS
+5104,Vista Alegre,RS
+5105,Vista Alegre do Prata,RS
+5106,Vista Ga?cha,RS
+5107,Vit?ria das Miss?es,RS
+5108,Westfalia,RS
+5109,Xangri-l?,RS
+5110,?gua Clara,MS
+5111,Alcin?polis,MS
+5112,Amambai,MS
+5113,Anast?cio,MS
+5114,Anauril?ndia,MS
+5115,Ang?lica,MS
+5116,Ant?nio Jo?o,MS
+5117,Aparecida do Taboado,MS
+5118,Aquidauana,MS
+5119,Aral Moreira,MS
+5120,Bandeirantes,MS
+5121,Bataguassu,MS
+5122,Bataypor?,MS
+5123,Bela Vista,MS
+5124,Bodoquena,MS
+5125,Bonito,MS
+5126,Brasil?ndia,MS
+5127,Caarap?,MS
+5128,Camapu?,MS
+5129,Campo Grande,MS
+5130,Caracol,MS
+5131,Cassil?ndia,MS
+5132,Chapad?o do Sul,MS
+5133,Corguinho,MS
+5134,Coronel Sapucaia,MS
+5135,Corumb?,MS
+5136,Costa Rica,MS
+5137,Coxim,MS
+5138,Deod?polis,MS
+5139,Dois Irm?os do Buriti,MS
+5140,Douradina,MS
+5141,Dourados,MS
+5142,Eldorado,MS
+5143,F?tima do Sul,MS
+5144,Figueir?o,MS
+5145,Gl?ria de Dourados,MS
+5146,Guia Lopes da Laguna,MS
+5147,Iguatemi,MS
+5148,Inoc?ncia,MS
+5149,Itapor?,MS
+5150,Itaquira?,MS
+5151,Ivinhema,MS
+5152,Japor?,MS
+5153,Jaraguari,MS
+5154,Jardim,MS
+5155,Jate?,MS
+5156,Juti,MS
+5157,Lad?rio,MS
+5158,Laguna Carap?,MS
+5159,Maracaju,MS
+5160,Miranda,MS
+5161,Mundo Novo,MS
+5162,Navira?,MS
+5163,Nioaque,MS
+5164,Nova Alvorada do Sul,MS
+5165,Nova Andradina,MS
+5166,Novo Horizonte do Sul,MS
+5167,Parana?ba,MS
+5168,Paranhos,MS
+5169,Pedro Gomes,MS
+5170,Ponta Por?,MS
+5171,Porto Murtinho,MS
+5172,Ribas do Rio Pardo,MS
+5173,Rio Brilhante,MS
+5174,Rio Negro,MS
+5175,Rio Verde de Mato Grosso,MS
+5176,Rochedo,MS
+5177,Santa Rita do Pardo,MS
+5178,S?o Gabriel do Oeste,MS
+5179,Sete Quedas,MS
+5180,Selv?ria,MS
+5181,Sidrol?ndia,MS
+5182,Sonora,MS
+5183,Tacuru,MS
+5184,Taquarussu,MS
+5185,Terenos,MS
+5186,Tr?s Lagoas,MS
+5187,Vicentina,MS
+5188,Acorizal,MT
+5189,?gua Boa,MT
+5190,Alta Floresta,MT
+5191,Alto Araguaia,MT
+5192,Alto Boa Vista,MT
+5193,Alto Gar?as,MT
+5194,Alto Paraguai,MT
+5195,Alto Taquari,MT
+5196,Apiac?s,MT
+5197,Araguaiana,MT
+5198,Araguainha,MT
+5199,Araputanga,MT
+5200,Aren?polis,MT
+5201,Aripuan?,MT
+5202,Bar?o de Melga?o,MT
+5203,Barra do Bugres,MT
+5204,Barra do Gar?as,MT
+5205,Bom Jesus do Araguaia,MT
+5206,Brasnorte,MT
+5207,C?ceres,MT
+5208,Campin?polis,MT
+5209,Campo Novo do Parecis,MT
+5210,Campo Verde,MT
+5211,Campos de J?lio,MT
+5212,Canabrava do Norte,MT
+5213,Canarana,MT
+5214,Carlinda,MT
+5215,Castanheira,MT
+5216,Chapada dos Guimar?es,MT
+5217,Cl?udia,MT
+5218,Cocalinho,MT
+5219,Col?der,MT
+5220,Colniza,MT
+5221,Comodoro,MT
+5222,Confresa,MT
+5223,Conquista D Oeste,MT
+5224,Cotrigua?u,MT
+5225,Cuiab?,MT
+5226,Curvel?ndia,MT
+5227,Denise,MT
+5228,Diamantino,MT
+5229,Dom Aquino,MT
+5230,Feliz Natal,MT
+5231,Figueir?polis D Oeste,MT
+5232,Ga?cha do Norte,MT
+5233,General Carneiro,MT
+5234,Gl?ria D Oeste,MT
+5235,Guarant? do Norte,MT
+5236,Guiratinga,MT
+5237,Indiava?,MT
+5238,Ipiranga do Norte,MT
+5239,Itanhang?,MT
+5240,Ita?ba,MT
+5241,Itiquira,MT
+5242,Jaciara,MT
+5243,Jangada,MT
+5244,Jauru,MT
+5245,Juara,MT
+5246,Ju?na,MT
+5247,Juruena,MT
+5248,Juscimeira,MT
+5249,Lambari D Oeste,MT
+5250,Lucas do Rio Verde,MT
+5251,Luciara,MT
+5252,Vila Bela da Sant?ssima Trindade,MT
+5253,Marcel?ndia,MT
+5254,Matup?,MT
+5255,Mirassol d Oeste,MT
+5256,Nobres,MT
+5257,Nortel?ndia,MT
+5258,Nossa Senhora do Livramento,MT
+5259,Nova Bandeirantes,MT
+5260,Nova Nazar?,MT
+5261,Nova Lacerda,MT
+5262,Nova Santa Helena,MT
+5263,Nova Brasil?ndia,MT
+5264,Nova Cana? do Norte,MT
+5265,Nova Mutum,MT
+5266,Nova Ol?mpia,MT
+5267,Nova Ubirat?,MT
+5268,Nova Xavantina,MT
+5269,Novo Mundo,MT
+5270,Novo Horizonte do Norte,MT
+5271,Novo S?o Joaquim,MT
+5272,Parana?ta,MT
+5273,Paranatinga,MT
+5274,Novo Santo Ant?nio,MT
+5275,Pedra Preta,MT
+5276,Peixoto de Azevedo,MT
+5277,Planalto da Serra,MT
+5278,Pocon?,MT
+5279,Pontal do Araguaia,MT
+5280,Ponte Branca,MT
+5281,Pontes e Lacerda,MT
+5282,Porto Alegre do Norte,MT
+5283,Porto dos Ga?chos,MT
+5284,Porto Esperidi?o,MT
+5285,Porto Estrela,MT
+5286,Poxor?o,MT
+5287,Primavera do Leste,MT
+5288,Quer?ncia,MT
+5289,S?o Jos? dos Quatro Marcos,MT
+5290,Reserva do Caba?al,MT
+5291,Ribeir?o Cascalheira,MT
+5292,Ribeir?ozinho,MT
+5293,Rio Branco,MT
+5294,Santa Carmem,MT
+5295,Santo Afonso,MT
+5296,S?o Jos? do Povo,MT
+5297,S?o Jos? do Rio Claro,MT
+5298,S?o Jos? do Xingu,MT
+5299,S?o Pedro da Cipa,MT
+5300,Rondol?ndia,MT
+5301,Rondon?polis,MT
+5302,Ros?rio Oeste,MT
+5303,Santa Cruz do Xingu,MT
+5304,Salto do C?u,MT
+5305,Santa Rita do Trivelato,MT
+5306,Santa Terezinha,MT
+5307,Santo Ant?nio do Leste,MT
+5308,Santo Ant?nio do Leverger,MT
+5309,S?o F?lix do Araguaia,MT
+5310,Sapezal,MT
+5311,Serra Nova Dourada,MT
+5312,Sinop,MT
+5313,Sorriso,MT
+5314,Tabapor?,MT
+5315,Tangar? da Serra,MT
+5316,Tapurah,MT
+5317,Terra Nova do Norte,MT
+5318,Tesouro,MT
+5319,Torixor?u,MT
+5320,Uni?o do Sul,MT
+5321,Vale de S?o Domingos,MT
+5322,V?rzea Grande,MT
+5323,Vera,MT
+5324,Vila Rica,MT
+5325,Nova Guarita,MT
+5326,Nova Maril?ndia,MT
+5327,Nova Maring?,MT
+5328,Nova Monte Verde,MT
+5329,Abadia de Goi?s,GO
+5330,Abadi?nia,GO
+5331,Acre?na,GO
+5332,Adel?ndia,GO
+5333,?gua Fria de Goi?s,GO
+5334,?gua Limpa,GO
+5335,?guas Lindas de Goi?s,GO
+5336,Alex?nia,GO
+5337,Alo?ndia,GO
+5338,Alto Horizonte,GO
+5339,Alto Para?so de Goi?s,GO
+5340,Alvorada do Norte,GO
+5341,Amaralina,GO
+5342,Americano do Brasil,GO
+5343,Amorin?polis,GO
+5344,An?polis,GO
+5345,Anhanguera,GO
+5346,Anicuns,GO
+5347,Aparecida de Goi?nia,GO
+5348,Aparecida do Rio Doce,GO
+5349,Apor?,GO
+5350,Ara?u,GO
+5351,Aragar?as,GO
+5352,Aragoi?nia,GO
+5353,Araguapaz,GO
+5354,Aren?polis,GO
+5355,Aruan?,GO
+5356,Auril?ndia,GO
+5357,Avelin?polis,GO
+5358,Baliza,GO
+5359,Barro Alto,GO
+5360,Bela Vista de Goi?s,GO
+5361,Bom Jardim de Goi?s,GO
+5362,Bom Jesus de Goi?s,GO
+5363,Bonfin?polis,GO
+5364,Bon?polis,GO
+5365,Brazabrantes,GO
+5366,Brit?nia,GO
+5367,Buriti Alegre,GO
+5368,Buriti de Goi?s,GO
+5369,Buritin?polis,GO
+5370,Cabeceiras,GO
+5371,Cachoeira Alta,GO
+5372,Cachoeira de Goi?s,GO
+5373,Cachoeira Dourada,GO
+5374,Ca?u,GO
+5375,Caiap?nia,GO
+5376,Caldas Novas,GO
+5377,Caldazinha,GO
+5378,Campestre de Goi?s,GO
+5379,Campina?u,GO
+5380,Campinorte,GO
+5381,Campo Alegre de Goi?s,GO
+5382,Campo Limpo de Goi?s,GO
+5383,Campos Belos,GO
+5384,Campos Verdes,GO
+5385,Carmo do Rio Verde,GO
+5386,Castel?ndia,GO
+5387,Catal?o,GO
+5388,Catura?,GO
+5389,Cavalcante,GO
+5390,Ceres,GO
+5391,Cezarina,GO
+5392,Chapad?o do C?u,GO
+5393,Cidade Ocidental,GO
+5394,Cocalzinho de Goi?s,GO
+5395,Colinas do Sul,GO
+5396,C?rrego do Ouro,GO
+5397,Corumb? de Goi?s,GO
+5398,Corumba?ba,GO
+5399,Cristalina,GO
+5400,Cristian?polis,GO
+5401,Crix?s,GO
+5402,Crom?nia,GO
+5403,Cumari,GO
+5404,Damian?polis,GO
+5405,Damol?ndia,GO
+5406,Davin?polis,GO
+5407,Diorama,GO
+5408,Doverl?ndia,GO
+5409,Edealina,GO
+5410,Ed?ia,GO
+5411,Estrela do Norte,GO
+5412,Faina,GO
+5413,Fazenda Nova,GO
+5414,Firmin?polis,GO
+5415,Flores de Goi?s,GO
+5416,Formosa,GO
+5417,Formoso,GO
+5418,Gameleira de Goi?s,GO
+5419,Divin?polis de Goi?s,GO
+5420,Goian?polis,GO
+5421,Goiandira,GO
+5422,Goian?sia,GO
+5423,Goi?nia,GO
+5424,Goianira,GO
+5425,Goi?s,GO
+5426,Goiatuba,GO
+5427,Gouvel?ndia,GO
+5428,Guap?,GO
+5429,Guara?ta,GO
+5430,Guarani de Goi?s,GO
+5431,Guarinos,GO
+5432,Heitora?,GO
+5433,Hidrol?ndia,GO
+5434,Hidrolina,GO
+5435,Iaciara,GO
+5436,Inaciol?ndia,GO
+5437,Indiara,GO
+5438,Inhumas,GO
+5439,Ipameri,GO
+5440,Ipiranga de Goi?s,GO
+5441,Ipor?,GO
+5442,Israel?ndia,GO
+5443,Itabera?,GO
+5444,Itaguari,GO
+5445,Itaguaru,GO
+5446,Itaj?,GO
+5447,Itapaci,GO
+5448,Itapirapu?,GO
+5449,Itapuranga,GO
+5450,Itarum?,GO
+5451,Itau?u,GO
+5452,Itumbiara,GO
+5453,Ivol?ndia,GO
+5454,Jandaia,GO
+5455,Jaragu?,GO
+5456,Jata?,GO
+5457,Jaupaci,GO
+5458,Jes?polis,GO
+5459,Jovi?nia,GO
+5460,Jussara,GO
+5461,Lagoa Santa,GO
+5462,Leopoldo de Bulh?es,GO
+5463,Luzi?nia,GO
+5464,Mairipotaba,GO
+5465,Mamba?,GO
+5466,Mara Rosa,GO
+5467,Marzag?o,GO
+5468,Matrinch?,GO
+5469,Mauril?ndia,GO
+5470,Mimoso de Goi?s,GO
+5471,Mina?u,GO
+5472,Mineiros,GO
+5473,Moipor?,GO
+5474,Monte Alegre de Goi?s,GO
+5475,Montes Claros de Goi?s,GO
+5476,Montividiu,GO
+5477,Montividiu do Norte,GO
+5478,Morrinhos,GO
+5479,Morro Agudo de Goi?s,GO
+5480,Moss?medes,GO
+5481,Mozarl?ndia,GO
+5482,Mundo Novo,GO
+5483,Mutun?polis,GO
+5484,Naz?rio,GO
+5485,Ner?polis,GO
+5486,Niquel?ndia,GO
+5487,Nova Am?rica,GO
+5488,Nova Aurora,GO
+5489,Nova Crix?s,GO
+5490,Nova Gl?ria,GO
+5491,Nova Igua?u de Goi?s,GO
+5492,Nova Roma,GO
+5493,Nova Veneza,GO
+5494,Novo Brasil,GO
+5495,Novo Gama,GO
+5496,Novo Planalto,GO
+5497,Orizona,GO
+5498,Ouro Verde de Goi?s,GO
+5499,Ouvidor,GO
+5500,Padre Bernardo,GO
+5501,Palestina de Goi?s,GO
+5502,Palmeiras de Goi?s,GO
+5503,Palmelo,GO
+5504,Palmin?polis,GO
+5505,Panam?,GO
+5506,Paranaiguara,GO
+5507,Para?na,GO
+5508,Perol?ndia,GO
+5509,Petrolina de Goi?s,GO
+5510,Pilar de Goi?s,GO
+5511,Piracanjuba,GO
+5512,Piranhas,GO
+5513,Piren?polis,GO
+5514,Pires do Rio,GO
+5515,Planaltina,GO
+5516,Pontalina,GO
+5517,Porangatu,GO
+5518,Porteir?o,GO
+5519,Portel?ndia,GO
+5520,Posse,GO
+5521,Professor Jamil,GO
+5522,Quirin?polis,GO
+5523,Rialma,GO
+5524,Rian?polis,GO
+5525,Rio Quente,GO
+5526,Rio Verde,GO
+5527,Rubiataba,GO
+5528,Sanclerl?ndia,GO
+5529,Santa B?rbara de Goi?s,GO
+5530,Santa Cruz de Goi?s,GO
+5531,Santa F? de Goi?s,GO
+5532,Santa Helena de Goi?s,GO
+5533,Santa Isabel,GO
+5534,Santa Rita do Araguaia,GO
+5535,Santa Rita do Novo Destino,GO
+5536,Santa Rosa de Goi?s,GO
+5537,Santa Tereza de Goi?s,GO
+5538,Santa Terezinha de Goi?s,GO
+5539,Santo Ant?nio da Barra,GO
+5540,Santo Ant?nio de Goi?s,GO
+5541,Santo Ant?nio do Descoberto,GO
+5542,S?o Domingos,GO
+5543,S?o Francisco de Goi?s,GO
+5544,S?o Jo?o d Alian?a,GO
+5545,S?o Jo?o da Para?na,GO
+5546,S?o Lu?s de Montes Belos,GO
+5547,S?o Lu?z do Norte,GO
+5548,S?o Miguel do Araguaia,GO
+5549,S?o Miguel do Passa Quatro,GO
+5550,S?o Patr?cio,GO
+5551,S?o Sim?o,GO
+5552,Senador Canedo,GO
+5553,Serran?polis,GO
+5554,Silv?nia,GO
+5555,Simol?ndia,GO
+5556,S?tio d Abadia,GO
+5557,Taquaral de Goi?s,GO
+5558,Teresina de Goi?s,GO
+5559,Terez?polis de Goi?s,GO
+5560,Tr?s Ranchos,GO
+5561,Trindade,GO
+5562,Trombas,GO
+5563,Turv?nia,GO
+5564,Turvel?ndia,GO
+5565,Uirapuru,GO
+5566,Urua?u,GO
+5567,Uruana,GO
+5568,Uruta?,GO
+5569,Valpara?so de Goi?s,GO
+5570,Varj?o,GO
+5571,Vian?polis,GO
+5572,Vicentin?polis,GO
+5573,Vila Boa,GO
+5574,Vila Prop?cio,GO
+171,Bras?lia,DF
