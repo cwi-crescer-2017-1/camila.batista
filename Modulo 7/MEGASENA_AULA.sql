@@ -93,13 +93,11 @@ BEGIN
 END TR_APOSTA;
 ------------------------------- 2 ---------------------------------------------
 
-PROCEDURE TOP_Estados AS 
-  
-  CURSOR C IS
-    SELECT UF FROM CIDADE C
-    INNER JOIN APOSTA A ON C.IDCIDADE = A.IDCIDADE
-    INNER JOIN CONCURSO CC ON A.IDCONCURSO = CC.IDCONCURSO
+SELECT C.UF, CC.IDCONCURSO, SUM(A.IDAPOSTA) NumApostas, SUM(A.VALOR) ValorArrecadado, SUM(AP.IDAPOSTA_PREMIADA) Ganhadores, SUM(AP.VALOR) Premio
+FROM APOSTA A JOIN CIDADE C ON C.IDCIDADE = A.IDCIDADE
+JOIN CONCURSO CC ON CC.IDCCONCURSO = A.IDCONCURSO
+LEFT JOIN APOSTA_PREMIADA AP ON AP.IDAPOSTA = A.APOSTA
+GROUP BY CC.IDCONCURSO, C.UF;    
     
-    
-
 ------------------------------- 3 ---------------------------------------------
+
