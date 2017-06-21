@@ -151,6 +151,7 @@ CREATE OR REPLACE PACKAGE BODY PCK_MEGASENA AS
         vValorGanhador APOSTA_PREMIADA.VALOR%TYPE;
             
         BEGIN
+        --ganhadores de cada concurso
            FOR G IN ganhador LOOP
             IF (G.ACERTOS = 4) THEN
                 vGanhadoresQuadra := vGanhadoresQuadra + 1;
@@ -161,7 +162,6 @@ CREATE OR REPLACE PACKAGE BODY PCK_MEGASENA AS
             END IF;
            END LOOP;
            
-        
         IF(vGanhadoresQuadra > 0) THEN
             vPremioQuadra := premio(vIdConcurso, 3, vGanhadoresQuadra);
         ELSIF (vGanhadoresQuina > 0) THEN
@@ -175,6 +175,7 @@ CREATE OR REPLACE PACKAGE BODY PCK_MEGASENA AS
             UPDATE CONCURSO SET Acumulou = 1 WHERE IDCONCURSO = vIdConcurso;
         END IF;
         
+        --aposta
         FOR G IN ganhadores LOOP
             IF(G.ACERTOS = 4) THEN
                 vValorGanhador := vPremioQuadra;
