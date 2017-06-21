@@ -27,7 +27,7 @@ public class StringUtils implements IStringUtils{
 
     @Override
     public int contaVogais(String string) {
-        return string.length() - Normalizer
+        return isEmpty(string) ? 0 : string.length() - Normalizer
                 .normalize(string, Normalizer.Form.NFD)
                 .toLowerCase()
                 .replaceAll("[\\p{InCombiningDiacriticalMarks}]", "")
@@ -41,7 +41,7 @@ public class StringUtils implements IStringUtils{
                 .normalize(string, Normalizer.Form.NFD)
                 .toLowerCase()
                 .replaceAll("[\\p{InCombiningDiacriticalMarks}]", "")
-                .replaceAll(" ", "");
+                .replaceAll(" ", ""); // /s > tira espaços
         
         return string.equals(inverter(string));
     }    
