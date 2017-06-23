@@ -49,6 +49,17 @@ public class SQLUtilsImpl implements SQLUtils{
                 ResultSetMetaData linhas = resultSet.getMetaData();
                 int colunas = linhas.getColumnCount();
                 
+//                for (int i = 1; i <= linhas.getColumnCount(); i++) {;
+//                    stringBuilder.append(linhas.getColumnLabel(i)).append("\t").append("\n");;
+//                }
+//
+//                while (resultSet.next()) {
+//
+//                    for (int i = 1; i <= linhas.getColumnCount(); i++) {
+//                        stringBuilder.append(resultSet.getObject(i) + "\t").append("\t").append("\n");
+//                    }
+//                }
+                
                 while(resultSet.next()){
                     for(int a = 1; a < colunas;a++){
                         stringBuilder.append(resultSet.getString(a + 1)).append(", ");
@@ -66,12 +77,17 @@ public class SQLUtilsImpl implements SQLUtils{
 
     @Override
     public void importCSV(File file) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     @Override
-    public File importCSV(String query) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public File exportCSV(String query) {
+        String csv = executeQuery(query);
+        String path = "C:\\Users\\Camila\\Desktop\\export.csv";
+        
+        new WriteUtils().write(path, csv);
+        
+        return new File(path);
     }
 
 }
