@@ -1,4 +1,4 @@
-package br.com.crescer.aula3;
+package Pojo;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
