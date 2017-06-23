@@ -6,6 +6,8 @@
 package Exercícios;
 
 import br.com.crescer.aula3.ConnectionUtils;
+import exercicios.ReaderUtils;
+import exercicios.WriteUtils;
 import java.io.File;
 import java.sql.PreparedStatement;
 import java.sql.Statement;
@@ -28,10 +30,9 @@ public class SQLUtilsImpl implements SQLUtils{
             try(final Statement statement = ConnectionUtils.getConnection().createStatement()){
                 
                for(String a : reader.split(";")){
-                   statement.addBatch(a);
+                   statement.execute(a);
                }
                 
-            statement.executeBatch();    
             } catch (Exception ex) {
                 Logger.getLogger(SQLUtilsImpl.class.getName()).log(Level.SEVERE, null, ex);
             }
