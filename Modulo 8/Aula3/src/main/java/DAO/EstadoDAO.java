@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.crescer.aula3.Estado;
+package DAO;
 
+import Pojo.Estado;
 import br.com.crescer.aula3.ConnectionUtils;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -16,10 +17,10 @@ import java.util.logging.Logger;
  *
  * @author camila.batista
  */
-public class EstadoImpl implements EstadoDAO{
-
-    private static final String INSERT_ESTADO = "INSERT INTO ESTADO(ID, NOME, UF, PAIS) VALUES (?, ?)";
-    private static final String UPDATE_ESTADO = "UPDATE ESTADO SET NOME = ? WHERE ID = ?";
+public class EstadoDAO implements DAO<Estado>{
+    
+    private static final String INSERT_ESTADO = "INSERT INTO ESTADO(ID, NOME, UF, PAIS) VALUES (?, ?, ?, ?)";
+    private static final String UPDATE_ESTADO = "UPDATE ESTADO SET NOME = ?, UF = ?, PAIS = ? WHERE ID = ?";
     private static final String DELETE_ESTADO = "DELETE ESTADO WHERE ID = ?";
     private static final String LOAD_ESTADO = "SELECT * FROM ESTADO WHERE ID = ?";
     
@@ -32,13 +33,15 @@ public class EstadoImpl implements EstadoDAO{
             
             preparedStatement.setLong(1, estado.getId());
             preparedStatement.setString(2, estado.getNome());
+            preparedStatement.setString(3, estado.getUf());
+            preparedStatement.setLong(4, estado.getIdPais());
             
             preparedStatement.executeUpdate();
             
         } catch (SQLException ex) {
             System.err.format("SQLException: %s", ex);
         } catch (Exception ex) {
-            Logger.getLogger(EstadoImpl.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(EstadoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
     }
@@ -48,7 +51,7 @@ public class EstadoImpl implements EstadoDAO{
 
         try(final PreparedStatement preparedStatement = 
                 ConnectionUtils.getConnection().prepareStatement(DELETE_ESTADO)){
-            
+
             preparedStatement.setLong(1, estado.getId());
             preparedStatement.executeUpdate();
         } catch (Exception ex) {
@@ -62,14 +65,17 @@ public class EstadoImpl implements EstadoDAO{
                 ConnectionUtils.getConnection().prepareStatement(UPDATE_ESTADO)){
             
             preparedStatement.setString(1, estado.getNome());
-            preparedStatement.setLong(2, estado.getId());
+            preparedStatement.setString(2, estado.getUf());
+            preparedStatement.setLong(3, estado.getIdPais());
+
+            preparedStatement.setLong(4, estado.getId());
             
             preparedStatement.executeUpdate();
         
         } catch (SQLException ex) {
             System.err.format("SQLException: %s", ex);
         } catch (Exception ex) {
-            Logger.getLogger(EstadoImpl.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(EstadoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -85,8 +91,8 @@ public class EstadoImpl implements EstadoDAO{
                 while(resultSet.next()){
                     estado.setId(resultSet.getLong("ID"));
                     estado.setNome(resultSet.getString("NOME"));
-//                    estado.setPais(resultSet.getString("PAIS"));
-//                    estado.getUf(resultSet.getString("UF"));
+                    estado.setUf(resultSet.getString("UF"));
+                    estado.setIdPais(resultSet.getLong("IDPAIS"));
                 }
             }catch (final SQLException e) {
                 System.err.format("SQLException: %s", e);
@@ -94,7 +100,7 @@ public class EstadoImpl implements EstadoDAO{
         }catch (final SQLException e) {
                 System.err.format("SQLException: %s", e);
         } catch (Exception ex) {
-            Logger.getLogger(EstadoImpl.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(EstadoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         return estado;
     }

@@ -3,29 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.crescer.aula3.Pessoa;
+package DAO;
 
+import Pojo.Pessoa;
 import br.com.crescer.aula3.ConnectionUtils;
-import br.com.crescer.aula3.Pessoa.PessoaDAO;
-import br.com.crescer.aula3.Pessoa.Pessoa;
-import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import static java.util.stream.Collectors.toList;
-import java.util.stream.LongStream;
+
 
 /**
  *
  * @author camila.batista
  */
-public class PessoaImpl implements PessoaDAO{
-
+public class PessoaDAO implements DAO<Pessoa> {
     private static final String INSERT_PESSOA = "INSERT INTO PESSOA (ID, NOME) VALUES (?,?)";
     private static final String UPDATE_PESSOA = "UPDATE PESSOA SET NOME = ? WHERE ID = ?";
     private static final String DELETE_PESSOA = "DELETE FROM PESSOA WHERE ID = ?";
@@ -42,7 +35,7 @@ public class PessoaImpl implements PessoaDAO{
         } catch (final SQLException e) {
             System.err.format("SQLException: %s", e);
         } catch (Exception ex) {
-            Logger.getLogger(PessoaImpl.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(PessoaDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -56,7 +49,7 @@ public class PessoaImpl implements PessoaDAO{
         } catch (final SQLException e) {
             System.err.format("SQLException: %s", e);
         } catch (Exception ex) {
-            Logger.getLogger(PessoaImpl.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(PessoaDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -69,7 +62,7 @@ public class PessoaImpl implements PessoaDAO{
         } catch (final SQLException e) {
             System.err.format("SQLException: %s", e);
         } catch (Exception ex) {
-            Logger.getLogger(PessoaImpl.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(PessoaDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -91,7 +84,7 @@ public class PessoaImpl implements PessoaDAO{
         } catch (final SQLException e) {
             System.err.format("SQLException: %s", e);
         } catch (Exception ex) {
-            Logger.getLogger(PessoaImpl.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(PessoaDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         return pessoa;
     }
