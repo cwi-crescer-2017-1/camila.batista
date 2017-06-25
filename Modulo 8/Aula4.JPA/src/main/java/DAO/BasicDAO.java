@@ -5,6 +5,8 @@
  */
 package DAO;
 
+import java.util.List;
+import DAO.CrudDao;
 /**
  *
  * @author Camila
@@ -21,14 +23,16 @@ public class BasicDAO<T, ID> implements CrudDAO<T, ID>{
     public GenericDAO(Class<T> entity){
         this.entity = entity;
         em.getTransaction().begin();
-        this.session = em.unwrap(Session.class);
+        session = em.unwrap(Session.class);
     }
     
     @Override
     public T save(T e){
         session.saveOrUpdate(e);
-        session.getTransaction().begin();
-        this.session = em.unwrap(Session.class);
+        session.getTransaction().commit();
+        session = em.unwrap(Session.class);
+        
+        return e;
     }
     
     @Override
