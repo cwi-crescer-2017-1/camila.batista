@@ -11,7 +11,7 @@ import DAO.CrudDao;
  *
  * @author Camila
  */
-public class BasicDAO<T, ID> implements CrudDAO<T, ID>{
+public interface BasicDAO<T, ID> implements CrudDAO<T, ID>{
     
     private final EntityManagerFactory emf = Persistence.createEntityManagerFactory("CRESCER");
     private final EntityManager em = emf.createEntityManager();
