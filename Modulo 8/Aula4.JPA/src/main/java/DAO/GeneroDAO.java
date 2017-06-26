@@ -11,6 +11,10 @@ import Pojo.Genero;
  *
  * @author Camila
  */
-public class GeneroDAO implements BasicDAO<Genero, Long>{
+public class GeneroDAO extends BasicDAO<Genero, Long>{
+    
+    public GeneroDAO(Class<Genero> entity) {
+        super(entity);
+    }
     
 }

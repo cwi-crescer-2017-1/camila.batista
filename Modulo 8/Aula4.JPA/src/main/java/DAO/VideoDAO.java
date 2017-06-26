@@ -11,6 +11,10 @@ import Pojo.Video;
  *
  * @author Camila
  */
-public class VideoDAO implements BasicDAO<Video, Long>{
+public class VideoDAO extends BasicDAO<Video, Long>{
+    
+    public VideoDAO(Class<Video> entity) {
+        super(entity);
+    }
     
 }

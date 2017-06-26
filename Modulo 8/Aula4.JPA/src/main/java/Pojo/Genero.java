@@ -5,6 +5,8 @@
  */
 package Pojo;
 
+import javax.persistence.*;
+
 /**
  *
  * @author Camila
@@ -18,7 +20,7 @@ public class Genero {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_GENERO")
     private Long id;
     
-    @Column(name = "DESCRICAO");
+    @Column(name = "DESCRICAO")
     private String descricao;
 
     public Long getId() {

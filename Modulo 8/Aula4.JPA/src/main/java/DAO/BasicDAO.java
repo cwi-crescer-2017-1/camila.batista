@@ -7,20 +7,23 @@ package DAO;
 
 import java.util.List;
 import DAO.CrudDao;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import org.hibernate.Session;
 /**
  *
  * @author Camila
  */
-public interface BasicDAO<T, ID> implements CrudDAO<T, ID>{
+public abstract class BasicDAO<T, ID> implements CrudDao<T, ID>{
     
     private final EntityManagerFactory emf = Persistence.createEntityManagerFactory("CRESCER");
     private final EntityManager em = emf.createEntityManager();
 
-    private final Session session;
+    private Session session;
     private Class<T> entity;
 
-    
-    public GenericDAO(Class<T> entity){
+    public BasicDAO(Class<T> entity){
         this.entity = entity;
         em.getTransaction().begin();
         session = em.unwrap(Session.class);

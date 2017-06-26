@@ -43,13 +43,13 @@ public class Main {
     
     //HIBERNATE
     
-        final EntityManagerFactory emf = Persistence.createEntityManagerFactory("MEGASENA");
+        final EntityManagerFactory emf = Persistence.createEntityManagerFactory("CRESCER");
 	final EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
         
 
         final Session session = em.unwrap(Session.class);
         
-        final Cliente cliente = (Cliente) session.load(Cliente, args);
+//        final Cliente cliente = (Cliente) session.load(Cliente, args);
     }
 }

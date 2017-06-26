@@ -5,6 +5,9 @@
  */
 package Pojo;
 
+import java.util.Date;
+import javax.persistence.*;
+
 /**
  *
  * @author Camila
@@ -18,7 +21,7 @@ public class Locacao {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_LOCACAO")
     private Long id;
     
-    @Column(name = "VALOR_TOTAL");
+    @Column(name = "VALOR_TOTAL")
     private double valorTotal;
     
     @ManyToOne(cascade = CascadeType.ALL)
@@ -33,7 +36,7 @@ public class Locacao {
     @JoinColumn(name = "ID_VIDEO")
     private Long idVideo;
     
-    @Column(name = "DATA_DEVOLUCAO");
+    @Column(name = "DATA_DEVOLUCAO")
     private Date dataDevolucao;
 
     public Long getId() {

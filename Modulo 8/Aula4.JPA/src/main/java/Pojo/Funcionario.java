@@ -5,6 +5,9 @@
  */
 package Pojo;
 
+import java.util.Date;
+import javax.persistence.*;
+
 /**
  *
  * @author Camila
@@ -18,43 +21,43 @@ public class Funcionario {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_FUNCIONARIO")
     private Long id;
     
-    @Column(name = "NOME");
+    @Column(name = "NOME")
     private String nome;
     
-    @Column(name = "BAIRRO");
+    @Column(name = "BAIRRO")
     private String bairro;
     
-    @Column(name = "CIDADE");
+    @Column(name = "CIDADE")
     private String cidade;
     
-    @Column(name = "NUMERO_CASA");
+    @Column(name = "NUMERO_CASA")
     private String numeroCasa;
     
-    @Column(name = "RUA");
+    @Column(name = "RUA")
     private String rua;
     
-    @Column(name = "RG");
+    @Column(name = "RG")
     private String RG;
     
-    @Column(name = "EMAIL");
+    @Column(name = "EMAIL")
     private String email;
     
-    @Column(name = "TELEFONE");
+    @Column(name = "TELEFONE")
     private String telefone;
     
-    @Column(name = "CELULAR");
+    @Column(name = "CELULAR")
     private String celular;
     
-    @Column(name = "SALARIO");
+    @Column(name = "SALARIO")
     private double salario;
     
-    @Column(name = "FUNCAO");
+    @Column(name = "FUNCAO")
     private String funcao;
 
-    @Column(name = "CPF");
+    @Column(name = "CPF")
     private String CPF;
     
-    @Column(name = "DATA_NASCIMENTO");
+    @Column(name = "DATA_NASCIMENTO")
     private Date dataNascimento;
     
     public Funcionario() {

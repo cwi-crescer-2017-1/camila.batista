@@ -11,6 +11,10 @@ import Pojo.Funcionario;
  *
  * @author Camila
  */
-public class FuncionarioDAO implements BasicDAO<Funcionario, Long>{
+public class FuncionarioDAO extends BasicDAO<Funcionario, Long>{
+    
+    public FuncionarioDAO(Class<Funcionario> entity) {
+        super(entity);
+    }
     
 }

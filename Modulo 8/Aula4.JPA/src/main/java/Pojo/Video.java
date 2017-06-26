@@ -5,6 +5,9 @@
  */
 package Pojo;
 
+import java.util.Date;
+import javax.persistence.*;
+
 /**
  *
  * @author Camila
@@ -14,26 +17,26 @@ package Pojo;
 public class Video {
     @Id
     @SequenceGenerator(name = "SEQ_VIDEO", sequenceName = "SEQ_VIDEO")
-    @GeneratedValue(strategy = SEQUENCE, generator = "SEQ_VIDEO")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "SEQ_VIDEO")
     private Long id;
     
-    @Column(name = "VALOR");
+    @Column(name = "VALOR")
     private double valor;
     
-    @Column(name = "DURACAO");
+    @Column(name = "DURACAO")
     private String duracao;
     
-    @ManyToOne(Cascade = CascadeType.ALL)
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "ID_GENERO")
     private Long idGenero;
     
-    @Column(name = "NOME");
+    @Column(name = "NOME")
     private String nome;
     
-    @Column(name = "QUANTIDADE_ESTOQUE");
+    @Column(name = "QUANTIDADE_ESTOQUE")
     private double quantidadeEstoque;
     
-    @Column(name = "DATA_LANCAMENTO");
+    @Column(name = "DATA_LANCAMENTO")
     private Date dataLancamento;
 
     public Long getId() {

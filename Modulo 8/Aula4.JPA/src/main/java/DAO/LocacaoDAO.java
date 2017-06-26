@@ -11,6 +11,10 @@ import Pojo.Locacao;
  *
  * @author Camila
  */
-public class LocacaoDAO implements BasicDAO<Locacao, Long>{
+public class LocacaoDAO extends BasicDAO<Locacao, Long>{
+    
+    public LocacaoDAO(Class<Locacao> entity) {
+        super(entity);
+    }
     
 }

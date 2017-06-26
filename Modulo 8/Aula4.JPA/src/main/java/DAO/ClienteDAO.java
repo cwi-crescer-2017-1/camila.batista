@@ -11,6 +11,10 @@ import Pojo.Cliente;
  *
  * @author Camila
  */
-public class ClienteDAO implements BasicDAO<Cliente, Long>{
+public class ClienteDAO extends BasicDAO<Cliente, Long>{
+    
+    public ClienteDAO(Class<Cliente> entity) {
+        super(entity);
+    }
     
 }
