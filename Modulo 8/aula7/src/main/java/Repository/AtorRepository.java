@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.crescer.aula7;
+package Repository;
 
+import Pojo.Ator;
 import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 
@@ -14,5 +15,4 @@ import org.springframework.data.repository.CrudRepository;
  */
 public interface AtorRepository extends CrudRepository<Ator, Long>{
     
-    List<Ator> findAll();
 }
