@@ -5,35 +5,35 @@
  */
 package Service;
 
-import Pojo.Ator;
-import Repository.AtorRepository;
+import Pojo.Elenco;
+import Repository.ElencoRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
  *
- * @author camila.batista
+ * @author Camila
  */
 @Service
-public class AtorService {
+public class ElencoService {
 
     @Autowired
-    private AtorRepository repositorio;
+    private ElencoRepository repositorio;
 
-    public List<Ator> list() {
-        return (List<Ator>) repositorio.findAll();
+    public List<Elenco> list() {
+        return (List<Elenco>) repositorio.findAll();
     }
 
-    public Ator findById(Long id) {
+    public Elenco findById(Long id) {
         return repositorio.findOne(id);
     }
 
-    public Ator save(Ator ator) {
-        return repositorio.save(ator);
+    public Elenco save(Elenco elenco) {
+        return repositorio.save(elenco);
     }
 
-    public void remove(Long id) {
+    public void delete(Long id) {
         repositorio.delete(id);
     }
 }
