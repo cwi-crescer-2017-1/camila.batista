@@ -22,7 +22,7 @@ public class ClassificacaoService {
     
     
     public List<Classificacao> list(){
-        return (List<Classificacao>) repositorio.findAll();
+        return (List<Classificacao>) repositorio.list();
     }
     
     public Classificacao findById(Long id){
