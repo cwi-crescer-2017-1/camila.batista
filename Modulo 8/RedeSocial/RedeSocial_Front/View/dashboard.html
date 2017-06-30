@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="CSS/ie8.css">
+        <link rel="stylesheet" href="CSS/main.css">
+    </head>
+    <body>
+        <div id="content">
+            <div class="inner">
+                <!--FALTA COLOCAR O NG-REPEAT-->
+                <article class="box post post-excerpt">
+                    <header>
+                        <h2><a href="#">Welcome</a></h2>
+                    </header>
+                    <div class="info">
+                        <span class="date">
+                            <span class="month">Jun</span>
+                            <span class="day">30</span>
+                            <span class="year">, 2017</span>
+                        </span>
+
+                        <ul class="stats">
+                            <li>
+                                <a href="#" class="icon fa-comment">16</a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon fa-comment">32</a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon fa-comment">64</a>
+                            </li>
+                            <li>
+                                <a href="#" class="icon fa-comment">128</a>
+                            </li>
+                        </ul>
+                        <a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+                    </div>
+                    <!--<a href="#" class="image featured"></a>-->
+                    <p>Alguma coisa</p>
+                    <p>Mais alguma coisa</p>
+                </article>
+                <div class="pagination">
+                    <div ng-repeat="i in paginas">
+                        <label for="{{i}}"><a id="{{i}}" ng-click="obterPagina(i)"/>{{i}}</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sidebar">
+            <h1 id="logo">ALGUEM</h1>
+            <nav id="nav">
+                <ul>
+                    <li class="current"><a href="#!/post">Post</a></li>
+                    <li><a href="#!/perfil">Perfil</a></li>
+                </ul>
+            </nav>
+
+            <section class="box search">
+                <form>
+                    <input type="text" class="text" name="search" placeholder="Buscar">
+                </form>
+            </section>
+
+            <section class="box calendar">
+                <div class="inner">
+                    <table>
+                        <caption>Julho 2017</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col" title="Sunday">D</th>
+                                <th scope="col" title="Monday">S</th>
+                                <th scope="col" title="Tuesday">T</th>
+                                <th scope="col" title="Wednesday">Q</th>
+                                <th scope="col" title="Thursday">Q</th>
+                                <th scope="col" title="Saturday">S</th>
+                                <th scope="col" title="Sunday">S</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="6" class="pad">
+                                    <span></span>
+                                </td>
+                                <td>
+                                    <span>1</span>
+                                </td>
+                            </tr>
+                            <tr>
+								<td><span>2</span></td>
+								<td><span>3</span></td>
+								<td><span>4</span></td>
+								<td><span>5</span></td>
+								<td><span>6</span></td>
+								<td><span>7</span></td>
+								<td><span>8</span></td>
+							</tr>
+                            <tr>
+								<td><span>9</span></td>
+								<td><span>10</span></td>
+								<td><span>11</span></td>
+								<td><span>12</span></td>
+								<td><span>13</span></td>
+								<td><span>14</span></td>
+								<td><span>15</span></td>
+							</tr>
+                            <tr>
+								<td><span>16</span></td>
+								<td><span>17</span></td>
+								<td><span>18</span></td>
+								<td><span>19</span></td>
+								<td><span>20</span></td>
+								<td><span>21</span></td>
+								<td><span>22</span></td>
+							</tr>
+                            <tr>
+								<td><span>23</span></td>
+								<td><span>24</span></td>
+								<td><span>25</span></td>
+								<td><span>26</span></td>
+								<td><span>27</span></td>
+								<td><span>28</span></td>
+								<td><span>29</span></td>
+							</tr>
+                            <tr>
+								<td><span>30</span></td>
+								<td><span>31</span></td>
+							</tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+        <script src="JS/libs/jquery.min.js"></script>
+		<script src="JS/libs/skel.min.js"></script>
+		<script src="JS/libs/util.js"></script>
+    </body>
+</html>
