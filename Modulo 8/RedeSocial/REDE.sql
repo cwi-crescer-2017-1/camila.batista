@@ -1,0 +1,23 @@
+select * from usuario;
+
+CREATE TABLE USUARIO( 
+    ID NUMBER(12) NOT NULL,
+    NOME VARCHAR2(30) NOT NULL, 
+    EMAIL VARCHAR2(50) NOT NULL, 
+    SENHA VARCHAR2(20) NOT NULL, 
+    SEXO INT NOT NULL, 
+    DATA_NASCIMENTO DATE NOT NULL,
+    CONSTRAINT USUARIO_PK PRIMARY KEY (ID)
+    ENABLE 
+);
+
+CREATE SEQUENCE SEQ_USUARIO
+    MINVALUE 1 
+    MAXVALUE 999999999999999999999999999 
+    INCREMENT BY 1 
+    START WITH 1 
+    CACHE 20 
+    NOORDER  
+    NOCYCLE;
+    
+-------------------------------------------------------------------------------- 
