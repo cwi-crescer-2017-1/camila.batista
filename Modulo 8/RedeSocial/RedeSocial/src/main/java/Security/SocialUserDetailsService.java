@@ -32,7 +32,7 @@ public class SocialUserDetailsService implements UserDetailsService{
         Usuario usuario = service.findByEmail(username);
         final List<GrantedAuthority> grants = new ArrayList<>();
         grants.add(() -> "ROLE_USER");
-        return new User(usuario.getEmail(), usuario.getSenha(), getAuthorities(usuario.getRoles()));
+        return new User(usuario.getEmail(), usuario.getSenha(), grants);
     
     }    
 }
