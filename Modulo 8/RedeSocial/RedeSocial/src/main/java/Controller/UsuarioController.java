@@ -31,12 +31,12 @@ public class UsuarioController {
     }
     
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public Usuario listId(Long id){
-        return service.listId(id);
+    public Usuario findById(Long id){
+        return service.findById(id);
     }
     
     @RequestMapping(value = "", method = RequestMethod.POST)
-    public Usuario save(Usuario usuario){
+    public Usuario save(Usuario usuario) throws Exception{
         return service.save(usuario);
     }
     
