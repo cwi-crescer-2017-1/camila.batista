@@ -5,15 +5,14 @@
  */
 package Repositorio;
 
-import Entidades.Usuario;
+import Entidades.Comentario;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
 
 /**
  *
  * @author camila.batista
  */
-public interface UsuarioRepositorio extends CrudRepository<Usuario, Long>{
-
-    public Usuario findByEmail(String email);
+public interface ComentarioRepositorio extends PagingAndSortingRepository<Comentario, Long>{
     
 }

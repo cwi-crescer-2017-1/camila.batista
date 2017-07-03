@@ -5,15 +5,13 @@
  */
 package Repositorio;
 
-import Entidades.Usuario;
+import Entidades.Curtir;
 import org.springframework.data.repository.CrudRepository;
 
 /**
  *
  * @author camila.batista
  */
-public interface UsuarioRepositorio extends CrudRepository<Usuario, Long>{
-
-    public Usuario findByEmail(String email);
+public interface CurtirRepositorio extends CrudRepository<Curtir, Long>{
     
 }
