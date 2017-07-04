@@ -8,8 +8,8 @@ package Controller;
 import Entidades.Comentario;
 import Service.ComentarioService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -26,7 +26,7 @@ public class ComentarioController {
     private ComentarioService comentarioService;
     
     @PostMapping(value = "/comentarios")
-    public void adicionarComentario(@RequestBody Comentario comentario, @AuthenticationPrincipal User user, @PathVariable Long id){
-        comentarioService.save(comentario, user, id);
+    public Comentario adicionarComentario(@RequestBody Comentario comentario, @AuthenticationPrincipal User user, @PathVariable Long id) throws Exception{
+        return comentarioService.save(comentario, user, id);
     }
 }
