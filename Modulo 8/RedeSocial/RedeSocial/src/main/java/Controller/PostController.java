@@ -10,7 +10,6 @@ import Service.PostService;
 import java.awt.print.Pageable;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -28,11 +27,15 @@ public class PostController {
     @Autowired
     private PostService postService;
 
-// ESSA COISA NAO FUNCIONA    
-//    @PostMapping(value = "/post")
-//    public void novoPost(@RequestBody Post post, @AuthenticationPrincipal User user){
-//        postService.save(post, user);
-//    }
+    @PostMapping(value = "/post")
+    public void novoPost(@RequestBody Post post) throws Exception{
+        postService.save(post);
+    }
+    
+    @GetMapping(value = "/post")
+    public List<Post> findAll(){
+        return postService.findAll();
+    }
     
     @GetMapping(value = "/post/{id}")
     public List<Post> postUsuario(@PathVariable Long id){
