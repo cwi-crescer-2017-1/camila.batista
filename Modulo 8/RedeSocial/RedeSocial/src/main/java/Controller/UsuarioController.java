@@ -26,17 +26,33 @@ public class UsuarioController {
     UsuarioService service;
     
     @RequestMapping(value = "", method = RequestMethod.GET)
-    public List<Usuario> list(){
-        return service.list();
+    public String list(){
+        return "teste";
+        //return service.list();
     }
     
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public Usuario listId(Long id){
-        return service.listId(id);
+    public Usuario findById(Long id){
+        return service.findById(id);
     }
     
+    @RequestMapping(value = "/{usuario}", method = RequestMethod.GET)
+    public List<Usuario> findByNome(String nome){
+        return service.findByNome(nome);
+    }
+    
+    @RequestMapping(value = "/{email}" ,method = RequestMethod.GET)
+    public boolean login(String senha, Usuario usuario) throws Exception{
+        if(service.getSenhaLogin(senha, usuario) && service.findByEmail(usuario.getEmail()) != null){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    
+            
     @RequestMapping(value = "", method = RequestMethod.POST)
-    public Usuario save(Usuario usuario){
+    public Usuario save(Usuario usuario) throws Exception{
         return service.save(usuario);
     }
     

@@ -5,18 +5,14 @@
  */
 package Repositorio;
 
-import Entidades.Usuario;
-import java.util.List;
+import Entidades.Comentario;
 import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.PagingAndSortingRepository;
 
 /**
  *
  * @author camila.batista
  */
-public interface UsuarioRepositorio extends CrudRepository<Usuario, Long>{
-
-    public Usuario findByEmail(String email);
-
-    public List<Usuario> findByNome(String nome);
+public interface ComentarioRepositorio extends PagingAndSortingRepository<Comentario, Long>{
     
 }

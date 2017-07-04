@@ -5,10 +5,6 @@
  */
 package Security;
 
-/**
- *
- * @author Camila
- */
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -24,7 +20,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 /**
- * @author camila.batista
+ * @author carloshenrique
  */
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(securedEnabled = true)
@@ -42,6 +38,8 @@ public class SocialWebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests().anyRequest().authenticated()
                 .and()
                 .httpBasic()
+                .and()
+                .cors()
                 .and()
                 .csrf().disable();
     }
@@ -64,5 +62,6 @@ public class SocialWebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     public void setDetailsService(AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(userDetailsService).passwordEncoder(new BCryptPasswordEncoder());
+        
     }
 }

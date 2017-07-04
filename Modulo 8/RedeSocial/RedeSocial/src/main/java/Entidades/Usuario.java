@@ -8,13 +8,18 @@ package Entidades;
 import java.io.Serializable;
 import java.util.Date;
 import javax.persistence.Basic;
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import static javax.persistence.GenerationType.SEQUENCE;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
+import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
@@ -22,6 +27,15 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name = "usuario")
+@XmlRootElement
+@NamedQueries({
+    @NamedQuery(name = "Usuario.findAll", query = "SELECT u FROM Usuario_1 u"),
+    @NamedQuery(name = "Usuario.findById", query = "SELECT u FROM Usuario_1 u WHERE u.id = :id"),
+    @NamedQuery(name = "Usuario.findByNome", query = "SELECT u FROM Usuario_1 u WHERE u.nome = :nome"),
+    @NamedQuery(name = "Usuario.findByEmail", query = "SELECT u FROM Usuario_1 u WHERE u.email = :email"),
+    @NamedQuery(name = "Usuario.findBySenha", query = "SELECT u FROM Usuario_1 u WHERE u.senha = :senha"),
+    @NamedQuery(name = "Usuario.findBySexo", query = "SELECT u FROM Usuario_1 u WHERE u.sexo = :sexo"),
+    @NamedQuery(name = "Usuario.findByDataNascimento", query = "SELECT u FROM Usuario_1 u WHERE u.dataNascimento = :dataNascimento")})
 public class Usuario implements Serializable{
     
     private static final String SQ_USUARIO = "SEQ_USUARIO";
@@ -52,6 +66,12 @@ public class Usuario implements Serializable{
     @Basic(optional = false)
     @Column(name = "DATA_NASCIMENTO")
     private Date dataNascimento;
+    
+    @OneToOne(cascade = CascadeType.ALL, mappedBy = "usuario")
+    private Post post;
+    
+    @OneToOne(cascade = CascadeType.ALL, mappedBy = "usuario")
+    private Comentario comentario;
 
     public Usuario(){}
     
@@ -103,5 +123,46 @@ public class Usuario implements Serializable{
     }
     public void setDataNascimento(Date dataNascimento) {
         this.dataNascimento = dataNascimento;
+    }
+    
+    public Post getPost() {
+        return post;
+    }
+
+    public void setPost(Post post) {
+        this.post = post;
+    }
+
+    public Comentario getComentario() {
+        return comentario;
+    }
+
+    public void setComentario(Comentario comentario) {
+        this.comentario = comentario;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 0;
+        hash += (id != null ? id.hashCode() : 0);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object object) {
+        // TODO: Warning - this method won't work in the case the id fields are not set
+        if (!(object instanceof Usuario)) {
+            return false;
+        }
+        Usuario other = (Usuario) object;
+        if ((this.id == null && other.id != null) || (this.id != null && !this.id.equals(other.id))) {
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public String toString() {
+        return "Entidades.Usuario_1[ id=" + id + " ]";
     }
 }

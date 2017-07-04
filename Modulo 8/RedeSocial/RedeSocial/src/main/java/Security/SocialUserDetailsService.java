@@ -9,9 +9,11 @@ import Entidades.Usuario;
 import Service.UsuarioService;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -19,20 +21,24 @@ import org.springframework.stereotype.Service;
 
 /**
  *
- * @author Camila
+ * @author camila.batista
  */
 @Service
-public class SocialUserDetailsService implements UserDetailsService{
+public class SocialUserDetailsService implements UserDetailsService {
 
     @Autowired
-    private UsuarioService service;
-    
+    UsuarioService service;
+
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        Usuario usuario = service.findByEmail(username);
-        final List<GrantedAuthority> grants = new ArrayList<>();
-        grants.add(() -> "ROLE_USER");
-        return new User(usuario.getEmail(), usuario.getSenha(), grants);
-    
-    }    
+        List<GrantedAuthority> grants = new ArrayList<>();
+        Usuario usuario = new Usuario();
+        try {
+            usuario = service.findByEmail(username);
+        } catch (Exception ex) {
+            Logger.getLogger(SocialUserDetailsService.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return new User(usuario.getEmail(),usuario.getSenha(),grants);
+    }
+
 }
