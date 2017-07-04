@@ -90,4 +90,29 @@ public class UsuarioService {
     public void delete(Long id){
         repositorio.delete(id);
     }
+    
+    public void enviarConvite(Usuario us1, Usuario us2) throws Exception{
+        us2.getConvites().add(us1);
+        update(us2);
+    }
+    
+    public void aceitarConvite(Usuario us1, Usuario us2) throws Exception{
+        us1.getConvites().remove(us2);
+        us1.getAmigos().add(us2);
+        us2.getAmigos().add(us1);
+        update(us1);
+        update(us2);
+    }
+    
+    public void rejeitarConvite (Usuario us1, Usuario us2) throws Exception{
+        us1.getConvites().remove(us2);
+        update(us1);
+    }
+    
+    public void removerAmizade (Usuario us1, Usuario us2) throws Exception{
+        us1.getAmigos().remove(us2);
+        us2.getAmigos().remove(us1);
+        update(us1);
+        update(us2);
+    }
 }
