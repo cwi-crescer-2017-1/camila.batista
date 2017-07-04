@@ -3,6 +3,10 @@
   <persistence-unit name="br.com.crescer_redesocial_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>br.com.crescer.redesocial.Entidades.Usuario</class>
+        <class>br.com.crescer.redesocial.Entidades.Comentario</class>
+    <class>br.com.crescer.redesocial.Entidades.Curtir</class>
+    <class>br.com.crescer.redesocial.Entidades.Post</class>
+
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
       <property name="javax.persistence.jdbc.user" value="REDE"/>

@@ -9,7 +9,6 @@ import Entidades.Curtir;
 import Entidades.Post;
 import Entidades.Usuario;
 import Service.CurtirService;
-import static org.eclipse.persistence.expressions.ExpressionOperator.Like;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

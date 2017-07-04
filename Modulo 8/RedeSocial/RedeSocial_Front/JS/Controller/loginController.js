@@ -14,10 +14,13 @@ rede.controller('loginController', function($scope, $routeParams, $location, log
     }
 
     function novoUsuario(usuario){
-        loginService.insert($scope.usuario)
-            .then(function(response){
-                
+        loginService.insert(usuario).then(r => {
+            authService.login($scope.usuario).then(response => {
+                toastr.sucess('Login realizado com sucesso');
             })
+        }, error => {
+            toastr.error(error.data.message);
+        })
     }
 
     $scope.login = login;
