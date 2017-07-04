@@ -5,8 +5,11 @@
  */
 package Entidades;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
+import java.util.Set;
 import javax.persistence.Basic;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -14,8 +17,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import static javax.persistence.GenerationType.SEQUENCE;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
@@ -67,8 +72,17 @@ public class Usuario implements Serializable{
     @Column(name = "DATA_NASCIMENTO")
     private Date dataNascimento;
     
-    @OneToOne(cascade = CascadeType.ALL, mappedBy = "usuario")
-    private Post post;
+    @JsonIgnore
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "usuario")
+    private List<Post> post;
+    
+    @JsonIgnore
+    @ManyToMany(cascade = CascadeType.ALL)
+    private Set<Usuario> amigos;
+    
+    @JsonIgnore
+    @ManyToMany(cascade = CascadeType.ALL)
+    private Set<Usuario> convites;
     
     @OneToOne(cascade = CascadeType.ALL, mappedBy = "usuario")
     private Comentario comentario;
@@ -125,12 +139,28 @@ public class Usuario implements Serializable{
         this.dataNascimento = dataNascimento;
     }
     
-    public Post getPost() {
+    public Set<Usuario> getAmigos() {
+        return amigos;
+    }
+
+    public void setAmigos(Set<Usuario> amigos) {
+        this.amigos = amigos;
+    }
+    
+    public Set<Usuario> getConvites() {
+        return convites;
+    }
+
+    public void setConvites(Set<Usuario> convites) {
+        this.convites = convites;
+    }
+    
+     public List<Post> getPosts() {
         return post;
     }
 
-    public void setPost(Post post) {
-        this.post = post;
+    public void setPosts(List<Post> posts) {
+        this.post = posts;
     }
 
     public Comentario getComentario() {
