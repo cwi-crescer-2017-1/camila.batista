@@ -32,7 +32,7 @@ public class CurtirService {
         curtir.setUsuarioCurtida(usuarioService.findByEmail(user.getName()));
         return curtirRepositorio.save(curtir);
     }
-    
+
     
 //    public void curtir(Long idPost, Long idUsuario){
 //        if(curtirRepositorio.findOne(idUsuario) == null || curtirRepositorio.findOne(idPost) == null){
@@ -44,10 +44,11 @@ public class CurtirService {
 //        }
 //    }
     
-    public void descurtir(Long idPost, Long idUsuario){
-        if(curtirRepositorio.findOne(idUsuario) == null || curtirRepositorio.findOne(idPost) == null){
-            Curtir curtir = new Curtir();
+    public void descurtir(Curtir curtir) throws Exception{
+        if(curtirRepositorio.findOne(curtir.getId()) == null){
             curtirRepositorio.delete(curtir.getId());
+        }else{
+            throw new Exception ("Curtir não encontrado");
         }
     }    
 }

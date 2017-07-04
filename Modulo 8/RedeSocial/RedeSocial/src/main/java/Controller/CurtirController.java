@@ -6,6 +6,8 @@
 package Controller;
 
 import Entidades.Curtir;
+import Entidades.Post;
+import Entidades.Usuario;
 import Service.CurtirService;
 import static org.eclipse.persistence.expressions.ExpressionOperator.Like;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,12 +29,12 @@ public class CurtirController {
     private CurtirService curtirService;
     
     @PostMapping(value = "/like/{id}")
-    public void curtir(@RequestBody Curtir curtir, @AuthenticationPrincipal User user, @PathVariable Long id){
-        curtirService.save(curtir, user, id);
+    public Curtir curtir(@RequestBody Curtir curtir, @AuthenticationPrincipal User user, @PathVariable Long id) throws Exception{
+        return curtirService.curtir(curtir, user, id);
     }
     
     @PostMapping(value = "/descurtir/{id}")
-    public void descurtir(@RequestBody Curtir curtir, @AuthenticationPrincipal User user, @PathVariable Long id){
-        curtirService.delete(curtir, user, id);
+    public void descurtir(Curtir curtir) throws Exception{
+        curtirService.descurtir(curtir);
     }
 }
