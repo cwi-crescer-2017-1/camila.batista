@@ -9,6 +9,7 @@ import Entidades.Usuario;
 import Repositorio.UsuarioRepositorio;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -35,12 +36,27 @@ public class UsuarioService {
         return new BCryptPasswordEncoder().encode(senha);
     }
     
+    public boolean getSenhaLogin(String senha, Usuario usuario){
+        if(getCriptografia(senha).equals(usuario.getSenha())){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    
     public Usuario findByEmail(String email) throws Exception{
         if(email.trim().length() == 0){
             throw new Exception ("Impossivel cadastrar com um email vazio");
         }else{
             return repositorio.findByEmail(email);
         }
+    }
+    
+    //Procura amigos
+    
+    @Query("select * from usuario where nome like ':nome%' or email like ':nome%'")
+    public List<Usuario> findByNome(String nome){
+       return (List<Usuario>) repositorio.findAll();
     }
     
     public Usuario findById(Long id){
