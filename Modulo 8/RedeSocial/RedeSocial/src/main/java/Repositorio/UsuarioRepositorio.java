@@ -6,6 +6,7 @@
 package Repositorio;
 
 import Entidades.Usuario;
+import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 
 /**
@@ -15,5 +16,7 @@ import org.springframework.data.repository.CrudRepository;
 public interface UsuarioRepositorio extends CrudRepository<Usuario, Long>{
 
     public Usuario findByEmail(String email);
+
+    public List<Usuario> findByNome(String nome);
     
 }

@@ -15,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 /**
@@ -31,7 +32,7 @@ public class PostService {
     private PostRepositorio postRepositorio;
     
     public Page<Post> findAll(Pageable pageable){
-        return postRepositorio.findAll(pageable);
+        return (Page<Post>) postRepositorio.findAll(new Sort(Sort.Direction.DESC, "DATA_PUBLICACAO"));
     }
 
     public List<Post> findAll(){
@@ -56,8 +57,8 @@ public class PostService {
         return postRepositorio.save(post);
     }
 
-    public Post save(Post post, User user) throws Exception{
-        Usuario uLogado = usuarioService.findByEmail(user.getUsername());
+    public Post save(Post post) throws Exception{
+        Usuario uLogado = usuarioService.findByEmail(post.getUsuario().getEmail());
         post.setUsuario(uLogado);
         return postRepositorio.save(post);
     }
